@@ -269,17 +269,22 @@ function finish(log, action, target, zh) {
   // 2) 本地重建 + 签名索引（CI 的签名密钥没配好时，这一步是必须的）
   if (fs.existsSync(KEY_FILE) && !DRY) {
     const pem = fs.readFileSync(KEY_FILE, "utf8");
-    const beforeIds = (() => {
+    // 重建前的索引条目（带 source，用来判断“丢了模组”是不是因为来源被你主动移除）
+    const beforeMods = (() => {
       const j = readJson(INDEX_FILE, { mods: [] });
-      return (Array.isArray(j.mods) ? j.mods : []).map((m) => String(m.id || "")).filter(Boolean);
+      return (Array.isArray(j.mods) ? j.mods : [])
+        .map((m) => ({ id: String(m.id || ""), source: String(m.source || "").toLowerCase() }))
+        .filter((m) => m.id);
     })();
-    const srcCount = (() => {
+    const sourcesNow = (() => {
       const j = readJson(SOURCES_FILE, { sources: [] });
-      return (Array.isArray(j.sources) ? j.sources : []).length;
+      return (Array.isArray(j.sources) ? j.sources : []).map((s) => String(s).toLowerCase());
     })();
-    const rejected = (() => {
+    const rejectedTargets = (() => {
       const j = readJson(MODERATION_FILE, { entries: [] });
-      return (Array.isArray(j.entries) ? j.entries : []).filter((e) => e && e.action === "reject").map((e) => String(e.target || ""));
+      return (Array.isArray(j.entries) ? j.entries : [])
+        .filter((e) => e && e.action === "reject")
+        .map((e) => String(e.target || ""));
     })();
     log.push("$ node scripts/build-index.mjs（用 .keys/index.key 签名）");
     const res = spawnSync(process.execPath, ["scripts/build-index.mjs"], {
@@ -293,18 +298,29 @@ function finish(log, action, target, zh) {
       log.push("  ✗ 重建索引失败，已停止（没有提交）");
       return { ok: false, log };
     }
+    // 抓取类失败（不是「维护者已拒绝收录」的跳过）= 真问题，必须拦下
     const hardSkip = /✗\s+\S+\s+——\s+(?!维护者已拒绝)/.test(out);
+    // 构建日志里那些「维护者已拒绝收录」的来源 = 本来就不该出模组，0 个也正常
+    const modSkippedSources = [...out.matchAll(/✗\s+(\S+)\s+——\s+维护者已拒绝收录/g)].map((m) => m[1].toLowerCase());
     const afterIds = (() => {
       const j = readJson(INDEX_FILE, { mods: [] });
       return (Array.isArray(j.mods) ? j.mods : []).map((m) => String(m.id || "")).filter(Boolean);
     })();
-    const lost = beforeIds.filter((id) => !afterIds.includes(id) && !rejected.includes(id));
-    if ((srcCount > 0 && afterIds.length === 0) || hardSkip || lost.length) {
+    // 只把「来源还在收录列表里、也不是被审核挡掉、却没出现在新索引」算作真丢模组；
+    // 来源被你自己从 sources.json 移除（=主动下架）不算问题
+    const lost = beforeMods
+      .filter((m) => !afterIds.includes(m.id))
+      .filter((m) => !rejectedTargets.includes(m.id))
+      .filter((m) => !modSkippedSources.includes(m.source))
+      .filter((m) => sourcesNow.includes(m.source))
+      .map((m) => m.id);
+    const expectedSources = sourcesNow.filter((s) => !modSkippedSources.includes(s));
+    if ((expectedSources.length > 0 && afterIds.length === 0) || hardSkip || lost.length) {
       runGit(["checkout", "--", "docs/mod-index.json"]);
       log.push("  ✗ 重建结果不健康，已回滚本地索引，没有提交：");
       if (hardSkip) log.push("     有来源抓取失败（上面「被跳过的来源」里不是「维护者已拒绝收录」的那些）。如果作者已经删了仓库，回上一页点那个来源的「移除来源（下架）」。");
       if (lost.length) log.push("     会丢掉已上架的模组：" + lost.join(", "));
-      if (srcCount > 0 && afterIds.length === 0) log.push("     sources.json 里有 " + srcCount + " 个来源，但重建出来是 0 个模组");
+      if (expectedSources.length > 0 && afterIds.length === 0) log.push("     sources.json 里有 " + expectedSources.length + " 个未被审核挡掉的来源，但重建出来是 0 个模组");
       log.push("    多半是访问 raw.githubusercontent.com / jsDelivr 失败，过一会儿再点一次即可。");
       return { ok: false, log };
     }

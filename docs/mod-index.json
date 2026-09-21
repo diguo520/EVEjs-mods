@@ -1,49 +1,7 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-09-21T22:07:36.271Z",
-  "mods": [
-    {
-      "id": "evejs-autolockfire",
-      "displayName": "EVEjs-AutoLockFire",
-      "version": "1.0.2",
-      "author": {
-        "id": "au-mubd7h45x3e1",
-        "name": "波坤太叔",
-        "keyId": "691df6c7d2cd"
-      },
-      "description": "仿国服自动锁定，自动集火",
-      "category": "玩法",
-      "tags": [
-        "锁定",
-        "集火",
-        "自动"
-      ],
-      "readme": [],
-      "highlights": [],
-      "conflicts": [],
-      "requiresRestart": true,
-      "evejsVersions": [
-        "0.12.8"
-      ],
-      "sizeBytes": 51143,
-      "sha256": "878ee2c47eccaeda43cdea350a3af46527b72db4a94ae5f44dea33289091102d",
-      "downloadUrls": [
-        {
-          "mirror": "github",
-          "url": "https://github.com/diguo520/evejs-mod-evejs-autolockfire/releases/download/v1.0.2/evejs-autolockfire-1.0.2.zip",
-          "priority": 1
-        }
-      ],
-      "changelog": "自动锁定，自动集火",
-      "history": [],
-      "repo": "https://github.com/diguo520/evejs-mod-evejs-autolockfire",
-      "featured": false,
-      "delisted": false,
-      "publishedAt": "2026-09-21",
-      "source": "diguo520/evejs-mod-evejs-autolockfire",
-      "downloads": 0
-    }
-  ],
+  "publishedAt": "2026-09-21T22:30:34.645Z",
+  "mods": [],
   "moderation": {
     "welcome-mod": {
       "id": "welcome-mod",
@@ -61,7 +19,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "Dfx5ccrwt+SLmR7CDC5AZieuEojl5xC0SvoujumqG8ZadP1IEDZnaM54c8v6jQKsuFVDB7uvITqcMPcACGVSAA==",
-    "signedAt": "2026-09-21T22:07:36.275Z"
+    "sig": "t41octJBuUGx8nxLEjVaT50nv5tCJo6yuyJ26CBtyoUbgJVEIzGgkniRWSBGFWWVZqkoUTawUj754ffD3Z/5Cw==",
+    "signedAt": "2026-09-21T22:30:34.649Z"
   }
 }
