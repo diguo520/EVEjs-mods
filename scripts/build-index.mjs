@@ -84,13 +84,23 @@ const rejected = [];
 let authorKeysChanged = false;
 
 for (const repo of sources) {
-  const url = "https://raw.githubusercontent.com/" + repo + "/HEAD/" + LISTING_NAME;
-  const res = await fetchJson(url);
-  if (!res.ok) {
-    rejected.push({ repo, reason: "抓不到 " + LISTING_NAME + "（" + res.reason + "）" });
+  // 多镜像：raw 最及时；jsDelivr 是 CDN（国内可达性明显更好，但分支缓存最长约 12h）；github.com/raw 兜底
+  const candidates = [
+    "https://raw.githubusercontent.com/" + repo + "/HEAD/" + LISTING_NAME,
+    "https://cdn.jsdelivr.net/gh/" + repo + "@main/" + LISTING_NAME,
+    "https://github.com/" + repo + "/raw/HEAD/" + LISTING_NAME
+  ];
+  let entry = null;
+  const failures = [];
+  for (const url of candidates) {
+    const res = await fetchJson(url);
+    if (res.ok && res.data && typeof res.data === "object") { entry = res.data; break; }
+    failures.push(url.replace(/^https:\/\//, "").split("/").slice(0, 1)[0] + "→" + (res.reason || "失败"));
+  }
+  if (!entry) {
+    rejected.push({ repo, reason: "抓不到 " + LISTING_NAME + "（" + failures.join("；") + "）" });
     continue;
   }
-  const entry = res.data;
   if (!entry || typeof entry !== "object") { rejected.push({ repo, reason: "不是 JSON 对象" }); continue; }
   const id = typeof entry.id === "string" ? entry.id.trim() : "";
   const version = typeof entry.version === "string" ? entry.version.trim() : "";
