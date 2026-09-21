@@ -81,6 +81,26 @@ async function fetchReleaseDownloads(repo) {
   }
 }
 
+/**
+ * jsDelivr CDN 命中次数（次选来源）。
+ * 启动器的下载镜像顺序是 jsDelivr → raw → github，所以「ZIP 直接放仓库文件」的模组
+ * 也能在这里拿到真实计数（Release 资产那条路统计不到它们）。
+ * 注意：只有经 jsDelivr CDN 的请求才算，直连 raw.githubusercontent.com 不计入。
+ */
+async function fetchJsdelivrHits(repo) {
+  try {
+    const res = await fetch("https://data.jsdelivr.com/v1/stats/packages/gh/" + repo, {
+      headers: { "User-Agent": "EveJS-mods-index", Accept: "application/json" }
+    });
+    if (!res.ok) return { ok: false, reason: "HTTP " + res.status };
+    const data = await res.json();
+    const total = Number(data && data.hits ? data.hits.total : NaN);
+    return Number.isFinite(total) ? { ok: true, total } : { ok: false, reason: "响应里没有 hits.total" };
+  } catch (e) {
+    return { ok: false, reason: e && e.message ? e.message : String(e) };
+  }
+}
+
 const sources = (() => {
   try {
     const parsed = JSON.parse(fs.readFileSync(SOURCES_FILE, "utf8"));
@@ -181,12 +201,15 @@ for (const repo of sources) {
 
   byId.set(id, repo);
   const dl = await fetchReleaseDownloads(repo);
+  const cdn = await fetchJsdelivrHits(repo);
   const withDl = { ...entry, source: repo, downloadUrls: usable };
-  if (dl.ok) {
-    withDl.downloads = dl.total;
-    console.log("  " + id + "：下载 " + dl.total + " 次（Release 计数）");
+  if (dl.ok || cdn.ok) {
+    // Release 资产与 jsDelivr CDN 是两条互不重叠的下载通道，相加即为总下载量
+    withDl.downloads = (dl.ok ? dl.total : 0) + (cdn.ok ? cdn.total : 0);
+    console.log("  " + id + "：下载 " + withDl.downloads + " 次（Release " + (dl.ok ? dl.total : "未统计") +
+      " + jsDelivr " + (cdn.ok ? cdn.total : "未统计") + "）");
   } else {
-    console.log("  " + id + "：下载次数未统计（" + dl.reason + "）");
+    console.log("  " + id + "：下载次数未统计（Release: " + dl.reason + " / jsDelivr: " + cdn.reason + "）");
   }
   mods.push(withDl);
 }

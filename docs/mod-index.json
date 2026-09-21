@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-09-21T19:25:14.345Z",
+  "publishedAt": "2026-09-21T19:49:19.725Z",
   "mods": [
     {
       "id": "welcome-mod",
@@ -65,13 +65,14 @@
       "featured": false,
       "delisted": false,
       "publishedAt": "2026-09-21",
-      "source": "diguo520/evejs-mod-welcome-mod"
+      "source": "diguo520/evejs-mod-welcome-mod",
+      "downloads": 0
     }
   ],
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "eFTDGbgPX5CfsBXO8V/t2mJ+4B07Jg/J3QAj82S0cbrbSb+8RKVyjyMuf41wcZzYRTF50i+EIv0bcKsb0LlTDQ==",
-    "signedAt": "2026-09-21T19:25:14.349Z"
+    "sig": "Z5UV33ABKPhqZ0qoiBWdQVPBH7dR99y3wh1T2SE9EBlnaBX7Cjuy1vqz29RBJ4P25ZMCamd+wmPrnsmacreZBQ==",
+    "signedAt": "2026-09-21T19:49:19.729Z"
   }
 }
