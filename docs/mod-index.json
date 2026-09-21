@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "publishedAt": "2026-09-21T17:59:56.076Z",
+  "mods": [],
+  "signature": {
+    "alg": "ed25519",
+    "keyId": "944f9c6ed4b6",
+    "sig": "W8G2tN9Ugo7dX13lGMuywUMUOiVj9ImxZHnO0RFYGI8M6+8B3jRPeCOWipqstMh0OzV3aPahbmnFWV/CjI5eDw==",
+    "signedAt": "2026-09-21T17:59:56.081Z"
+  }
+}

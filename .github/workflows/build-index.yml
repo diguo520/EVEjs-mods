@@ -1,0 +1,46 @@
+name: build-index
+
+# 每 6 小时自动跑一次；也可以在 Actions 页面手动 Run workflow（收录新作者后建议手动跑一次）
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [sources.json, scripts/**, .github/workflows/build-index.yml]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Build and sign mod-index.json
+        env:
+          INDEX_SIGNING_KEY: ${{ secrets.INDEX_SIGNING_KEY }}
+        run: node scripts/build-index.mjs
+
+      - name: Commit author-keys.json if it changed
+        run: |
+          if [ -n "$(git status --porcelain author-keys.json)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add author-keys.json
+            git commit -m "chore: record author key bindings"
+            git push
+          fi
+
+      - name: Publish to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
+          publish_branch: gh-pages
+          force_orphan: true
