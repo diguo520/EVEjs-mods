@@ -1,6 +1,6 @@
 name: build-index
 
-# 每 6 小时自动跑一次；也可以在 Actions 页面手动 Run workflow（收录新作者后建议手动跑一次）
+# 每 6 小时自动跑一次；push 这些文件时也跑；也可以在 Actions 页面手动 Run workflow
 on:
   schedule:
     - cron: "0 */6 * * *"
@@ -34,28 +34,26 @@ jobs:
             echo "  2) 加的是 Secret 还是 Variable？必须是 Settings → Secrets and variables → **Actions** → Secrets"
             echo "  3) 名字必须完全一致：INDEX_SIGNING_KEY（区分大小写，前后不要有空格）"
             echo "  4) 如果你加 secret 之前就跑了这次 workflow，加完要重新跑（加 secret 不会自动重跑）"
+            echo ""
+            echo "不想配 secret 也有兜底：本机跑一次下面这行，然后提交 docs/mod-index.json 即可"
+            echo "  INDEX_SIGNING_KEY=\"\$(cat .keys/index.key)\" node scripts/build-index.mjs"
             exit 1
           fi
           echo "::notice::已读到签名私钥（长度 ${#INDEX_SIGNING_KEY}）"
+
       - name: Build and sign mod-index.json
         env:
           INDEX_SIGNING_KEY: ${{ secrets.INDEX_SIGNING_KEY }}
         run: node scripts/build-index.mjs
 
-      - name: Commit author-keys.json if it changed
+      - name: Commit regenerated index back to main
         run: |
-          if [ -n "$(git status --porcelain author-keys.json)" ]; then
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add author-keys.json
-            git commit -m "chore: record author key bindings"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/mod-index.json author-keys.json
+          if [ -n "$(git status --porcelain docs/mod-index.json author-keys.json)" ]; then
+            git commit -m "chore(index): refresh mod-index.json"
             git push
+          else
+            echo "索引没有变化，跳过提交"
           fi
-
-      - name: Publish to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs
-          publish_branch: gh-pages
-          force_orphan: true

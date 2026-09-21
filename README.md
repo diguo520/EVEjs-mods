@@ -75,7 +75,21 @@ node scripts/keygen.mjs --out .keys/index
 
 ⚠️ 私钥**永远不要**提交（`.gitignore` 已忽略 `.keys/`）。丢了私钥就再也签不出被客户端认可的索引。
 
-**② 开 GitHub Pages**
+**② 开 GitHub Pages**（推荐：直接发布 `main` 分支的 `/docs`）
+
+仓库 → Settings → Pages → **Source: Deploy from a branch** → Branch: **`main`** / **`/docs`** → Save
+
+> 这样 `https://diguo520.github.io/EVEjs-mods/mod-index.json` 立刻可用（`docs/mod-index.json` 已经在仓库里）。
+> CI 每次跑完会把新索引**提交回 main 的 `docs/`**，Pages 自动重新发布，不需要 `gh-pages` 分支。
+
+**④（可选）没配 secret 时的兜底**：本机手动跑一次再提交
+
+```bash
+cd <这个仓库>
+INDEX_SIGNING_KEY="$(cat .keys/index.key)" node scripts/build-index.mjs
+git add docs/mod-index.json && git commit -m "chore(index): refresh" && git push
+```
+
 
 仓库 → Settings → Pages → **Source: Deploy from a branch** → Branch: **`gh-pages`** / **`/ (root)`** → Save
 （`gh-pages` 分支由 workflow 自动创建，第一次跑完 CI 才会出现）
