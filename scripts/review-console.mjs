@@ -97,7 +97,16 @@ function state() {
       rule: ruleFor(m.id, "id") || ruleFor(m.source || "", "source")
     })),
     indexPublishedAt: index.publishedAt || "",
-    prs: listPrs()
+    prs: listPrs(),
+    moderation: entries.map((e) => ({
+      target: String(e.target || ""),
+      kind: e.kind === "source" ? "source" : "id",
+      action: String(e.action || ""),
+      zh: (e.reason && e.reason.zh) || "",
+      en: (e.reason && e.reason.en) || "",
+      at: String(e.at || ""),
+      by: String(e.by || "")
+    }))
   };
 }
 
@@ -338,6 +347,11 @@ const PAGE = `<!doctype html>
     <h2>市场里的模组 mod-index.json <span class="pill" id="modCount">0</span> <span class="pill" id="published"></span></h2>
     <table><thead><tr><th>模组</th><th>版本</th><th>分类</th><th>来源</th><th>状态</th><th style="width:260px">操作</th></tr></thead><tbody id="modBody"></tbody></table>
   </section>
+  <section>
+    <h2>审核记录（拒绝收录 / 已下架）<span class="pill" id="modCount2">0</span></h2>
+    <table><thead><tr><th>类型</th><th>目标</th><th>原因</th><th>时间</th><th style="width:120px">操作</th></tr></thead><tbody id="modBody2"></tbody></table>
+    <div class="sub" style="margin-top:8px">被「拒绝收录」的模组不会出现在上面的市场表里，要撤销就在这里点「恢复」。</div>
+  </section>
   <section><h2>操作日志</h2><pre id="log">（点上面的按钮后，这里会显示做了什么）</pre></section>
 </main>
 
@@ -365,6 +379,12 @@ async function load(){
       "<button class='ok' data-pr='" + p.number + "'>本地合并</button> " +
       "<button data-url='" + link + "'>打开 PR 页面</button></td></tr>";
   }).join("") || "<tr><td colspan='3' style='color:#7e93a8'>（没有待审核的 PR）</td></tr>";
+  document.getElementById("modCount2").textContent = st.moderation.length;
+  document.getElementById("modBody2").innerHTML = st.moderation.map(function(m){
+    var when = m.at ? new Date(m.at).toLocaleString() : '';
+    return "<tr><td>" + (m.action === 'reject' ? '拒绝收录' : '下架') + "</td><td><code>" + esc(m.target) + "</code> <span class='pill'>" + esc(m.kind) + "</span></td><td>" + esc(m.zh || m.en) + "</td><td>" + esc(when) + "</td><td>" +
+      "<button class='ok' data-restore='" + esc(m.target) + "|" + m.kind + "'>恢复</button></td></tr>";
+  }).join("") || "<tr><td colspan='5' style='color:#7e93a8'>（没有审核记录）</td></tr>";
   document.getElementById("srcCount").textContent = st.sources.length;
   document.getElementById("modCount").textContent = st.mods.length;
   document.getElementById("published").textContent = st.indexPublishedAt ? "签名于 " + new Date(st.indexPublishedAt).toLocaleString() : "";
@@ -427,6 +447,8 @@ document.addEventListener("click", function(e){
   var t = e.target;
   var b = t && t.closest ? t.closest("button[data-pr]") : null;
   if(b){ act("merge-pr", b.getAttribute("data-pr"), "id"); return; }
+  var r = t && t.closest ? t.closest("button[data-restore]") : null;
+  if(r){ var v = String(r.getAttribute("data-restore")).split("|"); act("restore", v[0], v[1] || "id"); return; }
   var u = t && t.closest ? t.closest("button[data-url]") : null;
   if(u){ window.open(u.getAttribute("data-url")); }
 });
