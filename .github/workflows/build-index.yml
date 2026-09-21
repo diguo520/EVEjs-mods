@@ -26,10 +26,17 @@ jobs:
         env:
           INDEX_SIGNING_KEY: ${{ secrets.INDEX_SIGNING_KEY }}
         run: |
+          # 只打印长度，绝不打印内容 —— 用来区分「没配」「配到别的仓库」「配成了 Variable」
+          echo "INDEX_SIGNING_KEY length = ${#INDEX_SIGNING_KEY}"
           if [ -z "$INDEX_SIGNING_KEY" ]; then
-            echo "::error::还没有配置签名私钥。请到 Settings → Secrets and variables → Actions 添加名为 INDEX_SIGNING_KEY 的 secret，内容为本机 .keys/index.key 的完整 PEM。"
+            echo "::error::本仓库没有读到 INDEX_SIGNING_KEY。请逐条检查："
+            echo "  1) 是不是加到了别的仓库？（必须在 EVEjs-mods 这个仓库里）"
+            echo "  2) 加的是 Secret 还是 Variable？必须是 Settings → Secrets and variables → **Actions** → Secrets"
+            echo "  3) 名字必须完全一致：INDEX_SIGNING_KEY（区分大小写，前后不要有空格）"
+            echo "  4) 如果你加 secret 之前就跑了这次 workflow，加完要重新跑（加 secret 不会自动重跑）"
             exit 1
           fi
+          echo "::notice::已读到签名私钥（长度 ${#INDEX_SIGNING_KEY}）"
       - name: Build and sign mod-index.json
         env:
           INDEX_SIGNING_KEY: ${{ secrets.INDEX_SIGNING_KEY }}
