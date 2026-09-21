@@ -147,3 +147,46 @@ INDEX_SIGNING_KEY="$(cat .keys/test.key)" node scripts/build-index.mjs
 ```
 
 `docs/mod-index.json` 生成后，可以拿启动器的验签逻辑对一遍（`src/main/modSigner.ts` 的 `verifyIndexSignature`）。
+
+---
+
+## 维护者审核：收录 / 拒绝 / 下架（不用手改 JSON）
+
+所有审核结果都写在 **`moderation.json`**，由 `scripts/moderate.mjs` 帮你写；`build-index.mjs` 读它来出索引。
+
+```bash
+# 1) 看现在收了谁、有没有被拒/下架
+node scripts/moderate.mjs list
+
+# 2) 审核通过作者的「申请收录」PR：把仓库写进 sources.json
+node scripts/moderate.mjs approve <owner/repo>
+
+# 3) 拒绝收录（模组不进市场；原因写进索引，作者在启动器「我创建的」能看到）
+node scripts/moderate.mjs reject <id|owner/repo> --zh "原因" --en "reason"
+
+# 4) 从市场下架（已经上架过的模组）
+node scripts/moderate.mjs delist <id|owner/repo> --zh "原因" --en "reason"
+
+# 5) 撤销审核结果（重新上架 / 恢复收录）
+node scripts/moderate.mjs restore <id|owner/repo>
+
+# 6) 生成可直接贴到 PR / Issue 的中英双语文案
+node scripts/moderate.mjs pr-text <id|owner/repo>
+```
+
+改完必须重跑构建 + 推送，客户端才会看到：
+
+```bash
+node scripts/build-index.mjs   # 本地也可加 INDEX_LOCAL_LISTINGS 离线跑
+git add -A && git commit -m "chore(index): moderation" && git push
+```
+
+三种状态的效果：
+
+| action | 索引里 | 启动器「模组市场」 | 启动器「我创建的」（作者） |
+| --- | --- | --- | --- |
+| 不填（正常） | 正常条目 | 正常展示、可安装 | 已上架 |
+| `delist` | 条目保留，带 `delisted: true` + `delistReason` | **不再列出**，也不能安装/更新 | 红标「已下架」+ 原因 |
+| `reject` | 条目被丢弃，只留在 `moderation` 表 | 不出现 | 红标「已拒绝收录」+ 原因 |
+
+> 审核是**索引层**的动作：ZIP 始终在作者自己的仓库里，你只决定它在市场里可见还是不可见。

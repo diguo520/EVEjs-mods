@@ -11,6 +11,10 @@
  *   2. author.id ↔ 公钥绑定 —— 同一个 author.id 第一次用哪把 keyId，之后就只能是那把（记在 author-keys.json）
  *   3. 来源可见 —— 每条写进 source 字段（owner/repo），客户端会展示
  * 不合格的条目会被**跳过并打印**，不会污染索引；其余条目照常发布。
+ *
+ * 维护者审核（moderation.json，见 scripts/moderate.mjs）：
+ *   action=reject → 该条目/来源**不进索引**（拒绝收录），拒绝原因照样发布，作者在启动器里能看到；
+ *   action=delist → 条目仍进索引但标记 delisted（从市场下架），客户端显示「已下架」并禁止安装。
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -19,6 +23,7 @@ import crypto from "node:crypto";
 const ROOT = process.cwd();
 const SOURCES_FILE = path.join(ROOT, "sources.json");
 const AUTHOR_KEYS_FILE = path.join(ROOT, "author-keys.json");
+const MODERATION_FILE = path.join(ROOT, "moderation.json");
 const OUT_DIR = path.join(ROOT, "docs");
 const OUT_FILE = path.join(OUT_DIR, "mod-index.json");
 const LISTING_NAME = "evejs-mod.json";
@@ -132,12 +137,49 @@ const LOCAL_LISTINGS = (process.env.INDEX_LOCAL_LISTINGS || "")
   .map((x) => { const i = x.indexOf("="); return i > 0 ? { repo: x.slice(0, i).trim().toLowerCase(), path: x.slice(i + 1).trim() } : null; })
   .filter(Boolean);
 
+/**
+ * 维护者审核规则：moderation.json
+ *   { entries: [ { target, kind:"id"|"source", action:"reject"|"delist", reason:{zh,en}, at, by } ] }
+ * target 是模组 id（kind=id）或 owner/repo（kind=source）。
+ */
+const moderationRules = (() => {
+  try {
+    const parsed = JSON.parse(fs.readFileSync(MODERATION_FILE, "utf8"));
+    const list = Array.isArray(parsed.entries) ? parsed.entries : [];
+    return list.filter((e) => e && typeof e.target === "string" && e.target.trim() &&
+      (e.action === "reject" || e.action === "delist"));
+  } catch {
+    return [];   // 没有这个文件 = 全部放行
+  }
+})();
+
+function reasonsOf(rule) {
+  const r = rule && rule.reason && typeof rule.reason === "object" ? rule.reason : {};
+  return { zh: String(r.zh || ""), en: String(r.en || r.zh || "") };
+}
+
+function ruleFor(kind, target) {
+  const t = String(target || "").trim().toLowerCase();
+  if (!t) return null;
+  const hit = moderationRules.filter((e) => (e.kind === "source" ? "source" : "id") === kind &&
+    String(e.target).trim().toLowerCase() === t);
+  return hit.length ? hit[hit.length - 1] : null;   // 同目标多条时以最后一条为准
+}
+
 const mods = [];
+const moderationLog = {};   // 会原样发布进索引，作者据此看到原因
 const byId = new Map();
 const rejected = [];
 let authorKeysChanged = false;
 
 for (const repo of sources) {
+  // 来源级审核：整仓被拒绝收录 → 不抓取、不进索引，但原因照样发布
+  const srcRule = ruleFor("source", repo);
+  if (srcRule && srcRule.action === "reject") {
+    rejected.push({ repo, reason: "维护者已拒绝收录：" + (reasonsOf(srcRule).zh || "未填写原因") });
+    moderationLog[repo] = { source: repo, action: "reject", reason: reasonsOf(srcRule), at: srcRule.at || "", by: srcRule.by || "" };
+    continue;
+  }
   // 多镜像：raw 最及时；jsDelivr 是 CDN（国内可达性明显更好，但分支缓存最长约 12h）；github.com/raw 兜底
   const candidates = [
     "https://raw.githubusercontent.com/" + repo + "/HEAD/" + LISTING_NAME,
@@ -211,12 +253,28 @@ for (const repo of sources) {
   } else {
     console.log("  " + id + "：下载次数未统计（Release: " + dl.reason + " / jsDelivr: " + cdn.reason + "）");
   }
+  // 条目级审核：id 规则优先，其次来源规则
+  const rule = ruleFor("id", id) || ruleFor("source", repo);
+  if (rule && rule.action === "reject") {
+    rejected.push({ repo, reason: "维护者已拒绝收录 id「" + id + "」：" + (reasonsOf(rule).zh || "未填写原因") });
+    moderationLog[id] = { id, source: repo, authorId, action: "reject", reason: reasonsOf(rule), at: rule.at || "", by: rule.by || "" };
+    continue;
+  }
+  if (rule && rule.action === "delist") {
+    withDl.delisted = true;
+    withDl.delistReason = reasonsOf(rule);
+    withDl.moderatedAt = rule.at || "";
+    withDl.moderatedBy = rule.by || "";
+    moderationLog[id] = { id, source: repo, authorId, action: "delist", reason: reasonsOf(rule), at: rule.at || "", by: rule.by || "" };
+    console.log("  " + id + "：已被维护者下架（" + (reasonsOf(rule).zh || "未填写原因") + "）");
+  }
   mods.push(withDl);
 }
 
 mods.sort((a, b) => String(a.displayName || a.id).localeCompare(String(b.displayName || b.id)));
 
 const index = { schemaVersion: 1, publishedAt: new Date().toISOString(), mods };
+if (Object.keys(moderationLog).length) index.moderation = moderationLog;
 
 const pem = (process.env.INDEX_SIGNING_KEY || "").replace(/\\n/g, "\n").trim();
 if (!pem) {
@@ -252,4 +310,10 @@ if (rejected.length) {
   console.log("");
   console.log("=== 被跳过的来源（" + rejected.length + "）===");
   for (const r of rejected) console.log("  ✗ " + r.repo + " —— " + r.reason);
+}
+const moderated = Object.values(moderationLog);
+if (moderated.length) {
+  console.log("");
+  console.log("=== 维护者审核（" + moderated.length + "）===");
+  for (const m of moderated) console.log("  " + (m.action === "delist" ? "⛔ 下架" : "✗ 拒绝") + " " + (m.id || m.source) + " —— " + (m.reason.zh || "未填写原因"));
 }
