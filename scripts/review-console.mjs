@@ -39,14 +39,38 @@ function readJson(file, fallback) {
     return fallback;
   }
 }
-function git(args) {
+function runGit(args) {
   try {
-    return execFileSync("git", args, { cwd: ROOT, encoding: "utf8", stdio: ["ignore", "pipe", "pipe"] }).trim();
+    const out = execFileSync("git", args, { cwd: ROOT, encoding: "utf8", stdio: ["ignore", "pipe", "pipe"] });
+    return { ok: true, out: String(out).trim() };
   } catch (e) {
-    const out = e && e.stdout ? String(e.stdout) : "";
-    const err = e && e.stderr ? String(e.stderr) : e instanceof Error ? e.message : String(e);
-    return (out + err).trim();
+    const stdout = e && e.stdout ? String(e.stdout) : "";
+    const stderr = e && e.stderr ? String(e.stderr) : e instanceof Error ? e.message : String(e);
+    return { ok: false, out: (stdout + stderr).trim() };
   }
+}
+function git(args) {
+  return runGit(args).out;
+}
+
+/**
+ * 列出「还没进 main 的 PR」。GitHub 把每个 PR 的 head 暴露成 refs/pull/<n>/head，
+ * git ls-remote 就能读到，不需要任何令牌；head 已经是 origin/main 祖先的就当已合并跳过。
+ */
+function listPrs() {
+  const res = runGit(["ls-remote", "origin", "refs/pull/*/head"]);
+  if (!res.ok) return [];
+  const out = [];
+  for (const line of res.out.split("\n")) {
+    const m = line.match(/^([0-9a-f]{7,40})\s+refs\/pull\/(\d+)\/head$/);
+    if (!m) continue;
+    const sha = m[1];
+    const number = Number(m[2]);
+    const known = runGit(["cat-file", "-e", sha]);
+    if (known.ok && runGit(["merge-base", "--is-ancestor", sha, "origin/main"]).ok) continue;
+    out.push({ number, sha, known: known.ok });
+  }
+  return out.sort((a, b) => b.number - a.number).slice(0, 20);
 }
 function state() {
   const sources = readJson(SOURCES_FILE, { sources: [] });
@@ -72,7 +96,8 @@ function state() {
       delisted: m.delisted === true,
       rule: ruleFor(m.id, "id") || ruleFor(m.source || "", "source")
     })),
-    indexPublishedAt: index.publishedAt || ""
+    indexPublishedAt: index.publishedAt || "",
+    prs: listPrs()
   };
 }
 
@@ -103,7 +128,36 @@ function applyAction(input) {
   const zh = String(input.zh || "").trim();
   const en = String(input.en || "").trim() || zh;
 
-  if (action === "rebuild") {
+  if (action === "merge-pr") {
+    const n = String(target).replace(/[^0-9]/g, "");
+    if (DRY) {
+      log.push("$ git fetch + git merge（dry-run，跳过）");
+      return finish(log, "merge-pr", target, zh);
+    }
+    if (!n) return { ok: false, log: ["PR 编号非法"] };
+    if (git(["status", "--porcelain"]).length) {
+      return { ok: false, log: ["工作区有未提交改动。先点一次「重新构建签名索引并推送」，或先处理本地改动，再来合并 PR。"] };
+    }
+    const branch = "pr-" + n;
+    log.push("$ git fetch origin pull/" + n + "/head:" + branch);
+    let r = runGit(["fetch", "origin", "pull/" + n + "/head:" + branch, "--force"]);
+    if (r.out) log.push(r.out);
+    if (!r.ok) { log.push("  ✗ 取不到这个 PR（可能已被删除）"); return { ok: false, log }; }
+    log.push("$ git log -1 --format=%s " + branch);
+    log.push("  " + git(["log", "-1", "--format=%s", branch]));
+    log.push("$ git diff --stat origin/main..." + branch + "（这个 PR 改了什么）");
+    log.push(git(["diff", "--stat", "origin/main..." + branch]));
+    log.push("$ git merge --no-ff " + branch);
+    r = runGit(["merge", "--no-ff", branch, "-m", "Merge pull request #" + n + " (local review)"]);
+    if (r.out) log.push(r.out);
+    if (!r.ok) {
+      runGit(["merge", "--abort"]);
+      log.push("  ✗ 合并冲突，已用 git merge --abort 回滚。这个 PR 需要手动处理，或让作者重新提交。");
+      return { ok: false, log };
+    }
+    log.push("  ✓ 已合并到本地 main（接下来重建签名索引并推送，GitHub 会自动把该 PR 标成 merged）");
+    runGit(["branch", "-D", branch]);
+  } else if (action === "rebuild") {
     log.push("不修改审核记录，只重建签名索引并推送");
   } else if (action === "restore") {
     if (!step(log, "撤销审核记录：" + target, "scripts/moderate.mjs", ["restore", target, "--kind", kind])) {
@@ -122,6 +176,11 @@ function applyAction(input) {
     return { ok: false, log: ["未知操作：" + action] };
   }
 
+  return finish(log, action, target, zh);
+}
+
+/** 重建签名索引 + git 提交推送（所有动作共用） */
+function finish(log, action, target, zh) {
   // 2) 本地重建 + 签名索引（CI 的签名密钥没配好时，这一步是必须的）
   if (fs.existsSync(KEY_FILE) && !DRY) {
     const pem = fs.readFileSync(KEY_FILE, "utf8");
@@ -149,8 +208,12 @@ function applyAction(input) {
     action === "approve" ? "approve " :
     action === "reject" ? "reject " :
     action === "delist" ? "delist " :
-    action === "rebuild" ? "rebuild" : "restore ";
-  const commitMsg = "chore(index): " + desc + (action === "rebuild" ? "" : " " + target) + (zh ? " - " + zh.slice(0, 60) : "");
+    action === "rebuild" ? "rebuild" :
+    action === "merge-pr" ? "merged" : "restore ";
+  const commitMsg =
+    action === "merge-pr"
+      ? "chore(index): rebuild signed index after PR #" + String(target).replace(/[^0-9]/g, "")
+      : "chore(index): " + desc + (action === "rebuild" ? "" : " " + target) + (zh ? " - " + zh.slice(0, 60) : "");
   for (const [label, args] of [
     ["git add -A", ["add", "-A"]],
     ["git commit", ["commit", "-m", commitMsg]],
@@ -213,6 +276,11 @@ const PAGE = `<!doctype html>
     <div class="sub" style="margin-top:8px">作者把 ZIP 发到自己仓库后，把 owner/repo 填进来点「收录通过」，等价于合并 PR。若你是在 GitHub 网页上点的 Merge，回来点一次「重建」就能立刻生效。</div>
   </section>
   <section>
+    <h2>待审核的作者提交（Pull Request）<span class="pill" id="prCount">0</span></h2>
+    <table><thead><tr><th>PR</th><th>head</th><th style="width:300px">操作</th></tr></thead><tbody id="prBody"></tbody></table>
+    <div class="sub" style="margin-top:8px">作者用启动器「③ 申请收录」提交后会出现在这里。点「本地合并」= 合并进 main → 重建签名索引 → 推送，GitHub 会自动把该 PR 标成 merged，全程不用开 GitHub 网页。</div>
+  </section>
+  <section>
     <h2>收录来源 sources.json <span class="pill" id="srcCount">0</span></h2>
     <table><thead><tr><th>仓库</th><th>状态</th><th style="width:300px">操作</th></tr></thead><tbody id="srcBody"></tbody></table>
   </section>
@@ -240,6 +308,13 @@ let pending = null;
 function esc(s){return String(s==null?"":s).replace(/[&<>"']/g,(c)=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
 async function load(){
   const st = await (await fetch("/api/state")).json();
+  document.getElementById("prCount").textContent = st.prs.length;
+  document.getElementById("prBody").innerHTML = st.prs.map(function(p){
+    var link = "https://github.com/diguo520/EVEjs-mods/pull/" + p.number;
+    return "<tr><td><b>#" + p.number + "</b></td><td><code>" + esc(p.sha.slice(0,10)) + "</code></td><td>" +
+      "<button class='ok' data-pr='" + p.number + "'>本地合并</button> " +
+      "<button data-url='" + link + "'>打开 PR 页面</button></td></tr>";
+  }).join("") || "<tr><td colspan='3' style='color:#7e93a8'>（没有待审核的 PR）</td></tr>";
   document.getElementById("srcCount").textContent = st.sources.length;
   document.getElementById("modCount").textContent = st.mods.length;
   document.getElementById("published").textContent = st.indexPublishedAt ? "签名于 " + new Date(st.indexPublishedAt).toLocaleString() : "";
@@ -297,6 +372,14 @@ async function act(action, target, kind, zh, en){
   log.textContent = (res.log || []).join("\\n") + "\\n\\n" + (res.ok ? "✓ 完成：等 CI/Pages 刷新后，作者启动器里就能看到结果" : "✗ 失败：看上面的输出");
   await load();
 }
+// data- 属性按钮：避免在模板里写嵌套引号的 onclick
+document.addEventListener("click", function(e){
+  var t = e.target;
+  var b = t && t.closest ? t.closest("button[data-pr]") : null;
+  if(b){ act("merge-pr", b.getAttribute("data-pr"), "id"); return; }
+  var u = t && t.closest ? t.closest("button[data-url]") : null;
+  if(u){ window.open(u.getAttribute("data-url")); }
+});
 load();
 </script>
 </body></html>`;
