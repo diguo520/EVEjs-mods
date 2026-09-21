@@ -58,6 +58,29 @@ async function fetchJson(url) {
   }
 }
 
+/**
+ * 统计一个仓库所有 Release 资产的下载次数（GitHub 官方计数，含重复下载）。
+ * 注意：只有「把 ZIP 传到 Release」的模组才统计得到；直接把 ZIP 放仓库文件（raw/jsDelivr）是没有计数的。
+ * 匿名 API 限 60 次/小时，所以 CI 里会带 GITHUB_TOKEN（5000 次/小时）。
+ */
+async function fetchReleaseDownloads(repo) {
+  const token = process.env.GH_API_TOKEN || "";
+  const headers = { "User-Agent": "EveJS-mods-index", Accept: "application/vnd.github+json" };
+  if (token) headers.Authorization = "Bearer " + token;
+  try {
+    const res = await fetch("https://api.github.com/repos/" + repo + "/releases?per_page=100", { headers });
+    if (!res.ok) return { ok: false, reason: "HTTP " + res.status };
+    const list = await res.json();
+    let total = 0;
+    for (const r of Array.isArray(list) ? list : []) {
+      for (const a of Array.isArray(r.assets) ? r.assets : []) total += Number(a.download_count) || 0;
+    }
+    return { ok: true, total };
+  } catch (e) {
+    return { ok: false, reason: e && e.message ? e.message : String(e) };
+  }
+}
+
 const sources = (() => {
   try {
     const parsed = JSON.parse(fs.readFileSync(SOURCES_FILE, "utf8"));
@@ -157,7 +180,15 @@ for (const repo of sources) {
   if (!usable.length) { rejected.push({ repo, reason: "没有可用的 https 下载地址" }); continue; }
 
   byId.set(id, repo);
-  mods.push({ ...entry, source: repo, downloadUrls: usable });
+  const dl = await fetchReleaseDownloads(repo);
+  const withDl = { ...entry, source: repo, downloadUrls: usable };
+  if (dl.ok) {
+    withDl.downloads = dl.total;
+    console.log("  " + id + "：下载 " + dl.total + " 次（Release 计数）");
+  } else {
+    console.log("  " + id + "：下载次数未统计（" + dl.reason + "）");
+  }
+  mods.push(withDl);
 }
 
 mods.sort((a, b) => String(a.displayName || a.id).localeCompare(String(b.displayName || b.id)));

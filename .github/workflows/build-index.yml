@@ -51,6 +51,7 @@ jobs:
         if: env.SKIP_BUILD != '1'
         env:
           INDEX_SIGNING_KEY: ${{ secrets.INDEX_SIGNING_KEY }}
+          GH_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}   # 读 Release 资产下载次数（匿名限 60/h）
         run: node scripts/build-index.mjs
 
       - name: Commit regenerated index back to main
