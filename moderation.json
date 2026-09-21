@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-21T22:24:36.889Z",
+  "updatedAt": "2026-09-21T22:32:55.800Z",
   "entries": [
     {
       "target": "welcome-mod",
@@ -11,17 +11,6 @@
         "en": "该MOG不符合EVEJS mod生态"
       },
       "at": "2026-09-21T21:43:25.652Z",
-      "by": "diguo520"
-    },
-    {
-      "target": "evejs-autolockfire",
-      "kind": "id",
-      "action": "delist",
-      "reason": {
-        "zh": "该MOD在GITHUB已经被删除",
-        "en": "该MOD在GITHUB已经被删除"
-      },
-      "at": "2026-09-21T22:24:36.889Z",
       "by": "diguo520"
     }
   ]
