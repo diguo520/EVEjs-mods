@@ -22,6 +22,14 @@ jobs:
         with:
           node-version: "20"
 
+      - name: Check signing secret is configured
+        env:
+          INDEX_SIGNING_KEY: ${{ secrets.INDEX_SIGNING_KEY }}
+        run: |
+          if [ -z "$INDEX_SIGNING_KEY" ]; then
+            echo "::error::还没有配置签名私钥。请到 Settings → Secrets and variables → Actions 添加名为 INDEX_SIGNING_KEY 的 secret，内容为本机 .keys/index.key 的完整 PEM。"
+            exit 1
+          fi
       - name: Build and sign mod-index.json
         env:
           INDEX_SIGNING_KEY: ${{ secrets.INDEX_SIGNING_KEY }}
