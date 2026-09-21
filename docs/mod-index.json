@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-09-21T18:50:45.930Z",
+  "publishedAt": "2026-09-21T19:01:31.715Z",
   "mods": [
     {
       "id": "welcome-mod",
       "displayName": "Welcome Broadcast",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "id": "au-mubd7h45x3e1",
         "name": "指挥官",
@@ -29,31 +29,36 @@
       "evejsVersions": [
         "0.12.8"
       ],
-      "sizeBytes": 5357,
-      "sha256": "94adae26f309988bb1e3c14c1ae490aca6c61583d698b37aacfdb49296348a02",
+      "sizeBytes": 5356,
+      "sha256": "fcaa3f9b44fcaf5111c9ec8821a94d68358a45fd3c59adb15925c82d1a275c74",
       "downloadUrls": [
         {
           "mirror": "jsdelivr",
-          "url": "https://cdn.jsdelivr.net/gh/diguo520/evejs-mod-welcome-mod@main/welcome-mod-1.0.0.zip",
+          "url": "https://cdn.jsdelivr.net/gh/diguo520/evejs-mod-welcome-mod@main/welcome-mod-1.0.1.zip",
           "priority": 1
         },
         {
           "mirror": "github-raw",
-          "url": "https://raw.githubusercontent.com/diguo520/evejs-mod-welcome-mod/main/welcome-mod-1.0.0.zip",
+          "url": "https://raw.githubusercontent.com/diguo520/evejs-mod-welcome-mod/main/welcome-mod-1.0.1.zip",
           "priority": 2
         },
         {
           "mirror": "github",
-          "url": "https://github.com/diguo520/evejs-mod-welcome-mod/raw/main/welcome-mod-1.0.0.zip",
+          "url": "https://github.com/diguo520/evejs-mod-welcome-mod/raw/main/welcome-mod-1.0.1.zip",
           "priority": 3
         }
       ],
-      "changelog": "首个版本：玩家登录后本地聊天框收到欢迎消息。",
+      "changelog": "1.0.1：欢迎消息文案微调 + 重新签名发布。",
       "history": [
         {
           "version": "1.0.0",
           "changelog": "首个版本",
           "at": 1790016437083
+        },
+        {
+          "version": "1.0.1",
+          "changelog": "1.0.1：欢迎消息文案微调 + 重新签名发布。",
+          "at": 1790017250963
         }
       ],
       "repo": "https://github.com/diguo520/evejs-mod-welcome-mod",
@@ -66,7 +71,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "Og3EjiNk9I5CDJCi5WFbj12iH34CvW1MkcAdn7hMsNTKUBA2OmKB+mW1sCHQewbY/93aoJpU3KbHsb4ErNivDw==",
-    "signedAt": "2026-09-21T18:50:45.934Z"
+    "sig": "2FIxYWCp8Q17vFTImBf396+TsOCB+j9AXmebWLoA+VFeCb7cejyk2R9v9TcGExo51ur4PK7Dct8CqA1O6PRbCQ==",
+    "signedAt": "2026-09-21T19:01:31.720Z"
   }
 }
