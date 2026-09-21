@@ -157,6 +157,18 @@ You can then feed the generated `docs/mod-index.json` to the launcher's verifica
 
 ### Maintainer moderation: approve / reject / delist
 
+#### The easy way: double-click `审核台.bat` (review console)
+
+1. Open the `EVEjs-mods` folder and double-click **`审核台.bat`** (needs Node.js) — your browser opens `http://127.0.0.1:8790`.
+2. In the page:
+   - **Quick actions** — paste an author's `owner/repo` and hit **收录通过 / accept**: that is the same as merging their listing PR, no PR needed.
+     If you merged a PR on GitHub instead, click **重新构建签名索引并推送 / rebuild and push** once so it takes effect immediately.
+   - **Market mods** — every row has **下架 / delist**, **恢复上架 / restore** and **拒绝收录 / reject**. Delist and reject ask for a reason, and the author sees it in the launcher.
+3. Every click does three things for you: writes `moderation.json` → rebuilds and signs the index with `.keys/index.key` → `git commit` + `git push`.
+4. Close the window to stop the console. (No GitHub token needed — it uses your local git credentials.)
+
+> The CLI below is the exact equivalent if you prefer the terminal.
+
 Every moderation result lives in **`moderation.json`**, written for you by `scripts/moderate.mjs`;
 `build-index.mjs` reads it when generating the index.
 
@@ -325,6 +337,18 @@ INDEX_SIGNING_KEY="$(cat .keys/test.key)" node scripts/build-index.mjs
 生成的 `docs/mod-index.json` 可以拿去对启动器的验签逻辑（`src/main/modSigner.ts` 的 `verifyIndexSignature`）跑一遍。
 
 ### 维护者审核：收录 / 拒绝 / 下架
+
+#### 最简单的方式：双击 `审核台.bat`
+
+1. 打开 `EVEjs-mods` 文件夹，**双击 `审核台.bat`**（需要 Node.js）—— 浏览器会自动打开 `http://127.0.0.1:8790`。
+2. 页面里：
+   - **快捷操作**：把作者的 `owner/repo` 填进去点 **收录通过**，等价于合并他的收录 PR（连 PR 都不用开）；
+     如果你是在 GitHub 网页上 Merge 的 PR，回来点一次 **重新构建签名索引并推送** 就立刻生效。
+   - **市场里的模组**：每行有 **下架 / 恢复上架 / 拒绝收录**；下架与拒绝会让你填原因，作者在启动器里就能看到。
+3. 每次点击它自动做三件事：写 `moderation.json` → 用 `.keys/index.key` 重建并签名索引 → `git commit` + `git push`。
+4. 关掉那个黑窗口就停止（不需要 GitHub 令牌，用的是你本机已保存的 git 凭据）。
+
+> 下面的命令行是等价做法，喜欢敲命令时用。
 
 所有审核结果都写在 **`moderation.json`**，由 `scripts/moderate.mjs` 帮你写；`build-index.mjs` 读它来出索引。
 

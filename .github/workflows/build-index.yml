@@ -37,12 +37,11 @@ jobs:
             echo ""
             echo "不想配 secret 也有兜底：本机跑一次下面这行，然后提交 docs/mod-index.json 即可"
             echo "  INDEX_SIGNING_KEY=\"\$(cat .keys/index.key)\" node scripts/build-index.mjs"
-            if [ "${{ github.event_name }}" = "schedule" ]; then
-              echo "::warning::定时任务跳过本次（未配置 INDEX_SIGNING_KEY）"
-              echo "SKIP_BUILD=1" >> "$GITHUB_ENV"
-              exit 0
-            fi
-            exit 1
+            # 没配 secret 不报错：维护者可以用本机「审核台」直接签名并推送，
+            # 这一跑只是没启用的自动重建，标警告并跳过即可，避免每次 push 都红叉。
+            echo "::warning::未配置 INDEX_SIGNING_KEY，本次跳过自动重建（索引由本机审核台签名）"
+            echo "SKIP_BUILD=1" >> "$GITHUB_ENV"
+            exit 0
           fi
           echo "::notice::已读到签名私钥（长度 ${#INDEX_SIGNING_KEY}）"
         # 定时任务在没配密钥时「静默跳过」，避免一天 4 次红叉；手动/推送触发才报错提醒

@@ -103,7 +103,9 @@ function applyAction(input) {
   const zh = String(input.zh || "").trim();
   const en = String(input.en || "").trim() || zh;
 
-  if (action === "restore") {
+  if (action === "rebuild") {
+    log.push("不修改审核记录，只重建签名索引并推送");
+  } else if (action === "restore") {
     if (!step(log, "撤销审核记录：" + target, "scripts/moderate.mjs", ["restore", target, "--kind", kind])) {
       return { ok: false, log };
     }
@@ -143,8 +145,12 @@ function applyAction(input) {
   }
 
   // 3) 提交 + 推送
-  const desc = action === "approve" ? "approve " : action === "reject" ? "reject " : action === "delist" ? "delist " : "restore ";
-  const commitMsg = "chore(index): " + desc + target + (zh ? " - " + zh.slice(0, 60) : "");
+  const desc =
+    action === "approve" ? "approve " :
+    action === "reject" ? "reject " :
+    action === "delist" ? "delist " :
+    action === "rebuild" ? "rebuild" : "restore ";
+  const commitMsg = "chore(index): " + desc + (action === "rebuild" ? "" : " " + target) + (zh ? " - " + zh.slice(0, 60) : "");
   for (const [label, args] of [
     ["git add -A", ["add", "-A"]],
     ["git commit", ["commit", "-m", commitMsg]],
@@ -198,6 +204,15 @@ const PAGE = `<!doctype html>
 <main>
   <div id="warn"></div>
   <section>
+    <h2>快捷操作</h2>
+    <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
+      <input id="newRepo" placeholder="作者仓库 owner/repo（例如 someone/my-evejs-mod）" style="flex:1;min-width:320px">
+      <button class="ok" onclick="approveRepo()">收录通过</button>
+      <button onclick="rebuildNow()">重新构建签名索引并推送</button>
+    </div>
+    <div class="sub" style="margin-top:8px">作者把 ZIP 发到自己仓库后，把 owner/repo 填进来点「收录通过」，等价于合并 PR。若你是在 GitHub 网页上点的 Merge，回来点一次「重建」就能立刻生效。</div>
+  </section>
+  <section>
     <h2>收录来源 sources.json <span class="pill" id="srcCount">0</span></h2>
     <table><thead><tr><th>仓库</th><th>状态</th><th style="width:300px">操作</th></tr></thead><tbody id="srcBody"></tbody></table>
   </section>
@@ -250,6 +265,14 @@ async function load(){
     return "<tr><td><b>" + esc(m.displayName) + "</b><br><code>" + esc(m.id) + "</code></td><td>" + esc(m.version) + "</td><td>" + esc(m.category) + "</td><td><code>" + esc(m.source) + "</code></td><td>" + pill + "</td><td>" + delistBtn + " " + rejectBtn + "</td></tr>";
   }).join("") || '<tr><td colspan="6" style="color:#7e93a8">（索引里还没有模组）</td></tr>';
 }
+async function approveRepo(){
+  const v = document.getElementById("newRepo").value.trim();
+  const parts = v.split("/");
+  if(parts.length !== 2 || !parts[0] || !parts[1]){ alert("请填成 owner/repo 的形式，例如 someone/my-evejs-mod"); return; }
+  document.getElementById("newRepo").value = "";
+  await act("approve", v, "source");
+}
+function rebuildNow(){ return act("rebuild", "-", "id"); }
 function ask(action, target, kind, titlePrefix){
   pending = { action, target, kind };
   document.getElementById("dlgTitle").textContent = titlePrefix + target;
