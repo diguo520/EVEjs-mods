@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-09-21T18:50:13.956Z",
+  "publishedAt": "2026-09-21T18:50:45.930Z",
   "mods": [
     {
       "id": "welcome-mod",
@@ -33,14 +33,19 @@
       "sha256": "94adae26f309988bb1e3c14c1ae490aca6c61583d698b37aacfdb49296348a02",
       "downloadUrls": [
         {
+          "mirror": "jsdelivr",
+          "url": "https://cdn.jsdelivr.net/gh/diguo520/evejs-mod-welcome-mod@main/welcome-mod-1.0.0.zip",
+          "priority": 1
+        },
+        {
           "mirror": "github-raw",
           "url": "https://raw.githubusercontent.com/diguo520/evejs-mod-welcome-mod/main/welcome-mod-1.0.0.zip",
-          "priority": 1
+          "priority": 2
         },
         {
           "mirror": "github",
           "url": "https://github.com/diguo520/evejs-mod-welcome-mod/raw/main/welcome-mod-1.0.0.zip",
-          "priority": 2
+          "priority": 3
         }
       ],
       "changelog": "首个版本：玩家登录后本地聊天框收到欢迎消息。",
@@ -61,7 +66,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "zIQb9fyiCe8XpCiZ0QQRexCNioVBQS2EYXjBpq8OJ9kwv7web2IB+/RZD5i/YinbJi5tb8zoQC+p0XZb03z1CA==",
-    "signedAt": "2026-09-21T18:50:13.959Z"
+    "sig": "Og3EjiNk9I5CDJCi5WFbj12iH34CvW1MkcAdn7hMsNTKUBA2OmKB+mW1sCHQewbY/93aoJpU3KbHsb4ErNivDw==",
+    "signedAt": "2026-09-21T18:50:45.934Z"
   }
 }

@@ -78,6 +78,17 @@ const authorKeys = (() => {
   }
 })();
 
+/**
+ * 本地清单覆盖（可选）：INDEX_LOCAL_LISTINGS="owner/repo=/abs/path/evejs-mod.json;owner2/repo2=/abs/..."
+ * 用途：本地/离线构建时，不依赖 CDN（jsDelivr 对分支引用有最长约 12h 缓存，刚改完清单时读到的可能是旧的）。
+ */
+const LOCAL_LISTINGS = (process.env.INDEX_LOCAL_LISTINGS || "")
+  .split(";")
+  .map((x) => x.trim())
+  .filter(Boolean)
+  .map((x) => { const i = x.indexOf("="); return i > 0 ? { repo: x.slice(0, i).trim().toLowerCase(), path: x.slice(i + 1).trim() } : null; })
+  .filter(Boolean);
+
 const mods = [];
 const byId = new Map();
 const rejected = [];
@@ -92,7 +103,17 @@ for (const repo of sources) {
   ];
   let entry = null;
   const failures = [];
-  for (const url of candidates) {
+  const local = LOCAL_LISTINGS.find((l) => l.repo === repo.toLowerCase());
+  if (local) {
+    try {
+      entry = JSON.parse(fs.readFileSync(local.path, "utf8"));
+      console.log("（用本地清单）" + repo + " ← " + local.path);
+    } catch (e) {
+      console.warn("本地清单读取失败，回退到联网抓取：" + (e && e.message ? e.message : e));
+      entry = null;
+    }
+  }
+  for (const url of entry ? [] : candidates) {
     const res = await fetchJson(url);
     if (res.ok && res.data && typeof res.data === "object") { entry = res.data; break; }
     failures.push(url.replace(/^https:\/\//, "").split("/").slice(0, 1)[0] + "→" + (res.reason || "失败"));
