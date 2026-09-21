@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-09-21T21:43:29.449Z",
+  "publishedAt": "2026-09-21T21:44:34.403Z",
   "mods": [],
   "moderation": {
     "welcome-mod": {
@@ -19,7 +19,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "OmdgT0/eXXwUYEsYXtFjDm+2w8Q5ViXX5S1T8u98O3MYCOGSd2UT5dLlkh1XLzMGBcVW3tKgyB6Kc/qFwqnNCw==",
-    "signedAt": "2026-09-21T21:43:29.452Z"
+    "sig": "j/d+JPqVr9Syz7rRJ0a6R/x4cy7Xl+L7IheDiGf86Gf35zHxrNI6LRBjZPPRTO5uwfxfxUDeGDOkCxVoct/lAA==",
+    "signedAt": "2026-09-21T21:44:34.407Z"
   }
 }
