@@ -1,11 +1,68 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-09-21T22:33:21.241Z",
-  "mods": [],
+  "publishedAt": "2026-09-21T22:51:02.406Z",
+  "mods": [
+    {
+      "id": "welcome-mod",
+      "displayName": "Welcome Broadcast",
+      "version": "1.0.0",
+      "author": {
+        "id": "au-mubd7h45x3e1",
+        "name": "指挥官",
+        "keyId": "691df6c7d2cd",
+        "publicKey": "oDWSo9CdpaWr6/C/Pj/enGZw6o96BihOBZ/jC/6aikA="
+      },
+      "description": "这是mod案例玩家登录进入游戏10秒时，在其本地聊天频道发送一条系统欢迎消息，并在服务端控制台打印日志。演示 loader 类型模组如何在不修改服务端文件的前提下挂载游戏内效果。",
+      "category": "玩法",
+      "tags": [
+        "聊天",
+        "新手"
+      ],
+      "readme": [
+        "这是mod案例玩家登录进入游戏10秒时，在其本地聊天频道发送一条系统欢迎消息，并在服务端控制台打印日志。演示 loader 类型模组如何在不修改服务端文件的前提下挂载游戏内效果。"
+      ],
+      "highlights": [
+        "玩家登录后会收到一条系统欢迎消息"
+      ],
+      "conflicts": [],
+      "requiresRestart": true,
+      "evejsVersions": [
+        "0.12.8"
+      ],
+      "sizeBytes": 5357,
+      "sha256": "94adae26f309988bb1e3c14c1ae490aca6c61583d698b37aacfdb49296348a02",
+      "downloadUrls": [
+        {
+          "mirror": "github-raw",
+          "url": "https://raw.githubusercontent.com/diguo520/evejs-mod-welcome-mod/main/welcome-mod-1.0.0.zip",
+          "priority": 1
+        },
+        {
+          "mirror": "github",
+          "url": "https://github.com/diguo520/evejs-mod-welcome-mod/raw/main/welcome-mod-1.0.0.zip",
+          "priority": 2
+        }
+      ],
+      "changelog": "首个版本：玩家登录后本地聊天框收到欢迎消息。",
+      "history": [
+        {
+          "version": "1.0.0",
+          "changelog": "首个版本",
+          "at": 1790016437083
+        }
+      ],
+      "repo": "https://github.com/diguo520/evejs-mod-welcome-mod",
+      "featured": false,
+      "delisted": false,
+      "publishedAt": "2026-09-21",
+      "source": "diguo520/evejs-mod-welcome-mod",
+      "downloads": 0
+    }
+  ],
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "G0iC424mzv0udycymyiaoxIKlBhymxQnj3UjDPRH6luFBcszfJJTjhLjf0kCLkswDBtr2LWX8GyGihIzk2/DAg==",
-    "signedAt": "2026-09-21T22:33:21.245Z"
+    "sig": "BJ/Rw3Lw3d12waiArI92t9JUyTon4X+/4jB+uFMKtkecaPcZELLMONkZZJ+5Xd4Mf7knsN647I7JDtYmbEgoCA==",
+    "signedAt": "2026-09-21T22:51:02.410Z"
   }
 }
