@@ -1,5 +1,17 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-21T22:33:21.178Z",
-  "entries": []
+  "updatedAt": "2026-09-21T22:59:28.193Z",
+  "entries": [
+    {
+      "target": "welcome-mod",
+      "kind": "id",
+      "action": "reject",
+      "reason": {
+        "zh": "请修改重新提交不符合EVEJSMOD生态",
+        "en": "请修改重新提交不符合EVEJSMOD生态"
+      },
+      "at": "2026-09-21T22:59:28.193Z",
+      "by": "diguo520"
+    }
+  ]
 }
