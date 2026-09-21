@@ -61,6 +61,38 @@ CI 会自动执行三条**归属硬规则**（不合格的条目会被跳过并�
 
 ---
 
+## 下载地址怎么填（重要：国内可达性）
+
+`evejs-mod.json` 的 `downloadUrls[]` **按 priority 从小到大尝试**，建议这样排：
+
+```jsonc
+"downloadUrls": [
+  // 1) jsDelivr CDN —— 国内可达性明显好过 raw；单文件 ≤20MB
+  { "mirror": "jsdelivr",   "url": "https://cdn.jsdelivr.net/gh/<owner>/<repo>@main/<id>-<version>.zip", "priority": 1 },
+  // 2) GitHub raw —— 最及时，但国内经常连不上
+  { "mirror": "github-raw", "url": "https://raw.githubusercontent.com/<owner>/<repo>/main/<id>-<version>.zip", "priority": 2 },
+  // 3) github.com/raw —— 兜底
+  { "mirror": "github",     "url": "https://github.com/<owner>/<repo>/raw/main/<id>-<version>.zip", "priority": 3 }
+]
+```
+
+⚠️ 注意 **jsDelivr 对「分支引用」的内容缓存最长约 12 小时**：刚提交的新版本可能短期内还拿到旧文件。
+版本号写在文件名里（`<id>-<version>.zip`）可以规避这个问题 —— 新版本是新文件名，不会命中旧缓存。
+
+## 本地 / 离线构建（可选）
+
+`build-index.mjs` 默认联网抓各仓库的 `evejs-mod.json`（raw → jsDelivr → github 依次尝试）。
+如果你本地网络抓不到（或想用刚改完还没推上去的清单），可以用本地文件覆盖：
+
+```bash
+INDEX_LOCAL_LISTINGS="owner/repo=/abs/path/evejs-mod.json" \
+INDEX_SIGNING_KEY="$(cat .keys/index.key)" node scripts/build-index.mjs
+```
+
+多个来源用 `;` 分隔。
+
+---
+
 ## 维护者操作（第一次）
 
 **① 生成签名密钥对**（只在本机跑）
