@@ -72,7 +72,68 @@ function listPrs() {
   }
   return out.sort((a, b) => b.number - a.number).slice(0, 20);
 }
-function state() {
+/**
+ * 检查作者仓库是否还在（两个镜像都试）。
+ *   可达   = 清单能抓到
+ *   抓不到 = 两个镜像都 404 → 仓库被删/改名/转私有（这时要「移除来源」下架）
+ *   未知   = 网络问题，不代表仓库没了
+ */
+/**
+ * 检查作者仓库是否还在。要点：**不能只看清单文件** —— jsDelivr 对已删除仓库还有 CDN 缓存，
+ * 会把「仓库已删」误判成「可达」。所以先查仓库本身，再查清单。
+ *   返回 ok         = 仓库在 + 清单能抓到
+ *        missing    = 仓库已删除 / 改名 / 转私有（要「移除来源」下架）
+ *        no-listing = 仓库在，但 evejs-mod.json 抓不到（可能被删/改名）
+ *        cache-only = 仓库查不到，但 CDN 还有缓存（很可能已删除）
+ *        unknown    = 网络问题，判断不了
+ */
+async function fetchStatus(url, ms) {
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), ms);
+  try {
+    const res = await fetch(url, { headers: { "User-Agent": "EveJS-mods-review" }, signal: ctrl.signal });
+    return res.status;
+  } catch {
+    return 0;   // 0 = 网络/证书/超时
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+/**
+ * 检查作者仓库是否还在。
+ * 主判据用 **jsDelivr 的包 API**：data.jsdelivr.com/v1/packages/gh/<owner>/<repo>
+ *   - 仓库存在 → 200；仓库被删/改名/转私有 → 404
+ *   - 国内可达（github.com / api.github.com 在不少网络下直接连不上）
+ *   - 不受「文件缓存」影响：光看 evejs-mod.json 会被 jsDelivr 的 CDN 缓存骗到（已删仓库仍返回旧文件）
+ * 返回：ok / missing（仓库没了）/ no-listing（仓库在但清单抓不到）/ cache-only / unknown
+ */
+async function sourceStatus(repo) {
+  const rawUrl = "https://raw.githubusercontent.com/" + repo + "/main/evejs-mod.json";
+  const cdnUrl = "https://cdn.jsdelivr.net/gh/" + repo + "@main/evejs-mod.json";
+
+  let exists = null;
+  const jd = await fetchStatus("https://data.jsdelivr.com/v1/packages/gh/" + repo, 8000);
+  if (jd === 404) exists = false;
+  else if (jd >= 200 && jd < 300) exists = true;
+  if (exists === null) {
+    const html = await fetchStatus("https://github.com/" + repo, 8000);
+    if (html === 404) exists = false;
+    else if (html >= 200 && html < 400) exists = true;
+  }
+  if (exists === false) return "missing";
+
+  const rawStatus = await fetchStatus(rawUrl, 8000);
+  if (rawStatus >= 200 && rawStatus < 300) return "ok";
+  const cdnStatus = await fetchStatus(cdnUrl, 8000);
+  const cdnOk = cdnStatus >= 200 && cdnStatus < 300;
+  // 仓库确实存在时，raw 不通但 CDN 通也算可达（启动器下载本来就优先用 jsDelivr）
+  if (exists === true) return cdnOk ? "ok" : "no-listing";
+  if (cdnOk) return "cache-only";
+  return "unknown";
+}
+
+async function state() {
   const sources = readJson(SOURCES_FILE, { sources: [] });
   const moderation = readJson(MODERATION_FILE, { entries: [] });
   const index = readJson(INDEX_FILE, { mods: [] });
@@ -83,10 +144,13 @@ function state() {
     hasKey: fs.existsSync(KEY_FILE),
     branch: git(["rev-parse", "--abbrev-ref", "HEAD"]),
     dirty: git(["status", "--porcelain"]).length > 0,
-    sources: (Array.isArray(sources.sources) ? sources.sources : []).map((repo) => ({
-      repo,
-      rule: ruleFor(repo, "source")
-    })),
+    sources: await Promise.all(
+      (Array.isArray(sources.sources) ? sources.sources : []).map(async (repo) => ({
+        repo,
+        rule: ruleFor(repo, "source"),
+        reach: await sourceStatus(repo)
+      }))
+    ),
     mods: (Array.isArray(index.mods) ? index.mods : []).map((m) => ({
       id: m.id,
       displayName: m.displayName || m.id,
@@ -137,7 +201,19 @@ function applyAction(input) {
   const zh = String(input.zh || "").trim();
   const en = String(input.en || "").trim() || zh;
 
-  if (action === "merge-pr") {
+  if (action === "remove-source") {
+    const data = readJson(SOURCES_FILE, { schemaVersion: 1, sources: [] });
+    const list = (Array.isArray(data.sources) ? data.sources : []).map((x) => String(x));
+    const next = list.filter((x) => x.toLowerCase() !== target.toLowerCase());
+    if (next.length === list.length) return { ok: false, log: ["sources.json 里没有 " + target] };
+    fs.writeFileSync(SOURCES_FILE, JSON.stringify({ schemaVersion: 1, sources: next }, null, 2) + "\n");
+    const mod = readJson(MODERATION_FILE, { schemaVersion: 1, entries: [] });
+    mod.entries = (Array.isArray(mod.entries) ? mod.entries : []).filter(
+      (e) => !(e && (e.kind || "id") === "source" && String(e.target).toLowerCase() === target.toLowerCase())
+    );
+    fs.writeFileSync(MODERATION_FILE, JSON.stringify(mod, null, 2) + "\n");
+    log.push("已从 sources.json 移除：" + target + "（它带的所有模组都会从市场消失）");
+  } else if (action === "merge-pr") {
     const n = String(target).replace(/[^0-9]/g, "");
     if (DRY) {
       log.push("$ git fetch + git merge（dry-run，跳过）");
@@ -226,7 +302,7 @@ function finish(log, action, target, zh) {
     if ((srcCount > 0 && afterIds.length === 0) || hardSkip || lost.length) {
       runGit(["checkout", "--", "docs/mod-index.json"]);
       log.push("  ✗ 重建结果不健康，已回滚本地索引，没有提交：");
-      if (hardSkip) log.push("     有来源抓取失败（上面「被跳过的来源」里不是「维护者已拒绝收录」的那些）");
+      if (hardSkip) log.push("     有来源抓取失败（上面「被跳过的来源」里不是「维护者已拒绝收录」的那些）。如果作者已经删了仓库，回上一页点那个来源的「移除来源（下架）」。");
       if (lost.length) log.push("     会丢掉已上架的模组：" + lost.join(", "));
       if (srcCount > 0 && afterIds.length === 0) log.push("     sources.json 里有 " + srcCount + " 个来源，但重建出来是 0 个模组");
       log.push("    多半是访问 raw.githubusercontent.com / jsDelivr 失败，过一会儿再点一次即可。");
@@ -245,7 +321,8 @@ function finish(log, action, target, zh) {
     action === "reject" ? "reject " :
     action === "delist" ? "delist " :
     action === "rebuild" ? "rebuild" :
-    action === "merge-pr" ? "merged" : "restore ";
+    action === "merge-pr" ? "merged" :
+    action === "remove-source" ? "remove source " : "restore ";
   const commitMsg =
     action === "merge-pr"
       ? "chore(index): rebuild signed index after PR #" + String(target).replace(/[^0-9]/g, "")
@@ -341,7 +418,7 @@ const PAGE = `<!doctype html>
   </section>
   <section>
     <h2>收录来源 sources.json <span class="pill" id="srcCount">0</span></h2>
-    <table><thead><tr><th>仓库</th><th>状态</th><th style="width:300px">操作</th></tr></thead><tbody id="srcBody"></tbody></table>
+    <table><thead><tr><th>仓库</th><th>审核</th><th>仓库状态</th><th style="width:300px">操作</th></tr></thead><tbody id="srcBody"></tbody></table>
   </section>
   <section>
     <h2>市场里的模组 mod-index.json <span class="pill" id="modCount">0</span> <span class="pill" id="published"></span></h2>
@@ -391,13 +468,24 @@ async function load(){
   document.getElementById("warn").innerHTML = st.hasKey ? "" :
     '<div class="warnbox">没有找到 .keys/index.key：本地无法重新签名索引。请确认这是维护者机器上的仓库副本，否则改动要等 CI（目前 CI 的 INDEX_SIGNING_KEY 未生效）。</div>';
   document.getElementById("srcBody").innerHTML = st.sources.map((s)=>{
+    const reachMap = {
+      "ok": "<span class='pill'>清单可达</span>",
+      "missing": "<span class='pill reject'>仓库已删除 / 改名</span>",
+      "no-listing": "<span class='pill reject'>仓库在，但 evejs-mod.json 抓不到</span>",
+      "cache-only": "<span class='pill delist'>只有 CDN 缓存（很可能已删除）</span>",
+      "unknown": "<span class='pill delist'>未检测到（网络/限流）</span>"
+    };
+    const reach = reachMap[s.reach] || reachMap.unknown;
     const rule = s.rule;
     const pill = rule ? '<span class="pill ' + (rule.action === "reject" ? "reject" : "delist") + '">' + (rule.action === "reject" ? "拒绝收录" : "下架") + '</span>' : '<span class="pill">正常</span>';
     const btns = rule
       ? '<button class="ok" onclick="act(\\'restore\\',\\'' + esc(s.repo) + '\\',\\'source\\')">恢复收录</button>'
       : '<button class="bad" onclick="ask(\\'reject\\',\\'' + esc(s.repo) + '\\',\\'source\\',\\'拒绝收录：\\')">拒绝收录</button>';
-    return "<tr><td><code>" + esc(s.repo) + "</code></td><td>" + pill + "</td><td>" + btns + "</td></tr>";
-  }).join("") || '<tr><td colspan="3" style="color:#7e93a8">（sources.json 里还没有任何仓库）</td></tr>';
+    const removeBtn = (s.reach === "missing" || s.reach === "no-listing" || s.reach === "cache-only")
+      ? " <button class='bad' data-remove='" + esc(s.repo) + "'>移除来源（下架）</button>"
+      : "";
+    return "<tr><td><code>" + esc(s.repo) + "</code></td><td>" + pill + "</td><td>" + reach + "</td><td>" + btns + removeBtn + "</td></tr>";
+  }).join("") || '<tr><td colspan="4" style="color:#7e93a8">（sources.json 里还没有任何仓库）</td></tr>';
   document.getElementById("modBody").innerHTML = st.mods.map((m)=>{
     const rule = m.rule;
     const pill = m.delisted || (rule && rule.action === "delist")
@@ -447,6 +535,8 @@ document.addEventListener("click", function(e){
   var t = e.target;
   var b = t && t.closest ? t.closest("button[data-pr]") : null;
   if(b){ act("merge-pr", b.getAttribute("data-pr"), "id"); return; }
+  var rm = t && t.closest ? t.closest("button[data-remove]") : null;
+  if(rm){ var repo = rm.getAttribute("data-remove"); if(confirm("确认把 " + repo + " 从 sources.json 移除？它的模组会立刻从市场消失（等价于下架）。")){ act("remove-source", repo, "source"); } return; }
   var r = t && t.closest ? t.closest("button[data-restore]") : null;
   if(r){ var v = String(r.getAttribute("data-restore")).split("|"); act("restore", v[0], v[1] || "id"); return; }
   var u = t && t.closest ? t.closest("button[data-url]") : null;
@@ -465,7 +555,7 @@ const server = http.createServer((req, res) => {
   }
   if (req.method === "GET" && url.pathname === "/api/state") {
     res.writeHead(200, { "Content-Type": "application/json; charset=utf-8" });
-    res.end(JSON.stringify(state()));
+    state().then((st) => res.end(JSON.stringify(st))).catch((e) => res.end(JSON.stringify({ error: String(e && e.message ? e.message : e) })));
     return;
   }
   if (req.method === "POST" && url.pathname === "/api/action") {
