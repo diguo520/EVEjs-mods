@@ -184,6 +184,18 @@ function finish(log, action, target, zh) {
   // 2) 本地重建 + 签名索引（CI 的签名密钥没配好时，这一步是必须的）
   if (fs.existsSync(KEY_FILE) && !DRY) {
     const pem = fs.readFileSync(KEY_FILE, "utf8");
+    const beforeIds = (() => {
+      const j = readJson(INDEX_FILE, { mods: [] });
+      return (Array.isArray(j.mods) ? j.mods : []).map((m) => String(m.id || "")).filter(Boolean);
+    })();
+    const srcCount = (() => {
+      const j = readJson(SOURCES_FILE, { sources: [] });
+      return (Array.isArray(j.sources) ? j.sources : []).length;
+    })();
+    const rejected = (() => {
+      const j = readJson(MODERATION_FILE, { entries: [] });
+      return (Array.isArray(j.entries) ? j.entries : []).filter((e) => e && e.action === "reject").map((e) => String(e.target || ""));
+    })();
     log.push("$ node scripts/build-index.mjs（用 .keys/index.key 签名）");
     const res = spawnSync(process.execPath, ["scripts/build-index.mjs"], {
       cwd: ROOT,
@@ -196,7 +208,22 @@ function finish(log, action, target, zh) {
       log.push("  ✗ 重建索引失败，已停止（没有提交）");
       return { ok: false, log };
     }
-    log.push("  ✓ 索引已重建并重新签名");
+    const hardSkip = /✗\s+\S+\s+——\s+(?!维护者已拒绝)/.test(out);
+    const afterIds = (() => {
+      const j = readJson(INDEX_FILE, { mods: [] });
+      return (Array.isArray(j.mods) ? j.mods : []).map((m) => String(m.id || "")).filter(Boolean);
+    })();
+    const lost = beforeIds.filter((id) => !afterIds.includes(id) && !rejected.includes(id));
+    if ((srcCount > 0 && afterIds.length === 0) || hardSkip || lost.length) {
+      runGit(["checkout", "--", "docs/mod-index.json"]);
+      log.push("  ✗ 重建结果不健康，已回滚本地索引，没有提交：");
+      if (hardSkip) log.push("     有来源抓取失败（上面「被跳过的来源」里不是「维护者已拒绝收录」的那些）");
+      if (lost.length) log.push("     会丢掉已上架的模组：" + lost.join(", "));
+      if (srcCount > 0 && afterIds.length === 0) log.push("     sources.json 里有 " + srcCount + " 个来源，但重建出来是 0 个模组");
+      log.push("    多半是访问 raw.githubusercontent.com / jsDelivr 失败，过一会儿再点一次即可。");
+      return { ok: false, log };
+    }
+    log.push("  ✓ 索引已重建并重新签名（模组 " + afterIds.length + " 个）");
   } else if (DRY) {
     log.push("$ node scripts/build-index.mjs（dry-run，跳过）");
   } else {
@@ -216,8 +243,7 @@ function finish(log, action, target, zh) {
       : "chore(index): " + desc + (action === "rebuild" ? "" : " " + target) + (zh ? " - " + zh.slice(0, 60) : "");
   for (const [label, args] of [
     ["git add -A", ["add", "-A"]],
-    ["git commit", ["commit", "-m", commitMsg]],
-    ["git push", ["push"]]
+    ["git commit", ["commit", "-m", commitMsg]]
   ]) {
     log.push("$ " + label);
     if (DRY) {
@@ -226,10 +252,34 @@ function finish(log, action, target, zh) {
     }
     const out = git(args);
     if (out) log.push(out);
-    if (git(["status", "--porcelain"]).length === 0 && label === "git add -A") {
-      log.push("  （没有需要提交的改动）");
+  }
+  if (DRY) {
+    log.push("$ git pull --rebase + git push（dry-run，跳过）");
+    return { ok: true, log };
+  }
+  log.push("$ git pull --rebase origin main");
+  let pull = runGit(["pull", "--rebase", "origin", "main"]);
+  if (pull.out) log.push(pull.out);
+  if (!pull.ok) {
+    runGit(["rebase", "--abort"]);
+    log.push("  ✗ rebase 失败（可能有冲突），已回滚，没有推送。");
+    return { ok: false, log };
+  }
+  log.push("$ git push");
+  let push = runGit(["push"]);
+  if (push.out) log.push(push.out);
+  if (!push.ok) {
+    log.push("  （第一次推送失败，重新对齐远端再试一次）");
+    pull = runGit(["pull", "--rebase", "origin", "main"]);
+    if (pull.out) log.push(pull.out);
+    push = runGit(["push"]);
+    if (push.out) log.push(push.out);
+    if (!push.ok) {
+      log.push("  ✗ 推送仍然失败：改动只在本机，远端没有生效。看上面的报错。");
+      return { ok: false, log };
     }
   }
+  log.push("  ✓ 已推送到 GitHub（等 1 分钟左右 Pages 刷新，启动器再拉一次索引即可看到）");
   return { ok: true, log };
 }
 
