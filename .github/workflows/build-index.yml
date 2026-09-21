@@ -37,16 +37,24 @@ jobs:
             echo ""
             echo "不想配 secret 也有兜底：本机跑一次下面这行，然后提交 docs/mod-index.json 即可"
             echo "  INDEX_SIGNING_KEY=\"\$(cat .keys/index.key)\" node scripts/build-index.mjs"
+            if [ "${{ github.event_name }}" = "schedule" ]; then
+              echo "::warning::定时任务跳过本次（未配置 INDEX_SIGNING_KEY）"
+              echo "SKIP_BUILD=1" >> "$GITHUB_ENV"
+              exit 0
+            fi
             exit 1
           fi
           echo "::notice::已读到签名私钥（长度 ${#INDEX_SIGNING_KEY}）"
+        # 定时任务在没配密钥时「静默跳过」，避免一天 4 次红叉；手动/推送触发才报错提醒
 
       - name: Build and sign mod-index.json
+        if: env.SKIP_BUILD != '1'
         env:
           INDEX_SIGNING_KEY: ${{ secrets.INDEX_SIGNING_KEY }}
         run: node scripts/build-index.mjs
 
       - name: Commit regenerated index back to main
+        if: env.SKIP_BUILD != '1'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
