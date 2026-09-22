@@ -116,11 +116,13 @@ async function fetchReleaseDownloads(repo) {
     const res = await fetch("https://api.github.com/repos/" + repo + "/releases?per_page=100", { headers });
     if (!res.ok) return { ok: false, reason: "HTTP " + res.status };
     const list = await res.json();
-    let total = 0;
+    let total = 0, latestAt = "";
     for (const r of Array.isArray(list) ? list : []) {
       for (const a of Array.isArray(r.assets) ? r.assets : []) total += Number(a.download_count) || 0;
+      const at = r.published_at || r.created_at || "";
+      if (at && (!latestAt || Date.parse(at) > Date.parse(latestAt))) latestAt = at;
     }
-    return { ok: true, total };
+    return { ok: true, total, latestAt };
   } catch (e) {
     return { ok: false, reason: e && e.message ? e.message : String(e) };
   }
