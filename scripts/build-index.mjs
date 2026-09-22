@@ -49,6 +49,46 @@ function keyIdFromRaw(raw) {
   return crypto.createHash("sha256").update(raw).digest("hex").slice(0, 12);
 }
 
+/**
+ * 取默认分支最新 commit SHA。
+ * 为什么要它：jsDelivr 对「分支引用」(@main) 有最长约 12 小时缓存，作者刚发新版时
+ * 索引会抓到旧清单（实测踩过：索引里留着已删除的旧版本地址 → 用户安装 404）。
+ * 用 @<commit-sha> 是每个 commit 一个不可变地址，CDN 缓存命中的也是当前版本。
+ */
+async function fetchHeadSha(repo) {
+  const token = process.env.GH_API_TOKEN || process.env.GITHUB_TOKEN || "";
+  const headers = { "User-Agent": "EveJS-mods-index", Accept: "application/vnd.github+json" };
+  if (token) headers.Authorization = "Bearer " + token;
+  try {
+    const res = await fetch("https://api.github.com/repos/" + repo + "/commits?per_page=1", {
+      headers,
+      signal: AbortSignal.timeout(FETCH_TIMEOUT_MS)
+    });
+    if (!res.ok) return "";
+    const list = await res.json();
+    return Array.isArray(list) && list[0] && typeof list[0].sha === "string" ? list[0].sha : "";
+  } catch {
+    return "";
+  }
+}
+
+/** 兜底：直接问 GitHub API 要清单内容（完全无 CDN 缓存） */
+async function fetchListingViaApi(repo) {
+  const token = process.env.GH_API_TOKEN || process.env.GITHUB_TOKEN || "";
+  const headers = { "User-Agent": "EveJS-mods-index", Accept: "application/vnd.github.raw" };
+  if (token) headers.Authorization = "Bearer " + token;
+  try {
+    const res = await fetch("https://api.github.com/repos/" + repo + "/contents/" + LISTING_NAME, {
+      headers,
+      signal: AbortSignal.timeout(FETCH_TIMEOUT_MS)
+    });
+    if (!res.ok) return { ok: false, reason: "HTTP " + res.status };
+    return { ok: true, data: JSON.parse(await res.text()) };
+  } catch (e) {
+    return { ok: false, reason: e && e.message ? e.message : String(e) };
+  }
+}
+
 async function fetchJson(url) {
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
@@ -180,13 +220,21 @@ for (const repo of sources) {
     moderationLog[repo] = { source: repo, action: "reject", reason: reasonsOf(srcRule), at: srcRule.at || "", by: srcRule.by || "" };
     continue;
   }
-  // 多镜像：raw 最及时；jsDelivr 是 CDN（国内可达性明显更好，但分支缓存最长约 12h）；github.com/raw 兜底
+  // 多镜像候选（顺序 = 新鲜度）：
+  //   1) raw 直连 + 时间戳（raw 本身不走 CDN，时间戳再挡一层代理缓存）
+  //   2) jsDelivr 用 @<commit-sha>（不可变引用，**不会**命中 @main 的 12h 分支缓存）
+  //   3) jsDelivr @main（国内可达性好，但可能是旧的）
+  //   4) github.com/raw 兜底
+  const headSha = await fetchHeadSha(repo);
+  const stamp = Date.now();
   const candidates = [
-    "https://raw.githubusercontent.com/" + repo + "/HEAD/" + LISTING_NAME,
+    "https://raw.githubusercontent.com/" + repo + "/HEAD/" + LISTING_NAME + "?t=" + stamp,
+    ...(headSha ? ["https://cdn.jsdelivr.net/gh/" + repo + "@" + headSha + "/" + LISTING_NAME] : []),
     "https://cdn.jsdelivr.net/gh/" + repo + "@main/" + LISTING_NAME,
-    "https://github.com/" + repo + "/raw/HEAD/" + LISTING_NAME
+    "https://github.com/" + repo + "/raw/HEAD/" + LISTING_NAME + "?t=" + stamp
   ];
   let entry = null;
+  let entrySource = "";
   const failures = [];
   const local = LOCAL_LISTINGS.find((l) => l.repo === repo.toLowerCase());
   if (local) {
@@ -200,14 +248,32 @@ for (const repo of sources) {
   }
   for (const url of entry ? [] : candidates) {
     const res = await fetchJson(url);
-    if (res.ok && res.data && typeof res.data === "object") { entry = res.data; break; }
+    if (res.ok && res.data && typeof res.data === "object") { entry = res.data; entrySource = url; break; }
     failures.push(url.replace(/^https:\/\//, "").split("/").slice(0, 1)[0] + "→" + (res.reason || "失败"));
+  }
+  if (!entry) {
+    // 兜底：直接问 GitHub API（无 CDN 缓存），CI 里有 GITHUB_TOKEN
+    const viaApi = await fetchListingViaApi(repo);
+    if (viaApi.ok && viaApi.data && typeof viaApi.data === "object") {
+      entry = viaApi.data;
+      entrySource = "api.github.com/contents";
+      console.log("（API 兜底）" + repo + " ← api.github.com contents");
+    } else {
+      failures.push("api→" + (viaApi.reason || "失败"));
+    }
   }
   if (!entry) {
     rejected.push({ repo, reason: "抓不到 " + LISTING_NAME + "（" + failures.join("；") + "）" });
     continue;
   }
   if (!entry || typeof entry !== "object") { rejected.push({ repo, reason: "不是 JSON 对象" }); continue; }
+  if (entrySource) {
+    const label = entrySource.includes("/" + (entrySource.match(/@([0-9a-f]{7,40})\//) || [, ""])[1]) && entrySource.includes("jsdelivr")
+      ? "jsDelivr@commit"
+      : entrySource.includes("jsdelivr") ? "jsDelivr@main"
+      : entrySource.includes("raw.githubusercontent") ? "raw(带时间戳)" : "github raw";
+    console.log("  " + repo + " 清单来源：" + label + "（v" + String(entry.version || "?") + "）");
+  }
   const id = typeof entry.id === "string" ? entry.id.trim() : "";
   const version = typeof entry.version === "string" ? entry.version.trim() : "";
   const sha256 = typeof entry.sha256 === "string" ? entry.sha256.trim().toLowerCase() : "";

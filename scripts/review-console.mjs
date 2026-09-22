@@ -287,6 +287,9 @@ function finish(log, action, target, zh) {
         .map((e) => String(e.target || ""));
     })();
     log.push("$ node scripts/build-index.mjs（用 .keys/index.key 签名）");
+    const nodeFlags = process.allowedNodeEnvironmentFlags && process.allowedNodeEnvironmentFlags.has("--use-system-ca")
+      ? ["--use-system-ca"]
+      : [];
     const res = spawnSync(process.execPath, ["scripts/build-index.mjs"], {
       cwd: ROOT,
       encoding: "utf8",

@@ -377,3 +377,9 @@ git add -A && git commit -m "chore(index): moderation" && git push
 | `reject` | 条目被丢弃，只留在 `moderation` 表 | 不出现 | 红标「已拒绝收录」+ 原因 |
 
 > 审核是**索引层**的动作：ZIP 始终在作者自己的仓库里，你只决定它在市场里可见还是不可见。
+
+> ⚠️ **Windows 上跑构建请加 `--use-system-ca`**：
+> `node --use-system-ca scripts/build-index.mjs`
+> 不加的话，Node 不信任系统证书，`raw.githubusercontent.com` 与 `api.github.com` 会连接失败，
+> 构建只能退回 **jsDelivr 的 `@main` 分支缓存**（最长 12 小时），于是索引里可能留下**旧版本**的下载地址 ——
+> 作者发了新版、删了旧 Release 之后，用户安装就会 404。审核台的「重新构建签名索引并推送」已经自动带上这个参数。
