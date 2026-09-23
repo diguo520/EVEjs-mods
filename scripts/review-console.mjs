@@ -18,6 +18,7 @@ import fs from "node:fs";
 import path from "node:path";
 import http from "node:http";
 import { execFileSync, spawnSync } from "node:child_process";
+import os from "node:os";
 
 const ROOT = process.cwd();
 const PORT = (() => {
@@ -286,7 +287,7 @@ function finish(log, action, target, zh) {
       const files = changed.ok
         ? changed.out.split("\n").map((l) => l.slice(3).trim()).filter(Boolean).map((f) => f.replace(/^"|"$/g, ""))
         : [];
-      const backupDir = fs.mkdtempSync(path.join(require("os").tmpdir(), "eve-review-backup-"));
+      const backupDir = fs.mkdtempSync(path.join(os.tmpdir(), "eve-review-backup-"));
       const saved = [];
       for (const f of files) {
         if (skip.has(f)) continue;
