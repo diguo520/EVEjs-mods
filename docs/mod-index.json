@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-09-22T20:37:43.193Z",
+  "publishedAt": "2026-09-23T02:17:37.471Z",
   "mods": [
     {
       "id": "evejs-autolockfire",
@@ -41,7 +41,7 @@
       "delisted": false,
       "publishedAt": "2026-09-22",
       "source": "diguo520/evejs-mod-evejs-autolockfire",
-      "downloads": 11
+      "downloads": 21
     },
     {
       "id": "evejs-cntext-fix",
@@ -80,7 +80,7 @@
       "delisted": false,
       "publishedAt": "2026-09-22",
       "source": "diguo520/evejs-mod-evejs-cntext-fix",
-      "downloads": 12
+      "downloads": 13
     }
   ],
   "moderation": {
@@ -100,7 +100,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "gah9AEzfeq1DEYEvy3xAftk1D8DKpBV9fkbH8FeMvJcLcIZ+PT4OGtJHuQqtuhpJHv4RiV0/VgT8N81BnfiqBQ==",
-    "signedAt": "2026-09-22T20:37:43.195Z"
+    "sig": "z4VnOsjehF8HpcUe/RptsaxoJsqTPjMIIZ/I6//k5AkJakmoK7md7jJ98401oHi4xD1XBLR1Os/lo4R2K3IXCg==",
+    "signedAt": "2026-09-23T02:17:37.473Z"
   }
 }
