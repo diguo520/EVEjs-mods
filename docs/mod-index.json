@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-09-23T02:17:37.471Z",
+  "publishedAt": "2026-09-23T07:20:36.840Z",
   "mods": [
     {
       "id": "evejs-autolockfire",
@@ -41,7 +41,7 @@
       "delisted": false,
       "publishedAt": "2026-09-22",
       "source": "diguo520/evejs-mod-evejs-autolockfire",
-      "downloads": 21
+      "downloads": 23
     },
     {
       "id": "evejs-cntext-fix",
@@ -80,27 +80,13 @@
       "delisted": false,
       "publishedAt": "2026-09-22",
       "source": "diguo520/evejs-mod-evejs-cntext-fix",
-      "downloads": 13
+      "downloads": 15
     }
   ],
-  "moderation": {
-    "welcome-mod": {
-      "id": "welcome-mod",
-      "source": "diguo520/evejs-mod-welcome-mod",
-      "authorId": "au-mubd7h45x3e1",
-      "action": "reject",
-      "reason": {
-        "zh": "请修改重新提交不符合EVEJSMOD生态",
-        "en": "请修改重新提交不符合EVEJSMOD生态"
-      },
-      "at": "2026-09-21T22:59:28.193Z",
-      "by": "diguo520"
-    }
-  },
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "z4VnOsjehF8HpcUe/RptsaxoJsqTPjMIIZ/I6//k5AkJakmoK7md7jJ98401oHi4xD1XBLR1Os/lo4R2K3IXCg==",
-    "signedAt": "2026-09-23T02:17:37.473Z"
+    "sig": "GL1yBMdgjRygCrGU6+0h1Pg9RYfTB3zseBjpFw+Z9QJkdvKj86l7oMJ1F16FzS9vfLUu2Mar2maWK02i/tbSAg==",
+    "signedAt": "2026-09-23T07:20:36.842Z"
   }
 }
