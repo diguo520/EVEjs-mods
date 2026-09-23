@@ -1,16 +1,27 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-21T22:59:28.193Z",
+  "updatedAt": "2026-09-23T07:32:50.965Z",
   "entries": [
     {
       "target": "welcome-mod",
       "kind": "id",
       "action": "reject",
       "reason": {
-        "zh": "请修改重新提交不符合EVEJSMOD生态",
-        "en": "请修改重新提交不符合EVEJSMOD生态"
+        "zh": "请修改重新提交，不符合 EVEJS MOD 生态",
+        "en": "Please revise and resubmit: this mod does not fit the EVEJS mod ecosystem"
       },
       "at": "2026-09-21T22:59:28.193Z",
+      "by": "diguo520"
+    },
+    {
+      "target": "mod-mudnca8r",
+      "kind": "id",
+      "action": "reject",
+      "reason": {
+        "zh": "拒绝上架测试，MATA 字段不合法",
+        "en": "Listing rejected for testing: the MATA field is invalid"
+      },
+      "at": "2026-09-23T07:32:50.965Z",
       "by": "diguo520"
     }
   ]
