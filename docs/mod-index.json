@@ -1,87 +1,7 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-09-23T08:23:26.582Z",
+  "publishedAt": "2026-09-23T10:25:47.352Z",
   "mods": [
-    {
-      "id": "mod-mudnca8r",
-      "displayName": "停止加载未激活星系-优化",
-      "version": "1.0.1",
-      "author": {
-        "id": "au-mudmecyg0d13",
-        "name": "igottgo",
-        "keyId": "5e0e77f4946d"
-      },
-      "description": "节省大量服务器资源",
-      "category": "工具",
-      "tags": [
-        "优化"
-      ],
-      "readme": [],
-      "highlights": [],
-      "conflicts": [],
-      "requiresRestart": true,
-      "evejsVersions": [
-        "0.12.8"
-      ],
-      "sizeBytes": 2430,
-      "sha256": "f4da31fdfe1b782bfc8ac610e6f8dbf220bae5f2598a379198d97676a65e6e51",
-      "downloadUrls": [
-        {
-          "mirror": "github",
-          "url": "https://github.com/igottgo/evejs-mod-mod-mudnca8r/releases/download/v1.0.1/mod-mudnca8r-1.0.1.zip",
-          "priority": 1
-        }
-      ],
-      "changelog": "优化",
-      "history": [],
-      "repo": "https://github.com/igottgo/evejs-mod-mod-mudnca8r",
-      "featured": false,
-      "delisted": false,
-      "publishedAt": "2026-09-23",
-      "source": "igottgo/evejs-mod-mod-mudnca8r",
-      "downloads": 0,
-      "cdnHits": 0
-    },
-    {
-      "id": "evejs-cntext-fix",
-      "displayName": "中文文本修复 (CN Text Fix)",
-      "version": "1.0.3",
-      "author": {
-        "id": "au-mubd7h45x3e1",
-        "name": "波坤太叔",
-        "keyId": "691df6c7d2cd"
-      },
-      "description": "修复游戏内取中文字符在客户端显示为乱码，以及角色/舰船/建筑/物品的中文名被换成 Ship/Item/Structure <id> 的问题。但改为在内存中生效：不修改 server/ 和客户端任何文件。",
-      "category": "工具",
-      "tags": [
-        "语言"
-      ],
-      "readme": [],
-      "highlights": [],
-      "conflicts": [],
-      "requiresRestart": true,
-      "evejsVersions": [
-        "0.12.8"
-      ],
-      "sizeBytes": 10319,
-      "sha256": "832d1763a8c8a297c8844e7f189192f79f20393312b50e039ee453af416beab6",
-      "downloadUrls": [
-        {
-          "mirror": "github",
-          "url": "https://github.com/diguo520/evejs-mod-evejs-cntext-fix/releases/download/v1.0.3/evejs-cntext-fix-1.0.3.zip",
-          "priority": 1
-        }
-      ],
-      "changelog": "角色，建筑，舰船起名可使用中文",
-      "history": [],
-      "repo": "https://github.com/diguo520/evejs-mod-evejs-cntext-fix",
-      "featured": false,
-      "delisted": false,
-      "publishedAt": "2026-09-22",
-      "source": "diguo520/evejs-mod-evejs-cntext-fix",
-      "downloads": 15,
-      "cdnHits": 0
-    },
     {
       "id": "evejs-autolockfire",
       "displayName": "EVEjs-AutoLockFire",
@@ -121,14 +41,94 @@
       "delisted": false,
       "publishedAt": "2026-09-22",
       "source": "diguo520/evejs-mod-evejs-autolockfire",
-      "downloads": 14,
+      "downloads": 15,
       "cdnHits": 9
+    },
+    {
+      "id": "evejs-cntext-fix",
+      "displayName": "中文文本修复 (CN Text Fix)",
+      "version": "1.0.3",
+      "author": {
+        "id": "au-mubd7h45x3e1",
+        "name": "波坤太叔",
+        "keyId": "691df6c7d2cd"
+      },
+      "description": "修复游戏内取中文字符在客户端显示为乱码，以及角色/舰船/建筑/物品的中文名被换成 Ship/Item/Structure <id> 的问题。但改为在内存中生效：不修改 server/ 和客户端任何文件。",
+      "category": "工具",
+      "tags": [
+        "语言"
+      ],
+      "readme": [],
+      "highlights": [],
+      "conflicts": [],
+      "requiresRestart": true,
+      "evejsVersions": [
+        "0.12.8"
+      ],
+      "sizeBytes": 10319,
+      "sha256": "832d1763a8c8a297c8844e7f189192f79f20393312b50e039ee453af416beab6",
+      "downloadUrls": [
+        {
+          "mirror": "github",
+          "url": "https://github.com/diguo520/evejs-mod-evejs-cntext-fix/releases/download/v1.0.3/evejs-cntext-fix-1.0.3.zip",
+          "priority": 1
+        }
+      ],
+      "changelog": "角色，建筑，舰船起名可使用中文",
+      "history": [],
+      "repo": "https://github.com/diguo520/evejs-mod-evejs-cntext-fix",
+      "featured": false,
+      "delisted": false,
+      "publishedAt": "2026-09-22",
+      "source": "diguo520/evejs-mod-evejs-cntext-fix",
+      "downloads": 17,
+      "cdnHits": 0
+    },
+    {
+      "id": "mod-mudnca8r",
+      "displayName": "停止加载未激活星系-优化",
+      "version": "1.0.1",
+      "author": {
+        "id": "au-mudmecyg0d13",
+        "name": "igottgo",
+        "keyId": "5e0e77f4946d"
+      },
+      "description": "节省大量服务器资源",
+      "category": "工具",
+      "tags": [
+        "优化"
+      ],
+      "readme": [],
+      "highlights": [],
+      "conflicts": [],
+      "requiresRestart": true,
+      "evejsVersions": [
+        "0.12.8"
+      ],
+      "sizeBytes": 2430,
+      "sha256": "f4da31fdfe1b782bfc8ac610e6f8dbf220bae5f2598a379198d97676a65e6e51",
+      "downloadUrls": [
+        {
+          "mirror": "github",
+          "url": "https://github.com/igottgo/evejs-mod-mod-mudnca8r/releases/download/v1.0.1/mod-mudnca8r-1.0.1.zip",
+          "priority": 1
+        }
+      ],
+      "changelog": "优化",
+      "history": [],
+      "repo": "https://github.com/igottgo/evejs-mod-mod-mudnca8r",
+      "featured": false,
+      "delisted": false,
+      "publishedAt": "2026-09-23",
+      "source": "igottgo/evejs-mod-mod-mudnca8r",
+      "downloads": 2,
+      "cdnHits": 0
     }
   ],
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "L21bq5XGDrPK0nuEMdrfY7Krrhk3mOHgPr1fH9Aye5S4/pnBkutGR9E87WmCOIqA267siT7EiUre1nJjVmzWDg==",
-    "signedAt": "2026-09-23T08:23:26.586Z"
+    "sig": "NqijI7TlTepqO17I631TxlgSeX1nt1d40wx7wH0Bxg1SANQs6RQEm9PgYuimlS0Q55V0ZuFef1d/zRjmZ6JqBw==",
+    "signedAt": "2026-09-23T10:25:47.354Z"
   }
 }
