@@ -314,10 +314,13 @@ for (const repo of sources) {
   const cdn = await fetchJsdelivrHits(repo);
   const withDl = { ...entry, source: repo, downloadUrls: usable };
   if (dl.ok || cdn.ok) {
-    // Release 资产与 jsDelivr CDN 是两条互不重叠的下载通道，相加即为总下载量
-    withDl.downloads = (dl.ok ? dl.total : 0) + (cdn.ok ? cdn.total : 0);
+    // 只统计 GitHub Release 资产的下载次数：这是作者真正发布 ZIP 的通道，一次下载=一次安装；
+    // jsDelivr 的 packages 命中数包含启动器拉 evejs-mod.json、检查更新等非下载请求，混在一起会虚高（实测 14 次安装被算成 23）。
+    // 因此它只作为参考值存进 cdnHits，不计入下载量。
+    if (dl.ok) withDl.downloads = dl.total;   // 统计不到就留空（前端显示 —），不写 0 误导作者
+    if (cdn.ok) withDl.cdnHits = cdn.total;
     console.log("  " + id + "：下载 " + withDl.downloads + " 次（Release " + (dl.ok ? dl.total : "未统计") +
-      " + jsDelivr " + (cdn.ok ? cdn.total : "未统计") + "）");
+      (cdn.ok ? "；jsDelivr 命中 " + cdn.total + " 次（含检查更新，不计入下载）" : "") + "）");
   } else {
     console.log("  " + id + "：下载次数未统计（Release: " + dl.reason + " / jsDelivr: " + cdn.reason + "）");
   }
