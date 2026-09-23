@@ -1,7 +1,6 @@
 {
   "schemaVersion": 1,
   "sources": [
-    "diguo520/evejs-mod-welcome-mod",
     "diguo520/evejs-mod-evejs-cntext-fix",
     "diguo520/evejs-mod-evejs-autolockfire"
   ]
