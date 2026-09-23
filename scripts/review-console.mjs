@@ -269,6 +269,51 @@ function finish(log, action, target, zh) {
   // 2) 本地重建 + 签名索引（CI 的签名密钥没配好时，这一步是必须的）
   if (fs.existsSync(KEY_FILE) && !DRY) {
     const pem = fs.readFileSync(KEY_FILE, "utf8");
+
+    const alignWithRemote = () => {
+      log.push("$ git fetch origin main");
+      const fetched = runGit(["fetch", "origin", "main"]);
+      if (fetched.out) log.push(fetched.out);
+      if (!fetched.ok) {
+        log.push("  ✗ 取不到远端最新提交，已停止（没有提交）");
+        return false;
+      }
+      // docs/mod-index.json 是生成物（带时间戳+签名），CI 每 6 小时也会重建并提交，
+      // 两边各自重建再 rebase 必然 CONFLICT。做法：把本次改动暂存到临时目录 → 硬对齐 origin/main →
+      // 只把【源文件】放回来（生成物保持远端版本），随后由 build-index 重新生成索引。
+      const skip = new Set(["docs/mod-index.json"]);
+      const changed = runGit(["status", "--porcelain"]);
+      const files = changed.ok
+        ? changed.out.split("\n").map((l) => l.slice(3).trim()).filter(Boolean).map((f) => f.replace(/^"|"$/g, ""))
+        : [];
+      const backupDir = fs.mkdtempSync(path.join(require("os").tmpdir(), "eve-review-backup-"));
+      const saved = [];
+      for (const f of files) {
+        if (skip.has(f)) continue;
+        const src = path.join(ROOT, f);
+        if (!fs.existsSync(src) || !fs.statSync(src).isFile()) continue;
+        const dst = path.join(backupDir, f.replace(/[\\/]/g, "__"));
+        fs.copyFileSync(src, dst);
+        saved.push({ f, dst });
+      }
+      log.push("$ git reset --hard origin/main（先备份本次 " + saved.length + " 个源文件）");
+      const reset = runGit(["reset", "--hard", "origin/main"]);
+      if (reset.out) log.push(reset.out);
+      if (!reset.ok) {
+        log.push("  ✗ 对齐远端失败，已停止（没有提交）");
+        return false;
+      }
+      for (const item of saved) {
+        const target = path.join(ROOT, item.f);
+        fs.mkdirSync(path.dirname(target), { recursive: true });
+        fs.copyFileSync(item.dst, target);
+      }
+      try { fs.rmSync(backupDir, { recursive: true, force: true }); } catch { /* 临时目录清不掉也不影响 */ }
+      log.push("  ✓ 已对齐 origin/main，并把 " + saved.length + " 个源文件放回工作区（生成物留给远端）");
+      return true;
+    };
+
+    if (!alignWithRemote()) return { ok: false, log };
     // 重建前的索引条目（带 source，用来判断“丢了模组”是不是因为来源被你主动移除）
     const beforeMods = (() => {
       const j = readJson(INDEX_FILE, { mods: [] });
