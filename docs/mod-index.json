@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-09-24T20:54:29.207Z",
+  "publishedAt": "2026-09-25T02:21:48.981Z",
   "mods": [
     {
       "id": "evejs-autolockfire",
@@ -42,7 +42,7 @@
       "publishedAt": "2026-09-22",
       "source": "diguo520/evejs-mod-evejs-autolockfire",
       "downloads": 37,
-      "cdnHits": 26
+      "cdnHits": 51
     },
     {
       "id": "evejs-automining",
@@ -84,7 +84,7 @@
       "publishedAt": "2026-09-23",
       "source": "diguo520/evejs-mod-evejs-automining",
       "downloads": 14,
-      "cdnHits": 0
+      "cdnHits": 4
     },
     {
       "id": "evejs-cntext-fix",
@@ -124,7 +124,7 @@
       "publishedAt": "2026-09-22",
       "source": "diguo520/evejs-mod-evejs-cntext-fix",
       "downloads": 32,
-      "cdnHits": 24
+      "cdnHits": 52
     },
     {
       "id": "mod-mudnca8r",
@@ -164,13 +164,13 @@
       "publishedAt": "2026-09-23",
       "source": "igottgo/evejs-mod-mod-mudnca8r",
       "downloads": 31,
-      "cdnHits": 0
+      "cdnHits": 25
     }
   ],
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "4EJUygr3kvIWfc7zoFWUijUGzqlilBJte0OrVAO8ZtRttktLXZuDljdPWtd4CGrxFa90WTNdMCAXkVvj8Mi/AA==",
-    "signedAt": "2026-09-24T20:54:29.210Z"
+    "sig": "DmGTNNUs4Y9/bDopGGbO3yxZabL17LDSnJzXmfRLg7f/8qcRTxgL4DIKhfyngC/90M080KJuAgU02PiFoLuoBQ==",
+    "signedAt": "2026-09-25T02:21:48.984Z"
   }
 }
