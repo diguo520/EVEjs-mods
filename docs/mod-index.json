@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-09-26T10:28:25.878Z",
+  "publishedAt": "2026-09-26T13:06:12.198Z",
   "mods": [
     {
       "id": "evejs-autolockfire",
@@ -87,6 +87,52 @@
       "cdnHits": 4
     },
     {
+      "id": "evejs-sleeper-drifters",
+      "displayName": "Sleeper & Drifter Playable Ships",
+      "version": "1.4.2",
+      "author": {
+        "id": "au-mueakz9fwyt6",
+        "name": "橘子",
+        "keyId": "bad8165273ee"
+      },
+      "description": "Adds native playable Sleeper and Drifter hulls with independent player type IDs, 8/8/8/3 slots, Lux Lance weapons, and a dedicated Drifter doomsday. The server automatically verifies and repairs local client resources on every start and logs the selected client path.",
+      "category": "玩法",
+      "tags": [
+        "sleeper",
+        "drifter",
+        "ships",
+        "weapons",
+        "ammo"
+      ],
+      "readme": [
+        "本模组包含服务端加载器、客户端 FSD 数据、服务端静态表和安装器。目标是让玩家使用根据原版流浪者冬眠者舰船添加的模组舰船。"
+      ],
+      "highlights": [],
+      "conflicts": [],
+      "requiresRestart": true,
+      "evejsVersions": [
+        "0.12.8"
+      ],
+      "sizeBytes": 83683735,
+      "sha256": "0cb62c7395512e1bd9e81d3105f938671f5644a93099e256576d8398c84227eb",
+      "downloadUrls": [
+        {
+          "mirror": "github",
+          "url": "https://github.com/JUZIMandarin/evejs-mod-evejs-sleeper-drifters/releases/download/v1.4.2/evejs-sleeper-drifters-1.4.2.zip",
+          "priority": 1
+        }
+      ],
+      "changelog": "",
+      "history": [],
+      "repo": "https://github.com/JUZIMandarin/evejs-mod-evejs-sleeper-drifters",
+      "featured": false,
+      "delisted": false,
+      "publishedAt": "2026-09-26",
+      "source": "JUZIMandarin/evejs-mod-evejs-sleeper-drifters",
+      "downloads": 0,
+      "cdnHits": 0
+    },
+    {
       "id": "evejs-cntext-fix",
       "displayName": "中文文本修复 (CN Text Fix)",
       "version": "1.0.3",
@@ -123,14 +169,14 @@
       "delisted": false,
       "publishedAt": "2026-09-22",
       "source": "diguo520/evejs-mod-evejs-cntext-fix",
-      "downloads": 40,
+      "downloads": 41,
       "cdnHits": 52
     }
   ],
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "X6vm2nGReHTQnOeqXJ36QmrRm9Ej0ykjb1dA0JEb9xPc1cD8NFSP2YOC9A8dyfefuipvbc2q0yDxDZkPul+GDw==",
-    "signedAt": "2026-09-26T10:28:25.881Z"
+    "sig": "G0SwxgmWEg9K/emr1oQdwq2Zl99NGac9zGZxZgtokqkc54NQpoX4RlyyL11KY4DgrVL+XfwA6vpdj4TKII15BA==",
+    "signedAt": "2026-09-26T13:06:12.201Z"
   }
 }
