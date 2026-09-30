@@ -1,0 +1,23 @@
+{
+  "author": {
+    "id": "au-mueakz9fwyt6",
+    "keyId": "bad8165273ee",
+    "name": "橘子"
+  },
+  "displayName": "Empty Upload Test",
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/JUZIMandarin/evejs-mod-evejs-empty-upload-test/releases/download/v1.0.0/evejs-empty-upload-test-1.0.0.zip"
+    }
+  ],
+  "id": "evejs-empty-upload-test",
+  "publishedAt": "2026-09-30",
+  "schemaVersion": 1,
+  "sha256": "70dc061ab97307c3fa548cca3293c0ffdc4e4738fb4f7655676b30473d253914",
+  "sizeBytes": 1498,
+  "source": "JUZIMandarin/evejs-mod-evejs-empty-upload-test",
+  "submittedAt": "2026-09-30T04:03:15.626Z",
+  "version": "1.0.0"
+}
