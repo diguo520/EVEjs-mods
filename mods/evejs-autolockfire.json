@@ -1,0 +1,23 @@
+{
+  "author": {
+    "id": "au-muk52dvb6mve",
+    "keyId": "1382094598d9",
+    "name": "波坤太叔"
+  },
+  "displayName": "EVEjs-AutoLockFire",
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/diguo520/evejs-mod-evejs-autolockfire/releases/download/v1.0.5/evejs-autolockfire-1.0.5.zip"
+    }
+  ],
+  "id": "evejs-autolockfire",
+  "publishedAt": "2026-09-30",
+  "schemaVersion": 1,
+  "sha256": "51f6daeea2782cc906317b3245c601adbbf59c8eae84389de59a33fbc16144e7",
+  "sizeBytes": 51726,
+  "source": "diguo520/evejs-mod-evejs-autolockfire",
+  "submittedAt": "2026-09-30T13:16:39.347Z",
+  "version": "1.0.5"
+}
