@@ -1,0 +1,23 @@
+{
+  "author": {
+    "id": "au-muuy8xmc62sr",
+    "keyId": "f163b59ae080",
+    "name": "sleephah"
+  },
+  "displayName": "evejs-hacking-suite-1.0.3",
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/guihaitianyi-cmd/evejs-mod-evejs-evejs-hacking-suite-1-0-3/releases/download/v1.0.3/evejs-evejs-hacking-suite-1-0-3-1.0.3.zip"
+    }
+  ],
+  "id": "evejs-evejs-hacking-suite-1-0-3",
+  "publishedAt": "2026-10-05",
+  "schemaVersion": 1,
+  "sha256": "6c8e29828007eef55b11937be635067671af8c508a86717b83bc60f7e9b6abca",
+  "sizeBytes": 36217,
+  "source": "guihaitianyi-cmd/evejs-mod-evejs-evejs-hacking-suite-1-0-3",
+  "submittedAt": "2026-10-05T12:06:36.109Z",
+  "version": "1.0.3"
+}
