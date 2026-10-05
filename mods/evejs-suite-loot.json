@@ -1,0 +1,23 @@
+{
+  "author": {
+    "id": "au-mumlvhn7zooq",
+    "keyId": "5130f2c97ae0",
+    "name": "sleephah"
+  },
+  "displayName": "掉落套件（4 合一）",
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/guihaitianyi-cmd/evejs-mod-evejs-suite-loot/releases/download/v1.0.0/evejs-suite-loot-1.0.0.zip"
+    }
+  ],
+  "id": "evejs-suite-loot",
+  "publishedAt": "2026-10-05",
+  "schemaVersion": 1,
+  "sha256": "46bd5d82a0e07ce6fd57a41b3e4e0558d9ae1b263969423a6552c0be35c91cd6",
+  "sizeBytes": 3252,
+  "source": "guihaitianyi-cmd/evejs-mod-evejs-suite-loot",
+  "submittedAt": "2026-10-05T08:13:16.296Z",
+  "version": "1.0.0"
+}
