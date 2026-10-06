@@ -1,0 +1,23 @@
+{
+  "author": {
+    "id": "au-mujkaep5shgv",
+    "keyId": "2792fbac9b88",
+    "name": "xuenai"
+  },
+  "displayName": "NPC 舰队模板（整队生成 / 阵型 / 整队跃迁）",
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/xuenaimiao/evejs-mod-evejs-npc-fleet/releases/download/v0.1.0/evejs-npc-fleet-0.1.0.zip"
+    }
+  ],
+  "id": "evejs-npc-fleet",
+  "publishedAt": "2026-10-06",
+  "schemaVersion": 1,
+  "sha256": "e9a11a8fce8b343f0adff7a1b3c3161814b1969d49057d7aa5be7a1cb8b8213b",
+  "sizeBytes": 53499,
+  "source": "xuenaimiao/evejs-mod-evejs-npc-fleet",
+  "submittedAt": "2026-10-06T12:07:33.742Z",
+  "version": "0.1.0"
+}
