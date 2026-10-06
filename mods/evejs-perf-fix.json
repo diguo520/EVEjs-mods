@@ -9,15 +9,15 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/xuenaimiao/evejs-mod-evejs-perf-fix/releases/download/v0.2.0/evejs-perf-fix-0.2.0.zip"
+      "url": "https://github.com/xuenaimiao/evejs-mod-evejs-perf-fix/releases/download/v0.2.1/evejs-perf-fix-0.2.1.zip"
     }
   ],
   "id": "evejs-perf-fix",
   "publishedAt": "2026-10-06",
   "schemaVersion": 1,
-  "sha256": "21bd34f59d6bcbaa006bacd5a745aea23dee9dc92959e844e4e11e625cc75114",
-  "sizeBytes": 153030,
+  "sha256": "2b4ced985e07606ce43fc78d1920de03bdbf7689344e7283feaa28d277ea813b",
+  "sizeBytes": 155422,
   "source": "xuenaimiao/evejs-mod-evejs-perf-fix",
-  "submittedAt": "2026-10-06T12:13:19.305Z",
-  "version": "0.2.0"
+  "submittedAt": "2026-10-06T17:23:31.986Z",
+  "version": "0.2.1"
 }
