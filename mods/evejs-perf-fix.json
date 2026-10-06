@@ -1,0 +1,23 @@
+{
+  "author": {
+    "id": "au-mujkaep5shgv",
+    "keyId": "2792fbac9b88",
+    "name": "xuenai"
+  },
+  "displayName": "性能修复（移动推演 / 锁定扫描 / NPC 存储 / 刷怪规则 / 击毁 / 跃迁）",
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/xuenaimiao/evejs-mod-evejs-perf-fix/releases/download/v0.2.0/evejs-perf-fix-0.2.0.zip"
+    }
+  ],
+  "id": "evejs-perf-fix",
+  "publishedAt": "2026-10-06",
+  "schemaVersion": 1,
+  "sha256": "21bd34f59d6bcbaa006bacd5a745aea23dee9dc92959e844e4e11e625cc75114",
+  "sizeBytes": 153030,
+  "source": "xuenaimiao/evejs-mod-evejs-perf-fix",
+  "submittedAt": "2026-10-06T12:13:19.305Z",
+  "version": "0.2.0"
+}
