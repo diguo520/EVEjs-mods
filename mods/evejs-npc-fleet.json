@@ -9,15 +9,15 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/xuenaimiao/evejs-mod-evejs-npc-fleet/releases/download/v0.1.1/evejs-npc-fleet-0.1.1.zip"
+      "url": "https://github.com/xuenaimiao/evejs-mod-evejs-npc-fleet/releases/download/v0.2.0/evejs-npc-fleet-0.2.0.zip"
     }
   ],
   "id": "evejs-npc-fleet",
-  "publishedAt": "2026-10-06",
+  "publishedAt": "2026-10-09",
   "schemaVersion": 1,
-  "sha256": "118d71b65ea42fdd73866c10ec9d7b0edc8f5f22af154e2b3c8774071c87225c",
-  "sizeBytes": 55882,
+  "sha256": "f37db1553447e37a2bed3575404ef659157f46658529aa9680dc9f0af0d7e111",
+  "sizeBytes": 68124,
   "source": "xuenaimiao/evejs-mod-evejs-npc-fleet",
-  "submittedAt": "2026-10-06T17:18:54.694Z",
-  "version": "0.1.1"
+  "submittedAt": "2026-10-09T11:44:13.008Z",
+  "version": "0.2.0"
 }
