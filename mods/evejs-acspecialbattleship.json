@@ -9,15 +9,15 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/Jasper377/evejs-mod-evejs-acspecialbattleship/releases/download/v1.0/evejs-acspecialbattleship-1.0.zip"
+      "url": "https://github.com/Jasper377/evejs-mod-evejs-acspecialbattleship/releases/download/v1.1/evejs-acspecialbattleship-1.1.zip"
     }
   ],
   "id": "evejs-acspecialbattleship",
   "publishedAt": "2026-10-09",
   "schemaVersion": 1,
-  "sha256": "926613af1639a1efd23df59b6ed9548e36fd0d0e29fd5fd75ea164b766172d07",
-  "sizeBytes": 14071,
+  "sha256": "622c16304fe5bbbf92d84d14d1b6315e5e8e1b450438db20b8c325ef55b6b62a",
+  "sizeBytes": 20662,
   "source": "Jasper377/evejs-mod-evejs-acspecialbattleship",
-  "submittedAt": "2026-10-09T13:12:36.066Z",
-  "version": "1.0"
+  "submittedAt": "2026-10-09T14:38:08.098Z",
+  "version": "1.1"
 }
