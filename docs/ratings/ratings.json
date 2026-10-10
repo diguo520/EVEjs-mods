@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1791648046647,
+  "generatedAt": 1791663644453,
   "mods": {
     "evejs-autolockfire": {
       "average": 5,
@@ -16,6 +16,18 @@
     },
     "evejs-automining": {
       "average": 5,
+      "count": 3,
+      "withText": 2,
+      "histogram": [
+        0,
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "evejs-faction-sim": {
+      "average": 5,
       "count": 2,
       "withText": 1,
       "histogram": [
@@ -24,18 +36,6 @@
         0,
         0,
         2
-      ]
-    },
-    "evejs-faction-sim": {
-      "average": 5,
-      "count": 1,
-      "withText": 1,
-      "histogram": [
-        0,
-        0,
-        0,
-        0,
-        1
       ]
     },
     "evejs-npc-fleet": {
@@ -66,6 +66,6 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "evejs-ratings-2026-10-01",
-    "sig": "JtKi9w7Bo+BCCxHFFvwlctcVoaShbeitrlORbFWWhsIFMIPdiZ+Fq9r7rEQzqFS7xjra1TidSv6sru1cHcwgBA=="
+    "sig": "Zf+itKh4NGThqYj1OX5yywLMLZ7WC0rccFh9dZQMX0MGfs2FxW8/EKquZEeuIfEwAuMMWRxWGWYfHZcdhB/tDQ=="
   }
 }

@@ -1,8 +1,20 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1791648046647,
+  "generatedAt": 1791663644453,
   "modId": "evejs-automining",
   "reviews": [
+    {
+      "id": "rv-1791652767845-11808",
+      "keyId": "d05a48a3fa5e",
+      "author": "",
+      "corp": "",
+      "country": "CN",
+      "stars": 5,
+      "version": "1.0.14",
+      "date": "2026-10-10",
+      "body": "获取不到空间站 是怎么说呢  不管是输入id 还是 直接进空间站获取当前空间站 都不行",
+      "edited": false
+    },
     {
       "id": "rv-1791373611689-8000",
       "keyId": "be5406f98fa8",
@@ -36,6 +48,6 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "evejs-ratings-2026-10-01",
-    "sig": "Q13ASNGh+fLPh9dSw8mTS4Q3hRCEshbfMPYWIKGHgbV0eY9X891rWl4Y9PpMzrT5AEXVJvBzlHEihWP+/DgwCg=="
+    "sig": "DbR3LkEoREPkdOrPuMPAC99ZfcXS/hjYTcAZx7KadNHIUpuuQpk2x6WVChBmE6scv88LgIoeOZ9Qd2/K1jTBCg=="
   }
 }

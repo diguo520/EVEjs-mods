@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1791648046647,
+  "generatedAt": 1791663644453,
   "modId": "evejs-autolockfire",
   "reviews": [
     {
@@ -19,6 +19,6 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "evejs-ratings-2026-10-01",
-    "sig": "fzNfnT5maZ65UBzJXb1W0xeIOIXs+S5XPNQNPOkLW1GPKwv0tgsuRHYKZ/I5VUR+ST6XzxlrvXIF1RvfC/KDAw=="
+    "sig": "gQjNrc8hctf1LuFShexYA5N/boOr4fffeYCWg0SooGgI7pQ5tccsJOn2JxN6QLApWsRaRG48xjKyiFYjOt+AAA=="
   }
 }
