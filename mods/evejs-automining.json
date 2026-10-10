@@ -1,7 +1,7 @@
 {
   "author": {
-    "id": "au-muk52dvb6mve",
-    "keyId": "1382094598d9",
+    "id": "au-muvf3plbuo9n",
+    "keyId": "bc816da2a7bc",
     "name": "波坤太叔"
   },
   "displayName": "evejs-AutoMining",
@@ -9,15 +9,15 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/diguo520/evejs-mod-evejs-automining/releases/download/v1.0.10/evejs-automining-1.0.10.zip"
+      "url": "https://github.com/diguo520/evejs-mod-evejs-automining/releases/download/v1.0.14/evejs-automining-1.0.14.zip"
     }
   ],
   "id": "evejs-automining",
-  "publishedAt": "2026-09-30",
+  "publishedAt": "2026-10-10",
   "schemaVersion": 1,
-  "sha256": "2ad1f026c982a1fc30aac67e3518b93841b8fae0092b90dc73ad710cdf0f9a94",
-  "sizeBytes": 199543,
+  "sha256": "42135eacd49ee6b5f9e7f9e0df5f8dbc647bd7f9f2d3df78ece1225cd648e301",
+  "sizeBytes": 10155202,
   "source": "diguo520/evejs-mod-evejs-automining",
-  "submittedAt": "2026-09-30T15:06:27.225Z",
-  "version": "1.0.10"
+  "submittedAt": "2026-10-10T06:33:12.095Z",
+  "version": "1.0.14"
 }
