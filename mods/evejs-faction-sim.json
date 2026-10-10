@@ -2,22 +2,22 @@
   "author": {
     "id": "au-mujkaep5shgv",
     "keyId": "2792fbac9b88",
-    "name": "xuenai"
+    "name": "匿名"
   },
-  "displayName": "NPC 势力模拟（推演线程 / 机器人势力 / 面板）",
+  "displayName": "NPC 势力模拟·整合版（势力 / 舰队模板 / 性能修复 / 舰长室）",
   "downloadUrls": [
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/xuenaimiao/evejs-mod-evejs-faction-sim/releases/download/v0.3.0/evejs-faction-sim-0.3.0.zip"
+      "url": "https://github.com/xuenaimiao/evejs-mod-evejs-faction-sim/releases/download/v0.3.1/evejs-faction-sim-0.3.1.zip"
     }
   ],
   "id": "evejs-faction-sim",
-  "publishedAt": "2026-10-09",
+  "publishedAt": "2026-10-10",
   "schemaVersion": 1,
-  "sha256": "2880787a7e95de128f94cafa8697595a8cfc3ad1adba3eade0245ad802e45c8b",
-  "sizeBytes": 6687859,
+  "sha256": "7093a922b6ee07999ca8e50c33bd652631b1182b53e837a1f4945a529579b3a0",
+  "sizeBytes": 9274708,
   "source": "xuenaimiao/evejs-mod-evejs-faction-sim",
-  "submittedAt": "2026-10-09T11:42:12.374Z",
-  "version": "0.3.0"
+  "submittedAt": "2026-10-10T01:36:16.358Z",
+  "version": "0.3.1"
 }
