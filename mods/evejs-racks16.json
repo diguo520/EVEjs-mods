@@ -9,15 +9,15 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/Jasper377/evejs-mod-evejs-racks16/releases/download/v3.1.0/evejs-racks16-3.1.0.zip"
+      "url": "https://github.com/Jasper377/evejs-mod-evejs-racks16/releases/download/v3.1.2/evejs-racks16-3.1.2.zip"
     }
   ],
   "id": "evejs-racks16",
   "publishedAt": "2026-10-10",
   "schemaVersion": 1,
-  "sha256": "bcec4f82ac9040f0ea01c33a7f62926ea3f0cb74f69dc33e203499f7a76a2e3c",
-  "sizeBytes": 223396,
+  "sha256": "ba52b119e7831f8ac827fdd8be9268b5a91a0386d4502c9f8a9c1c3a41ef4010",
+  "sizeBytes": 535225,
   "source": "Jasper377/evejs-mod-evejs-racks16",
-  "submittedAt": "2026-10-10T16:20:59.564Z",
-  "version": "3.1.0"
+  "submittedAt": "2026-10-10T17:00:22.112Z",
+  "version": "3.1.2"
 }
