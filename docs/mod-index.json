@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-10T16:32:52.600Z",
+  "publishedAt": "2026-10-10T17:01:09.062Z",
   "mods": [
     {
       "author": {
@@ -43,7 +43,7 @@
       "tags": [],
       "version": "1.1.0",
       "source": "diguo520/evejs-mod-evejs-autolockfire",
-      "downloads": 391,
+      "downloads": 392,
       "cdnHits": 51
     },
     {
@@ -90,7 +90,7 @@
       "tags": [],
       "version": "1.0.14",
       "source": "diguo520/evejs-mod-evejs-automining",
-      "downloads": 329,
+      "downloads": 333,
       "cdnHits": 7
     },
     {
@@ -134,7 +134,7 @@
       "tags": [],
       "version": "1.0.3",
       "source": "guihaitianyi-cmd/evejs-mod-evejs-evejs-hacking-suite-1-0-3",
-      "downloads": 87,
+      "downloads": 88,
       "cdnHits": 0
     },
     {
@@ -193,7 +193,7 @@
       "tags": [],
       "version": "0.3.1",
       "source": "xuenaimiao/evejs-mod-evejs-faction-sim",
-      "downloads": 389,
+      "downloads": 390,
       "cdnHits": 0
     },
     {
@@ -285,7 +285,7 @@
       "tags": [],
       "version": "1.5.2",
       "source": "JUZIMandarin/evejs-mod-evejs-sleeper-drifters",
-      "downloads": 329,
+      "downloads": 330,
       "cdnHits": 3
     },
     {
@@ -374,7 +374,7 @@
       "tags": [],
       "version": "0.3.0",
       "source": "Jasper377/evejs-mod-evejs-sim-guard",
-      "downloads": 38,
+      "downloads": 39,
       "cdnHits": 0
     },
     {
@@ -425,7 +425,7 @@
         "name": "正在北极拔草"
       },
       "category": "玩法",
-      "changelog": "修复交互与观感上的问题",
+      "changelog": "优化视觉表现",
       "conflicts": [],
       "delisted": false,
       "description": "把原版「低/中/高每族最多 8 槽」的上限解禁到 16、改装件解禁到 6，默认不修改任何舰船的槽位数值；并修正配装界面的槽位摆位与交互范围。",
@@ -434,7 +434,7 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/Jasper377/evejs-mod-evejs-racks16/releases/download/v3.1.0/evejs-racks16-3.1.0.zip"
+          "url": "https://github.com/Jasper377/evejs-mod-evejs-racks16/releases/download/v3.1.2/evejs-racks16-3.1.2.zip"
         }
       ],
       "evejsVersions": [
@@ -456,17 +456,17 @@
         "改装件与低/中/高不同：原版一条 31° 的弧只放得下 3 个槽，所以 6 个改装件按\n**3 + 3 两环**摆（第 1 环就是原版那 3 个位置，不多不少），而不是硬挤在同一条弧上。",
         "> **装了之后你会看到什么？** 如果没改过任何船的槽位数据 —— **和没装一样**。8 槽的船还是 8 槽、\n> HUD 还是画 8 格。因为 HUD 本来就按「当前船实际槽数」画（`GetNumSlots → GetNumHiSlots()`），\n> 它不需要被\"改\"。本模组做的是**把天花板抬起来**：一旦某艘船的 `lowSlots/medSlots/hiSlots`\n> 被改成 9..16（你自己改数据、或别的模组改），它才能真的用满，而且从 HUD 到装配、编组、\n> 激活整条链都不会再出问题。",
         "槽位数有**两条上游**，两边都要有：服务端负责放行扩展槽并把槽位数下发给客户端（本模组本体，\n不修改任何文件）；客户端负责 HUD 的每族上限与 16 列布局、以及**配装界面**的槽位摆位\n（`client-patch/`，**要单独跑一次安装脚本**）。",
-        "> 顺带修好了配装界面的两处老问题：第 2 环（第 9 格起）原本被整体缩到 0.78 倍，\n> 因为缩的就是控件矩形、而控件矩形就是**点击/悬停范围**，所以第二环的格子明显难点；\n> 现在半径照样内收、**尺寸不再缩**，交互范围和第一环一致。",
+        "> 顺带修好配装界面第 2 环（第 9 格起）的**同环左右重叠**：原版那条环内收到 186 后，\n> 同环切向间距只有 33.3px，而槽宽 34px，会叠 0.7px。位置/半径/高度全部保留原版，\n> 只把宽度削 1px（34 → 33）把重叠清零 —— 观感与原版一致（详见 CHANGELOG 3.1.2）。",
         "---"
       ],
       "repo": "https://github.com/Jasper377/evejs-mod-evejs-racks16",
       "requiresRestart": true,
-      "sha256": "bcec4f82ac9040f0ea01c33a7f62926ea3f0cb74f69dc33e203499f7a76a2e3c",
-      "sizeBytes": 223396,
+      "sha256": "ba52b119e7831f8ac827fdd8be9268b5a91a0386d4502c9f8a9c1c3a41ef4010",
+      "sizeBytes": 535225,
       "tags": [],
-      "version": "3.1.0",
+      "version": "3.1.2",
       "source": "Jasper377/evejs-mod-evejs-racks16",
-      "downloads": 47,
+      "downloads": 51,
       "cdnHits": 0
     },
     {
@@ -506,14 +506,14 @@
       "tags": [],
       "version": "1.5.4",
       "source": "Jasper377/evejs-mod-evejs-acspecialbattleship",
-      "downloads": 100,
+      "downloads": 103,
       "cdnHits": 0
     }
   ],
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "/xhFQ6zum3jvI1aImPKpZiGSvr89v6ZWT767biOP8137TBljOY0zGlaC9aEdTyu6XC0GXmGLzawI5kB9Vj6uDw==",
-    "signedAt": "2026-10-10T16:32:52.603Z"
+    "sig": "WyQL98qxG3/1IoAsFHeQtVnGV4cSQ5fK5XnSiR474ovQwK1d2cxfVZmG81uAVkjbDj4CHtp1iaSSzaz+BzRXAA==",
+    "signedAt": "2026-10-10T17:01:09.064Z"
   }
 }
