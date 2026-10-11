@@ -1,0 +1,23 @@
+{
+  "author": {
+    "id": "au-mv2j36e77ld7",
+    "keyId": "c790c8221d09",
+    "name": "蓝星指挥官"
+  },
+  "displayName": "Beijing-time",
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/rzwm/evejs-mod-evejs-beijing-time/releases/download/v1.1.0/evejs-beijing-time-1.1.0.zip"
+    }
+  ],
+  "id": "evejs-beijing-time",
+  "publishedAt": "2026-10-11",
+  "schemaVersion": 1,
+  "sha256": "2320d1086fefb63fccc726253edc87e9c2ccd5b8fcc35b30495b42962165d1fd",
+  "sizeBytes": 47831,
+  "source": "rzwm/evejs-mod-evejs-beijing-time",
+  "submittedAt": "2026-10-11T14:03:32.593Z",
+  "version": "1.1.0"
+}
