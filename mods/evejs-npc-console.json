@@ -9,15 +9,15 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/Jasper377/evejs-mod-evejs-npc-console/releases/download/v0.4.2/evejs-npc-console-0.4.2.zip"
+      "url": "https://github.com/Jasper377/evejs-mod-evejs-npc-console/releases/download/v0.5.0/evejs-npc-console-0.5.0.zip"
     }
   ],
   "id": "evejs-npc-console",
   "publishedAt": "2026-10-11",
   "schemaVersion": 1,
-  "sha256": "3fa8e646f4fc51e9824c1e2f4024aae1fc3e15c405a7de99ccc2bb6788dc9f42",
-  "sizeBytes": 91288,
+  "sha256": "181ef7c7a29075175a1ba4b38788ff10879b44d394297da61dec2caf1d3f8c56",
+  "sizeBytes": 92726,
   "source": "Jasper377/evejs-mod-evejs-npc-console",
-  "submittedAt": "2026-10-11T17:30:41.197Z",
-  "version": "0.4.2"
+  "submittedAt": "2026-10-11T18:07:10.164Z",
+  "version": "0.5.0"
 }
