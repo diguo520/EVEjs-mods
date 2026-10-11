@@ -1,0 +1,23 @@
+{
+  "author": {
+    "id": "au-mv2j36e77ld7",
+    "keyId": "c790c8221d09",
+    "name": "蓝星指挥官"
+  },
+  "displayName": "自动导航跳星门0km",
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/rzwm/evejs-mod-evejs-autopilot-jump-stargate-0km/releases/download/v1.0.0/evejs-autopilot-jump-stargate-0km-1.0.0.zip"
+    }
+  ],
+  "id": "evejs-autopilot-jump-stargate-0km",
+  "publishedAt": "2026-10-11",
+  "schemaVersion": 1,
+  "sha256": "43b0d3c402d4ceb689f6d3b204367e0d4db6e8ea12d2fc08fb3be53aef810f6c",
+  "sizeBytes": 17209,
+  "source": "rzwm/evejs-mod-evejs-autopilot-jump-stargate-0km",
+  "submittedAt": "2026-10-11T13:10:54.629Z",
+  "version": "1.0.0"
+}
