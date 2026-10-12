@@ -1,0 +1,23 @@
+{
+  "author": {
+    "id": "au-mugiwdpeuaty",
+    "keyId": "41cce0afeee7",
+    "name": "exiel"
+  },
+  "displayName": "NPC舰队",
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/exiell/evejs-mod-evejs-npc/releases/download/v1.0.2/evejs-npc-1.0.2.zip"
+    }
+  ],
+  "id": "evejs-npc",
+  "publishedAt": "2026-10-12",
+  "schemaVersion": 1,
+  "sha256": "79dcacd5276dec5d551098149facc5361fff04d1e476bc38875d4436fc4c64cc",
+  "sizeBytes": 5840,
+  "source": "exiell/evejs-mod-evejs-npc",
+  "submittedAt": "2026-10-12T10:14:25.217Z",
+  "version": "1.0.2"
+}
