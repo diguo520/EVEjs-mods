@@ -1,0 +1,23 @@
+{
+  "author": {
+    "id": "au-mva40uiw90kt",
+    "keyId": "01ed0fb1c32c",
+    "name": "HRSKNK"
+  },
+  "displayName": "跳跃桥过桥燃料扣错修复",
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/zhang-xzh/evejs-mod-evejs-jumpbridge-fuel/releases/download/v1.0.0/evejs-jumpbridge-fuel-1.0.0.zip"
+    }
+  ],
+  "id": "evejs-jumpbridge-fuel",
+  "publishedAt": "2026-10-16",
+  "schemaVersion": 1,
+  "sha256": "1f31c1a67591dcc3067049f2ca09e6cba4d9d72b0b9869471ad709131936e2eb",
+  "sizeBytes": 8200,
+  "source": "zhang-xzh/evejs-mod-evejs-jumpbridge-fuel",
+  "submittedAt": "2026-10-16T03:25:16.381Z",
+  "version": "1.0.0"
+}
