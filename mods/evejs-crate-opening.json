@@ -1,0 +1,23 @@
+{
+  "author": {
+    "id": "au-mva40uiw90kt",
+    "keyId": "01ed0fb1c32c",
+    "name": "HRSKNK"
+  },
+  "displayName": "军团箱 / Trinary 数据宝箱打不开修复",
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/zhang-xzh/evejs-mod-evejs-crate-opening/releases/download/v1.0.0/evejs-crate-opening-1.0.0.zip"
+    }
+  ],
+  "id": "evejs-crate-opening",
+  "publishedAt": "2026-10-16",
+  "schemaVersion": 1,
+  "sha256": "20a5853fda3fcadcb5795f740998be18e5ce36809cd873da7d5348385a750fe7",
+  "sizeBytes": 8080,
+  "source": "zhang-xzh/evejs-mod-evejs-crate-opening",
+  "submittedAt": "2026-10-16T03:29:24.830Z",
+  "version": "1.0.0"
+}
