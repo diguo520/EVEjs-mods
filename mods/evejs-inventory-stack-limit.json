@@ -1,0 +1,23 @@
+{
+  "author": {
+    "id": "au-mva40uiw90kt",
+    "keyId": "01ed0fb1c32c",
+    "name": "HRSKNK"
+  },
+  "displayName": "库存堆叠上限突破 32 位",
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/zhang-xzh/evejs-mod-evejs-inventory-stack-limit/releases/download/v1.0.0/evejs-inventory-stack-limit-1.0.0.zip"
+    }
+  ],
+  "id": "evejs-inventory-stack-limit",
+  "publishedAt": "2026-10-16",
+  "schemaVersion": 1,
+  "sha256": "f760c2abec40585ee7f225903165f46e6d75ad173eb32f73ab7137c1a39549dd",
+  "sizeBytes": 8412,
+  "source": "zhang-xzh/evejs-mod-evejs-inventory-stack-limit",
+  "submittedAt": "2026-10-16T03:03:18.066Z",
+  "version": "1.0.0"
+}
