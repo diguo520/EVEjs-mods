@@ -1,0 +1,23 @@
+{
+  "author": {
+    "id": "au-mva40uiw90kt",
+    "keyId": "01ed0fb1c32c",
+    "name": "HRSKNK"
+  },
+  "displayName": "蓝图/工业列表打开更快",
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/zhang-xzh/evejs-mod-evejs-blueprint-list-memo/releases/download/v1.0.0/evejs-blueprint-list-memo-1.0.0.zip"
+    }
+  ],
+  "id": "evejs-blueprint-list-memo",
+  "publishedAt": "2026-10-16",
+  "schemaVersion": 1,
+  "sha256": "d6466f1be8b4b6a52053d5d3e93480f2bddbf4d9f3d3b4c15896a3792fd19d93",
+  "sizeBytes": 5682,
+  "source": "zhang-xzh/evejs-mod-evejs-blueprint-list-memo",
+  "submittedAt": "2026-10-16T03:20:25.844Z",
+  "version": "1.0.0"
+}
