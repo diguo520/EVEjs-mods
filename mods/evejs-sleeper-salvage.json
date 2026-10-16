@@ -1,0 +1,23 @@
+{
+  "author": {
+    "id": "au-mva40uiw90kt",
+    "keyId": "01ed0fb1c32c",
+    "name": "HRSKNK"
+  },
+  "displayName": "残骸打捞产物修复（冬眠者远古打捞件/高级势力打捞池）",
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/zhang-xzh/evejs-mod-evejs-sleeper-salvage/releases/download/v1.3.0/evejs-sleeper-salvage-1.3.0.zip"
+    }
+  ],
+  "id": "evejs-sleeper-salvage",
+  "publishedAt": "2026-10-16",
+  "schemaVersion": 1,
+  "sha256": "271fdb175e605b70f4a080afab346ffe1a4043fea110bd70c853dcd2288fb777",
+  "sizeBytes": 9733,
+  "source": "zhang-xzh/evejs-mod-evejs-sleeper-salvage",
+  "submittedAt": "2026-10-16T03:01:19.865Z",
+  "version": "1.3.0"
+}
