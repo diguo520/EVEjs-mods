@@ -14,6 +14,7 @@
     "rzwm/evejs-mod-evejs-autopilot-jump-stargate-0km",
     "rzwm/evejs-mod-evejs-beijing-time",
     "Jasper377/evejs-mod-evejs-npc-console",
-    "exiell/evejs-mod-evejs-npc"
+    "exiell/evejs-mod-evejs-npc",
+    "zhang-xzh/evejs-mod-evejs-lp-balance-overflow"
   ]
 }
