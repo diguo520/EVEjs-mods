@@ -20,6 +20,7 @@
     "zhang-xzh/evejs-mod-evejs-sleeper-salvage",
     "zhang-xzh/evejs-mod-evejs-inventory-stack-limit",
     "zhang-xzh/evejs-mod-evejs-character-slots",
-    "zhang-xzh/evejs-mod-evejs-combat-native-store-rows"
+    "zhang-xzh/evejs-mod-evejs-combat-native-store-rows",
+    "zhang-xzh/evejs-mod-evejs-combat-char-record-ref"
   ]
 }
