@@ -17,6 +17,7 @@
     "exiell/evejs-mod-evejs-npc",
     "zhang-xzh/evejs-mod-evejs-lp-balance-overflow",
     "zhang-xzh/evejs-mod-evejs-npc-corp-info",
-    "zhang-xzh/evejs-mod-evejs-sleeper-salvage"
+    "zhang-xzh/evejs-mod-evejs-sleeper-salvage",
+    "zhang-xzh/evejs-mod-evejs-inventory-stack-limit"
   ]
 }
