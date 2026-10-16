@@ -23,6 +23,7 @@
     "zhang-xzh/evejs-mod-evejs-combat-native-store-rows",
     "zhang-xzh/evejs-mod-evejs-combat-char-record-ref",
     "zhang-xzh/evejs-mod-evejs-combat-item-name-scan",
-    "zhang-xzh/evejs-mod-evejs-blueprint-list-memo"
+    "zhang-xzh/evejs-mod-evejs-blueprint-list-memo",
+    "zhang-xzh/evejs-mod-evejs-charge-sublocation-row"
   ]
 }
