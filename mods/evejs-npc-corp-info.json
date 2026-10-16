@@ -1,0 +1,23 @@
+{
+  "author": {
+    "id": "au-mva40uiw90kt",
+    "keyId": "01ed0fb1c32c",
+    "name": "HRSKNK"
+  },
+  "displayName": "NPC 军团信息窗口空白修复",
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/zhang-xzh/evejs-mod-evejs-npc-corp-info/releases/download/v1.0.0/evejs-npc-corp-info-1.0.0.zip"
+    }
+  ],
+  "id": "evejs-npc-corp-info",
+  "publishedAt": "2026-10-16",
+  "schemaVersion": 1,
+  "sha256": "dfd5773ffaf5be169bbdf2d6f99931c82829658d686fb9cea3307cd4206e360a",
+  "sizeBytes": 5663,
+  "source": "zhang-xzh/evejs-mod-evejs-npc-corp-info",
+  "submittedAt": "2026-10-16T02:59:33.647Z",
+  "version": "1.0.0"
+}
