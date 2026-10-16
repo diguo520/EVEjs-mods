@@ -15,6 +15,7 @@
     "rzwm/evejs-mod-evejs-beijing-time",
     "Jasper377/evejs-mod-evejs-npc-console",
     "exiell/evejs-mod-evejs-npc",
-    "zhang-xzh/evejs-mod-evejs-lp-balance-overflow"
+    "zhang-xzh/evejs-mod-evejs-lp-balance-overflow",
+    "zhang-xzh/evejs-mod-evejs-npc-corp-info"
   ]
 }
