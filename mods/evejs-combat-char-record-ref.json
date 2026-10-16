@@ -1,0 +1,23 @@
+{
+  "author": {
+    "id": "au-mva40uiw90kt",
+    "keyId": "01ed0fb1c32c",
+    "name": "HRSKNK"
+  },
+  "displayName": "大规模战斗卡顿修复（角色数据重复复制）",
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/zhang-xzh/evejs-mod-evejs-combat-char-record-ref/releases/download/v1.0.0/evejs-combat-char-record-ref-1.0.0.zip"
+    }
+  ],
+  "id": "evejs-combat-char-record-ref",
+  "publishedAt": "2026-10-16",
+  "schemaVersion": 1,
+  "sha256": "7f94c6eed5e55beb147aa23a60fcdaee3399f8f0af016c593c276f5f8a65dbaf",
+  "sizeBytes": 6200,
+  "source": "zhang-xzh/evejs-mod-evejs-combat-char-record-ref",
+  "submittedAt": "2026-10-16T03:16:50.050Z",
+  "version": "1.0.0"
+}
