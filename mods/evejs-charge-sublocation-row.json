@@ -1,0 +1,23 @@
+{
+  "author": {
+    "id": "au-mva40uiw90kt",
+    "keyId": "01ed0fb1c32c",
+    "name": "HRSKNK"
+  },
+  "displayName": "工业槽位偶发显示 0/1 修复",
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/zhang-xzh/evejs-mod-evejs-charge-sublocation-row/releases/download/v1.0.0/evejs-charge-sublocation-row-1.0.0.zip"
+    }
+  ],
+  "id": "evejs-charge-sublocation-row",
+  "publishedAt": "2026-10-16",
+  "schemaVersion": 1,
+  "sha256": "2c32d6b22a366353445e2f177d7dcb049daf75a0308f90e5bfe4022643bb6073",
+  "sizeBytes": 6204,
+  "source": "zhang-xzh/evejs-mod-evejs-charge-sublocation-row",
+  "submittedAt": "2026-10-16T03:23:23.060Z",
+  "version": "1.0.0"
+}
