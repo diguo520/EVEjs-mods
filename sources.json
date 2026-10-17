@@ -39,6 +39,7 @@
     "MateralCMX/evejs-mod-planetary-industry-enhancement",
     "MateralCMX/evejs-mod-clone-convenience",
     "MateralCMX/evejs-mod-mission-repair",
-    "MateralCMX/evejs-mod-npc-extension-core"
+    "MateralCMX/evejs-mod-npc-extension-core",
+    "rzwm/evejs-mod-evejs-autolockfire-cn"
   ]
 }
