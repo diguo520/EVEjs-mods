@@ -1,0 +1,23 @@
+{
+  "author": {
+    "id": "au-mv2j36e77ld7",
+    "keyId": "c790c8221d09",
+    "name": "蓝星指挥官"
+  },
+  "displayName": "AutoLockFire-CN",
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/rzwm/evejs-mod-evejs-autolockfire-cn/releases/download/v1.0.0/evejs-autolockfire-cn-1.0.0.zip"
+    }
+  ],
+  "id": "evejs-autolockfire-cn",
+  "publishedAt": "2026-10-17",
+  "schemaVersion": 1,
+  "sha256": "96bc0987572e158a3706c33278a6972c79d08caa61eff8e30c2b57cd5ea7b17b",
+  "sizeBytes": 243677,
+  "source": "rzwm/evejs-mod-evejs-autolockfire-cn",
+  "submittedAt": "2026-10-17T06:38:58.941Z",
+  "version": "1.0.0"
+}
