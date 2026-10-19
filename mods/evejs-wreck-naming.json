@@ -1,7 +1,7 @@
 {
   "author": {
-    "id": "au-mva40uiw90kt",
-    "keyId": "01ed0fb1c32c",
+    "id": "au-mvf2lwpltupu",
+    "keyId": "020ed1eebd16",
     "name": "HRSKNK"
   },
   "displayName": "残骸名字显示修复",
@@ -9,15 +9,15 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/zhang-xzh/evejs-mod-evejs-wreck-naming/releases/download/v1.0.0/evejs-wreck-naming-1.0.0.zip"
+      "url": "https://github.com/zhang-xzh/evejs-mod-evejs-wreck-naming/releases/download/v1.0.1/evejs-wreck-naming-1.0.1.zip"
     }
   ],
   "id": "evejs-wreck-naming",
-  "publishedAt": "2026-10-16",
+  "publishedAt": "2026-10-19",
   "schemaVersion": 1,
-  "sha256": "faa9466a9c944b58d7ee1c306c3660f34f53c4f877408e0edd77e7eca532fca7",
-  "sizeBytes": 7953,
+  "sha256": "603da96eb32c80273c30d872ff0138e597d5bd9bc960d09e1201569388318620",
+  "sizeBytes": 8035,
   "source": "zhang-xzh/evejs-mod-evejs-wreck-naming",
-  "submittedAt": "2026-10-16T03:31:02.220Z",
-  "version": "1.0.0"
+  "submittedAt": "2026-10-19T10:38:28.286Z",
+  "version": "1.0.1"
 }
