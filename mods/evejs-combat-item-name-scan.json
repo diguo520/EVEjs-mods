@@ -1,7 +1,7 @@
 {
   "author": {
-    "id": "au-mva40uiw90kt",
-    "keyId": "01ed0fb1c32c",
+    "id": "au-mvf2lwpltupu",
+    "keyId": "020ed1eebd16",
     "name": "HRSKNK"
   },
   "displayName": "大规模战斗卡顿修复（物品名查找）",
@@ -9,15 +9,15 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/zhang-xzh/evejs-mod-evejs-combat-item-name-scan/releases/download/v1.0.0/evejs-combat-item-name-scan-1.0.0.zip"
+      "url": "https://github.com/zhang-xzh/evejs-mod-evejs-combat-item-name-scan/releases/download/v1.0.1/evejs-combat-item-name-scan-1.0.1.zip"
     }
   ],
   "id": "evejs-combat-item-name-scan",
-  "publishedAt": "2026-10-16",
+  "publishedAt": "2026-10-19",
   "schemaVersion": 1,
-  "sha256": "ec3e30006043eb8b0985bd13f8d7744791262abafb72873601f62862bcabb016",
-  "sizeBytes": 7301,
+  "sha256": "4b6038f60883959cc4382e2dad95e4525345d381d8789fa1542ac13de38576d0",
+  "sizeBytes": 7406,
   "source": "zhang-xzh/evejs-mod-evejs-combat-item-name-scan",
-  "submittedAt": "2026-10-16T03:18:27.465Z",
-  "version": "1.0.0"
+  "submittedAt": "2026-10-19T10:24:54.663Z",
+  "version": "1.0.1"
 }
