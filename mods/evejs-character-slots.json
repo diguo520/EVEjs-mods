@@ -1,7 +1,7 @@
 {
   "author": {
-    "id": "au-mva40uiw90kt",
-    "keyId": "01ed0fb1c32c",
+    "id": "au-mvf2lwpltupu",
+    "keyId": "020ed1eebd16",
     "name": "HRSKNK"
   },
   "displayName": "每账号角色槽增加（默认 10 个）",
@@ -9,15 +9,15 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/zhang-xzh/evejs-mod-evejs-character-slots/releases/download/v1.0.0/evejs-character-slots-1.0.0.zip"
+      "url": "https://github.com/zhang-xzh/evejs-mod-evejs-character-slots/releases/download/v1.0.1/evejs-character-slots-1.0.1.zip"
     }
   ],
   "id": "evejs-character-slots",
-  "publishedAt": "2026-10-16",
+  "publishedAt": "2026-10-19",
   "schemaVersion": 1,
-  "sha256": "91b5094d3ddf985a21a16fd82199b44c59312b444982066aae5c396421a7dfdf",
-  "sizeBytes": 5863,
+  "sha256": "7f023eba331043b76ebbc62a3fc2f49d04b590b718a6a23394baaca851324c95",
+  "sizeBytes": 5970,
   "source": "zhang-xzh/evejs-mod-evejs-character-slots",
-  "submittedAt": "2026-10-16T03:13:14.049Z",
-  "version": "1.0.0"
+  "submittedAt": "2026-10-19T10:51:39.452Z",
+  "version": "1.0.1"
 }
