@@ -1,23 +1,23 @@
 {
   "author": {
-    "id": "au-mva40uiw90kt",
-    "keyId": "01ed0fb1c32c",
+    "id": "au-mvf2lwpltupu",
+    "keyId": "020ed1eebd16",
     "name": "HRSKNK"
   },
-  "displayName": "LP 余额溢出修复",
+  "displayName": "LP 余额太大导致崩溃修复",
   "downloadUrls": [
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/zhang-xzh/evejs-mod-evejs-lp-balance-overflow/releases/download/v1.0.0/evejs-lp-balance-overflow-1.0.0.zip"
+      "url": "https://github.com/zhang-xzh/evejs-mod-evejs-lp-balance-overflow/releases/download/v1.0.1/evejs-lp-balance-overflow-1.0.1.zip"
     }
   ],
   "id": "evejs-lp-balance-overflow",
-  "publishedAt": "2026-10-16",
+  "publishedAt": "2026-10-19",
   "schemaVersion": 1,
-  "sha256": "7f4462e633f7f92a327d6f1e6bc0fb834e0786e8af1cd1852564a9655b01d829",
-  "sizeBytes": 5581,
+  "sha256": "48915bbf098e34097c27e9c02ba8eb2a3f8107ebb8410f507a68022cb49b0539",
+  "sizeBytes": 5555,
   "source": "zhang-xzh/evejs-mod-evejs-lp-balance-overflow",
-  "submittedAt": "2026-10-16T02:55:56.612Z",
-  "version": "1.0.0"
+  "submittedAt": "2026-10-19T10:08:20.778Z",
+  "version": "1.0.1"
 }
