@@ -1,0 +1,23 @@
+{
+  "author": {
+    "id": "au-mvdvct651733",
+    "keyId": "fcfad4bbc276",
+    "name": "鼠鼠猫"
+  },
+  "displayName": "三神裔世界方舟试行版",
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/injusticemaster/evejs-mod-world-ark-91900/releases/download/v0.1.2/world-ark-91900-0.1.2.zip"
+    }
+  ],
+  "id": "world-ark-91900",
+  "publishedAt": "2026-10-20",
+  "schemaVersion": 1,
+  "sha256": "654e1c94a6f7a63bb67a3d3dc5e773b80db0cf0349a21172218e8f5ade0a9b79",
+  "sizeBytes": 94961668,
+  "source": "injusticemaster/evejs-mod-world-ark-91900",
+  "submittedAt": "2026-10-20T05:20:00.308Z",
+  "version": "0.1.2"
+}
