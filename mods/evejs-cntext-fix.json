@@ -1,7 +1,7 @@
 {
   "author": {
-    "id": "au-muk52dvb6mve",
-    "keyId": "1382094598d9",
+    "id": "au-muvf3plbuo9n",
+    "keyId": "bc816da2a7bc",
     "name": "波坤太叔"
   },
   "displayName": "中文文本修复 (CN Text Fix)",
@@ -9,15 +9,15 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/diguo520/evejs-mod-evejs-cntext-fix/releases/download/v1.0.5/evejs-cntext-fix-1.0.5.zip"
+      "url": "https://github.com/diguo520/evejs-mod-evejs-cntext-fix/releases/download/v1.0.6/evejs-cntext-fix-1.0.6.zip"
     }
   ],
   "id": "evejs-cntext-fix",
-  "publishedAt": "2026-09-30",
+  "publishedAt": "2026-10-21",
   "schemaVersion": 1,
-  "sha256": "44e6c1d135f2b94b817c18d0787bad63ed71579bd36ab4295be4ed9069172f82",
-  "sizeBytes": 13385,
+  "sha256": "776113f74e144eb0f03a85be62c4bba8b708e6e8bacf7134d299a32ca3e0db99",
+  "sizeBytes": 13392,
   "source": "diguo520/evejs-mod-evejs-cntext-fix",
-  "submittedAt": "2026-09-30T15:37:49.708Z",
-  "version": "1.0.5"
+  "submittedAt": "2026-10-21T18:13:04.838Z",
+  "version": "1.0.6"
 }
