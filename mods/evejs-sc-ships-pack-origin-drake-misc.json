@@ -1,0 +1,23 @@
+{
+  "author": {
+    "id": "au-mujkaep5shgv",
+    "keyId": "2792fbac9b88",
+    "name": "匿名"
+  },
+  "displayName": "星际公民舰船包：奥源 / 德雷克 / MISC (SC Ships Pack: Origin / Drake / MISC)",
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/xuenaimiao/evejs-mod-evejs-sc-ships-pack-origin-drake-misc/releases/download/v0.1.0/evejs-sc-ships-pack-origin-drake-misc-0.1.0.zip"
+    }
+  ],
+  "id": "evejs-sc-ships-pack-origin-drake-misc",
+  "publishedAt": "2026-10-22",
+  "schemaVersion": 1,
+  "sha256": "502dc26e8c5c5f77f59a7e4f11f654170f5176c5ebd231df2efae181aaf98064",
+  "sizeBytes": 447714783,
+  "source": "xuenaimiao/evejs-mod-evejs-sc-ships-pack-origin-drake-misc",
+  "submittedAt": "2026-10-22T14:33:22.210Z",
+  "version": "0.1.0"
+}
