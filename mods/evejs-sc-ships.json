@@ -1,0 +1,23 @@
+{
+  "author": {
+    "id": "au-mujkaep5shgv",
+    "keyId": "2792fbac9b88",
+    "name": "匿名"
+  },
+  "displayName": "星际公民舰船 (SC Ships)",
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/xuenaimiao/evejs-mod-evejs-sc-ships/releases/download/v0.3.0/evejs-sc-ships-0.3.0.zip"
+    }
+  ],
+  "id": "evejs-sc-ships",
+  "publishedAt": "2026-10-22",
+  "schemaVersion": 1,
+  "sha256": "9265a29338dea79fe78a840c50c4edaf49c1f5acd24379a1b101ae30843a1e01",
+  "sizeBytes": 67063938,
+  "source": "xuenaimiao/evejs-mod-evejs-sc-ships",
+  "submittedAt": "2026-10-22T14:20:09.538Z",
+  "version": "0.3.0"
+}
