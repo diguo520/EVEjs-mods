@@ -1,0 +1,23 @@
+{
+  "author": {
+    "id": "au-mujkaep5shgv",
+    "keyId": "2792fbac9b88",
+    "name": "匿名"
+  },
+  "displayName": "星际公民舰船包：RSI / 十字军 / 其他 (SC Ships Pack: RSI / Crusader / Others)",
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/xuenaimiao/evejs-mod-evejs-sc-ships-pack-rsi-crusader/releases/download/v0.1.0/evejs-sc-ships-pack-rsi-crusader-0.1.0.zip"
+    }
+  ],
+  "id": "evejs-sc-ships-pack-rsi-crusader",
+  "publishedAt": "2026-10-22",
+  "schemaVersion": 1,
+  "sha256": "8fa2525ad32a86257fa7cb04dd8057d50bb255273c4960fd5c8a7578bea9e104",
+  "sizeBytes": 424532523,
+  "source": "xuenaimiao/evejs-mod-evejs-sc-ships-pack-rsi-crusader",
+  "submittedAt": "2026-10-22T14:23:21.556Z",
+  "version": "0.1.0"
+}
