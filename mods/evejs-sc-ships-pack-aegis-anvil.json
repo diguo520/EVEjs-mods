@@ -1,0 +1,23 @@
+{
+  "author": {
+    "id": "au-mujkaep5shgv",
+    "keyId": "2792fbac9b88",
+    "name": "匿名"
+  },
+  "displayName": "星际公民舰船包：神盾 / 铁砧 (SC Ships Pack: Aegis / Anvil)",
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/xuenaimiao/evejs-mod-evejs-sc-ships-pack-aegis-anvil/releases/download/v0.1.0/evejs-sc-ships-pack-aegis-anvil-0.1.0.zip"
+    }
+  ],
+  "id": "evejs-sc-ships-pack-aegis-anvil",
+  "publishedAt": "2026-10-22",
+  "schemaVersion": 1,
+  "sha256": "7ea584e40de7caa4cb97f0746a2fa1da7736f4956ae6b0989ae1a5d7b9c402f1",
+  "sizeBytes": 428230286,
+  "source": "xuenaimiao/evejs-mod-evejs-sc-ships-pack-aegis-anvil",
+  "submittedAt": "2026-10-22T14:36:26.943Z",
+  "version": "0.1.0"
+}
