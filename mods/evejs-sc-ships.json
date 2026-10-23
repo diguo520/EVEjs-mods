@@ -9,15 +9,15 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/xuenaimiao/evejs-mod-evejs-sc-ships/releases/download/v0.3.0/evejs-sc-ships-0.3.0.zip"
+      "url": "https://github.com/xuenaimiao/evejs-mod-evejs-sc-ships/releases/download/v0.3.1/evejs-sc-ships-0.3.1.zip"
     }
   ],
   "id": "evejs-sc-ships",
-  "publishedAt": "2026-10-22",
+  "publishedAt": "2026-10-23",
   "schemaVersion": 1,
-  "sha256": "9265a29338dea79fe78a840c50c4edaf49c1f5acd24379a1b101ae30843a1e01",
-  "sizeBytes": 67063938,
+  "sha256": "6d9cfd7ecd7546302418bd53fa4540d39d9e46d7c1af076bc84a1b57ddcf561f",
+  "sizeBytes": 67065415,
   "source": "xuenaimiao/evejs-mod-evejs-sc-ships",
-  "submittedAt": "2026-10-22T14:20:09.538Z",
-  "version": "0.3.0"
+  "submittedAt": "2026-10-23T04:26:14.256Z",
+  "version": "0.3.1"
 }
