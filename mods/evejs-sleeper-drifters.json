@@ -1,0 +1,23 @@
+{
+  "author": {
+    "id": "au-mueakz9fwyt6",
+    "keyId": "bad8165273ee",
+    "name": "橘子"
+  },
+  "displayName": "Sleeper & Drifter Playable Ships",
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/JUZIMandarin/evejs-mod-evejs-sleeper-drifters/releases/download/v1.6.3/evejs-sleeper-drifters-1.6.3.zip"
+    }
+  ],
+  "id": "evejs-sleeper-drifters",
+  "publishedAt": "2026-10-23",
+  "schemaVersion": 1,
+  "sha256": "791468d7d0cc40d9338fe6d1fcaa62e20cc5d0c40fb127b8ac238b7886775907",
+  "sizeBytes": 17071140,
+  "source": "JUZIMandarin/evejs-mod-evejs-sleeper-drifters",
+  "submittedAt": "2026-10-23T16:48:19.731Z",
+  "version": "1.6.3"
+}
