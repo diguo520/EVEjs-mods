@@ -1,0 +1,23 @@
+{
+  "author": {
+    "id": "au-mujkaep5shgv",
+    "keyId": "2792fbac9b88",
+    "name": "匿名"
+  },
+  "displayName": "星际公民舰长室 (SC Quarters)",
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/xuenaimiao/evejs-mod-evejs-sc-quarters/releases/download/v0.1.0/evejs-sc-quarters-0.1.0.zip"
+    }
+  ],
+  "id": "evejs-sc-quarters",
+  "publishedAt": "2026-10-24",
+  "schemaVersion": 1,
+  "sha256": "f41f686f084a13b82abb19851c3e0b0870c3f6c2a7f49d87bd52b02cd2998771",
+  "sizeBytes": 73498370,
+  "source": "xuenaimiao/evejs-mod-evejs-sc-quarters",
+  "submittedAt": "2026-10-24T11:40:02.767Z",
+  "version": "0.1.0"
+}
