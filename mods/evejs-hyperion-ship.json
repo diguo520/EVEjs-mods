@@ -1,0 +1,23 @@
+{
+  "author": {
+    "id": "au-mvkiyzeb2g2m",
+    "keyId": "4292e18e8886",
+    "name": "ishのbattle"
+  },
+  "displayName": "休伯利安号（巨兽级战巡舰）",
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/starcraft110/evejs-mod-evejs-hyperion-ship/releases/download/v1.0.0/evejs-hyperion-ship-1.0.0.zip"
+    }
+  ],
+  "id": "evejs-hyperion-ship",
+  "publishedAt": "2026-10-25",
+  "schemaVersion": 1,
+  "sha256": "0cdff1c1585fe7c5d7979471637650706c2271ec527551850c3cbdc95a56239d",
+  "sizeBytes": 104030045,
+  "source": "starcraft110/evejs-mod-evejs-hyperion-ship",
+  "submittedAt": "2026-10-25T13:33:22.047Z",
+  "version": "1.0.0"
+}
