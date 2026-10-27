@@ -9,15 +9,15 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/starcraft110/evejs-mod-evejs-hyperion-ship/releases/download/v1.0.1/evejs-hyperion-ship-1.0.1.zip"
+      "url": "https://github.com/starcraft110/evejs-mod-evejs-hyperion-ship/releases/download/v1.0.2/evejs-hyperion-ship-1.0.2.zip"
     }
   ],
   "id": "evejs-hyperion-ship",
   "publishedAt": "2026-10-27",
   "schemaVersion": 1,
-  "sha256": "88b1a30d25443a286a227157a2af5dc6531ca88880c061125f9f9716f06e1004",
-  "sizeBytes": 104032125,
+  "sha256": "098d7105ec0c490596e16adeb64626d2ce829f48de4080de04b5d7b2f3b3205b",
+  "sizeBytes": 104035660,
   "source": "starcraft110/evejs-mod-evejs-hyperion-ship",
-  "submittedAt": "2026-10-27T01:40:03.408Z",
-  "version": "1.0.1"
+  "submittedAt": "2026-10-27T02:35:40.189Z",
+  "version": "1.0.2"
 }
