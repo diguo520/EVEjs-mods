@@ -1,0 +1,23 @@
+{
+  "author": {
+    "id": "au-muwl3cbjkr4n",
+    "keyId": "90d34319723f",
+    "name": "JonnyTC"
+  },
+  "displayName": "巨像音效修复：加百列级音频发射器 (Colossus Audio Fix)",
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/JonnyTC/evejs-mod-evejs-colossus-audio-fix/releases/download/v2.0.0/evejs-colossus-audio-fix-2.0.0.zip"
+    }
+  ],
+  "id": "evejs-colossus-audio-fix",
+  "publishedAt": "2026-10-29",
+  "schemaVersion": 1,
+  "sha256": "cf226e08b14f2bd63321537be211e219d2303f1cfb101e6cfa946a666358a4a7",
+  "sizeBytes": 36068,
+  "source": "JonnyTC/evejs-mod-evejs-colossus-audio-fix",
+  "submittedAt": "2026-10-29T16:24:23.579Z",
+  "version": "2.0.0"
+}
