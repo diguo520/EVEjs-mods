@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-29T16:26:08.303Z",
+  "publishedAt": "2026-10-29T16:44:34.240Z",
   "mods": [
     {
       "author": {
@@ -453,7 +453,7 @@
       ],
       "banner": "shots/Banner/banner.jpg",
       "source": "xuenaimiao/evejs-mod-evejs-faction-sim",
-      "downloads": 1550,
+      "downloads": 1552,
       "cdnHits": 1100
     },
     {
@@ -1173,7 +1173,7 @@
       ],
       "version": "5.2.1",
       "source": "JonnyTC/evejs-mod-evejs-colossus-capital-fit",
-      "downloads": 28,
+      "downloads": 29,
       "cdnHits": 0
     },
     {
@@ -1800,7 +1800,51 @@
       "tags": [],
       "version": "0.1.0",
       "source": "MateralCMX/evejs-mod-mobile-tractor-enhancement",
-      "downloads": 153,
+      "downloads": 154,
+      "cdnHits": 0
+    },
+    {
+      "author": {
+        "id": "au-museb3ifclus",
+        "keyId": "78c0345c96f0",
+        "name": "xingchen"
+      },
+      "category": "舰船",
+      "changelog": "",
+      "conflicts": [],
+      "delisted": false,
+      "description": "把晨曦服的22艘特供船完整的做成了模组包，都挂上市场了，在特别版舰船目录下",
+      "displayName": "特供舰船包",
+      "downloadUrls": [
+        {
+          "mirror": "github",
+          "priority": 1,
+          "url": "https://github.com/weiqichang744-alt/evejs-mod-evejs-te-gong-jian-chuan-bao/releases/download/v1.3.8/evejs-te-gong-jian-chuan-bao-1.3.8.zip"
+        }
+      ],
+      "evejsVersions": [
+        "261018.x"
+      ],
+      "featured": false,
+      "highlights": [],
+      "history": [],
+      "id": "evejs-te-gong-jian-chuan-bao",
+      "publishedAt": "2026-10-29",
+      "readme": [
+        "把 **ShipPack_Infinity 24.01** 里游戏服务端尚未收录的 **22 艘舰船**接进 EveJS。",
+        "> 现在本模组只保留 **22 艘真正的新船**。"
+      ],
+      "repo": "https://github.com/weiqichang744-alt/evejs-mod-evejs-te-gong-jian-chuan-bao",
+      "requiresRestart": true,
+      "sha256": "2ebbc607be24067be70385b7b72c6286948fdccc3aad400d98ef7b13d2d0357b",
+      "sizeBytes": 366265175,
+      "tags": [
+        "国服特供船",
+        "22艘"
+      ],
+      "version": "1.3.8",
+      "source": "weiqichang744-alt/evejs-mod-evejs-te-gong-jian-chuan-bao",
+      "downloads": 0,
       "cdnHits": 0
     },
     {
@@ -1960,7 +2004,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "ZZLDEuE2xO1rwlU/f7qFx+DHC0OGriiu+d4f2gAjXcyLlg8G22psgXKKObJ2oWCmFIhm0vLTxJiyufpDYjgJCg==",
-    "signedAt": "2026-10-29T16:26:08.307Z"
+    "sig": "Dsx1+Q2itNhYNbk/atRxt5+IBY7BxgAC80syD7DpFyDX0qQJ9UR1ejxAIoNX39k7e6TQNiHYNrCKZp9tJ61xAA==",
+    "signedAt": "2026-10-29T16:44:34.245Z"
   }
 }
