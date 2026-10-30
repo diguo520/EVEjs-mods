@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-30T11:50:51.894Z",
+  "publishedAt": "2026-10-30T12:26:14.281Z",
   "mods": [
     {
       "author": {
@@ -45,7 +45,7 @@
       ],
       "version": "1.2.3",
       "source": "jealous123456789/evejs-mod-evejs-air-career-payout",
-      "downloads": 11,
+      "downloads": 12,
       "cdnHits": 0
     },
     {
@@ -92,7 +92,7 @@
       ],
       "version": "1.1.0",
       "source": "jealous123456789/evejs-mod-evejs-air-crate-loot",
-      "downloads": 12,
+      "downloads": 13,
       "cdnHits": 0
     },
     {
@@ -235,7 +235,7 @@
       "tags": [],
       "version": "0.17.5",
       "source": "MateralCMX/evejs-mod-bug-fixes",
-      "downloads": 429,
+      "downloads": 430,
       "cdnHits": 0
     },
     {
@@ -282,7 +282,7 @@
       ],
       "version": "1.1.5",
       "source": "diguo520/evejs-mod-evejs-autolockfire",
-      "downloads": 1134,
+      "downloads": 1135,
       "cdnHits": 0
     },
     {
@@ -427,7 +427,7 @@
       "tags": [],
       "version": "0.2.3",
       "source": "MateralCMX/evejs-mod-ship-blueprints",
-      "downloads": 177,
+      "downloads": 178,
       "cdnHits": 8
     },
     {
@@ -472,7 +472,7 @@
       "tags": [],
       "version": "0.1.2",
       "source": "MateralCMX/evejs-mod-gm-menu-localization",
-      "downloads": 329,
+      "downloads": 330,
       "cdnHits": 0
     },
     {
@@ -546,7 +546,7 @@
       ],
       "banner": "shots/Banner/banner.jpg",
       "source": "xuenaimiao/evejs-mod-evejs-faction-sim",
-      "downloads": 1580,
+      "downloads": 1581,
       "cdnHits": 1252
     },
     {
@@ -596,7 +596,7 @@
       ],
       "version": "1.0.0",
       "source": "JonnyTC/evejs-mod-evejs-npc-hull-hp-fix",
-      "downloads": 40,
+      "downloads": 41,
       "cdnHits": 0
     },
     {
@@ -636,7 +636,7 @@
       "tags": [],
       "version": "0.6.0",
       "source": "Jasper377/evejs-mod-evejs-npc-console",
-      "downloads": 213,
+      "downloads": 214,
       "cdnHits": 2
     },
     {
@@ -688,7 +688,7 @@
       "tags": [],
       "version": "0.2.0",
       "source": "xuenaimiao/evejs-mod-evejs-npc-fleet",
-      "downloads": 339,
+      "downloads": 340,
       "cdnHits": 0
     },
     {
@@ -923,7 +923,7 @@
       ],
       "version": "1.0.9",
       "source": "diguo520/evejs-mod-evejs-cntext-fix",
-      "downloads": 841,
+      "downloads": 842,
       "cdnHits": 3
     },
     {
@@ -973,7 +973,7 @@
       "tags": [],
       "version": "0.1.2",
       "source": "MateralCMX/evejs-mod-mission-repair",
-      "downloads": 320,
+      "downloads": 321,
       "cdnHits": 0
     },
     {
@@ -1024,7 +1024,7 @@
       ],
       "version": "1.0.4",
       "source": "starcraft110/evejs-mod-evejs-hyperion-ship",
-      "downloads": 142,
+      "downloads": 143,
       "cdnHits": 0
     },
     {
@@ -1165,7 +1165,7 @@
       ],
       "version": "1.0.0",
       "source": "JonnyTC/evejs-mod-evejs-structure-targeting-fix",
-      "downloads": 35,
+      "downloads": 36,
       "cdnHits": 0
     },
     {
@@ -1266,7 +1266,7 @@
       ],
       "version": "5.2.1",
       "source": "JonnyTC/evejs-mod-evejs-colossus-capital-fit",
-      "downloads": 35,
+      "downloads": 36,
       "cdnHits": 0
     },
     {
@@ -1325,7 +1325,7 @@
       ],
       "version": "2.0.0",
       "source": "JonnyTC/evejs-mod-evejs-colossus-audio-fix",
-      "downloads": 9,
+      "downloads": 10,
       "cdnHits": 0
     },
     {
@@ -1468,7 +1468,7 @@
       "tags": [],
       "version": "0.2.2",
       "source": "xuenaimiao/evejs-mod-evejs-perf-fix",
-      "downloads": 445,
+      "downloads": 446,
       "cdnHits": 2
     },
     {
@@ -1558,7 +1558,7 @@
       ],
       "version": "1.1.0",
       "source": "jealous123456789/evejs-mod-evejs-air-career-fix",
-      "downloads": 13,
+      "downloads": 15,
       "cdnHits": 0
     },
     {
@@ -1937,7 +1937,7 @@
       ],
       "version": "1.3.8",
       "source": "weiqichang744-alt/evejs-mod-evejs-te-gong-jian-chuan-bao",
-      "downloads": 54,
+      "downloads": 61,
       "cdnHits": 0
     },
     {
@@ -2078,6 +2078,51 @@
       "source": "MateralCMX/evejs-mod-planetary-industry-enhancement",
       "downloads": 92,
       "cdnHits": 0
+    },
+    {
+      "author": {
+        "id": "au-mvtppqproasa",
+        "keyId": "5bb57b91ba6c",
+        "name": "珊瑚中的吃虎鱼"
+      },
+      "category": "装备",
+      "changelog": "",
+      "conflicts": [],
+      "delisted": false,
+      "description": "修复铁骑射程判定不一致（22km 点 F1 被拒/绿圈闪）、补齐 17 艘旗舰缺失的 fighterTubes、伤害乘数按满编中队规模计算",
+      "displayName": "铁骑/重型无人机伤害修复",
+      "downloadUrls": [
+        {
+          "mirror": "github",
+          "priority": 1,
+          "url": "https://github.com/kokoandqiong/evejs-mod-evejs-tie-qi-zhong-wu-shang-hai-xiu-fu/releases/download/v1.0.0/evejs-tie-qi-zhong-wu-shang-hai-xiu-fu-1.0.0.zip"
+        }
+      ],
+      "evejsVersions": [
+        "261028.x"
+      ],
+      "featured": false,
+      "highlights": [],
+      "history": [],
+      "id": "evejs-tie-qi-zhong-wu-shang-hai-xiu-fu",
+      "publishedAt": "2026-10-30",
+      "readme": [
+        "修掉 **铁骑（Fighter）在 261028.1 上的三个真实缺陷**，外加补齐 SDE 缺失的发射管属性。\n**纯运行期内存补丁** —— 磁盘上 `server/src` 一个字节都不改。改完需**重启服务端**。",
+        "适用：EveJS **261028.x** · `kind: loader` · 类别：装备",
+        "---"
+      ],
+      "repo": "https://github.com/kokoandqiong/evejs-mod-evejs-tie-qi-zhong-wu-shang-hai-xiu-fu",
+      "requiresRestart": true,
+      "sha256": "4a748ae88931ee04ec6b94284ec30004f494acca44094ff6e48d488bebe20b16",
+      "sizeBytes": 27630,
+      "tags": [
+        "聊天",
+        "新手"
+      ],
+      "version": "1.0.0",
+      "source": "kokoandqiong/evejs-mod-evejs-tie-qi-zhong-wu-shang-hai-xiu-fu",
+      "downloads": 0,
+      "cdnHits": 0
     }
   ],
   "moderation": {
@@ -2097,7 +2142,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "G5mh5iRxzFQYQqF1NLO43xPUAh5kz27+8Sq+Z5RkI/GAleDrgWq8CMe+9qHH4q3icEAoroGMjmrrPC+kO24WBg==",
-    "signedAt": "2026-10-30T11:50:51.898Z"
+    "sig": "uQ6tUKXhrb9R333MhRDIVI5jy3Jy0k5lT+ONX+BbNuR+nCizHI8+j3Rjr9maurgPjVILdMVAHsGMo7r3UCPIBA==",
+    "signedAt": "2026-10-30T12:26:14.286Z"
   }
 }
