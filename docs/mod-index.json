@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-30T05:39:53.644Z",
+  "publishedAt": "2026-10-30T11:50:51.894Z",
   "mods": [
     {
       "author": {
@@ -45,7 +45,7 @@
       ],
       "version": "1.2.3",
       "source": "jealous123456789/evejs-mod-evejs-air-career-payout",
-      "downloads": 1,
+      "downloads": 11,
       "cdnHits": 0
     },
     {
@@ -92,7 +92,7 @@
       ],
       "version": "1.1.0",
       "source": "jealous123456789/evejs-mod-evejs-air-crate-loot",
-      "downloads": 0,
+      "downloads": 12,
       "cdnHits": 0
     },
     {
@@ -137,7 +137,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "rzwm/evejs-mod-evejs-autolockfire-cn",
-      "downloads": 206,
+      "downloads": 209,
       "cdnHits": 0
     },
     {
@@ -180,7 +180,7 @@
       "tags": [],
       "version": "1.1.0",
       "source": "rzwm/evejs-mod-evejs-beijing-time",
-      "downloads": 222,
+      "downloads": 223,
       "cdnHits": 3
     },
     {
@@ -235,7 +235,7 @@
       "tags": [],
       "version": "0.17.5",
       "source": "MateralCMX/evejs-mod-bug-fixes",
-      "downloads": 427,
+      "downloads": 429,
       "cdnHits": 0
     },
     {
@@ -282,7 +282,7 @@
       ],
       "version": "1.1.5",
       "source": "diguo520/evejs-mod-evejs-autolockfire",
-      "downloads": 1121,
+      "downloads": 1134,
       "cdnHits": 0
     },
     {
@@ -342,7 +342,7 @@
       "tags": [],
       "version": "1.0.17",
       "source": "diguo520/evejs-mod-evejs-automining",
-      "downloads": 975,
+      "downloads": 978,
       "cdnHits": 1462
     },
     {
@@ -386,7 +386,7 @@
       "tags": [],
       "version": "1.0.3",
       "source": "guihaitianyi-cmd/evejs-mod-evejs-evejs-hacking-suite-1-0-3",
-      "downloads": 242,
+      "downloads": 243,
       "cdnHits": 0
     },
     {
@@ -472,7 +472,7 @@
       "tags": [],
       "version": "0.1.2",
       "source": "MateralCMX/evejs-mod-gm-menu-localization",
-      "downloads": 327,
+      "downloads": 329,
       "cdnHits": 0
     },
     {
@@ -546,7 +546,7 @@
       ],
       "banner": "shots/Banner/banner.jpg",
       "source": "xuenaimiao/evejs-mod-evejs-faction-sim",
-      "downloads": 1572,
+      "downloads": 1580,
       "cdnHits": 1252
     },
     {
@@ -636,7 +636,7 @@
       "tags": [],
       "version": "0.6.0",
       "source": "Jasper377/evejs-mod-evejs-npc-console",
-      "downloads": 212,
+      "downloads": 213,
       "cdnHits": 2
     },
     {
@@ -688,7 +688,7 @@
       "tags": [],
       "version": "0.2.0",
       "source": "xuenaimiao/evejs-mod-evejs-npc-fleet",
-      "downloads": 337,
+      "downloads": 339,
       "cdnHits": 0
     },
     {
@@ -875,7 +875,7 @@
       "tags": [],
       "version": "0.1.2",
       "source": "injusticemaster/evejs-mod-world-ark-91900",
-      "downloads": 115,
+      "downloads": 116,
       "cdnHits": 0
     },
     {
@@ -923,7 +923,7 @@
       ],
       "version": "1.0.9",
       "source": "diguo520/evejs-mod-evejs-cntext-fix",
-      "downloads": 831,
+      "downloads": 841,
       "cdnHits": 3
     },
     {
@@ -973,7 +973,7 @@
       "tags": [],
       "version": "0.1.2",
       "source": "MateralCMX/evejs-mod-mission-repair",
-      "downloads": 319,
+      "downloads": 320,
       "cdnHits": 0
     },
     {
@@ -1024,7 +1024,7 @@
       ],
       "version": "1.0.4",
       "source": "starcraft110/evejs-mod-evejs-hyperion-ship",
-      "downloads": 135,
+      "downloads": 142,
       "cdnHits": 0
     },
     {
@@ -1117,7 +1117,7 @@
       ],
       "version": "1.6.4",
       "source": "JUZIMandarin/evejs-mod-evejs-sleeper-drifters",
-      "downloads": 571,
+      "downloads": 573,
       "cdnHits": 5
     },
     {
@@ -1266,7 +1266,7 @@
       ],
       "version": "5.2.1",
       "source": "JonnyTC/evejs-mod-evejs-colossus-capital-fit",
-      "downloads": 34,
+      "downloads": 35,
       "cdnHits": 0
     },
     {
@@ -1325,7 +1325,7 @@
       ],
       "version": "2.0.0",
       "source": "JonnyTC/evejs-mod-evejs-colossus-audio-fix",
-      "downloads": 7,
+      "downloads": 9,
       "cdnHits": 0
     },
     {
@@ -1427,7 +1427,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "MateralCMX/evejs-mod-structure-timers",
-      "downloads": 116,
+      "downloads": 118,
       "cdnHits": 0
     },
     {
@@ -1468,7 +1468,7 @@
       "tags": [],
       "version": "0.2.2",
       "source": "xuenaimiao/evejs-mod-evejs-perf-fix",
-      "downloads": 443,
+      "downloads": 445,
       "cdnHits": 2
     },
     {
@@ -1558,7 +1558,7 @@
       ],
       "version": "1.1.0",
       "source": "jealous123456789/evejs-mod-evejs-air-career-fix",
-      "downloads": 12,
+      "downloads": 13,
       "cdnHits": 0
     },
     {
@@ -1606,7 +1606,7 @@
       ],
       "version": "0.3.3",
       "source": "xuenaimiao/evejs-mod-evejs-sc-ships",
-      "downloads": 174,
+      "downloads": 187,
       "cdnHits": 0
     },
     {
@@ -1785,7 +1785,7 @@
       ],
       "version": "0.1.1",
       "source": "xuenaimiao/evejs-mod-evejs-sc-quarters",
-      "downloads": 71,
+      "downloads": 72,
       "cdnHits": 0
     },
     {
@@ -1845,7 +1845,7 @@
       ],
       "version": "3.2.0",
       "source": "Jasper377/evejs-mod-evejs-racks16",
-      "downloads": 339,
+      "downloads": 341,
       "cdnHits": 3
     },
     {
@@ -1893,7 +1893,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "MateralCMX/evejs-mod-mobile-tractor-enhancement",
-      "downloads": 159,
+      "downloads": 161,
       "cdnHits": 0
     },
     {
@@ -1937,7 +1937,7 @@
       ],
       "version": "1.3.8",
       "source": "weiqichang744-alt/evejs-mod-evejs-te-gong-jian-chuan-bao",
-      "downloads": 38,
+      "downloads": 54,
       "cdnHits": 0
     },
     {
@@ -1977,7 +1977,7 @@
       "tags": [],
       "version": "1.6.0",
       "source": "Jasper377/evejs-mod-evejs-acspecialbattleship",
-      "downloads": 416,
+      "downloads": 419,
       "cdnHits": 3
     },
     {
@@ -2076,7 +2076,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "MateralCMX/evejs-mod-planetary-industry-enhancement",
-      "downloads": 91,
+      "downloads": 92,
       "cdnHits": 0
     }
   ],
@@ -2097,7 +2097,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "CJRmSPo9ckEYLAcbSWI8ATFP6eygrZ7DLv+nbue4VE+eaXSLALUYg+rprfPO+Mz7Pe+OAOPiaLhQEHo0DihpDA==",
-    "signedAt": "2026-10-30T05:39:53.647Z"
+    "sig": "G5mh5iRxzFQYQqF1NLO43xPUAh5kz27+8Sq+Z5RkI/GAleDrgWq8CMe+9qHH4q3icEAoroGMjmrrPC+kO24WBg==",
+    "signedAt": "2026-10-30T11:50:51.898Z"
   }
 }
