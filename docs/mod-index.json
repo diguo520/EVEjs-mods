@@ -1,7 +1,53 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-30T03:23:58.105Z",
+  "publishedAt": "2026-10-30T04:45:46.530Z",
   "mods": [
+    {
+      "author": {
+        "id": "au-mvgf59rqpaue",
+        "keyId": "6d218baa968e",
+        "name": "普罗旺斯煎饼果子"
+      },
+      "category": "玩法",
+      "changelog": "按261028版本匹配，并单独留存261018版本的mod（因新版本原生服务端AIR有修复，不能直接做更新。",
+      "conflicts": [],
+      "delisted": false,
+      "description": "适用于261028服务器，修复AIR职业计划，261018及之前版本见另一个修复mod",
+      "displayName": "AIR修复",
+      "downloadUrls": [
+        {
+          "mirror": "github",
+          "priority": 1,
+          "url": "https://github.com/jealous123456789/evejs-mod-evejs-air-career-payout/releases/download/v1.2.3/evejs-air-career-payout-1.2.3.zip"
+        }
+      ],
+      "evejsVersions": [
+        "261028.x"
+      ],
+      "featured": false,
+      "highlights": [],
+      "history": [],
+      "id": "evejs-air-career-payout",
+      "publishedAt": "2026-10-30",
+      "readme": [
+        "修复事项如下：\n1.原生AIR奖励只有isk，补充奖励技能，装备，舰船及涂装礼包；\n2.修复AIR奖励不发放的bug；\n3.修复AIR页面打开后空白，点不进子目录的情况。\n目前可能存在的问题：\n1.仍存在部分奖励无法兑现\n2.ProjectDiscovery项目原生服务器缺失，奖励仅占位，无法触发；\n3.自由战士子目录可能存在打不开的情况。"
+      ],
+      "repo": "https://github.com/jealous123456789/evejs-mod-evejs-air-career-payout",
+      "requiresRestart": true,
+      "sha256": "874fc904dc60745b20eb11bb2ceb643788dbd5df5e6a79ddc34671d00bf616ef",
+      "sizeBytes": 33518,
+      "tags": [
+        "修复",
+        "AIR",
+        "职业计划",
+        "奖励发放",
+        "页面空白"
+      ],
+      "version": "1.2.3",
+      "source": "jealous123456789/evejs-mod-evejs-air-career-payout",
+      "downloads": 0,
+      "cdnHits": 0
+    },
     {
       "author": {
         "id": "au-mv2j36e77ld7",
@@ -189,7 +235,7 @@
       ],
       "version": "1.1.5",
       "source": "diguo520/evejs-mod-evejs-autolockfire",
-      "downloads": 1120,
+      "downloads": 1121,
       "cdnHits": 0
     },
     {
@@ -1232,7 +1278,7 @@
       ],
       "version": "2.0.0",
       "source": "JonnyTC/evejs-mod-evejs-colossus-audio-fix",
-      "downloads": 6,
+      "downloads": 7,
       "cdnHits": 0
     },
     {
@@ -1334,7 +1380,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "MateralCMX/evejs-mod-structure-timers",
-      "downloads": 115,
+      "downloads": 116,
       "cdnHits": 0
     },
     {
@@ -1513,7 +1559,7 @@
       ],
       "version": "0.3.3",
       "source": "xuenaimiao/evejs-mod-evejs-sc-ships",
-      "downloads": 173,
+      "downloads": 174,
       "cdnHits": 0
     },
     {
@@ -1800,7 +1846,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "MateralCMX/evejs-mod-mobile-tractor-enhancement",
-      "downloads": 157,
+      "downloads": 159,
       "cdnHits": 0
     },
     {
@@ -1844,7 +1890,7 @@
       ],
       "version": "1.3.8",
       "source": "weiqichang744-alt/evejs-mod-evejs-te-gong-jian-chuan-bao",
-      "downloads": 32,
+      "downloads": 37,
       "cdnHits": 0
     },
     {
@@ -1934,7 +1980,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "rzwm/evejs-mod-evejs-autopilot-jump-stargate-0km",
-      "downloads": 228,
+      "downloads": 229,
       "cdnHits": 3
     },
     {
@@ -2004,7 +2050,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "GuFhlM5tEv0eYB/sCJKgb2qCbWhPoj6rCTCrtYPZty2ayg9VIc2eHRwH4ZTkhBK83CLL7lF4wP1I0KEA3X3EAw==",
-    "signedAt": "2026-10-30T03:23:58.109Z"
+    "sig": "TAVY43BT/pzHOut3jBAobD5cw7/ZIU6twWnAwS8JqM2W6s6aV8QDMG2MvkwfLmbQOEPAqkd82en9fki9tYDZCA==",
+    "signedAt": "2026-10-30T04:45:46.533Z"
   }
 }
