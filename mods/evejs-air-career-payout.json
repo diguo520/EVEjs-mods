@@ -1,0 +1,24 @@
+{
+  "author": {
+    "id": "au-mvgf59rqpaue",
+    "keyId": "6d218baa968e",
+    "name": "普罗旺斯煎饼果子"
+  },
+  "displayName": "AIR修复",
+  "downloadParts": null,
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/jealous123456789/evejs-mod-evejs-air-career-payout/releases/download/v1.2.3/evejs-air-career-payout-1.2.3.zip"
+    }
+  ],
+  "id": "evejs-air-career-payout",
+  "publishedAt": "2026-10-30",
+  "schemaVersion": 1,
+  "sha256": "874fc904dc60745b20eb11bb2ceb643788dbd5df5e6a79ddc34671d00bf616ef",
+  "sizeBytes": 33518,
+  "source": "jealous123456789/evejs-mod-evejs-air-career-payout",
+  "submittedAt": "2026-10-30T04:44:20.059Z",
+  "version": "1.2.3"
+}
