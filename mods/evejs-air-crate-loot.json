@@ -1,0 +1,24 @@
+{
+  "author": {
+    "id": "au-mvgf59rqpaue",
+    "keyId": "6d218baa968e",
+    "name": "普罗旺斯煎饼果子"
+  },
+  "displayName": "AIR开箱奖励修复",
+  "downloadParts": null,
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/jealous123456789/evejs-mod-evejs-air-crate-loot/releases/download/v1.1.0/evejs-air-crate-loot-1.1.0.zip"
+    }
+  ],
+  "id": "evejs-air-crate-loot",
+  "publishedAt": "2026-10-30",
+  "schemaVersion": 1,
+  "sha256": "16a35f2d13a3b7f8b2ba48fd4298bddf22d7e2d9686cb637077684d63cbff80f",
+  "sizeBytes": 23365,
+  "source": "jealous123456789/evejs-mod-evejs-air-crate-loot",
+  "submittedAt": "2026-10-30T05:38:21.537Z",
+  "version": "1.1.0"
+}
