@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-30T17:25:49.531Z",
+  "publishedAt": "2026-10-30T18:24:03.031Z",
   "mods": [
     {
       "author": {
@@ -45,7 +45,7 @@
       ],
       "version": "1.2.3",
       "source": "jealous123456789/evejs-mod-evejs-air-career-payout",
-      "downloads": 27,
+      "downloads": 28,
       "cdnHits": 0
     },
     {
@@ -282,7 +282,7 @@
       ],
       "version": "1.1.5",
       "source": "diguo520/evejs-mod-evejs-autolockfire",
-      "downloads": 1148,
+      "downloads": 1150,
       "cdnHits": 0
     },
     {
@@ -546,7 +546,7 @@
       ],
       "banner": "shots/Banner/banner.jpg",
       "source": "xuenaimiao/evejs-mod-evejs-faction-sim",
-      "downloads": 1594,
+      "downloads": 1600,
       "cdnHits": 1252
     },
     {
@@ -636,7 +636,7 @@
       "tags": [],
       "version": "0.6.0",
       "source": "Jasper377/evejs-mod-evejs-npc-console",
-      "downloads": 215,
+      "downloads": 216,
       "cdnHits": 2
     },
     {
@@ -923,7 +923,7 @@
       ],
       "version": "1.0.9",
       "source": "diguo520/evejs-mod-evejs-cntext-fix",
-      "downloads": 855,
+      "downloads": 857,
       "cdnHits": 3
     },
     {
@@ -1845,7 +1845,7 @@
       ],
       "version": "3.2.0",
       "source": "Jasper377/evejs-mod-evejs-racks16",
-      "downloads": 342,
+      "downloads": 343,
       "cdnHits": 3
     },
     {
@@ -1903,7 +1903,7 @@
         "name": "xingchen"
       },
       "category": "舰船",
-      "changelog": "",
+      "changelog": "修复了加百列尾焰问题\n修复了专属炮台缺失的问题\n修复了一些装备无法装上的问题\n修复了新增的技能增效剂无法使用的问题",
       "conflicts": [],
       "delisted": false,
       "description": "把晨曦服的22艘特供船完整的做成了模组包，都挂上市场了，在特别版舰船目录下",
@@ -1912,7 +1912,7 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/weiqichang744-alt/evejs-mod-evejs-te-gong-jian-chuan-bao/releases/download/v1.3.8/evejs-te-gong-jian-chuan-bao-1.3.8.zip"
+          "url": "https://github.com/weiqichang744-alt/evejs-mod-evejs-te-gong-jian-chuan-bao/releases/download/v1.4.9/evejs-te-gong-jian-chuan-bao-1.4.9.zip"
         }
       ],
       "evejsVersions": [
@@ -1922,20 +1922,20 @@
       "highlights": [],
       "history": [],
       "id": "evejs-te-gong-jian-chuan-bao",
-      "publishedAt": "2026-10-29",
+      "publishedAt": "2026-10-30",
       "readme": [
-        "把 **ShipPack_Infinity 24.01** 里游戏服务端尚未收录的 **22 艘舰船**接进 EveJS。",
-        "> 现在本模组只保留 **22 艘真正的新船**。"
+        "把 **ShipPack_Infinity 24.01** 里游戏服务端尚未收录的 **22 艘舰船**接进 EveJS，市场挂在「舰船 → 特别版舰船 → 晨曦特供船」。",
+        "> 本模组只保留 **22 艘真正的新船**，其余内容都是为这 22 艘船配套的。"
       ],
       "repo": "https://github.com/weiqichang744-alt/evejs-mod-evejs-te-gong-jian-chuan-bao",
       "requiresRestart": true,
-      "sha256": "2ebbc607be24067be70385b7b72c6286948fdccc3aad400d98ef7b13d2d0357b",
-      "sizeBytes": 366265175,
+      "sha256": "0291d915045302d4aebcc71b6be074ffa58041d4af6c76ff2fec0824c2c9b20d",
+      "sizeBytes": 366367383,
       "tags": [
         "国服特供船",
         "22艘"
       ],
-      "version": "1.3.8",
+      "version": "1.4.9",
       "source": "weiqichang744-alt/evejs-mod-evejs-te-gong-jian-chuan-bao",
       "downloads": 90,
       "cdnHits": 0
@@ -1977,7 +1977,7 @@
       "tags": [],
       "version": "1.6.0",
       "source": "Jasper377/evejs-mod-evejs-acspecialbattleship",
-      "downloads": 420,
+      "downloads": 421,
       "cdnHits": 3
     },
     {
@@ -2121,7 +2121,7 @@
       ],
       "version": "1.0.4",
       "source": "kokoandqiong/evejs-mod-evejs-tie-qi-zhong-wu-shang-hai-xiu-fu",
-      "downloads": 26,
+      "downloads": 29,
       "cdnHits": 0
     }
   ],
@@ -2142,7 +2142,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "Hi3rGj6Sd7AOlbQImYsQfZoogF1AC2+zaRqShhmlJ9mHqQlon/FSr2wbC2p8S/piz/AAZCTTEh84V/Kg5bCKCQ==",
-    "signedAt": "2026-10-30T17:25:49.536Z"
+    "sig": "Jw9wjcK5BTLKlRbcs4zlfrO+ZWVxbrEW8ODSTSLt/cPPtwyhqu3OJE/+1eBU+DS8pMllbN6OgtKUs5oqvKm1BA==",
+    "signedAt": "2026-10-30T18:24:03.035Z"
   }
 }
