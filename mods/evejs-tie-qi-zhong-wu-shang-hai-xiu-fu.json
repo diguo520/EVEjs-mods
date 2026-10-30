@@ -10,15 +10,15 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/kokoandqiong/evejs-mod-evejs-tie-qi-zhong-wu-shang-hai-xiu-fu/releases/download/v1.0.1/evejs-tie-qi-zhong-wu-shang-hai-xiu-fu-1.0.1.zip"
+      "url": "https://github.com/kokoandqiong/evejs-mod-evejs-tie-qi-zhong-wu-shang-hai-xiu-fu/releases/download/v1.0.2/evejs-tie-qi-zhong-wu-shang-hai-xiu-fu-1.0.2.zip"
     }
   ],
   "id": "evejs-tie-qi-zhong-wu-shang-hai-xiu-fu",
   "publishedAt": "2026-10-30",
   "schemaVersion": 1,
-  "sha256": "0035887b95ed9616682e8ebfde646fb4ba51d009319c0f143ce6ebd21cb52f57",
-  "sizeBytes": 35216,
+  "sha256": "04da09afaf7602c41ff9ed905216308d1a29a6cc11f70856f96d539414bad1c7",
+  "sizeBytes": 36629,
   "source": "kokoandqiong/evejs-mod-evejs-tie-qi-zhong-wu-shang-hai-xiu-fu",
-  "submittedAt": "2026-10-30T13:23:08.926Z",
-  "version": "1.0.1"
+  "submittedAt": "2026-10-30T14:04:32.478Z",
+  "version": "1.0.2"
 }
