@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-30T14:05:51.358Z",
+  "publishedAt": "2026-10-30T15:08:04.861Z",
   "mods": [
     {
       "author": {
@@ -45,7 +45,7 @@
       ],
       "version": "1.2.3",
       "source": "jealous123456789/evejs-mod-evejs-air-career-payout",
-      "downloads": 19,
+      "downloads": 22,
       "cdnHits": 0
     },
     {
@@ -92,7 +92,7 @@
       ],
       "version": "1.1.0",
       "source": "jealous123456789/evejs-mod-evejs-air-crate-loot",
-      "downloads": 20,
+      "downloads": 24,
       "cdnHits": 0
     },
     {
@@ -137,7 +137,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "rzwm/evejs-mod-evejs-autolockfire-cn",
-      "downloads": 209,
+      "downloads": 210,
       "cdnHits": 0
     },
     {
@@ -180,7 +180,7 @@
       "tags": [],
       "version": "1.1.0",
       "source": "rzwm/evejs-mod-evejs-beijing-time",
-      "downloads": 223,
+      "downloads": 224,
       "cdnHits": 3
     },
     {
@@ -235,7 +235,7 @@
       "tags": [],
       "version": "0.17.5",
       "source": "MateralCMX/evejs-mod-bug-fixes",
-      "downloads": 433,
+      "downloads": 435,
       "cdnHits": 0
     },
     {
@@ -282,7 +282,7 @@
       ],
       "version": "1.1.5",
       "source": "diguo520/evejs-mod-evejs-autolockfire",
-      "downloads": 1141,
+      "downloads": 1144,
       "cdnHits": 0
     },
     {
@@ -427,7 +427,7 @@
       "tags": [],
       "version": "0.2.3",
       "source": "MateralCMX/evejs-mod-ship-blueprints",
-      "downloads": 179,
+      "downloads": 180,
       "cdnHits": 8
     },
     {
@@ -472,7 +472,7 @@
       "tags": [],
       "version": "0.1.2",
       "source": "MateralCMX/evejs-mod-gm-menu-localization",
-      "downloads": 332,
+      "downloads": 334,
       "cdnHits": 0
     },
     {
@@ -546,7 +546,7 @@
       ],
       "banner": "shots/Banner/banner.jpg",
       "source": "xuenaimiao/evejs-mod-evejs-faction-sim",
-      "downloads": 1587,
+      "downloads": 1591,
       "cdnHits": 1252
     },
     {
@@ -596,7 +596,7 @@
       ],
       "version": "1.0.0",
       "source": "JonnyTC/evejs-mod-evejs-npc-hull-hp-fix",
-      "downloads": 41,
+      "downloads": 42,
       "cdnHits": 0
     },
     {
@@ -688,7 +688,7 @@
       "tags": [],
       "version": "0.2.0",
       "source": "xuenaimiao/evejs-mod-evejs-npc-fleet",
-      "downloads": 340,
+      "downloads": 341,
       "cdnHits": 0
     },
     {
@@ -733,7 +733,7 @@
       "tags": [],
       "version": "0.2.3",
       "source": "MateralCMX/evejs-mod-npc-extension-core",
-      "downloads": 158,
+      "downloads": 159,
       "cdnHits": 0
     },
     {
@@ -780,7 +780,7 @@
       "tags": [],
       "version": "0.1.3",
       "source": "MateralCMX/evejs-mod-npc-loot-rules",
-      "downloads": 231,
+      "downloads": 232,
       "cdnHits": 0
     },
     {
@@ -923,7 +923,7 @@
       ],
       "version": "1.0.9",
       "source": "diguo520/evejs-mod-evejs-cntext-fix",
-      "downloads": 847,
+      "downloads": 850,
       "cdnHits": 3
     },
     {
@@ -973,7 +973,7 @@
       "tags": [],
       "version": "0.1.2",
       "source": "MateralCMX/evejs-mod-mission-repair",
-      "downloads": 322,
+      "downloads": 324,
       "cdnHits": 0
     },
     {
@@ -1070,7 +1070,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "MateralCMX/evejs-mod-clone-convenience",
-      "downloads": 99,
+      "downloads": 100,
       "cdnHits": 0
     },
     {
@@ -1165,7 +1165,7 @@
       ],
       "version": "1.0.0",
       "source": "JonnyTC/evejs-mod-evejs-structure-targeting-fix",
-      "downloads": 36,
+      "downloads": 37,
       "cdnHits": 0
     },
     {
@@ -1215,7 +1215,7 @@
       ],
       "version": "1.0.0",
       "source": "JonnyTC/evejs-mod-evejs-dungeon-pocket-anchor-fix",
-      "downloads": 38,
+      "downloads": 39,
       "cdnHits": 0
     },
     {
@@ -1266,7 +1266,7 @@
       ],
       "version": "5.2.1",
       "source": "JonnyTC/evejs-mod-evejs-colossus-capital-fit",
-      "downloads": 36,
+      "downloads": 37,
       "cdnHits": 0
     },
     {
@@ -1325,7 +1325,7 @@
       ],
       "version": "2.0.0",
       "source": "JonnyTC/evejs-mod-evejs-colossus-audio-fix",
-      "downloads": 10,
+      "downloads": 11,
       "cdnHits": 0
     },
     {
@@ -1558,7 +1558,7 @@
       ],
       "version": "1.1.0",
       "source": "jealous123456789/evejs-mod-evejs-air-career-fix",
-      "downloads": 16,
+      "downloads": 17,
       "cdnHits": 0
     },
     {
@@ -1893,7 +1893,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "MateralCMX/evejs-mod-mobile-tractor-enhancement",
-      "downloads": 161,
+      "downloads": 163,
       "cdnHits": 0
     },
     {
@@ -1937,7 +1937,7 @@
       ],
       "version": "1.3.8",
       "source": "weiqichang744-alt/evejs-mod-evejs-te-gong-jian-chuan-bao",
-      "downloads": 69,
+      "downloads": 87,
       "cdnHits": 0
     },
     {
@@ -1977,7 +1977,7 @@
       "tags": [],
       "version": "1.6.0",
       "source": "Jasper377/evejs-mod-evejs-acspecialbattleship",
-      "downloads": 419,
+      "downloads": 420,
       "cdnHits": 3
     },
     {
@@ -2095,7 +2095,7 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/kokoandqiong/evejs-mod-evejs-tie-qi-zhong-wu-shang-hai-xiu-fu/releases/download/v1.0.2/evejs-tie-qi-zhong-wu-shang-hai-xiu-fu-1.0.2.zip"
+          "url": "https://github.com/kokoandqiong/evejs-mod-evejs-tie-qi-zhong-wu-shang-hai-xiu-fu/releases/download/v1.0.3/evejs-tie-qi-zhong-wu-shang-hai-xiu-fu-1.0.3.zip"
         }
       ],
       "evejsVersions": [
@@ -2113,15 +2113,15 @@
       ],
       "repo": "https://github.com/kokoandqiong/evejs-mod-evejs-tie-qi-zhong-wu-shang-hai-xiu-fu",
       "requiresRestart": true,
-      "sha256": "04da09afaf7602c41ff9ed905216308d1a29a6cc11f70856f96d539414bad1c7",
-      "sizeBytes": 36629,
+      "sha256": "cfd82723e9b00906a5236eae3e3c26a6d8ec67d79d402ff064244dd6087e34c2",
+      "sizeBytes": 37564,
       "tags": [
         "聊天",
         "新手"
       ],
-      "version": "1.0.2",
+      "version": "1.0.3",
       "source": "kokoandqiong/evejs-mod-evejs-tie-qi-zhong-wu-shang-hai-xiu-fu",
-      "downloads": 4,
+      "downloads": 11,
       "cdnHits": 0
     }
   ],
@@ -2142,7 +2142,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "NDX+ouAtDG1nxL1gJZTMnCP2UhDLETfXcu3+Ihgzv3q8bvU+wnGz0FHXnUAoj6m9NAZdYFbcKvTbf+21kTefDw==",
-    "signedAt": "2026-10-30T14:05:51.363Z"
+    "sig": "4EFQ0ggHSRMjQQSDGh6pwwFGxErxnbkgEengyLutT1Yq7WhYU7sIqBEtYrlMi//D9mLHIvZdozPguuSu+zKPAQ==",
+    "signedAt": "2026-10-30T15:08:04.866Z"
   }
 }
