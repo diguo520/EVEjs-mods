@@ -1,0 +1,24 @@
+{
+  "author": {
+    "id": "au-mvt6rg210sr2",
+    "keyId": "a20ad81508c3",
+    "name": "GH301"
+  },
+  "displayName": "NFCrew · 船员编队",
+  "downloadParts": null,
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/GH301/evejs-mod-evejs-nf-crew/releases/download/v1.0.5/evejs-nf-crew-1.0.5.zip"
+    }
+  ],
+  "id": "evejs-nf-crew",
+  "publishedAt": "2026-10-31",
+  "schemaVersion": 1,
+  "sha256": "5361ed4b31cdd05cb793b8ab7f61d58a82d53fef9248e99536f55b148f59d950",
+  "sizeBytes": 407289,
+  "source": "GH301/evejs-mod-evejs-nf-crew",
+  "submittedAt": "2026-10-31T14:48:45.172Z",
+  "version": "1.0.5"
+}
