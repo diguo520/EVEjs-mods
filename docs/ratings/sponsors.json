@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1793176704383,
+  "generatedAt": 1793448390003,
   "sponsors": [
     {
       "id": "sponsor-01",
@@ -259,11 +259,23 @@
       "name": "下北沢野兽",
       "amount": 150,
       "currency": "CNY"
+    },
+    {
+      "id": "sponsor-44",
+      "name": "Sud-D",
+      "amount": 50,
+      "currency": "CNY"
+    },
+    {
+      "id": "sponsor-45",
+      "name": "Dare",
+      "amount": 66,
+      "currency": "CNY"
     }
   ],
   "signature": {
     "alg": "ed25519",
     "keyId": "evejs-ratings-2026-10-01",
-    "sig": "LIdBg4vklhBJ17ttUBB0BUAe33EeQazdslL7rGLyiO5y1gP25aePBx7AbNu2y0hRt39V6j9OOrs/3SXEMmkHDg=="
+    "sig": "H4j5NQgB6MToltl6wBLQ+m6fPm7c6pAQUyC/2PIrVmMjavlHuJ9T7HctTO8whVSbKyQk5sUSRclPNT8CzOYXBA=="
   }
 }
