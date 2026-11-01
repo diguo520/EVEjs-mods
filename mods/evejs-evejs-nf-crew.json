@@ -1,0 +1,24 @@
+{
+  "author": {
+    "id": "au-mve8ih7eg2be",
+    "keyId": "90fd49973811",
+    "name": "JKbaby"
+  },
+  "displayName": "evejs-nf-crew",
+  "downloadParts": null,
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/ffiijkbaby/evejs-mod-evejs-evejs-nf-crew/releases/download/v1.0.0/evejs-evejs-nf-crew-1.0.0.zip"
+    }
+  ],
+  "id": "evejs-evejs-nf-crew",
+  "publishedAt": "2026-11-01",
+  "schemaVersion": 1,
+  "sha256": "65eeb634699bc60c9aa5d4812ab4d9888cc4b6f70e5c83e560ce5229e6a2a3a2",
+  "sizeBytes": 15343,
+  "source": "ffiijkbaby/evejs-mod-evejs-evejs-nf-crew",
+  "submittedAt": "2026-11-01T04:23:07.457Z",
+  "version": "1.0.0"
+}
