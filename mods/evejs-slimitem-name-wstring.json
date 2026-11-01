@@ -1,0 +1,24 @@
+{
+  "author": {
+    "id": "au-mvtppqproasa",
+    "keyId": "5bb57b91ba6c",
+    "name": "珊瑚中的吃虎鱼"
+  },
+  "displayName": "对象名 unicode 修复（SlimItem + 名字出口）",
+  "downloadParts": null,
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/kokoandqiong/evejs-mod-evejs-slimitem-name-wstring/releases/download/v1.1.0/evejs-slimitem-name-wstring-1.1.0.zip"
+    }
+  ],
+  "id": "evejs-slimitem-name-wstring",
+  "publishedAt": "2026-11-01",
+  "schemaVersion": 1,
+  "sha256": "56e247555aff896188e158e424fe4f01262bb7ea264aa1e573b824bebb494683",
+  "sizeBytes": 15040,
+  "source": "kokoandqiong/evejs-mod-evejs-slimitem-name-wstring",
+  "submittedAt": "2026-11-01T16:06:18.442Z",
+  "version": "1.1.0"
+}
