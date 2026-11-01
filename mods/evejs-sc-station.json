@@ -1,0 +1,23 @@
+{
+  "author": {
+    "id": "au-mujkaep5shgv",
+    "keyId": "2792fbac9b88",
+    "name": "匿名"
+  },
+  "displayName": "星际公民空间站 (SC Station)",
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/xuenaimiao/evejs-mod-evejs-sc-station/releases/download/v0.1.1/evejs-sc-station-0.1.1.zip"
+    }
+  ],
+  "id": "evejs-sc-station",
+  "publishedAt": "2026-11-01",
+  "schemaVersion": 1,
+  "sha256": "42a321f1222b3c8eaea145a9bb407d05c0b3693a3b65900c3e9ecac424a5aec9",
+  "sizeBytes": 732107354,
+  "source": "xuenaimiao/evejs-mod-evejs-sc-station",
+  "submittedAt": "2026-11-01T19:35:42.085Z",
+  "version": "0.1.1"
+}
