@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-11-01T19:37:00.524Z",
+  "publishedAt": "2026-11-01T19:39:02.055Z",
   "mods": [
     {
       "author": {
@@ -1771,6 +1771,61 @@
         "name": "匿名"
       },
       "category": "舰船",
+      "changelog": "",
+      "conflicts": [],
+      "delisted": false,
+      "description": "实验性、仅供个人本地试用：在星际公民舰长室（仙女座舱内）和空间站内部以第一人称行走时，低头能看到自己的身体（SC 默认 Odyssey 连体服，男/女），带 SC 原版走、跑、后退、横移、下蹲、跳跃落地动作（离线烘焙的逐帧动画，相位按走过的距离推进，不滑步）、SC 原版脚步声（按地面材质）、镜头晃动和分方向移速。C 下蹲。资源从玩家自己的 SC 安装解出来（tools/ 下的流水线）。需要主控 MOD evejs-sc-ships 0.3.2 或更新，以及 evejs-sc-quarters / evejs-sc-station 中至少一个。",
+      "displayName": "星际公民第一人称身体 (SC Body)",
+      "downloadUrls": [
+        {
+          "mirror": "github",
+          "priority": 1,
+          "url": "https://github.com/xuenaimiao/evejs-mod-evejs-sc-body/releases/download/v0.1.1/evejs-sc-body-0.1.1.zip"
+        }
+      ],
+      "evejsVersions": [
+        "261018.1",
+        "261028.1"
+      ],
+      "featured": false,
+      "highlights": [
+        "**自己的身体**：低头能看到自己的身体，用的是 SC 默认的 RSI Odyssey 连体服。男女两套，默认按角色性别选，面板里可以切换。",
+        "**SC 原版动作**：站立、走、跑、后退、左右横移、下蹲（站着和走着）、空中、落地。走路相位按走过的距离推进，所以任何速度下脚都不打滑；换步态时脚步保持同步。",
+        "**SC 原版脚步声**：按脚下的地面材质播放（实心金属、格栅、空心金属、玻璃、橡胶……），另有起跳声和落地声。",
+        "**镜头晃动**：用 SC 片段里 HeadCam 骨骼的真实轨迹，另有落地下沉。",
+        "**分方向移速和下蹲**：前进、后退、横移、跑步、下蹲各有自己的速度。下蹲时碰撞体变矮，可以钻过低处；头顶有东西时站不起来。"
+      ],
+      "history": [],
+      "id": "evejs-sc-body",
+      "publishedAt": "2026-11-01",
+      "readme": [
+        "实验性，仅供个人本地试用。它是 evejs-sc-ships 的附加 MOD，没有服务端代码。",
+        "用星际公民舰长室（`evejs-sc-quarters`，仙女座舱内）或空间站内部（`evejs-sc-station`）以第一人称行走时，加上这些内容：",
+        "资源都从玩家自己的 SC 安装里解出来（`tools/`），不随仓库分发（见 `.gitignore`）。"
+      ],
+      "repo": "https://github.com/xuenaimiao/evejs-mod-evejs-sc-body",
+      "requiresRestart": true,
+      "sha256": "fcbc9082fd7df4d49fba80bbe7a36e24797394a48b1b74240fea93b05e99354a",
+      "sizeBytes": 192860731,
+      "tags": [
+        "星际公民",
+        "Star",
+        "Citizen",
+        "第一人称",
+        "身体"
+      ],
+      "version": "0.1.1",
+      "source": "xuenaimiao/evejs-mod-evejs-sc-body",
+      "downloads": 0,
+      "cdnHits": 0
+    },
+    {
+      "author": {
+        "id": "au-mujkaep5shgv",
+        "keyId": "2792fbac9b88",
+        "name": "匿名"
+      },
+      "category": "舰船",
       "changelog": "适配",
       "conflicts": [],
       "delisted": false,
@@ -1852,7 +1907,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "xuenaimiao/evejs-mod-evejs-sc-ships-pack-rsi-crusader",
-      "downloads": 211,
+      "downloads": 212,
       "cdnHits": 0
     },
     {
@@ -1895,7 +1950,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "xuenaimiao/evejs-mod-evejs-sc-ships-pack-origin-drake-misc",
-      "downloads": 227,
+      "downloads": 228,
       "cdnHits": 0
     },
     {
@@ -1938,7 +1993,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "xuenaimiao/evejs-mod-evejs-sc-ships-pack-aegis-anvil",
-      "downloads": 180,
+      "downloads": 181,
       "cdnHits": 0
     },
     {
@@ -2401,7 +2456,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "SewK+L4rlo8Mu4q2PtkqisnijpC5ISmbGJUT1BM4usK0tMztK2ukHu+KKF85nlXe2w3uCae6VwTKdQ/m9dCACQ==",
-    "signedAt": "2026-11-01T19:37:00.528Z"
+    "sig": "Z5F/VYXU39omeHoJFGZq/rL5ZY0Bt00ld7eoFzAHuP5AGM37kUq2TwoJ9EJBhVbekOy/vpM/cyKjaUn5CB+uBQ==",
+    "signedAt": "2026-11-01T19:39:02.059Z"
   }
 }
