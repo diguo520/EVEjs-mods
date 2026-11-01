@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-11-01T19:26:39.886Z",
+  "publishedAt": "2026-11-01T19:37:00.524Z",
   "mods": [
     {
       "author": {
@@ -742,7 +742,7 @@
       "tags": [],
       "version": "0.6.0",
       "source": "Jasper377/evejs-mod-evejs-npc-console",
-      "downloads": 224,
+      "downloads": 225,
       "cdnHits": 2
     },
     {
@@ -1723,6 +1723,54 @@
         "name": "匿名"
       },
       "category": "舰船",
+      "changelog": "",
+      "conflicts": [],
+      "delisted": false,
+      "description": "实验性、仅供个人本地试用：把《星际公民》的炽天使空间站（Crusader 低轨休息站）放进吉他星系，在吉他 IV 上方 300 公里处，像吉他一样可以停靠使用全部服务，停靠后以第一人称在 SC 原版站内行走。需要主控 MOD evejs-sc-ships 0.3.2 或更新。服务端给静态表加站点行（复制吉他 4-4 的服务），客户端运行时补类型/图形/站点记录；站内模型从玩家自己的《星际公民》安装转换（tools/ 下的流水线）。EVEJS_SCSTATION_TYPES=0 不加站点。",
+      "displayName": "星际公民空间站 (SC Station)",
+      "downloadUrls": [
+        {
+          "mirror": "github",
+          "priority": 1,
+          "url": "https://github.com/xuenaimiao/evejs-mod-evejs-sc-station/releases/download/v0.1.1/evejs-sc-station-0.1.1.zip"
+        }
+      ],
+      "evejsVersions": [
+        "261018.1",
+        "261028.1"
+      ],
+      "featured": false,
+      "highlights": [],
+      "history": [],
+      "id": "evejs-sc-station",
+      "publishedAt": "2026-11-01",
+      "readme": [
+        "实验性、仅供个人本地试用：把《星际公民》的**炽天使空间站**（Crusader 低轨休息站 Seraphim Station）放进吉他星系，在吉他 IV（4-4）上方 800 公里处。它是一个真正的 NPC 空间站：可以停靠，服务和吉他一样；停靠后进入**第一人称站内**，像舰长室一样在 SC 原版大厅里走动。需要主控 MOD `evejs-sc-ships` 0.3.2 或更新；不修改服务端和客户端文件。"
+      ],
+      "repo": "https://github.com/xuenaimiao/evejs-mod-evejs-sc-station",
+      "requiresRestart": true,
+      "sha256": "42a321f1222b3c8eaea145a9bb407d05c0b3693a3b65900c3e9ecac424a5aec9",
+      "sizeBytes": 732107354,
+      "tags": [
+        "星际公民",
+        "Star",
+        "Citizen",
+        "空间站",
+        "炽天使",
+        "第一人称"
+      ],
+      "version": "0.1.1",
+      "source": "xuenaimiao/evejs-mod-evejs-sc-station",
+      "downloads": 0,
+      "cdnHits": 0
+    },
+    {
+      "author": {
+        "id": "au-mujkaep5shgv",
+        "keyId": "2792fbac9b88",
+        "name": "匿名"
+      },
+      "category": "舰船",
       "changelog": "适配",
       "conflicts": [],
       "delisted": false,
@@ -2353,7 +2401,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "0K1AtgjTbRbwmxTFUxZwYi726WJx0REmnIcKOT3qUYg17Jnuo3ENuGDFDfDEXvF4Ialhxqqyn2gwmMp8rwpnCA==",
-    "signedAt": "2026-11-01T19:26:39.889Z"
+    "sig": "SewK+L4rlo8Mu4q2PtkqisnijpC5ISmbGJUT1BM4usK0tMztK2ukHu+KKF85nlXe2w3uCae6VwTKdQ/m9dCACQ==",
+    "signedAt": "2026-11-01T19:37:00.528Z"
   }
 }
