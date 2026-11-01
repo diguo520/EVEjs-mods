@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1793481994731,
+  "generatedAt": 1793494114426,
   "mods": {
     "evejs-acspecialbattleship": {
       "stars": 1,
@@ -142,6 +142,20 @@
         4
       ]
     },
+    "evejs-te-gong-jian-chuan-bao": {
+      "stars": 1,
+      "comments": 0,
+      "average": 5,
+      "count": 1,
+      "withText": 0,
+      "histogram": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
     "gm-menu-localization": {
       "stars": 1,
       "comments": 0,
@@ -174,6 +188,6 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "evejs-ratings-2026-10-01",
-    "sig": "EquPiVo+QUEB8ScqlJgk8woUYfNa0IOOP6oz8N7c9z4Qi0s89G802MFhMD1NB2kdVfk4VnsPwFcNZ4XUz3kMCw=="
+    "sig": "wgYnNKrpJctGuxxqa3EdigxUcFk3s80OXy5xa+SRKjQoc5UtPCvZC4jGMGKv/B3UGKweVM+DDDMdKbtTTnOcDQ=="
   }
 }
