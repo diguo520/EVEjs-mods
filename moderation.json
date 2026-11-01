@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-17T14:59:58.883Z",
+  "updatedAt": "2026-11-01T07:09:12.205Z",
   "entries": [
     {
       "target": "exiell/evejs-mod-evejs-npc",
@@ -11,6 +11,17 @@
         "en": "用户反应MOD是坏的，重新整理后上传."
       },
       "at": "2026-10-17T14:59:58.883Z",
+      "by": "diguo520"
+    },
+    {
+      "target": "ffiijkbaby/evejs-mod-evejs-evejs-nf-crew",
+      "kind": "source",
+      "action": "delist",
+      "reason": {
+        "zh": "案例模板MOD不要网上传。整改后冲i性能上传。",
+        "en": "案例模板MOD不要网上传。整改后冲i性能上传。"
+      },
+      "at": "2026-11-01T07:09:12.205Z",
       "by": "diguo520"
     }
   ]
