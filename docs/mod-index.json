@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-11-01T20:23:11.288Z",
+  "publishedAt": "2026-11-01T21:29:01.863Z",
   "mods": [
     {
       "author": {
@@ -137,7 +137,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "rzwm/evejs-mod-evejs-autolockfire-cn",
-      "downloads": 239,
+      "downloads": 240,
       "cdnHits": 0
     },
     {
@@ -282,7 +282,7 @@
       ],
       "version": "1.1.5",
       "source": "diguo520/evejs-mod-evejs-autolockfire",
-      "downloads": 1220,
+      "downloads": 1221,
       "cdnHits": 0
     },
     {
@@ -1761,7 +1761,7 @@
       ],
       "version": "0.1.2",
       "source": "xuenaimiao/evejs-mod-evejs-sc-station",
-      "downloads": 16,
+      "downloads": 38,
       "cdnHits": 0
     },
     {
@@ -1816,7 +1816,7 @@
       ],
       "version": "0.1.1",
       "source": "xuenaimiao/evejs-mod-evejs-sc-body",
-      "downloads": 1,
+      "downloads": 10,
       "cdnHits": 0
     },
     {
@@ -1864,7 +1864,7 @@
       ],
       "version": "0.3.4",
       "source": "xuenaimiao/evejs-mod-evejs-sc-ships",
-      "downloads": 218,
+      "downloads": 222,
       "cdnHits": 0
     },
     {
@@ -1907,7 +1907,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "xuenaimiao/evejs-mod-evejs-sc-ships-pack-rsi-crusader",
-      "downloads": 212,
+      "downloads": 213,
       "cdnHits": 0
     },
     {
@@ -2196,7 +2196,7 @@
       ],
       "version": "1.4.9",
       "source": "weiqichang744-alt/evejs-mod-evejs-te-gong-jian-chuan-bao",
-      "downloads": 420,
+      "downloads": 424,
       "cdnHits": 0
     },
     {
@@ -2456,7 +2456,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "I5go1NhqoiLmbELgtWmnyRZpTtdAle4GWJykSIjVv4HZZsuLL8ESW682eZdhVO6U0way7ktXEHLmzQMSLJbFAw==",
-    "signedAt": "2026-11-01T20:23:11.293Z"
+    "sig": "jr357ClS5L6Gm+fOGak+0OO0UmzN2RBQkrJrWqQ8qbyMArpoma8NegqzzGHwh+dDlwSUiNI6u3yjKVNKe18oBA==",
+    "signedAt": "2026-11-01T21:29:01.868Z"
   }
 }
