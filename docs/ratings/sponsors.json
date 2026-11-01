@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1793534997365,
+  "generatedAt": 1793557298876,
   "sponsors": [
     {
       "id": "sponsor-01",
@@ -202,79 +202,73 @@
     },
     {
       "id": "sponsor-34",
-      "name": "B站的 冲锋大将",
-      "amount": 50,
-      "currency": "CNY"
-    },
-    {
-      "id": "sponsor-35",
       "name": "✎﹏ℳ๓₯㎕❦₯㎕♚",
       "amount": 50,
       "currency": "CNY"
     },
     {
-      "id": "sponsor-36",
+      "id": "sponsor-35",
       "name": "桎梏",
       "amount": 50,
       "currency": "CNY"
     },
     {
-      "id": "sponsor-37",
+      "id": "sponsor-36",
       "name": "去捉三两鱼",
       "amount": 20,
       "currency": "CNY"
     },
     {
-      "id": "sponsor-38",
+      "id": "sponsor-37",
       "name": "无数只章鱼",
       "amount": 8.88,
       "currency": "CNY"
     },
     {
-      "id": "sponsor-39",
+      "id": "sponsor-38",
       "name": "木流牛马",
       "amount": 11,
       "currency": "CNY"
     },
     {
-      "id": "sponsor-40",
+      "id": "sponsor-39",
       "name": "踏星行",
       "amount": 50,
       "currency": "CNY"
     },
     {
-      "id": "sponsor-41",
+      "id": "sponsor-40",
       "name": "皇甫",
       "amount": 50,
       "currency": "CNY"
     },
     {
-      "id": "sponsor-42",
+      "id": "sponsor-41",
       "name": "*珊",
       "amount": 20,
       "currency": "CNY"
     },
     {
-      "id": "sponsor-43",
+      "id": "sponsor-42",
       "name": "下北沢野兽",
       "amount": 150,
       "currency": "CNY"
     },
     {
-      "id": "sponsor-44",
+      "id": "sponsor-43",
       "name": "Sud-D",
       "amount": 50,
       "currency": "CNY"
     },
     {
-      "id": "sponsor-45",
+      "id": "sponsor-44",
       "name": "Dare",
       "amount": 66,
       "currency": "CNY"
     },
     {
-      "id": "sponsor-46",
-      "name": "*鱼",
+      "id": "sponsor-45",
+      "name": "火星的鲸鱼",
       "amount": 20,
       "currency": "CNY"
     }
@@ -282,6 +276,6 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "evejs-ratings-2026-10-01",
-    "sig": "UnW73EnoVV8oAgfqeIl3mv6w3FhZF8aZNYA1gtyihqkUd6XknSQCnu5Dw7wLevAz1PgBz5ozjwyEPfBuklTkDw=="
+    "sig": "B205K0fZUQ/35vKIvJ5tGfPJLLECKsuz1nAedfBLz9qvWvQ8qYZqbWEZF1FnMLW96aO0Jn4nUqbh0C4HX8zRCA=="
   }
 }
