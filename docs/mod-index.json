@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-11-01T19:39:02.055Z",
+  "publishedAt": "2026-11-01T20:19:06.555Z",
   "mods": [
     {
       "author": {
@@ -1761,7 +1761,7 @@
       ],
       "version": "0.1.1",
       "source": "xuenaimiao/evejs-mod-evejs-sc-station",
-      "downloads": 0,
+      "downloads": 16,
       "cdnHits": 0
     },
     {
@@ -1816,7 +1816,7 @@
       ],
       "version": "0.1.1",
       "source": "xuenaimiao/evejs-mod-evejs-sc-body",
-      "downloads": 0,
+      "downloads": 1,
       "cdnHits": 0
     },
     {
@@ -1826,7 +1826,7 @@
         "name": "匿名"
       },
       "category": "舰船",
-      "changelog": "适配",
+      "changelog": "修复兼容新服务器端",
       "conflicts": [],
       "delisted": false,
       "description": "实验性、仅供个人本地试用：把《星际公民》的舰船做成 EVE 里新增的舰船类型（typeID 930001 起，用 /ship 930001 拿船），第三人称显示 SC 的完整外壳模型（含默认配置的引擎、炮塔、舱门）。本 MOD 是主控：全部代码、SC 飞行模式 / 变形 / 音效，和 Constellation Andromeda（仙女座，930001）；其余 65 艘在三个数据包 MOD 里（evejs-sc-ships-pack-aegis-anvil / -rsi-crusader / -origin-drake-misc，每个 ZIP 不到 1 GB，需要先装本 MOD，要哪个装哪个）。飞行属性、装配基于各船对应的原版同级船，只有外观是 SC 的。做法：服务端给类型表加克隆行；随登录握手下发一段 Python，让客户端在运行时建出类型、图形和 SOF hull 记录；本 MOD 随服务端启动，把转换好的 gr2 与贴图以新的 res 路径写进客户端的 ResFiles 和 resfileindex.txt（原索引先备份，每一行改动都记在 evejs-sc-ships.state.json，可一键还原；幂等）。不修改服务端文件，也不修改 code.ccp。资产由玩家自己的《星际公民》安装转换而来（tools/ 下有完整流水线，见 README），不随仓库分发。改了 ships/ships.json 或开关了某个数据包要重启服务端；模型和贴图的更新不用。EVEJS_MOD_SC_SHIPS=0 停用，=revert 下次启动时还原；EVEJS_SCSHIPS_PACKS=0 忽略所有数据包；EVEJS_CLIENT_PATH 指客户端目录（默认 E:\\EVE\\tq）。",
@@ -1835,7 +1835,7 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/xuenaimiao/evejs-mod-evejs-sc-ships/releases/download/v0.3.3/evejs-sc-ships-0.3.3.zip"
+          "url": "https://github.com/xuenaimiao/evejs-mod-evejs-sc-ships/releases/download/v0.3.4/evejs-sc-ships-0.3.4.zip"
         }
       ],
       "evejsVersions": [
@@ -1846,15 +1846,15 @@
       "highlights": [],
       "history": [],
       "id": "evejs-sc-ships",
-      "publishedAt": "2026-10-29",
+      "publishedAt": "2026-11-01",
       "readme": [
         "把《星际公民》的 66 艘船做成 EVE 里**真正新增的舰船类型**（typeID 930001–930066），第三人称显示 SC 的完整外壳模型（含默认配置的引擎、炮塔、舱门）。\n实验性，仅供个人本地试用；资产由玩家自己的《星际公民》安装转换而来，不随仓库分发。",
         "飞行属性、装配、挂点数量都是「属性基于」那艘船的；只有外观是 SC 的。名字、说明有中英文。"
       ],
       "repo": "https://github.com/xuenaimiao/evejs-mod-evejs-sc-ships",
       "requiresRestart": true,
-      "sha256": "d411b594726dc3705bc30150b4d1d16de731f50bdaced23984d34de904c2e381",
-      "sizeBytes": 67084423,
+      "sha256": "7f6e187e48cbd0c66a350e1b13308eb96ffd511cb8e8262bc769f96c26d242b8",
+      "sizeBytes": 67086557,
       "tags": [
         "星际公民",
         "Star",
@@ -1862,7 +1862,7 @@
         "仙女座",
         "北极星"
       ],
-      "version": "0.3.3",
+      "version": "0.3.4",
       "source": "xuenaimiao/evejs-mod-evejs-sc-ships",
       "downloads": 218,
       "cdnHits": 0
@@ -2044,7 +2044,7 @@
       ],
       "version": "0.1.2",
       "source": "xuenaimiao/evejs-mod-evejs-sc-quarters",
-      "downloads": 93,
+      "downloads": 100,
       "cdnHits": 0
     },
     {
@@ -2456,7 +2456,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "Z5F/VYXU39omeHoJFGZq/rL5ZY0Bt00ld7eoFzAHuP5AGM37kUq2TwoJ9EJBhVbekOy/vpM/cyKjaUn5CB+uBQ==",
-    "signedAt": "2026-11-01T19:39:02.059Z"
+    "sig": "UrTXtz3Rpk05oYMgtKv6BRmVSuM1invOc08Ly+9ufRdzHntt9c5fDl+PiSdWxW2noBIKuBKV0sdMubhLqwtUAw==",
+    "signedAt": "2026-11-01T20:19:06.559Z"
   }
 }
