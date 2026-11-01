@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-11-01T16:08:03.109Z",
+  "publishedAt": "2026-11-01T19:26:39.886Z",
   "mods": [
     {
       "author": {
@@ -45,7 +45,7 @@
       ],
       "version": "1.2.3",
       "source": "jealous123456789/evejs-mod-evejs-air-career-payout",
-      "downloads": 70,
+      "downloads": 73,
       "cdnHits": 0
     },
     {
@@ -92,7 +92,7 @@
       ],
       "version": "1.1.0",
       "source": "jealous123456789/evejs-mod-evejs-air-crate-loot",
-      "downloads": 79,
+      "downloads": 83,
       "cdnHits": 0
     },
     {
@@ -180,7 +180,7 @@
       "tags": [],
       "version": "1.1.0",
       "source": "rzwm/evejs-mod-evejs-beijing-time",
-      "downloads": 239,
+      "downloads": 240,
       "cdnHits": 3
     },
     {
@@ -235,7 +235,7 @@
       "tags": [],
       "version": "0.17.5",
       "source": "MateralCMX/evejs-mod-bug-fixes",
-      "downloads": 472,
+      "downloads": 475,
       "cdnHits": 0
     },
     {
@@ -282,7 +282,7 @@
       ],
       "version": "1.1.5",
       "source": "diguo520/evejs-mod-evejs-autolockfire",
-      "downloads": 1217,
+      "downloads": 1220,
       "cdnHits": 0
     },
     {
@@ -342,7 +342,7 @@
       "tags": [],
       "version": "1.0.17",
       "source": "diguo520/evejs-mod-evejs-automining",
-      "downloads": 1022,
+      "downloads": 1024,
       "cdnHits": 1759
     },
     {
@@ -432,7 +432,7 @@
       ],
       "version": "1.0.0",
       "source": "ffiijkbaby/evejs-mod-evejs-evejs-nf-crew",
-      "downloads": 2,
+      "downloads": 3,
       "cdnHits": 0,
       "delistReason": {
         "zh": "案例模板MOD不要网上传。整改后冲i性能上传。",
@@ -479,7 +479,7 @@
       "tags": [],
       "version": "0.2.3",
       "source": "MateralCMX/evejs-mod-ship-blueprints",
-      "downloads": 207,
+      "downloads": 208,
       "cdnHits": 8
     },
     {
@@ -524,7 +524,7 @@
       "tags": [],
       "version": "0.1.2",
       "source": "MateralCMX/evejs-mod-gm-menu-localization",
-      "downloads": 375,
+      "downloads": 378,
       "cdnHits": 0
     },
     {
@@ -652,7 +652,7 @@
       ],
       "banner": "shots/Banner/banner.jpg",
       "source": "xuenaimiao/evejs-mod-evejs-faction-sim",
-      "downloads": 1710,
+      "downloads": 1714,
       "cdnHits": 1525
     },
     {
@@ -886,7 +886,7 @@
       "tags": [],
       "version": "0.1.3",
       "source": "MateralCMX/evejs-mod-npc-loot-rules",
-      "downloads": 260,
+      "downloads": 263,
       "cdnHits": 0
     },
     {
@@ -981,7 +981,7 @@
       "tags": [],
       "version": "0.1.2",
       "source": "injusticemaster/evejs-mod-world-ark-91900",
-      "downloads": 153,
+      "downloads": 154,
       "cdnHits": 0
     },
     {
@@ -1029,7 +1029,7 @@
       ],
       "version": "1.0.9",
       "source": "diguo520/evejs-mod-evejs-cntext-fix",
-      "downloads": 907,
+      "downloads": 910,
       "cdnHits": 0
     },
     {
@@ -1079,7 +1079,7 @@
       "tags": [],
       "version": "0.1.2",
       "source": "MateralCMX/evejs-mod-mission-repair",
-      "downloads": 352,
+      "downloads": 355,
       "cdnHits": 0
     },
     {
@@ -1223,7 +1223,7 @@
       ],
       "version": "1.6.4",
       "source": "JUZIMandarin/evejs-mod-evejs-sleeper-drifters",
-      "downloads": 601,
+      "downloads": 602,
       "cdnHits": 2
     },
     {
@@ -1370,7 +1370,7 @@
       ],
       "version": "1.1.0",
       "source": "kokoandqiong/evejs-mod-evejs-slimitem-name-wstring",
-      "downloads": 0,
+      "downloads": 4,
       "cdnHits": 0
     },
     {
@@ -1421,7 +1421,7 @@
       ],
       "version": "5.2.1",
       "source": "JonnyTC/evejs-mod-evejs-colossus-capital-fit",
-      "downloads": 58,
+      "downloads": 59,
       "cdnHits": 0
     },
     {
@@ -1480,7 +1480,7 @@
       ],
       "version": "2.0.0",
       "source": "JonnyTC/evejs-mod-evejs-colossus-audio-fix",
-      "downloads": 29,
+      "downloads": 30,
       "cdnHits": 0
     },
     {
@@ -1536,7 +1536,7 @@
       ],
       "version": "1.0.0",
       "source": "JonnyTC/evejs-mod-evejs-slimitem-name-unicode",
-      "downloads": 54,
+      "downloads": 55,
       "cdnHits": 0
     },
     {
@@ -1623,7 +1623,7 @@
       "tags": [],
       "version": "0.2.2",
       "source": "xuenaimiao/evejs-mod-evejs-perf-fix",
-      "downloads": 460,
+      "downloads": 461,
       "cdnHits": 2
     },
     {
@@ -1761,7 +1761,7 @@
       ],
       "version": "0.3.3",
       "source": "xuenaimiao/evejs-mod-evejs-sc-ships",
-      "downloads": 217,
+      "downloads": 218,
       "cdnHits": 0
     },
     {
@@ -1900,7 +1900,7 @@
         "name": "匿名"
       },
       "category": "舰船",
-      "changelog": "修复兼容",
+      "changelog": "",
       "conflicts": [],
       "delisted": false,
       "description": "实验性、仅供个人本地试用：星际公民舰长室。在太空里驾驶仙女座（930001）时进入舰内，以第一人称在《星际公民》原版内饰里走动（WASD + 鼠标，Shift 跑，空格跳，V 切换穿墙飞行，Ctrl+Alt+I 或 SC 面板的按钮进出）。内饰从玩家自己的 SC 安装解出来（tools/ 下的流水线），作为一个额外的 SOF 船体按外壳同样的比例装进船里；碰撞用离线烘焙的 0.1 米体素格。需要主控 MOD evejs-sc-ships 0.3.2 或更新；没装、没启用或太旧时，进游戏会弹窗提示（并写进服务端日志）。不修改服务端和客户端文件。",
@@ -1909,17 +1909,18 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/xuenaimiao/evejs-mod-evejs-sc-quarters/releases/download/v0.1.1/evejs-sc-quarters-0.1.1.zip"
+          "url": "https://github.com/xuenaimiao/evejs-mod-evejs-sc-quarters/releases/download/v0.1.2/evejs-sc-quarters-0.1.2.zip"
         }
       ],
       "evejsVersions": [
-        "261018.1"
+        "261018.1",
+        "261028.1"
       ],
       "featured": false,
       "highlights": [],
       "history": [],
       "id": "evejs-sc-quarters",
-      "publishedAt": "2026-10-25",
+      "publishedAt": "2026-11-01",
       "readme": [
         "> **实验性，仅供个人本地试用。** 内饰来自玩家自己的《星际公民》安装（`tools/` 下的流水线），不随仓库分发；本 MOD 不修改服务端和客户端文件。",
         "主控 MOD `evejs-sc-ships` 的附加 MOD：在太空里驾驶仙女座（Constellation Andromeda，typeID 930001）时进入舰内，以第一人称在 SC 原版内饰里走动。",
@@ -1929,8 +1930,8 @@
       ],
       "repo": "https://github.com/xuenaimiao/evejs-mod-evejs-sc-quarters",
       "requiresRestart": true,
-      "sha256": "ad42e0a3bb6ef8a12f93887c9c4eb95de0e7689cf0a04d04dccf5b95934ef5bf",
-      "sizeBytes": 73497229,
+      "sha256": "5410a65307318a2363307c889a91ada4a1317c2dcbcb3168712524fd0eae4b3a",
+      "sizeBytes": 73515614,
       "tags": [
         "星际公民",
         "Star",
@@ -1938,7 +1939,7 @@
         "舰长室",
         "第一人称"
       ],
-      "version": "0.1.1",
+      "version": "0.1.2",
       "source": "xuenaimiao/evejs-mod-evejs-sc-quarters",
       "downloads": 93,
       "cdnHits": 0
@@ -2000,7 +2001,7 @@
       ],
       "version": "3.2.0",
       "source": "Jasper377/evejs-mod-evejs-racks16",
-      "downloads": 384,
+      "downloads": 385,
       "cdnHits": 3
     },
     {
@@ -2048,7 +2049,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "MateralCMX/evejs-mod-mobile-tractor-enhancement",
-      "downloads": 183,
+      "downloads": 185,
       "cdnHits": 0
     },
     {
@@ -2092,7 +2093,7 @@
       ],
       "version": "1.4.9",
       "source": "weiqichang744-alt/evejs-mod-evejs-te-gong-jian-chuan-bao",
-      "downloads": 411,
+      "downloads": 420,
       "cdnHits": 0
     },
     {
@@ -2132,7 +2133,7 @@
       "tags": [],
       "version": "1.6.0",
       "source": "Jasper377/evejs-mod-evejs-acspecialbattleship",
-      "downloads": 439,
+      "downloads": 440,
       "cdnHits": 3
     },
     {
@@ -2182,7 +2183,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "rzwm/evejs-mod-evejs-autopilot-jump-stargate-0km",
-      "downloads": 244,
+      "downloads": 246,
       "cdnHits": 3
     },
     {
@@ -2274,7 +2275,7 @@
       ],
       "version": "1.0.0",
       "source": "Arasaka-vip/evejs-mod-evejs-pi-colony-limit",
-      "downloads": 11,
+      "downloads": 13,
       "cdnHits": 0
     },
     {
@@ -2319,7 +2320,7 @@
       ],
       "version": "1.0.4",
       "source": "kokoandqiong/evejs-mod-evejs-tie-qi-zhong-wu-shang-hai-xiu-fu",
-      "downloads": 87,
+      "downloads": 88,
       "cdnHits": 0
     }
   ],
@@ -2352,7 +2353,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "yXf1qqH+HuqkI3I9jS6VziHgiPf/0PVagW+3BGYNGmc5CbZb8/9WZbXSDbEDem2tm/j7uNL4g8ltjBd8aLYwDg==",
-    "signedAt": "2026-11-01T16:08:03.113Z"
+    "sig": "0K1AtgjTbRbwmxTFUxZwYi726WJx0REmnIcKOT3qUYg17Jnuo3ENuGDFDfDEXvF4Ialhxqqyn2gwmMp8rwpnCA==",
+    "signedAt": "2026-11-01T19:26:39.889Z"
   }
 }
