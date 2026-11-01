@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1793448390003,
+  "generatedAt": 1793534997365,
   "sponsors": [
     {
       "id": "sponsor-01",
@@ -271,11 +271,17 @@
       "name": "Dare",
       "amount": 66,
       "currency": "CNY"
+    },
+    {
+      "id": "sponsor-46",
+      "name": "*鱼",
+      "amount": 20,
+      "currency": "CNY"
     }
   ],
   "signature": {
     "alg": "ed25519",
     "keyId": "evejs-ratings-2026-10-01",
-    "sig": "H4j5NQgB6MToltl6wBLQ+m6fPm7c6pAQUyC/2PIrVmMjavlHuJ9T7HctTO8whVSbKyQk5sUSRclPNT8CzOYXBA=="
+    "sig": "UnW73EnoVV8oAgfqeIl3mv6w3FhZF8aZNYA1gtyihqkUd6XknSQCnu5Dw7wLevAz1PgBz5ozjwyEPfBuklTkDw=="
   }
 }
