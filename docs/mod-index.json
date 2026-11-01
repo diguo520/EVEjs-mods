@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-11-01T20:19:06.555Z",
+  "publishedAt": "2026-11-01T20:23:11.288Z",
   "mods": [
     {
       "author": {
@@ -1723,7 +1723,7 @@
         "name": "匿名"
       },
       "category": "舰船",
-      "changelog": "",
+      "changelog": "修复兼容新服务器端",
       "conflicts": [],
       "delisted": false,
       "description": "实验性、仅供个人本地试用：把《星际公民》的炽天使空间站（Crusader 低轨休息站）放进吉他星系，在吉他 IV 上方 300 公里处，像吉他一样可以停靠使用全部服务，停靠后以第一人称在 SC 原版站内行走。需要主控 MOD evejs-sc-ships 0.3.2 或更新。服务端给静态表加站点行（复制吉他 4-4 的服务），客户端运行时补类型/图形/站点记录；站内模型从玩家自己的《星际公民》安装转换（tools/ 下的流水线）。EVEJS_SCSTATION_TYPES=0 不加站点。",
@@ -1732,7 +1732,7 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/xuenaimiao/evejs-mod-evejs-sc-station/releases/download/v0.1.1/evejs-sc-station-0.1.1.zip"
+          "url": "https://github.com/xuenaimiao/evejs-mod-evejs-sc-station/releases/download/v0.1.2/evejs-sc-station-0.1.2.zip"
         }
       ],
       "evejsVersions": [
@@ -1749,8 +1749,8 @@
       ],
       "repo": "https://github.com/xuenaimiao/evejs-mod-evejs-sc-station",
       "requiresRestart": true,
-      "sha256": "42a321f1222b3c8eaea145a9bb407d05c0b3693a3b65900c3e9ecac424a5aec9",
-      "sizeBytes": 732107354,
+      "sha256": "0f6a9df592b99730ee7f70af8e8e67d01cff93c9800620ee6f31514c4fe3f399",
+      "sizeBytes": 732108323,
       "tags": [
         "星际公民",
         "Star",
@@ -1759,7 +1759,7 @@
         "炽天使",
         "第一人称"
       ],
-      "version": "0.1.1",
+      "version": "0.1.2",
       "source": "xuenaimiao/evejs-mod-evejs-sc-station",
       "downloads": 16,
       "cdnHits": 0
@@ -2456,7 +2456,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "UrTXtz3Rpk05oYMgtKv6BRmVSuM1invOc08Ly+9ufRdzHntt9c5fDl+PiSdWxW2noBIKuBKV0sdMubhLqwtUAw==",
-    "signedAt": "2026-11-01T20:19:06.559Z"
+    "sig": "I5go1NhqoiLmbELgtWmnyRZpTtdAle4GWJykSIjVv4HZZsuLL8ESW682eZdhVO6U0way7ktXEHLmzQMSLJbFAw==",
+    "signedAt": "2026-11-01T20:23:11.293Z"
   }
 }
