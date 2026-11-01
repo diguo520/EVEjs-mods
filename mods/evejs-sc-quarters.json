@@ -9,15 +9,15 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/xuenaimiao/evejs-mod-evejs-sc-quarters/releases/download/v0.1.1/evejs-sc-quarters-0.1.1.zip"
+      "url": "https://github.com/xuenaimiao/evejs-mod-evejs-sc-quarters/releases/download/v0.1.2/evejs-sc-quarters-0.1.2.zip"
     }
   ],
   "id": "evejs-sc-quarters",
-  "publishedAt": "2026-10-25",
+  "publishedAt": "2026-11-01",
   "schemaVersion": 1,
-  "sha256": "ad42e0a3bb6ef8a12f93887c9c4eb95de0e7689cf0a04d04dccf5b95934ef5bf",
-  "sizeBytes": 73497229,
+  "sha256": "5410a65307318a2363307c889a91ada4a1317c2dcbcb3168712524fd0eae4b3a",
+  "sizeBytes": 73515614,
   "source": "xuenaimiao/evejs-mod-evejs-sc-quarters",
-  "submittedAt": "2026-10-25T04:05:22.044Z",
-  "version": "0.1.1"
+  "submittedAt": "2026-11-01T19:24:26.492Z",
+  "version": "0.1.2"
 }
