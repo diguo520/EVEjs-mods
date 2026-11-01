@@ -1,0 +1,24 @@
+{
+  "author": {
+    "id": "au-mvv4t2zz2c8v",
+    "keyId": "c80dd20491a6",
+    "name": "Nephelam"
+  },
+  "displayName": "行星开发殖民地上限解除",
+  "downloadParts": null,
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/Arasaka-vip/evejs-mod-evejs-pi-colony-limit/releases/download/v1.0.0/evejs-pi-colony-limit-1.0.0.zip"
+    }
+  ],
+  "id": "evejs-pi-colony-limit",
+  "publishedAt": "2026-11-01",
+  "schemaVersion": 1,
+  "sha256": "8d7ca281d75f0f30229e7d94f0a3d83f87762a492a11d8e8add7aba940d23dfd",
+  "sizeBytes": 11344,
+  "source": "Arasaka-vip/evejs-mod-evejs-pi-colony-limit",
+  "submittedAt": "2026-11-01T09:56:25.427Z",
+  "version": "1.0.0"
+}
