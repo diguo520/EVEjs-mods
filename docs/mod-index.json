@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-11-01T03:04:04.954Z",
+  "publishedAt": "2026-11-01T04:24:40.955Z",
   "mods": [
     {
       "author": {
@@ -45,7 +45,7 @@
       ],
       "version": "1.2.3",
       "source": "jealous123456789/evejs-mod-evejs-air-career-payout",
-      "downloads": 57,
+      "downloads": 59,
       "cdnHits": 0
     },
     {
@@ -92,7 +92,7 @@
       ],
       "version": "1.1.0",
       "source": "jealous123456789/evejs-mod-evejs-air-crate-loot",
-      "downloads": 65,
+      "downloads": 67,
       "cdnHits": 0
     },
     {
@@ -137,7 +137,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "rzwm/evejs-mod-evejs-autolockfire-cn",
-      "downloads": 222,
+      "downloads": 223,
       "cdnHits": 0
     },
     {
@@ -235,7 +235,7 @@
       "tags": [],
       "version": "0.17.5",
       "source": "MateralCMX/evejs-mod-bug-fixes",
-      "downloads": 460,
+      "downloads": 461,
       "cdnHits": 0
     },
     {
@@ -282,7 +282,7 @@
       ],
       "version": "1.1.5",
       "source": "diguo520/evejs-mod-evejs-autolockfire",
-      "downloads": 1191,
+      "downloads": 1193,
       "cdnHits": 0
     },
     {
@@ -386,7 +386,53 @@
       "tags": [],
       "version": "1.0.3",
       "source": "guihaitianyi-cmd/evejs-mod-evejs-evejs-hacking-suite-1-0-3",
-      "downloads": 247,
+      "downloads": 248,
+      "cdnHits": 0
+    },
+    {
+      "author": {
+        "id": "au-mve8ih7eg2be",
+        "keyId": "90fd49973811",
+        "name": "JKbaby"
+      },
+      "category": "玩法",
+      "changelog": "",
+      "conflicts": [],
+      "delisted": false,
+      "description": "",
+      "displayName": "evejs-nf-crew",
+      "downloadUrls": [
+        {
+          "mirror": "github",
+          "priority": 1,
+          "url": "https://github.com/ffiijkbaby/evejs-mod-evejs-evejs-nf-crew/releases/download/v1.0.0/evejs-evejs-nf-crew-1.0.0.zip"
+        }
+      ],
+      "evejsVersions": [
+        "261018.x"
+      ],
+      "featured": false,
+      "highlights": [
+        "玩家上线后在其本地聊天频道发送欢迎消息",
+        "只改运行内存，不修改 server/ 下任何文件",
+        "由启动器的注入总线加载，不会提前拉起大依赖",
+        "要改服务端源码时，填上 loader.js 里的 SOURCE_PATCH 即走总线"
+      ],
+      "history": [],
+      "id": "evejs-evejs-nf-crew",
+      "publishedAt": "2026-11-01",
+      "readme": [],
+      "repo": "https://github.com/ffiijkbaby/evejs-mod-evejs-evejs-nf-crew",
+      "requiresRestart": true,
+      "sha256": "65eeb634699bc60c9aa5d4812ab4d9888cc4b6f70e5c83e560ce5229e6a2a3a2",
+      "sizeBytes": 15343,
+      "tags": [
+        "聊天",
+        "新手"
+      ],
+      "version": "1.0.0",
+      "source": "ffiijkbaby/evejs-mod-evejs-evejs-nf-crew",
+      "downloads": 0,
       "cdnHits": 0
     },
     {
@@ -472,7 +518,7 @@
       "tags": [],
       "version": "0.1.2",
       "source": "MateralCMX/evejs-mod-gm-menu-localization",
-      "downloads": 357,
+      "downloads": 358,
       "cdnHits": 0
     },
     {
@@ -526,7 +572,7 @@
       ],
       "version": "1.0.5",
       "source": "GH301/evejs-mod-evejs-nf-crew",
-      "downloads": 40,
+      "downloads": 42,
       "cdnHits": 0
     },
     {
@@ -600,7 +646,7 @@
       ],
       "banner": "shots/Banner/banner.jpg",
       "source": "xuenaimiao/evejs-mod-evejs-faction-sim",
-      "downloads": 1676,
+      "downloads": 1679,
       "cdnHits": 1525
     },
     {
@@ -834,7 +880,7 @@
       "tags": [],
       "version": "0.1.3",
       "source": "MateralCMX/evejs-mod-npc-loot-rules",
-      "downloads": 248,
+      "downloads": 249,
       "cdnHits": 0
     },
     {
@@ -977,7 +1023,7 @@
       ],
       "version": "1.0.9",
       "source": "diguo520/evejs-mod-evejs-cntext-fix",
-      "downloads": 889,
+      "downloads": 891,
       "cdnHits": 0
     },
     {
@@ -1991,7 +2037,7 @@
       ],
       "version": "1.4.9",
       "source": "weiqichang744-alt/evejs-mod-evejs-te-gong-jian-chuan-bao",
-      "downloads": 278,
+      "downloads": 290,
       "cdnHits": 0
     },
     {
@@ -2175,7 +2221,7 @@
       ],
       "version": "1.0.4",
       "source": "kokoandqiong/evejs-mod-evejs-tie-qi-zhong-wu-shang-hai-xiu-fu",
-      "downloads": 71,
+      "downloads": 72,
       "cdnHits": 0
     }
   ],
@@ -2196,7 +2242,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "NNri3cpNpj3+XoDv58s88MKkV5OVcMLD2uVxjal6dfvS/yNen5rdQpn7t6xL0cYYacenrW3YJVdNGbuRk9XhBA==",
-    "signedAt": "2026-11-01T03:04:04.957Z"
+    "sig": "ulqdXGGu5l8poQCi5xaRnWpJZFoaeOoNADrRWfInEGd+BWix8OwSBXtVg03EDYWAQ+/j1R5yOYKmYbWRLCFUBA==",
+    "signedAt": "2026-11-01T04:24:40.960Z"
   }
 }
