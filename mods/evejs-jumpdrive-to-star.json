@@ -4,21 +4,21 @@
     "keyId": "0f5102b5a107",
     "name": "XUAN"
   },
-  "displayName": "跳到终点（精确落点）",
+  "displayName": "一键跳跃到终点（精确落点）",
   "downloadParts": null,
   "downloadUrls": [
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/xxxuan42/evejs-mod-evejs-jumpdrive-to-star/releases/download/v1.0.0/evejs-jumpdrive-to-star-1.0.0.zip"
+      "url": "https://github.com/xxxuan42/evejs-mod-evejs-jumpdrive-to-star/releases/download/v1.0.1/evejs-jumpdrive-to-star-1.0.1.zip"
     }
   ],
   "id": "evejs-jumpdrive-to-star",
   "publishedAt": "2026-11-02",
   "schemaVersion": 1,
-  "sha256": "f47161cd3b3039fc20ac5be871dddf92106043500902eac465a1f8808d6016bb",
-  "sizeBytes": 21425,
+  "sha256": "ded83aa47b2a8f09148b6bfd795cb8f1ea48496ecc569c19d14a5f03bbabd05c",
+  "sizeBytes": 22512,
   "source": "xxxuan42/evejs-mod-evejs-jumpdrive-to-star",
-  "submittedAt": "2026-11-02T10:54:49.337Z",
-  "version": "1.0.0"
+  "submittedAt": "2026-11-02T11:26:17.817Z",
+  "version": "1.0.1"
 }
