@@ -10,15 +10,15 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/weiqichang744-alt/evejs-mod-evejs-te-gong-jian-chuan-bao/releases/download/v1.4.9/evejs-te-gong-jian-chuan-bao-1.4.9.zip"
+      "url": "https://github.com/weiqichang744-alt/evejs-mod-evejs-te-gong-jian-chuan-bao/releases/download/v1.5.1/evejs-te-gong-jian-chuan-bao-1.5.1.zip"
     }
   ],
   "id": "evejs-te-gong-jian-chuan-bao",
-  "publishedAt": "2026-10-30",
+  "publishedAt": "2026-11-02",
   "schemaVersion": 1,
-  "sha256": "0291d915045302d4aebcc71b6be074ffa58041d4af6c76ff2fec0824c2c9b20d",
-  "sizeBytes": 366367383,
+  "sha256": "651bd6f16e8a27c667bb926dc27ed6feae19d7a7720ed6a1ec789e04edfc0308",
+  "sizeBytes": 449011652,
   "source": "weiqichang744-alt/evejs-mod-evejs-te-gong-jian-chuan-bao",
-  "submittedAt": "2026-10-30T18:22:40.915Z",
-  "version": "1.4.9"
+  "submittedAt": "2026-11-02T16:24:26.342Z",
+  "version": "1.5.1"
 }
