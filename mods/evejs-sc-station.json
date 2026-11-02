@@ -9,15 +9,15 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/xuenaimiao/evejs-mod-evejs-sc-station/releases/download/v0.1.2/evejs-sc-station-0.1.2.zip"
+      "url": "https://github.com/xuenaimiao/evejs-mod-evejs-sc-station/releases/download/v0.1.3/evejs-sc-station-0.1.3.zip"
     }
   ],
   "id": "evejs-sc-station",
-  "publishedAt": "2026-11-01",
+  "publishedAt": "2026-11-02",
   "schemaVersion": 1,
-  "sha256": "0f6a9df592b99730ee7f70af8e8e67d01cff93c9800620ee6f31514c4fe3f399",
-  "sizeBytes": 732108323,
+  "sha256": "93f964e8c52c2ab72977ac95f9867a6892066cb121edd46fdc623fdf9c459532",
+  "sizeBytes": 752438334,
   "source": "xuenaimiao/evejs-mod-evejs-sc-station",
-  "submittedAt": "2026-11-01T20:21:46.641Z",
-  "version": "0.1.2"
+  "submittedAt": "2026-11-02T13:40:04.640Z",
+  "version": "0.1.3"
 }
