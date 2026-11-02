@@ -9,15 +9,15 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/xuenaimiao/evejs-mod-evejs-faction-sim/releases/download/v0.5.1/evejs-faction-sim-0.5.1.zip"
+      "url": "https://github.com/xuenaimiao/evejs-mod-evejs-faction-sim/releases/download/v0.5.2/evejs-faction-sim-0.5.2.zip"
     }
   ],
   "id": "evejs-faction-sim",
-  "publishedAt": "2026-10-29",
+  "publishedAt": "2026-11-02",
   "schemaVersion": 1,
-  "sha256": "edd9b9ef39ecfe1d5ed0de987b62d91fb1d30785090695e47714ec3333aa9ffe",
-  "sizeBytes": 13712787,
+  "sha256": "0339c5a8334a3f291a5e00b9b411ed91c89aaee5f7fb8954dfffcc3968f39daa",
+  "sizeBytes": 13715351,
   "source": "xuenaimiao/evejs-mod-evejs-faction-sim",
-  "submittedAt": "2026-10-29T04:02:39.861Z",
-  "version": "0.5.1"
+  "submittedAt": "2026-11-02T13:26:06.972Z",
+  "version": "0.5.2"
 }
