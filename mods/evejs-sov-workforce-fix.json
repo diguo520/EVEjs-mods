@@ -1,0 +1,24 @@
+{
+  "author": {
+    "id": "au-mvtppqproasa",
+    "keyId": "5bb57b91ba6c",
+    "name": "珊瑚中的吃虎鱼"
+  },
+  "displayName": "主权劳动力传输修复",
+  "downloadParts": null,
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/kokoandqiong/evejs-mod-evejs-sov-workforce-fix/releases/download/v1.0.0/evejs-sov-workforce-fix-1.0.0.zip"
+    }
+  ],
+  "id": "evejs-sov-workforce-fix",
+  "publishedAt": "2026-11-02",
+  "schemaVersion": 1,
+  "sha256": "c222963bec635853470f57bc60260ad4844bfc7fa37efb44575ca17869b6d69d",
+  "sizeBytes": 12491,
+  "source": "kokoandqiong/evejs-mod-evejs-sov-workforce-fix",
+  "submittedAt": "2026-11-02T13:27:34.157Z",
+  "version": "1.0.0"
+}
