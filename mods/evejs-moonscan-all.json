@@ -1,0 +1,24 @@
+{
+  "author": {
+    "id": "au-mvdfee9me05u",
+    "keyId": "0f5102b5a107",
+    "name": "XUAN"
+  },
+  "displayName": "卫星全扫",
+  "downloadParts": null,
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/xxxuan42/evejs-mod-evejs-moonscan-all/releases/download/v1.0.0/evejs-moonscan-all-1.0.0.zip"
+    }
+  ],
+  "id": "evejs-moonscan-all",
+  "publishedAt": "2026-11-04",
+  "schemaVersion": 1,
+  "sha256": "1f12f5449f46171698c3f7635748205a6f1f603b479f72262db3bedbf4cb6234",
+  "sizeBytes": 13828,
+  "source": "xxxuan42/evejs-mod-evejs-moonscan-all",
+  "submittedAt": "2026-11-04T12:32:29.815Z",
+  "version": "1.0.0"
+}
