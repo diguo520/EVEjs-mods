@@ -1,0 +1,24 @@
+{
+  "author": {
+    "id": "au-mvdfee9me05u",
+    "keyId": "0f5102b5a107",
+    "name": "XUAN"
+  },
+  "displayName": "主权基建加强",
+  "downloadParts": null,
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/xxxuan42/evejs-mod-evejs-skyhook-reagent-boost/releases/download/v1.2.0/evejs-skyhook-reagent-boost-1.2.0.zip"
+    }
+  ],
+  "id": "evejs-skyhook-reagent-boost",
+  "publishedAt": "2026-11-04",
+  "schemaVersion": 1,
+  "sha256": "93771254e979478c08c3775785756536a2fdce91cd82edb19c845033e7bebfbf",
+  "sizeBytes": 20416,
+  "source": "xxxuan42/evejs-mod-evejs-skyhook-reagent-boost",
+  "submittedAt": "2026-11-04T15:57:36.391Z",
+  "version": "1.2.0"
+}
