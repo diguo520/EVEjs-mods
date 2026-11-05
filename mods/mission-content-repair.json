@@ -1,0 +1,24 @@
+{
+  "author": {
+    "id": "au-mvgf59rqpaue",
+    "keyId": "6d218baa968e",
+    "name": "普罗旺斯煎饼果子"
+  },
+  "displayName": "任务精细修复",
+  "downloadParts": null,
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/jealous123456789/evejs-mod-mission-content-repair/releases/download/v1.0.0/mission-content-repair-1.0.0.zip"
+    }
+  ],
+  "id": "mission-content-repair",
+  "publishedAt": "2026-11-05",
+  "schemaVersion": 1,
+  "sha256": "7cf76e29b3f60d6b2b51d4fe213776876ff8f9801a75aef21be5d92e95efb775",
+  "sizeBytes": 2164803,
+  "source": "jealous123456789/evejs-mod-mission-content-repair",
+  "submittedAt": "2026-11-05T07:06:39.514Z",
+  "version": "1.0.0"
+}
