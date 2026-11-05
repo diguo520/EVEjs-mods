@@ -1,0 +1,24 @@
+{
+  "author": {
+    "id": "au-mw0mr1zx2glu",
+    "keyId": "aab6116a46f0",
+    "name": "余情岂是为他人"
+  },
+  "displayName": "市场价格信息同步",
+  "downloadParts": null,
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/kuroneko-lice/evejs-mod-evejs-shi-chang-jia-ge-xin-xi-tong-bu/releases/download/v1.0.0/evejs-shi-chang-jia-ge-xin-xi-tong-bu-1.0.0.zip"
+    }
+  ],
+  "id": "evejs-shi-chang-jia-ge-xin-xi-tong-bu",
+  "publishedAt": "2026-11-05",
+  "schemaVersion": 1,
+  "sha256": "da9a583e4711d501ee9a5b33574804a4922ce92a896227d6cb52f793b4629899",
+  "sizeBytes": 24841,
+  "source": "kuroneko-lice/evejs-mod-evejs-shi-chang-jia-ge-xin-xi-tong-bu",
+  "submittedAt": "2026-11-05T12:18:47.791Z",
+  "version": "1.0.0"
+}
