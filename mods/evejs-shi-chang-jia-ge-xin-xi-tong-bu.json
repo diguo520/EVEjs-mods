@@ -10,15 +10,15 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/kuroneko-lice/evejs-mod-evejs-shi-chang-jia-ge-xin-xi-tong-bu/releases/download/v1.0.6/evejs-shi-chang-jia-ge-xin-xi-tong-bu-1.0.6.zip"
+      "url": "https://github.com/kuroneko-lice/evejs-mod-evejs-shi-chang-jia-ge-xin-xi-tong-bu/releases/download/v1.1.1/evejs-shi-chang-jia-ge-xin-xi-tong-bu-1.1.1.zip"
     }
   ],
   "id": "evejs-shi-chang-jia-ge-xin-xi-tong-bu",
-  "publishedAt": "2026-11-05",
+  "publishedAt": "2026-11-06",
   "schemaVersion": 1,
-  "sha256": "8ccc96a26fa6d217efee6ef1c36aec81f48fc7febdfaedea0c4f204acdec673a",
-  "sizeBytes": 31760,
+  "sha256": "c75b534f47c20395e95e4497f900dcb5aa8bb3d173420b59874992c68937f9d2",
+  "sizeBytes": 45618,
   "source": "kuroneko-lice/evejs-mod-evejs-shi-chang-jia-ge-xin-xi-tong-bu",
-  "submittedAt": "2026-11-05T23:56:43.579Z",
-  "version": "1.0.6"
+  "submittedAt": "2026-11-06T10:49:27.457Z",
+  "version": "1.1.1"
 }
