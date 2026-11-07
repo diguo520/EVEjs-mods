@@ -1,0 +1,24 @@
+{
+  "author": {
+    "id": "au-mvtppqproasa",
+    "keyId": "5bb57b91ba6c",
+    "name": "珊瑚中的吃虎鱼"
+  },
+  "displayName": "星门与星带巡逻怪修复",
+  "downloadParts": null,
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/kokoandqiong/evejs-mod-evejs-patrol-rats/releases/download/v1.0.0/evejs-patrol-rats-1.0.0.zip"
+    }
+  ],
+  "id": "evejs-patrol-rats",
+  "publishedAt": "2026-11-07",
+  "schemaVersion": 1,
+  "sha256": "0a21104cc02f14fa90a0d3e4502e9f9a055f164bc8da5a14f8d3cce9e1930a69",
+  "sizeBytes": 40899,
+  "source": "kokoandqiong/evejs-mod-evejs-patrol-rats",
+  "submittedAt": "2026-11-07T09:01:51.186Z",
+  "version": "1.0.0"
+}
