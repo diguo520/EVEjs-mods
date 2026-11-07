@@ -10,15 +10,15 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/GH301/evejs-mod-evejs-nf-crew/releases/download/v1.2.0/evejs-nf-crew-1.2.0.zip"
+      "url": "https://github.com/GH301/evejs-mod-evejs-nf-crew/releases/download/v1.2.1/evejs-nf-crew-1.2.1.zip"
     }
   ],
   "id": "evejs-nf-crew",
-  "publishedAt": "2026-11-06",
+  "publishedAt": "2026-11-07",
   "schemaVersion": 1,
-  "sha256": "d2835c385d165ea297a7e3540320055f4b23d9aacba6d22120ed3455678424fe",
-  "sizeBytes": 518497,
+  "sha256": "b17be67f6434937e0914184f2a25dd327e99bcc11b4e1bdf8a126a25052ab392",
+  "sizeBytes": 536502,
   "source": "GH301/evejs-mod-evejs-nf-crew",
-  "submittedAt": "2026-11-06T16:14:31.631Z",
-  "version": "1.2.0"
+  "submittedAt": "2026-11-07T14:52:02.591Z",
+  "version": "1.2.1"
 }
