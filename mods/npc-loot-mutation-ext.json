@@ -1,0 +1,24 @@
+{
+  "author": {
+    "id": "au-mul9t76ozxf9",
+    "keyId": "050c08195199",
+    "name": "辉煌帝"
+  },
+  "displayName": "NPC掉落突变扩展",
+  "downloadParts": null,
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/huihuangdi/evejs-mod-npc-loot-mutation-ext/releases/download/v0.2.0/npc-loot-mutation-ext-0.2.0.zip"
+    }
+  ],
+  "id": "npc-loot-mutation-ext",
+  "publishedAt": "2026-11-08",
+  "schemaVersion": 1,
+  "sha256": "a4d3dff81b60d4f8725753cef26683aba9f67283754d6643de3a97647b2af60c",
+  "sizeBytes": 1334771,
+  "source": "huihuangdi/evejs-mod-npc-loot-mutation-ext",
+  "submittedAt": "2026-11-08T16:56:06.769Z",
+  "version": "0.2.0"
+}
