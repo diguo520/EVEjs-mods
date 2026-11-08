@@ -1,0 +1,24 @@
+{
+  "author": {
+    "id": "au-mul9t76ozxf9",
+    "keyId": "050c08195199",
+    "name": "辉煌帝"
+  },
+  "displayName": "NPC 赏金结算调校",
+  "downloadParts": null,
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/huihuangdi/evejs-mod-npc-bounty-tuning/releases/download/v1.0.0/npc-bounty-tuning-1.0.0.zip"
+    }
+  ],
+  "id": "npc-bounty-tuning",
+  "publishedAt": "2026-11-08",
+  "schemaVersion": 1,
+  "sha256": "73acb7ac2802402a3694ee985b40b9ce44f2c108e751d703fbdb096c7cdcf055",
+  "sizeBytes": 23294,
+  "source": "huihuangdi/evejs-mod-npc-bounty-tuning",
+  "submittedAt": "2026-11-08T16:58:48.473Z",
+  "version": "1.0.0"
+}
