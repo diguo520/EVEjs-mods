@@ -1,0 +1,24 @@
+{
+  "author": {
+    "id": "au-mul9t76ozxf9",
+    "keyId": "050c08195199",
+    "name": "辉煌帝"
+  },
+  "displayName": "NPC掉落规则（261028 移植版）",
+  "downloadParts": null,
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/huihuangdi/evejs-mod-npc-loot-rules-261028/releases/download/v0.2.0/npc-loot-rules-261028-0.2.0.zip"
+    }
+  ],
+  "id": "npc-loot-rules-261028",
+  "publishedAt": "2026-11-08",
+  "schemaVersion": 1,
+  "sha256": "7350b233a15f390fecae15d2e4d8981fc047488098c1a358ebccb0fc82f673e5",
+  "sizeBytes": 148607,
+  "source": "huihuangdi/evejs-mod-npc-loot-rules-261028",
+  "submittedAt": "2026-11-08T16:51:54.921Z",
+  "version": "0.2.0"
+}
