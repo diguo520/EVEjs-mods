@@ -1,0 +1,24 @@
+{
+  "author": {
+    "id": "au-mvuto93ax86p",
+    "keyId": "e10f093d7721",
+    "name": "猫墩墩"
+  },
+  "displayName": "突变锁定最优值",
+  "downloadParts": null,
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/xfeiyu4008/evejs-mod-evejs-perfect-mutation-261028/releases/download/v1.0.0/evejs-perfect-mutation-261028-1.0.0.zip"
+    }
+  ],
+  "id": "evejs-perfect-mutation-261028",
+  "publishedAt": "2026-11-09",
+  "schemaVersion": 1,
+  "sha256": "6d2c106065d49440cf845dff23372eec4d574e618870a7ad488af68fc56f9fb0",
+  "sizeBytes": 25697,
+  "source": "xfeiyu4008/evejs-mod-evejs-perfect-mutation-261028",
+  "submittedAt": "2026-11-09T04:04:44.226Z",
+  "version": "1.0.0"
+}
