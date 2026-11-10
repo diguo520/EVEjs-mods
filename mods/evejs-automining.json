@@ -5,19 +5,20 @@
     "name": "波坤太叔"
   },
   "displayName": "evejs-AutoMining",
+  "downloadParts": null,
   "downloadUrls": [
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/diguo520/evejs-mod-evejs-automining/releases/download/v1.0.17/evejs-automining-1.0.17.zip"
+      "url": "https://github.com/diguo520/evejs-mod-evejs-automining/releases/download/v1.0.18/evejs-automining-1.0.18.zip"
     }
   ],
   "id": "evejs-automining",
-  "publishedAt": "2026-10-23",
+  "publishedAt": "2026-11-10",
   "schemaVersion": 1,
-  "sha256": "f589b1c620673c4155d4c07f3f2458bafcfe746ecdb5a3e318fa2a71f431c92e",
-  "sizeBytes": 12100017,
+  "sha256": "9458c258cbe27b094c965d34d3e58e8e4e4972b6d80a66efdc2e05449d6c05c9",
+  "sizeBytes": 12100694,
   "source": "diguo520/evejs-mod-evejs-automining",
-  "submittedAt": "2026-10-23T07:53:58.968Z",
-  "version": "1.0.17"
+  "submittedAt": "2026-11-10T05:34:36.529Z",
+  "version": "1.0.18"
 }
