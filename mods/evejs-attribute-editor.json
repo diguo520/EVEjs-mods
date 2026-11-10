@@ -10,15 +10,15 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/huihuangdi/evejs-mod-evejs-attribute-editor/releases/download/v1.0.1/evejs-attribute-editor-1.0.1.zip"
+      "url": "https://github.com/huihuangdi/evejs-mod-evejs-attribute-editor/releases/download/v1.1.1/evejs-attribute-editor-1.1.1.zip"
     }
   ],
   "id": "evejs-attribute-editor",
-  "publishedAt": "2026-11-07",
+  "publishedAt": "2026-11-10",
   "schemaVersion": 1,
-  "sha256": "0ab311ff2b319c4f18b7030a943465ef7378de80bbe08da0feda6fcfb3f71c1a",
-  "sizeBytes": 2771073,
+  "sha256": "e3b6519d72662f188806364fb893f4f7c0eb562804d6b6920f1b2f5f54d63357",
+  "sizeBytes": 2772936,
   "source": "huihuangdi/evejs-mod-evejs-attribute-editor",
-  "submittedAt": "2026-11-07T16:22:16.814Z",
-  "version": "1.0.1"
+  "submittedAt": "2026-11-10T13:51:27.458Z",
+  "version": "1.1.1"
 }
