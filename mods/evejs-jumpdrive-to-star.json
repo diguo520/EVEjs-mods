@@ -10,15 +10,15 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/xxxuan42/evejs-mod-evejs-jumpdrive-to-star/releases/download/v1.2.2/evejs-jumpdrive-to-star-1.2.2.zip"
+      "url": "https://github.com/xxxuan42/evejs-mod-evejs-jumpdrive-to-star/releases/download/v1.3.1/evejs-jumpdrive-to-star-1.3.1.zip"
     }
   ],
   "id": "evejs-jumpdrive-to-star",
-  "publishedAt": "2026-11-09",
+  "publishedAt": "2026-11-10",
   "schemaVersion": 1,
-  "sha256": "9803896fbaf07d4eae543201fe67b966691bce01fe3b8bb4953343266a8cc311",
-  "sizeBytes": 69835,
+  "sha256": "76e293e6874299c885cd5a7f9c51bc3f2d54db575b2fcd815258379185b5e331",
+  "sizeBytes": 69852,
   "source": "xxxuan42/evejs-mod-evejs-jumpdrive-to-star",
-  "submittedAt": "2026-11-09T14:47:00.398Z",
-  "version": "1.2.2"
+  "submittedAt": "2026-11-10T14:57:01.254Z",
+  "version": "1.3.1"
 }
