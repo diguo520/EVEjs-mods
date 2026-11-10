@@ -10,15 +10,15 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/huihuangdi/evejs-mod-npc-loot-rules-261028/releases/download/v0.2.1/npc-loot-rules-261028-0.2.1.zip"
+      "url": "https://github.com/huihuangdi/evejs-mod-npc-loot-rules-261028/releases/download/v0.3.1/npc-loot-rules-261028-0.3.1.zip"
     }
   ],
   "id": "npc-loot-rules-261028",
-  "publishedAt": "2026-11-09",
+  "publishedAt": "2026-11-10",
   "schemaVersion": 1,
-  "sha256": "bba4da4c0f665eb04bb532ee3de82793dfdfac48ee2012dc1763a877e9ff23f1",
-  "sizeBytes": 148609,
+  "sha256": "c2b9ed8511e74a2fe4b5fbf64fd2c7f2d12dc796db959c8d984655b5ddd9566d",
+  "sizeBytes": 155025,
   "source": "huihuangdi/evejs-mod-npc-loot-rules-261028",
-  "submittedAt": "2026-11-09T04:33:34.667Z",
-  "version": "0.2.1"
+  "submittedAt": "2026-11-10T13:45:38.081Z",
+  "version": "0.3.1"
 }
