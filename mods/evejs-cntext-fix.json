@@ -10,15 +10,15 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/diguo520/evejs-mod-evejs-cntext-fix/releases/download/v1.0.9/evejs-cntext-fix-1.0.9.zip"
+      "url": "https://github.com/diguo520/evejs-mod-evejs-cntext-fix/releases/download/v1.0.10/evejs-cntext-fix-1.0.10.zip"
     }
   ],
   "id": "evejs-cntext-fix",
-  "publishedAt": "2026-10-29",
+  "publishedAt": "2026-11-10",
   "schemaVersion": 1,
-  "sha256": "75a07942d82d0a709f36886c586f54f422131ad90e87106760572a07be907e2c",
-  "sizeBytes": 20217,
+  "sha256": "2fafe993fa2416f559d6bb993936cf788217b5412cb5d2ee8f458e37d3406960",
+  "sizeBytes": 20240,
   "source": "diguo520/evejs-mod-evejs-cntext-fix",
-  "submittedAt": "2026-10-29T06:44:04.612Z",
-  "version": "1.0.9"
+  "submittedAt": "2026-11-10T05:36:14.166Z",
+  "version": "1.0.10"
 }
