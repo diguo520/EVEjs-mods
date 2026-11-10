@@ -1,0 +1,24 @@
+{
+  "author": {
+    "id": "au-mw7jbtnpunkx",
+    "keyId": "c9a95855e5dc",
+    "name": "雪风"
+  },
+  "displayName": "装配槽位 13–20 修复",
+  "downloadParts": null,
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/lxm970112-hub/evejs-mod-evejs-fitting-ship-slots/releases/download/v1.0.0/evejs-fitting-ship-slots-1.0.0.zip"
+    }
+  ],
+  "id": "evejs-fitting-ship-slots",
+  "publishedAt": "2026-11-10",
+  "schemaVersion": 1,
+  "sha256": "e44c024daed90cb0f5f4625513a43902726a97aec65d6b1105e4c5e3270f593e",
+  "sizeBytes": 14740,
+  "source": "lxm970112-hub/evejs-mod-evejs-fitting-ship-slots",
+  "submittedAt": "2026-11-10T10:45:37.401Z",
+  "version": "1.0.0"
+}
