@@ -1,0 +1,24 @@
+{
+  "author": {
+    "id": "au-mw7jbtnpunkx",
+    "keyId": "c9a95855e5dc",
+    "name": "雪风"
+  },
+  "displayName": "舰队指挥",
+  "downloadParts": null,
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/lxm970112-hub/evejs-mod-evejs-jian-dui-zhi-hui/releases/download/v1.0.12/evejs-jian-dui-zhi-hui-1.0.12.zip"
+    }
+  ],
+  "id": "evejs-jian-dui-zhi-hui",
+  "publishedAt": "2026-11-11",
+  "schemaVersion": 1,
+  "sha256": "3489652f5b3bfdfbd221cfb5cc9b866fe823f651c1fee017ab62c7d6a35a686e",
+  "sizeBytes": 78762,
+  "source": "lxm970112-hub/evejs-mod-evejs-jian-dui-zhi-hui",
+  "submittedAt": "2026-11-11T14:06:39.804Z",
+  "version": "1.0.12"
+}
