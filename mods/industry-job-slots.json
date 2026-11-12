@@ -1,0 +1,24 @@
+{
+  "author": {
+    "id": "au-mvgf59rqpaue",
+    "keyId": "6d218baa968e",
+    "name": "普罗旺斯煎饼果子"
+  },
+  "displayName": "更方便的科研与制造",
+  "downloadParts": null,
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/jealous123456789/evejs-mod-industry-job-slots/releases/download/v1.0.0/industry-job-slots-1.0.0.zip"
+    }
+  ],
+  "id": "industry-job-slots",
+  "publishedAt": "2026-11-12",
+  "schemaVersion": 1,
+  "sha256": "56ccf391b9206753c7cd323f9797248a8e140f18ee2357bd4c747d20158d7576",
+  "sizeBytes": 23773,
+  "source": "jealous123456789/evejs-mod-industry-job-slots",
+  "submittedAt": "2026-11-12T08:41:49.317Z",
+  "version": "1.0.0"
+}
