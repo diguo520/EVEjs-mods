@@ -1,0 +1,24 @@
+{
+  "author": {
+    "id": "au-mvgf59rqpaue",
+    "keyId": "6d218baa968e",
+    "name": "普罗旺斯煎饼果子"
+  },
+  "displayName": "自动导航跃迁0米",
+  "downloadParts": null,
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/jealous123456789/evejs-mod-autopilot-warp-zero/releases/download/v1.0.0/autopilot-warp-zero-1.0.0.zip"
+    }
+  ],
+  "id": "autopilot-warp-zero",
+  "publishedAt": "2026-11-12",
+  "schemaVersion": 1,
+  "sha256": "46417039a01dc72a97f7bf83c64a30e0be7fb7b6462aa7283299a6c08fa0c67f",
+  "sizeBytes": 10457,
+  "source": "jealous123456789/evejs-mod-autopilot-warp-zero",
+  "submittedAt": "2026-11-12T05:47:54.659Z",
+  "version": "1.0.0"
+}
