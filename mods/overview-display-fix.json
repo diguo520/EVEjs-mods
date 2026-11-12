@@ -1,0 +1,24 @@
+{
+  "author": {
+    "id": "au-mvgf59rqpaue",
+    "keyId": "6d218baa968e",
+    "name": "普罗旺斯煎饼果子"
+  },
+  "displayName": "总览显示修复",
+  "downloadParts": null,
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/jealous123456789/evejs-mod-overview-display-fix/releases/download/v1.0.0/overview-display-fix-1.0.0.zip"
+    }
+  ],
+  "id": "overview-display-fix",
+  "publishedAt": "2026-11-12",
+  "schemaVersion": 1,
+  "sha256": "ca96fba83a0d890f932fc30be107acb76a549d5eba0dd314c15541de667d927f",
+  "sizeBytes": 15730,
+  "source": "jealous123456789/evejs-mod-overview-display-fix",
+  "submittedAt": "2026-11-12T02:34:50.064Z",
+  "version": "1.0.0"
+}
