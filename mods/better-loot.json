@@ -10,15 +10,15 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/jealous123456789/evejs-mod-better-loot/releases/download/v1.0.0/better-loot-1.0.0.zip"
+      "url": "https://github.com/jealous123456789/evejs-mod-better-loot/releases/download/v1.0.1/better-loot-1.0.1.zip"
     }
   ],
   "id": "better-loot",
   "publishedAt": "2026-11-12",
   "schemaVersion": 1,
-  "sha256": "e107dbca7333010f8694021912e48c9834bf8ee4a6b2cd365ca220498bb7f440",
-  "sizeBytes": 107597,
+  "sha256": "9269dc96b82b032c7be6be4eaf4b963588a23214d3075d2b77891fcdda6ed6e3",
+  "sizeBytes": 119651,
   "source": "jealous123456789/evejs-mod-better-loot",
-  "submittedAt": "2026-11-12T04:36:31.509Z",
-  "version": "1.0.0"
+  "submittedAt": "2026-11-12T05:21:52.350Z",
+  "version": "1.0.1"
 }
