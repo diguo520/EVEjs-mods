@@ -1,0 +1,24 @@
+{
+  "author": {
+    "id": "au-mvgf59rqpaue",
+    "keyId": "6d218baa968e",
+    "name": "普罗旺斯煎饼果子"
+  },
+  "displayName": "矿带刷怪修复",
+  "downloadParts": null,
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/jealous123456789/evejs-mod-belt-respawn-cooldown/releases/download/v1.0.0/belt-respawn-cooldown-1.0.0.zip"
+    }
+  ],
+  "id": "belt-respawn-cooldown",
+  "publishedAt": "2026-11-12",
+  "schemaVersion": 1,
+  "sha256": "3eaf78af7adab6ed388bcc5404d50c90912ebb208986f8dfd14eeb9f59188a0c",
+  "sizeBytes": 21027,
+  "source": "jealous123456789/evejs-mod-belt-respawn-cooldown",
+  "submittedAt": "2026-11-12T08:34:06.165Z",
+  "version": "1.0.0"
+}
