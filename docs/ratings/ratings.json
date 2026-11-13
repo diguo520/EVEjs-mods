@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1794546414439,
+  "generatedAt": 1794579528070,
   "mods": {
     "bug-fixes": {
       "stars": 1,
@@ -370,6 +370,6 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "evejs-ratings-2026-10-01",
-    "sig": "LZp3Xs8QOuLJZa6eOPFVhnQdCteZ/vIO8RPeDbu1RmO3CKDWBaCvDtiU+GMG7N7E4TwIk2I4SprTZbBVagRSAg=="
+    "sig": "LkcA8CIbULeHmwt4sQZnGBW8OcVPXacOadYe8uR3LQ9B6SwdRHuf9pIxSGrGv358Uk3ZWkVNOJDSIuNcfnSNDA=="
   }
 }

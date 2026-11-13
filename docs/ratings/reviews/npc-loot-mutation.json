@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1794157269913,
+  "generatedAt": 1794579528070,
   "modId": "npc-loot-mutation",
   "reviews": [],
   "stars": {
@@ -12,6 +12,6 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "evejs-ratings-2026-10-01",
-    "sig": "ADDnsm1T/kS/eDEUVe4vvXKD5+2Rk6RxKJdPKFSr2G9DeaSZkVHTmtJJ3d/PzjIdpgCYa7LPG4tHNQLWdELwBg=="
+    "sig": "/OqeYGpRRxcF+ehRQW7KChZmjnIK460HERL2f+5+qzaXR1rTkaSAk9c2VbggqJ7Of2OtbWRHOHhE/rUh9LHSAA=="
   }
 }
