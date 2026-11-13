@@ -10,15 +10,15 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/diguo520/evejs-mod-evejs-autolockfire/releases/download/v1.1.6/evejs-autolockfire-1.1.6.zip"
+      "url": "https://github.com/diguo520/evejs-mod-evejs-autolockfire/releases/download/v1.1.7/evejs-autolockfire-1.1.7.zip"
     }
   ],
   "id": "evejs-autolockfire",
-  "publishedAt": "2026-11-10",
+  "publishedAt": "2026-11-13",
   "schemaVersion": 1,
-  "sha256": "abcf54aac76b98499b45529299b4bb75775b4b3e8f6939608add28fc51b867ef",
-  "sizeBytes": 68276,
+  "sha256": "b8ca79e866f38ccea3ef7eb6c770e75d043362ce16c5ac26ef8ad00032f85b79",
+  "sizeBytes": 114992,
   "source": "diguo520/evejs-mod-evejs-autolockfire",
-  "submittedAt": "2026-11-10T05:32:08.667Z",
-  "version": "1.1.6"
+  "submittedAt": "2026-11-13T14:43:46.669Z",
+  "version": "1.1.7"
 }
