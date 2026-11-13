@@ -1,0 +1,24 @@
+{
+  "author": {
+    "id": "au-mvgf59rqpaue",
+    "keyId": "6d218baa968e",
+    "name": "普罗旺斯煎饼果子"
+  },
+  "displayName": "自动菜管家",
+  "downloadParts": null,
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/jealous123456789/evejs-mod-pi-manager/releases/download/v0.2.0/pi-manager-0.2.0.zip"
+    }
+  ],
+  "id": "pi-manager",
+  "publishedAt": "2026-11-13",
+  "schemaVersion": 1,
+  "sha256": "676d200cfeb18f03defb429f581b18f42590ea9285675974d779cf726f333a37",
+  "sizeBytes": 113312,
+  "source": "jealous123456789/evejs-mod-pi-manager",
+  "submittedAt": "2026-11-13T10:11:34.982Z",
+  "version": "0.2.0"
+}
