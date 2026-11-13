@@ -1,0 +1,24 @@
+{
+  "author": {
+    "id": "au-mvgf59rqpaue",
+    "keyId": "6d218baa968e",
+    "name": "普罗旺斯煎饼果子"
+  },
+  "displayName": "聊天通道卡死修复",
+  "downloadParts": null,
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/jealous123456789/evejs-mod-chat-edge-lane-fix/releases/download/v1.0.0/chat-edge-lane-fix-1.0.0.zip"
+    }
+  ],
+  "id": "chat-edge-lane-fix",
+  "publishedAt": "2026-11-13",
+  "schemaVersion": 1,
+  "sha256": "1285d7e722b5df4f81f1d9640a6fcb20941c9f422e26768a424dd241b778cfad",
+  "sizeBytes": 14267,
+  "source": "jealous123456789/evejs-mod-chat-edge-lane-fix",
+  "submittedAt": "2026-11-13T07:44:37.542Z",
+  "version": "1.0.0"
+}
