@@ -10,15 +10,15 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/jealous123456789/evejs-mod-belt-respawn-cooldown/releases/download/v1.0.0/belt-respawn-cooldown-1.0.0.zip"
+      "url": "https://github.com/jealous123456789/evejs-mod-belt-respawn-cooldown/releases/download/v1.0.1/belt-respawn-cooldown-1.0.1.zip"
     }
   ],
   "id": "belt-respawn-cooldown",
-  "publishedAt": "2026-11-12",
+  "publishedAt": "2026-11-13",
   "schemaVersion": 1,
-  "sha256": "3eaf78af7adab6ed388bcc5404d50c90912ebb208986f8dfd14eeb9f59188a0c",
-  "sizeBytes": 21027,
+  "sha256": "35349c288274a38263e319ac60fc5884d33d19527f1df3326cdaa43e38735051",
+  "sizeBytes": 28440,
   "source": "jealous123456789/evejs-mod-belt-respawn-cooldown",
-  "submittedAt": "2026-11-12T08:34:06.165Z",
-  "version": "1.0.0"
+  "submittedAt": "2026-11-13T01:34:20.117Z",
+  "version": "1.0.1"
 }
