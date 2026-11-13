@@ -10,15 +10,15 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/xxxuan42/evejs-mod-evejs-skyhook-reagent-boost/releases/download/v1.3.11/evejs-skyhook-reagent-boost-1.3.11.zip"
+      "url": "https://github.com/xxxuan42/evejs-mod-evejs-skyhook-reagent-boost/releases/download/v1.3.13/evejs-skyhook-reagent-boost-1.3.13.zip"
     }
   ],
   "id": "evejs-skyhook-reagent-boost",
-  "publishedAt": "2026-11-11",
+  "publishedAt": "2026-11-13",
   "schemaVersion": 1,
-  "sha256": "673cb955b2a634a0737a29f4ab483207ae2a30423b39ed92a25bd5cfed459c70",
-  "sizeBytes": 39562,
+  "sha256": "1cf2270f0c26f8999234ab6b095ea79c69874e39e0675ec4a69c878f2a2828d0",
+  "sizeBytes": 40138,
   "source": "xxxuan42/evejs-mod-evejs-skyhook-reagent-boost",
-  "submittedAt": "2026-11-11T14:07:00.385Z",
-  "version": "1.3.11"
+  "submittedAt": "2026-11-13T15:41:36.186Z",
+  "version": "1.3.13"
 }
