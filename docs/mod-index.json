@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-11-13T17:28:45.609Z",
+  "publishedAt": "2026-11-13T18:16:29.818Z",
   "mods": [
     {
       "author": {
@@ -180,7 +180,7 @@
       "tags": [],
       "version": "1.1.0",
       "source": "rzwm/evejs-mod-evejs-beijing-time",
-      "downloads": 341,
+      "downloads": 342,
       "cdnHits": 3
     },
     {
@@ -239,7 +239,7 @@
       "tags": [],
       "version": "0.18.2",
       "source": "MateralCMX/evejs-mod-bug-fixes",
-      "downloads": 751,
+      "downloads": 752,
       "cdnHits": 0
     },
     {
@@ -286,7 +286,7 @@
       ],
       "version": "1.1.8",
       "source": "diguo520/evejs-mod-evejs-autolockfire",
-      "downloads": 1536,
+      "downloads": 1540,
       "cdnHits": 0
     },
     {
@@ -348,7 +348,7 @@
       ],
       "version": "1.0.20",
       "source": "diguo520/evejs-mod-evejs-automining",
-      "downloads": 1284,
+      "downloads": 1285,
       "cdnHits": 2791
     },
     {
@@ -530,7 +530,7 @@
       "tags": [],
       "version": "0.1.2",
       "source": "MateralCMX/evejs-mod-gm-menu-localization",
-      "downloads": 490,
+      "downloads": 491,
       "cdnHits": 0
     },
     {
@@ -540,16 +540,16 @@
         "name": "GH301"
       },
       "category": "玩法",
-      "changelog": "- **船员钱包（新）**：面板「指挥」页顶部显示「船员钱包合计 X ISK」，点「一键转入我的钱包」把每名船员钱包里的钱转到你当前角色；过去这笔钱停在合成船员账号上，玩家看不到也花不掉\n- **转账单个失败不影响其他人**：每人单独转，界面列出谁失败、为什么（角色不在了 / 余额不够 / 钱包装不下 / 还没拿到你的角色）\n- **不会重复扣**：转账前重新读余额，连点两次第二次就是 0；服务端同时只跑一次\n- **游戏内也能用**：`/crewmine wallet` 看合计，`/crewmine wallet sweep` 转账，`... sweep all` 连仓库角色一起转\n- **没改赏金归属**：击杀报告、安全等级、每日击杀目标仍然记在船员头上，这次只搬钱\n- **已知**：赏金是分批到账的（约 20 分钟一批），到账前点按钮会提示没有可转入的钱",
+      "changelog": "### RTS 模式（新）\n\n- 面板新增「RTS模式」标签页：左边星图，右边船员卡 / 舰队卡\n- 星图：恒星 / 行星 / 卫星 / 矿带 / 空间站 / 玩家建筑 / 星门 / 异常点 / 信号 / 玩家 / RTS 船员；滚轮缩放 1–8×、拖动平移、双击复位；重叠图标聚合成数字圆点，悬浮出列表；异常点名称可常显；矿带和异常点悬浮显示这里有什么矿\n- 右键下令：跃迁 0/10/50/100 km、接近 / 环绕 / 保持 10 km、采矿、待命；超过 150 km 走跃迁，150 km 内自动改接近；重启服务端后命令继续\n- 舰队：组建 / 换队长 / 解散 / 加入 / 退出；舰队卡可整队控制攻击、特殊装备、无人机、舰载机、全队待命；「整备」让队员向队长集结，同星系直接靠拢、跨星系走星门\n- 多支舰队并存，各自显示攻击开合、附近敌对、待命状态\n- 跨星系：前往玩家位置（一路走星门，不瞬移）、前往星系（搜名字或 ID）、右键星门过门\n- 执行任务：清理本星系异常，按异常类型勾选，清完一个自己去下一个\n- 状态一眼看：红＝附近有敌对 / 蓝＝有命令在跑 / 黄＝没任务或异常点已清空；被打会闪；详情里有护盾 / 装甲 / 结构 / 电容 / 槽位 / 无人机 / 舰载机\n- 你停靠或下线后，RTS 船员照常执行命令\n\n### 采矿直送与采矿任务（新）\n\n- 任务四类：采集矿带、采集采矿异常（矿石 / 气体）、采集冰矿异常；勾多个点逐个采，采空换下一个\n- 整队采矿：队长周围没有可采矿了，整队一起去下一个点\n- 直送：货舱到阈值就把矿直接进共用存放站的玩家仓库——不建合同、不飞回站、不需要机库船；压不了就直接送原矿\n- 压缩：矿舱有变化就压一次；工业核心周围有矿自动开、没有自动关；指挥舰负责开核心 / 压缩机 / 指挥脉冲，采矿交给无人机\n- 选矿：射程内的矿都被同伴占了，就先一起挖最近那块；一块都没有才去更远的矿\n- 「收矿」按钮：船员卡 / 舰队卡 / 舰队「查看详细」里都能手动把矿送去存放站，不看 80% 阈值、不停采矿\n- 救援队：选中的船员平时待机，哪支矿队被攻击就跃迁过去开火支援，附近没有敌对就回待机\n- 解散 / 全部解散：先停采矿、把矿送到存放站，再解散；送矿失败会问你「仍然解散（矿留在船上）」\n\n### 打捞（新）\n\n- 船员 300 km 内、有归属权的残骸，掉落物直接进目标站 / 建筑的玩家仓库（不经过船员货舱）；开关默认开，存放站可改，能搜玩家建筑\n\n### 界面\n\n- 中英双语：设置 → 界面语言（中文 / English），也认地址里的 `?lang=en`；帮助、RTS 说明、登录提示都是完整英文，浏览器的确认框也跟着翻\n- 「设置 / Settings」「界面语言 / Language」两个入口永远中英并列，切哪种语言都找得到\n- 卡片按钮补齐（收矿、查看详细、退出舰队…）；整队控制可折叠，折叠状态按舰队记住",
       "conflicts": [],
       "delisted": false,
-      "description": "NFCrew · 船员编队：真角色、真舰船的虚拟船员听你指挥，带召唤仓库与配装台。\n\n怎么开始用\n1. 打开面板：/crewmine ui（浏览器 127.0.0.1:8741，每账号独立令牌）；非 GM 角色用 !crewmine <参数>\n2. 召唤船员：面板「召唤」页选角色和船，或 /crewmine spawn <配装id> [数量]——在你旁边点亮诱导力场，4 秒后跳进来\n3. 让他干活：/crewmine mine all（采矿）；交战规则在面板「作战」页；特殊装备用 /crewmine special\n4. 舰载机：面板「特殊」页一键发射，再按机型开关攻击/导弹/鱼雷；投弹、跳跃、自爆是一次性按钮\n5. 解散：/crewmine disband all confirm——诱导跳走，残留舰载机会先清理\n\n功能\n· 采矿：自动选矿 / 分矿 / 靠近 / 压缩后交进你的矿舱\n· 战斗：齐射结算 / 导弹 / 集火 / 追击 / 舰载机（自动放飞、自动攻击、按机型控制）\n· 后勤：遥修 / 传电\n· 特殊：EWAR / 吸电 / 中和 / 指挥脉冲 / 立体炸弹 / 末日\n· 召唤仓库：订货（80% 卖价）、存入 / 取出 / 卖出 / 重购、对账、召唤方案\n· 配装台：可搜索下拉、CPU/PG/挂点/无人机/改装件校验、DPS·EHP 模拟",
+      "description": "NFCrew · 船员编队：真角色、真舰船，编成舰队当 RTS 部队用。\n\n怎么开始：/crewmine ui（浏览器 127.0.0.1:8741，每账号独立令牌；非 GM 用 !crewmine <参数>）\n\n能做的：采矿（采满直接进存放站）、编队打仗、遥修、打捞、清异常。",
       "displayName": "NFCrew · 船员编队",
       "downloadUrls": [
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/GH301/evejs-mod-evejs-nf-crew/releases/download/v1.2.1/evejs-nf-crew-1.2.1.zip"
+          "url": "https://github.com/GH301/evejs-mod-evejs-nf-crew/releases/download/v1.3.0/evejs-nf-crew-1.3.0.zip"
         }
       ],
       "evejsVersions": [
@@ -561,25 +561,25 @@
       "highlights": [],
       "history": [],
       "id": "evejs-nf-crew",
-      "publishedAt": "2026-11-07",
+      "publishedAt": "2026-11-13",
       "readme": [
-        "> **这是什么**：召唤一批**真实角色 + 真实舰船**的\"船员\"，跟着你采矿、打仗、遥修。\n> 他们有自己的角色记录、自己的船、自己的货舱，进你的舰队、跟你跃迁，挖到的矿压缩后交给**你的**矿舱。",
+        "> **这是什么**：召唤一批**真实角色 + 真实舰船**的\"船员\"，跟着你采矿、打仗、遥修。\n> 他们有自己的角色记录、自己的船、自己的货舱，进你的舰队、跟你跃迁，挖到的矿压缩后直接进共用存放站的**玩家仓库**（不需要机库船）。",
         "---"
       ],
       "repo": "https://github.com/GH301/evejs-mod-evejs-nf-crew",
       "requiresRestart": true,
-      "sha256": "b17be67f6434937e0914184f2a25dd327e99bcc11b4e1bdf8a126a25052ab392",
-      "sizeBytes": 536502,
+      "sha256": "e020ded3e91cbc58799071ac243ca30432000d6903bc41c6229b5a326e08542d",
+      "sizeBytes": 715793,
       "tags": [
         "采矿",
         "战斗",
         "遥修",
-        "编队",
-        "多账号",
-        "面板",
-        "NPC"
+        "舰队",
+        "军团",
+        "RTS",
+        "指挥"
       ],
-      "version": "1.2.1",
+      "version": "1.3.0",
       "source": "GH301/evejs-mod-evejs-nf-crew",
       "downloads": 431,
       "cdnHits": 0
@@ -1212,7 +1212,7 @@
       ],
       "version": "1.0.10",
       "source": "diguo520/evejs-mod-evejs-cntext-fix",
-      "downloads": 1161,
+      "downloads": 1162,
       "cdnHits": 0
     },
     {
@@ -1304,7 +1304,7 @@
       ],
       "version": "1.3.13",
       "source": "xxxuan42/evejs-mod-evejs-skyhook-reagent-boost",
-      "downloads": 195,
+      "downloads": 197,
       "cdnHits": 0
     },
     {
@@ -1458,7 +1458,7 @@
       ],
       "version": "1.2.1",
       "source": "jealous123456789/evejs-mod-mission-content-repair",
-      "downloads": 418,
+      "downloads": 419,
       "cdnHits": 0
     },
     {
@@ -1793,7 +1793,7 @@
       ],
       "version": "1.1.0",
       "source": "kokoandqiong/evejs-mod-evejs-slimitem-name-wstring",
-      "downloads": 145,
+      "downloads": 146,
       "cdnHits": 0
     },
     {
@@ -1891,7 +1891,7 @@
       ],
       "version": "1.1.3",
       "source": "xxxuan42/evejs-mod-evejs-industrial-module-fast-cycle",
-      "downloads": 24,
+      "downloads": 25,
       "cdnHits": 0
     },
     {
@@ -2192,7 +2192,7 @@
       ],
       "version": "1.0.2",
       "source": "xxxuan42/evejs-mod-evejs-courier-ai",
-      "downloads": 1,
+      "downloads": 2,
       "cdnHits": 0
     },
     {
@@ -2283,7 +2283,7 @@
       ],
       "version": "1.0.0",
       "source": "jealous123456789/evejs-mod-overview-display-fix",
-      "downloads": 69,
+      "downloads": 70,
       "cdnHits": 0
     },
     {
@@ -3458,7 +3458,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "rzwm/evejs-mod-evejs-autopilot-jump-stargate-0km",
-      "downloads": 308,
+      "downloads": 309,
       "cdnHits": 3
     },
     {
@@ -3787,7 +3787,7 @@
       ],
       "version": "1.7.1",
       "source": "xxxuan42/evejs-mod-evejs-jumpdrive-to-star",
-      "downloads": 204,
+      "downloads": 206,
       "cdnHits": 0
     },
     {
@@ -3865,7 +3865,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "BUmYMuEXNPtHCwPX67v24EZLc9KRmYixULyKd1GerTtpjmiuCf6a3MJRoVE2q4LTrKioywtMZYzbVCTSxgyNCQ==",
-    "signedAt": "2026-11-13T17:28:45.614Z"
+    "sig": "JkBKNeaROJXgWofYDvc+S8sG0sB8uF7HZvT9QPfA01CUoytT+5ZAsJ8qwWyzIFDHfJvHTOYXdhUg1OyKkELtCg==",
+    "signedAt": "2026-11-13T18:16:29.823Z"
   }
 }
