@@ -10,15 +10,15 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/diguo520/evejs-mod-evejs-automining/releases/download/v1.0.19/evejs-automining-1.0.19.zip"
+      "url": "https://github.com/diguo520/evejs-mod-evejs-automining/releases/download/v1.0.20/evejs-automining-1.0.20.zip"
     }
   ],
   "id": "evejs-automining",
   "publishedAt": "2026-11-13",
   "schemaVersion": 1,
-  "sha256": "0406c41264b38f6aaade90ed9ef007de9ece70cb6a205001fa7a116bddaaaf96",
-  "sizeBytes": 12314183,
+  "sha256": "53f9b7347a27f0f3a644e43bd6489744ece58486b4367c2c95548fb75e04bdf4",
+  "sizeBytes": 12315079,
   "source": "diguo520/evejs-mod-evejs-automining",
-  "submittedAt": "2026-11-13T14:41:40.035Z",
-  "version": "1.0.19"
+  "submittedAt": "2026-11-13T16:44:21.923Z",
+  "version": "1.0.20"
 }
