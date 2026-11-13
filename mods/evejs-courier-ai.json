@@ -1,0 +1,24 @@
+{
+  "author": {
+    "id": "au-mvdfee9me05u",
+    "keyId": "0f5102b5a107",
+    "name": "XUAN"
+  },
+  "displayName": "快递 AI",
+  "downloadParts": null,
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/xxxuan42/evejs-mod-evejs-courier-ai/releases/download/v1.0.2/evejs-courier-ai-1.0.2.zip"
+    }
+  ],
+  "id": "evejs-courier-ai",
+  "publishedAt": "2026-11-13",
+  "schemaVersion": 1,
+  "sha256": "b62c5aa6b9ef1354fffbf4a391ba29609d0269518831686d544071fe6f4cd7bf",
+  "sizeBytes": 26016,
+  "source": "xxxuan42/evejs-mod-evejs-courier-ai",
+  "submittedAt": "2026-11-13T17:09:30.253Z",
+  "version": "1.0.2"
+}
