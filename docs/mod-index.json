@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-11-14T03:58:47.926Z",
+  "publishedAt": "2026-11-14T04:22:47.049Z",
   "mods": [
     {
       "author": {
@@ -581,7 +581,7 @@
       ],
       "version": "1.3.0",
       "source": "GH301/evejs-mod-evejs-nf-crew",
-      "downloads": 450,
+      "downloads": 451,
       "cdnHits": 0
     },
     {
@@ -2159,13 +2159,13 @@
       "changelog": "",
       "conflicts": [],
       "delisted": false,
-      "description": "公开快递合同发布后，NPC 快递员「快递AI」自动接单：驾驶游牧者级 到起点站取件 → 出站等待 20 秒 → 用模组内置跳跃引擎直接跳到目的星系（不检查跳跃引擎、燃料与距离，无跳跃疲劳）→ 等待 10 秒 → 进入目的建筑交付并完成合同。AI 能进入任何建筑，空间站与建筑均可停靠；服务端重启后会按包裹当前位置继续承运。纯运行期模组，不修改服务端源码，停用并重启服务端即还原。",
+      "description": "公开快递合同发布后，NPC 快递员「快递AI」被动接单，驾驶装配了 3 个货柜舱的游牧者级自动承运。AI 常驻席拉星系：接单后出站，用模组内置跳跃引擎跳到合同起点星系取件，再出站等待 20 秒 → 跳到目的星系 → 等待 10 秒 → 进入目的建筑交付并完成合同。内置跳跃引擎不检查跳跃引擎、燃料、跳跃距离，也不产生跳跃疲劳，AI 可进入任何建筑。接单体积上限按游牧者级的实际货舱容量计算（含 3 个「泽·库什的改良延展型货柜舱」的加成，由服务端装配计算得出）。合同完成、包裹体积超过容量、保证金超过上限或连续 3 次承运失败时，会以「快递AI」身份给合同发起人发游戏内邮件，体积超限的邮件会标注实际货舱容量、包裹体积与超出量。服务端重启后按包裹当前位置断点续运。纯运行期模组，不修改服务端源码，停用并重启服务端即还原。",
       "displayName": "快递 AI",
       "downloadUrls": [
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/xxxuan42/evejs-mod-evejs-courier-ai/releases/download/v1.0.2/evejs-courier-ai-1.0.2.zip"
+          "url": "https://github.com/xxxuan42/evejs-mod-evejs-courier-ai/releases/download/v1.0.7/evejs-courier-ai-1.0.7.zip"
         }
       ],
       "evejsVersions": [
@@ -2175,24 +2175,26 @@
       "highlights": [],
       "history": [],
       "id": "evejs-courier-ai",
-      "publishedAt": "2026-11-13",
+      "publishedAt": "2026-11-14",
       "readme": [
         "公开快递合同一发布，服务端里的 NPC 快递员「快递AI」就会自己接单，驾驶游牧者级把包裹送到目的地。"
       ],
       "repo": "https://github.com/xxxuan42/evejs-mod-evejs-courier-ai",
       "requiresRestart": true,
-      "sha256": "b62c5aa6b9ef1354fffbf4a391ba29609d0269518831686d544071fe6f4cd7bf",
-      "sizeBytes": 26016,
+      "sha256": "762b128cabf65a429ea25b3626b5b8c094f609b39d2e57ec2d05b4d3c4977573",
+      "sizeBytes": 31189,
       "tags": [
         "快递",
         "合同",
         "AI",
         "游牧者级",
-        "跳跃引擎"
+        "跳跃引擎",
+        "邮件通知",
+        "席拉"
       ],
-      "version": "1.0.2",
+      "version": "1.0.7",
       "source": "xxxuan42/evejs-mod-evejs-courier-ai",
-      "downloads": 14,
+      "downloads": 15,
       "cdnHits": 0
     },
     {
@@ -2377,7 +2379,7 @@
       ],
       "version": "1.5.22",
       "source": "lxm970112-hub/evejs-mod-evejs-wa-kuang",
-      "downloads": 100,
+      "downloads": 101,
       "cdnHits": 0
     },
     {
@@ -3884,7 +3886,7 @@
       ],
       "version": "1.0.5",
       "source": "lxm970112-hub/evejs-mod-evejs-tie-qi-hu-hang",
-      "downloads": 0,
+      "downloads": 3,
       "cdnHits": 0
     }
   ],
@@ -3917,7 +3919,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "QXj6ut1D8r/XNAIV5P6em7Uw6cWBkZkVHFzBdz4U4ej5etAOAjQBQItcjI3FYEzGDE7JkQYZlu6WqqGp/8CBBg==",
-    "signedAt": "2026-11-14T03:58:47.932Z"
+    "sig": "zRKuwY2n9uBm9DH76qVCDEdKct1DiAUMhQSoDwEjfnxe4cndKDoqB136EWabginnixaEdEEoSl1KJon5jS7MBw==",
+    "signedAt": "2026-11-14T04:22:47.055Z"
   }
 }
