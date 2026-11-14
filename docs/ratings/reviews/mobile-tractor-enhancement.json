@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1793689362422,
+  "generatedAt": 1794666986423,
   "modId": "mobile-tractor-enhancement",
   "reviews": [],
   "stars": {
-    "count": 1,
+    "count": 2,
     "keys": [
-      "aa4e8604eb37"
+      "aa4e8604eb37",
+      "61ba8b9b0f1d"
     ]
   },
   "signature": {
     "alg": "ed25519",
     "keyId": "evejs-ratings-2026-10-01",
-    "sig": "GhWP7JXJvLxjMqHK7UXuXmjNuCxdz2xfaAgg6ArNqX8v8czE5C6DqCNvHB4h0ozCyQSCUUbFVqWO031KpW07Ag=="
+    "sig": "7MNOLQSB9hHIuO7eE+E3Q7j/DGHiPTGWNqmQL6HC0ZCcX6v2ZQgTS8XKYstg3riLdL8nrG1T4uzDJyVVEoCKBQ=="
   }
 }

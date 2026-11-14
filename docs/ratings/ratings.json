@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1794579528070,
+  "generatedAt": 1794666986423,
   "mods": {
     "bug-fixes": {
       "stars": 1,
@@ -311,17 +311,17 @@
       ]
     },
     "mobile-tractor-enhancement": {
-      "stars": 1,
+      "stars": 2,
       "comments": 0,
       "average": 5,
-      "count": 1,
+      "count": 2,
       "withText": 0,
       "histogram": [
         0,
         0,
         0,
         0,
-        1
+        2
       ]
     },
     "npc-loot-mutation": {
@@ -370,6 +370,6 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "evejs-ratings-2026-10-01",
-    "sig": "LkcA8CIbULeHmwt4sQZnGBW8OcVPXacOadYe8uR3LQ9B6SwdRHuf9pIxSGrGv358Uk3ZWkVNOJDSIuNcfnSNDA=="
+    "sig": "l6cRk7vAgDf/YqespVhoV/Dszw4T+atx/uXuY8KL5ELnodK91pepd8M239pVUkuDzlAh4pd+LK5kwYwQS1deDg=="
   }
 }
