@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-11-14T03:47:02.781Z",
+  "publishedAt": "2026-11-14T03:58:47.926Z",
   "mods": [
     {
       "author": {
@@ -286,7 +286,7 @@
       ],
       "version": "1.1.8",
       "source": "diguo520/evejs-mod-evejs-autolockfire",
-      "downloads": 1574,
+      "downloads": 1576,
       "cdnHits": 0
     },
     {
@@ -1458,7 +1458,7 @@
       ],
       "version": "1.2.1",
       "source": "jealous123456789/evejs-mod-mission-content-repair",
-      "downloads": 431,
+      "downloads": 432,
       "cdnHits": 0
     },
     {
@@ -3197,7 +3197,7 @@
       ],
       "version": "1.0.1",
       "source": "jealous123456789/evejs-mod-belt-respawn-cooldown",
-      "downloads": 44,
+      "downloads": 45,
       "cdnHits": 0
     },
     {
@@ -3789,7 +3789,7 @@
       ],
       "version": "1.7.1",
       "source": "xxxuan42/evejs-mod-evejs-jumpdrive-to-star",
-      "downloads": 223,
+      "downloads": 224,
       "cdnHits": 0
     },
     {
@@ -3917,7 +3917,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "7f2ijxxFdQT4X60kX3UiiCKqwiAggCeYKywr73p2hf5x97ooKxRdnoLRIViYBmBO6n+qXWncF2dgADwyvffFAQ==",
-    "signedAt": "2026-11-14T03:47:02.786Z"
+    "sig": "QXj6ut1D8r/XNAIV5P6em7Uw6cWBkZkVHFzBdz4U4ej5etAOAjQBQItcjI3FYEzGDE7JkQYZlu6WqqGp/8CBBg==",
+    "signedAt": "2026-11-14T03:58:47.932Z"
   }
 }
