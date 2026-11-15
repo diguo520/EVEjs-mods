@@ -1,0 +1,24 @@
+{
+  "author": {
+    "id": "au-mwgavqic5bay",
+    "keyId": "1f069ade6d68",
+    "name": "人家很纯洁"
+  },
+  "displayName": "MTU 多目标牵引",
+  "downloadParts": null,
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/ewinted/evejs-mod-evejs-mtu-multi-target/releases/download/v1.0.0/evejs-mtu-multi-target-1.0.0.zip"
+    }
+  ],
+  "id": "evejs-mtu-multi-target",
+  "publishedAt": "2026-11-15",
+  "schemaVersion": 1,
+  "sha256": "4626ac5bfc0a6bc10a6d2053c56d6d567d9580944cbd475c168d67ea006fd9ad",
+  "sizeBytes": 15921,
+  "source": "ewinted/evejs-mod-evejs-mtu-multi-target",
+  "submittedAt": "2026-11-15T17:35:18.432Z",
+  "version": "1.0.0"
+}
