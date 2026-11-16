@@ -1,0 +1,24 @@
+{
+  "author": {
+    "id": "au-mw7jbtnpunkx",
+    "keyId": "c9a95855e5dc",
+    "name": "雪风"
+  },
+  "displayName": "虫洞异常修复（261028）",
+  "downloadParts": null,
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/lxm970112-hub/evejs-mod-evejs-wormhole-anomaly-repair-261028/releases/download/v1.1.0/evejs-wormhole-anomaly-repair-261028-1.1.0.zip"
+    }
+  ],
+  "id": "evejs-wormhole-anomaly-repair-261028",
+  "publishedAt": "2026-11-16",
+  "schemaVersion": 1,
+  "sha256": "6c87fd31bc473d243ec91a9bdc2323c179d26b71db9d4eb12ec0378e2e3c454b",
+  "sizeBytes": 37465,
+  "source": "lxm970112-hub/evejs-mod-evejs-wormhole-anomaly-repair-261028",
+  "submittedAt": "2026-11-16T13:23:41.613Z",
+  "version": "1.1.0"
+}
