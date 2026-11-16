@@ -4,21 +4,21 @@
     "keyId": "0f5102b5a107",
     "name": "XUAN"
   },
-  "displayName": "工业模块 5 秒循环",
+  "displayName": "模块5秒循环",
   "downloadParts": null,
   "downloadUrls": [
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/xxxuan42/evejs-mod-evejs-industrial-module-fast-cycle/releases/download/v1.1.3/evejs-industrial-module-fast-cycle-1.1.3.zip"
+      "url": "https://github.com/xxxuan42/evejs-mod-evejs-industrial-module-fast-cycle/releases/download/v1.1.5/evejs-industrial-module-fast-cycle-1.1.5.zip"
     }
   ],
   "id": "evejs-industrial-module-fast-cycle",
-  "publishedAt": "2026-11-13",
+  "publishedAt": "2026-11-16",
   "schemaVersion": 1,
-  "sha256": "79cb3704056114649505fe7b73d4096ab902c67320b115901bd17c75b66e46ac",
-  "sizeBytes": 20613,
+  "sha256": "1f745bcc5a144ed07cd941ab2da3cfe7789083d0777e7d63c113dcda37d0c262",
+  "sizeBytes": 20819,
   "source": "xxxuan42/evejs-mod-evejs-industrial-module-fast-cycle",
-  "submittedAt": "2026-11-13T15:27:46.773Z",
-  "version": "1.1.3"
+  "submittedAt": "2026-11-16T13:42:15.550Z",
+  "version": "1.1.5"
 }
