@@ -10,15 +10,15 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/xxxuan42/evejs-mod-evejs-courier-ai/releases/download/v1.0.8/evejs-courier-ai-1.0.8.zip"
+      "url": "https://github.com/xxxuan42/evejs-mod-evejs-courier-ai/releases/download/v1.0.10/evejs-courier-ai-1.0.10.zip"
     }
   ],
   "id": "evejs-courier-ai",
   "publishedAt": "2026-11-16",
   "schemaVersion": 1,
-  "sha256": "56eaa4e2d15c320b73b9b6ebe33aca273aa0316b3c66742ecde135273790f46e",
-  "sizeBytes": 31194,
+  "sha256": "76c3515676cb3615ccac9ed41ea2080577e42be2c1a9f158e8c7045a44c55088",
+  "sizeBytes": 33148,
   "source": "xxxuan42/evejs-mod-evejs-courier-ai",
-  "submittedAt": "2026-11-16T13:39:21.806Z",
-  "version": "1.0.8"
+  "submittedAt": "2026-11-16T14:18:57.831Z",
+  "version": "1.0.10"
 }
