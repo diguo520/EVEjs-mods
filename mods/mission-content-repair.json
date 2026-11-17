@@ -10,15 +10,15 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/jealous123456789/evejs-mod-mission-content-repair/releases/download/v1.2.1/mission-content-repair-1.2.1.zip"
+      "url": "https://github.com/jealous123456789/evejs-mod-mission-content-repair/releases/download/v1.2.2/mission-content-repair-1.2.2.zip"
     }
   ],
   "id": "mission-content-repair",
-  "publishedAt": "2026-11-13",
+  "publishedAt": "2026-11-17",
   "schemaVersion": 1,
-  "sha256": "5bca7f8f07bd71e651f422671b2f26104d8c7c27c99f407db36a6b75ba48d3fe",
-  "sizeBytes": 2744862,
+  "sha256": "1035237a8b01f2a0e998f9be9c574314980f983dc24c55f0e95d8d3fa5fe437c",
+  "sizeBytes": 2757887,
   "source": "jealous123456789/evejs-mod-mission-content-repair",
-  "submittedAt": "2026-11-13T01:32:19.099Z",
-  "version": "1.2.1"
+  "submittedAt": "2026-11-17T04:09:25.102Z",
+  "version": "1.2.2"
 }
