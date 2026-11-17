@@ -10,15 +10,15 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/jealous123456789/evejs-mod-chat-edge-lane-fix/releases/download/v1.0.0/chat-edge-lane-fix-1.0.0.zip"
+      "url": "https://github.com/jealous123456789/evejs-mod-chat-edge-lane-fix/releases/download/v1.0.1/chat-edge-lane-fix-1.0.1.zip"
     }
   ],
   "id": "chat-edge-lane-fix",
-  "publishedAt": "2026-11-13",
+  "publishedAt": "2026-11-17",
   "schemaVersion": 1,
-  "sha256": "1285d7e722b5df4f81f1d9640a6fcb20941c9f422e26768a424dd241b778cfad",
-  "sizeBytes": 14267,
+  "sha256": "f8e23c8712ef2366e088e86e3ced28ae203811e68fcaeb9f8786c4506f841499",
+  "sizeBytes": 14503,
   "source": "jealous123456789/evejs-mod-chat-edge-lane-fix",
-  "submittedAt": "2026-11-13T07:44:37.542Z",
-  "version": "1.0.0"
+  "submittedAt": "2026-11-17T05:15:03.130Z",
+  "version": "1.0.1"
 }
