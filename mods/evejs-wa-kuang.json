@@ -10,15 +10,15 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/lxm970112-hub/evejs-mod-evejs-wa-kuang/releases/download/v1.5.37/evejs-wa-kuang-1.5.37.zip"
+      "url": "https://github.com/lxm970112-hub/evejs-mod-evejs-wa-kuang/releases/download/v1.5.49/evejs-wa-kuang-1.5.49.zip"
     }
   ],
   "id": "evejs-wa-kuang",
   "publishedAt": "2026-11-17",
   "schemaVersion": 1,
-  "sha256": "83cb99091b8de9dfcf280e29d98fc263fefb18d10cbbdb6feba6f83d1cf74a20",
-  "sizeBytes": 96279,
+  "sha256": "2e6507df192ebf842015ec7806513cfd3cff4150af4b25e232ededdee635f37c",
+  "sizeBytes": 98361,
   "source": "lxm970112-hub/evejs-mod-evejs-wa-kuang",
-  "submittedAt": "2026-11-17T11:30:34.065Z",
-  "version": "1.5.37"
+  "submittedAt": "2026-11-17T14:24:49.900Z",
+  "version": "1.5.49"
 }
