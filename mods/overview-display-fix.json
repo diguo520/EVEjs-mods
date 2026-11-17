@@ -10,15 +10,15 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/jealous123456789/evejs-mod-overview-display-fix/releases/download/v1.0.0/overview-display-fix-1.0.0.zip"
+      "url": "https://github.com/jealous123456789/evejs-mod-overview-display-fix/releases/download/v1.0.1/overview-display-fix-1.0.1.zip"
     }
   ],
   "id": "overview-display-fix",
-  "publishedAt": "2026-11-12",
+  "publishedAt": "2026-11-17",
   "schemaVersion": 1,
-  "sha256": "ca96fba83a0d890f932fc30be107acb76a549d5eba0dd314c15541de667d927f",
-  "sizeBytes": 15730,
+  "sha256": "510471405be991f889d83b20ad079cec471475e33811f5e98d9b43418609b146",
+  "sizeBytes": 16272,
   "source": "jealous123456789/evejs-mod-overview-display-fix",
-  "submittedAt": "2026-11-12T02:34:50.064Z",
-  "version": "1.0.0"
+  "submittedAt": "2026-11-17T03:09:20.299Z",
+  "version": "1.0.1"
 }
