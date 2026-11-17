@@ -10,15 +10,15 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/jealous123456789/evejs-mod-evejs-logo-manager/releases/download/v1.0.3/evejs-logo-manager-1.0.3.zip"
+      "url": "https://github.com/jealous123456789/evejs-mod-evejs-logo-manager/releases/download/v1.0.4/evejs-logo-manager-1.0.4.zip"
     }
   ],
   "id": "evejs-logo-manager",
-  "publishedAt": "2026-11-10",
+  "publishedAt": "2026-11-17",
   "schemaVersion": 1,
-  "sha256": "f2aa65f9169cb02cb950df400c072869b557551d20f3f887ed5785d7cf225539",
-  "sizeBytes": 53715,
+  "sha256": "86962dbafd9ce58c576667e34bf271756f4c935dfe3efdde2166e8b5af07e533",
+  "sizeBytes": 53984,
   "source": "jealous123456789/evejs-mod-evejs-logo-manager",
-  "submittedAt": "2026-11-10T01:47:12.523Z",
-  "version": "1.0.3"
+  "submittedAt": "2026-11-17T05:05:54.213Z",
+  "version": "1.0.4"
 }
