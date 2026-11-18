@@ -10,15 +10,15 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/jealous123456789/evejs-mod-pi-manager/releases/download/v1.1.1/pi-manager-1.1.1.zip"
+      "url": "https://github.com/jealous123456789/evejs-mod-pi-manager/releases/download/v1.2.0/pi-manager-1.2.0.zip"
     }
   ],
   "id": "pi-manager",
-  "publishedAt": "2026-11-17",
+  "publishedAt": "2026-11-18",
   "schemaVersion": 1,
-  "sha256": "a59497d1f813edb67aab8329198077f6c440ede7314f3184d100e9717fc6dfb1",
-  "sizeBytes": 429067,
+  "sha256": "7a88bc9bfec6a30e4171c24774fe990251d69590d75eba8ad44982fca97ae270",
+  "sizeBytes": 515141,
   "source": "jealous123456789/evejs-mod-pi-manager",
-  "submittedAt": "2026-11-17T10:24:02.965Z",
-  "version": "1.1.1"
+  "submittedAt": "2026-11-18T07:38:06.740Z",
+  "version": "1.2.0"
 }
