@@ -10,15 +10,15 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/huihuangdi/evejs-mod-npc-bounty-tuning/releases/download/v1.0.0/npc-bounty-tuning-1.0.0.zip"
+      "url": "https://github.com/huihuangdi/evejs-mod-npc-bounty-tuning/releases/download/v1.1.2/npc-bounty-tuning-1.1.2.zip"
     }
   ],
   "id": "npc-bounty-tuning",
-  "publishedAt": "2026-11-08",
+  "publishedAt": "2026-11-20",
   "schemaVersion": 1,
-  "sha256": "73acb7ac2802402a3694ee985b40b9ce44f2c108e751d703fbdb096c7cdcf055",
-  "sizeBytes": 23294,
+  "sha256": "2be87eee76fd101594ccd3a0f66f4fa3f3ba07f14a11be7b0109db2e165e0473",
+  "sizeBytes": 23949,
   "source": "huihuangdi/evejs-mod-npc-bounty-tuning",
-  "submittedAt": "2026-11-08T16:58:48.473Z",
-  "version": "1.0.0"
+  "submittedAt": "2026-11-20T15:20:21.162Z",
+  "version": "1.1.2"
 }
