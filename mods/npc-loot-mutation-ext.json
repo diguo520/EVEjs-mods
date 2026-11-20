@@ -10,15 +10,15 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/huihuangdi/evejs-mod-npc-loot-mutation-ext/releases/download/v0.3.1/npc-loot-mutation-ext-0.3.1.zip"
+      "url": "https://github.com/huihuangdi/evejs-mod-npc-loot-mutation-ext/releases/download/v0.3.6/npc-loot-mutation-ext-0.3.6.zip"
     }
   ],
   "id": "npc-loot-mutation-ext",
-  "publishedAt": "2026-11-10",
+  "publishedAt": "2026-11-20",
   "schemaVersion": 1,
-  "sha256": "5d0552fa34d698bc99e7365178a7af8c4264d98ca034f778e25cde7b5f28cf0c",
-  "sizeBytes": 1352158,
+  "sha256": "2019f2db6dd271ac3bf4b36f000e1d8f6408a641fc088ad6ca8ce861015b0760",
+  "sizeBytes": 1832148,
   "source": "huihuangdi/evejs-mod-npc-loot-mutation-ext",
-  "submittedAt": "2026-11-10T13:49:50.707Z",
-  "version": "0.3.1"
+  "submittedAt": "2026-11-20T15:25:03.138Z",
+  "version": "0.3.6"
 }
