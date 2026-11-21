@@ -10,15 +10,15 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/xxxuan42/evejs-mod-evejs-moonscan-all/releases/download/v1.0.3/evejs-moonscan-all-1.0.3.zip"
+      "url": "https://github.com/xxxuan42/evejs-mod-evejs-moonscan-all/releases/download/v1.0.4/evejs-moonscan-all-1.0.4.zip"
     }
   ],
   "id": "evejs-moonscan-all",
-  "publishedAt": "2026-11-16",
+  "publishedAt": "2026-11-21",
   "schemaVersion": 1,
-  "sha256": "a600ac8ae1553d4912edc88dff8feb033fef32108240fe37de8f54edf8964a21",
-  "sizeBytes": 14078,
+  "sha256": "63256329d8014feaef6f4828f1f0e1de841c9b1e06a814bbaf11423c1e3748ff",
+  "sizeBytes": 15543,
   "source": "xxxuan42/evejs-mod-evejs-moonscan-all",
-  "submittedAt": "2026-11-16T14:00:12.991Z",
-  "version": "1.0.3"
+  "submittedAt": "2026-11-21T08:10:35.305Z",
+  "version": "1.0.4"
 }
