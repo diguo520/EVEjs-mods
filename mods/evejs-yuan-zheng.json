@@ -10,15 +10,15 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/Mimataer/evejs-mod-evejs-yuan-zheng/releases/download/v1.1.0/evejs-yuan-zheng-1.1.0.zip"
+      "url": "https://github.com/Mimataer/evejs-mod-evejs-yuan-zheng/releases/download/v1.1.15/evejs-yuan-zheng-1.1.15.zip"
     }
   ],
   "id": "evejs-yuan-zheng",
-  "publishedAt": "2026-11-20",
+  "publishedAt": "2026-11-21",
   "schemaVersion": 1,
-  "sha256": "708999633229ffc8944fd398327809299362a71436a4caa19a958f460368f0be",
-  "sizeBytes": 80521,
+  "sha256": "6242d668265be98fc23fe161ba90ba7e7c95566826f26dd377988644a32d16a2",
+  "sizeBytes": 84067,
   "source": "Mimataer/evejs-mod-evejs-yuan-zheng",
-  "submittedAt": "2026-11-20T15:58:02.043Z",
-  "version": "1.1.0"
+  "submittedAt": "2026-11-21T11:22:52.452Z",
+  "version": "1.1.15"
 }
