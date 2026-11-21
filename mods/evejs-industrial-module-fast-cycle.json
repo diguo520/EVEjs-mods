@@ -10,15 +10,15 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/xxxuan42/evejs-mod-evejs-industrial-module-fast-cycle/releases/download/v1.1.5/evejs-industrial-module-fast-cycle-1.1.5.zip"
+      "url": "https://github.com/xxxuan42/evejs-mod-evejs-industrial-module-fast-cycle/releases/download/v1.2.2/evejs-industrial-module-fast-cycle-1.2.2.zip"
     }
   ],
   "id": "evejs-industrial-module-fast-cycle",
-  "publishedAt": "2026-11-16",
+  "publishedAt": "2026-11-21",
   "schemaVersion": 1,
-  "sha256": "1f745bcc5a144ed07cd941ab2da3cfe7789083d0777e7d63c113dcda37d0c262",
-  "sizeBytes": 20819,
+  "sha256": "ab06572d37e12de4815d41db92bab3280e731b42c0c28695b9a4d21646711a83",
+  "sizeBytes": 25605,
   "source": "xxxuan42/evejs-mod-evejs-industrial-module-fast-cycle",
-  "submittedAt": "2026-11-16T13:42:15.550Z",
-  "version": "1.1.5"
+  "submittedAt": "2026-11-21T08:01:40.068Z",
+  "version": "1.2.2"
 }
