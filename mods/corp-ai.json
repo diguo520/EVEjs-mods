@@ -1,0 +1,24 @@
+{
+  "author": {
+    "id": "au-mvdfee9me05u",
+    "keyId": "0f5102b5a107",
+    "name": "XUAN"
+  },
+  "displayName": "军团AI",
+  "downloadParts": null,
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/xxxuan42/evejs-mod-corp-ai/releases/download/v0.1.0/corp-ai-0.1.0.zip"
+    }
+  ],
+  "id": "corp-ai",
+  "publishedAt": "2026-11-21",
+  "schemaVersion": 1,
+  "sha256": "11b1bdfb6fb515cdc5e2031f1e2561020bdb2269c6e97d47aa744b69be398efd",
+  "sizeBytes": 77074,
+  "source": "xxxuan42/evejs-mod-corp-ai",
+  "submittedAt": "2026-11-21T08:05:47.629Z",
+  "version": "0.1.0"
+}
