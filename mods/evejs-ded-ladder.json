@@ -10,15 +10,15 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/huihuangdi/evejs-mod-evejs-ded-ladder/releases/download/v1.0.9/evejs-ded-ladder-1.0.9.zip"
+      "url": "https://github.com/huihuangdi/evejs-mod-evejs-ded-ladder/releases/download/v1.1.1/evejs-ded-ladder-1.1.1.zip"
     }
   ],
   "id": "evejs-ded-ladder",
-  "publishedAt": "2026-11-20",
+  "publishedAt": "2026-11-21",
   "schemaVersion": 1,
-  "sha256": "280dc6abaa83e70a8babc15404526bfcd5ed60cb2c13fbb8dc69199d9c093b81",
-  "sizeBytes": 1134430,
+  "sha256": "b2bf9e95c38590fcc0344987dcc2c3f4cb6872a7b322841ecd436e4787f35b25",
+  "sizeBytes": 1121171,
   "source": "huihuangdi/evejs-mod-evejs-ded-ladder",
-  "submittedAt": "2026-11-20T15:18:21.964Z",
-  "version": "1.0.9"
+  "submittedAt": "2026-11-21T04:50:05.782Z",
+  "version": "1.1.1"
 }
