@@ -1,0 +1,24 @@
+{
+  "author": {
+    "id": "au-mvdfee9me05u",
+    "keyId": "0f5102b5a107",
+    "name": "XUAN"
+  },
+  "displayName": "导弹自动转火",
+  "downloadParts": null,
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/xxxuan42/evejs-mod-evejs-missile-retarget/releases/download/v1.3.0/evejs-missile-retarget-1.3.0.zip"
+    }
+  ],
+  "id": "evejs-missile-retarget",
+  "publishedAt": "2026-11-21",
+  "schemaVersion": 1,
+  "sha256": "4ff53e1f193f12e78d15bd516a54f6ed39e3cbc6c5c10206ce12d4c570f1d218",
+  "sizeBytes": 31049,
+  "source": "xxxuan42/evejs-mod-evejs-missile-retarget",
+  "submittedAt": "2026-11-21T08:14:10.513Z",
+  "version": "1.3.0"
+}
