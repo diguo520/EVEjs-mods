@@ -10,15 +10,15 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/moyuxitypebigFatfish/evejs-mod-evejs-molang-class/releases/download/v1.0.2/evejs-molang-class-1.0.2.zip"
+      "url": "https://github.com/moyuxitypebigFatfish/evejs-mod-evejs-molang-class/releases/download/v1.0.3/evejs-molang-class-1.0.3.zip"
     }
   ],
   "id": "evejs-molang-class",
-  "publishedAt": "2026-11-21",
+  "publishedAt": "2026-11-22",
   "schemaVersion": 1,
-  "sha256": "353caf18b0f914f93f5476086b31610a829879f663789350ee0a021d7d59ca26",
-  "sizeBytes": 288042,
+  "sha256": "4a8a9bfdb17387a15246055b25808416b8e885700b2b07b204ec679f7968fa20",
+  "sizeBytes": 290148,
   "source": "moyuxitypebigFatfish/evejs-mod-evejs-molang-class",
-  "submittedAt": "2026-11-21T20:54:49.126Z",
-  "version": "1.0.2"
+  "submittedAt": "2026-11-22T05:55:33.493Z",
+  "version": "1.0.3"
 }
