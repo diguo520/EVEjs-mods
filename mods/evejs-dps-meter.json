@@ -1,0 +1,24 @@
+{
+  "author": {
+    "id": "au-mul9t76ozxf9",
+    "keyId": "050c08195199",
+    "name": "辉煌帝"
+  },
+  "displayName": "战斗统计器",
+  "downloadParts": null,
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/huihuangdi/evejs-mod-evejs-dps-meter/releases/download/v0.2.1/evejs-dps-meter-0.2.1.zip"
+    }
+  ],
+  "id": "evejs-dps-meter",
+  "publishedAt": "2026-11-23",
+  "schemaVersion": 1,
+  "sha256": "f75cc368bf2f851c6369fa758e28e88eb6b7a0a46843b891fd5cb5567cbb2004",
+  "sizeBytes": 40409,
+  "source": "huihuangdi/evejs-mod-evejs-dps-meter",
+  "submittedAt": "2026-11-23T16:46:24.821Z",
+  "version": "0.2.1"
+}
