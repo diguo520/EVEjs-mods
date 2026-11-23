@@ -1,0 +1,24 @@
+{
+  "author": {
+    "id": "au-muxt6kcyxsf4",
+    "keyId": "54c1f8afabfe",
+    "name": "Materal"
+  },
+  "displayName": "UUA-F4 星域",
+  "downloadParts": null,
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/MateralCMX/evejs-mod-uua-f4/releases/download/v0.1.29/uua-f4-0.1.29.zip"
+    }
+  ],
+  "id": "uua-f4",
+  "publishedAt": "2026-11-23",
+  "schemaVersion": 1,
+  "sha256": "b58edc7f436eb950c94e589dc6cfe1205266e6a1db9e4fa44eef564d57af6e3f",
+  "sizeBytes": 51231,
+  "source": "MateralCMX/evejs-mod-uua-f4",
+  "submittedAt": "2026-11-23T10:25:36.669Z",
+  "version": "0.1.29"
+}
