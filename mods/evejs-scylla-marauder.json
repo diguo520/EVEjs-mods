@@ -1,0 +1,24 @@
+{
+  "author": {
+    "id": "au-mul9t76ozxf9",
+    "keyId": "050c08195199",
+    "name": "辉煌帝"
+  },
+  "displayName": "斯库拉级（Scylla）· 暴雨梨花",
+  "downloadParts": null,
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/huihuangdi/evejs-mod-evejs-scylla-marauder/releases/download/v0.6.4/evejs-scylla-marauder-0.6.4.zip"
+    }
+  ],
+  "id": "evejs-scylla-marauder",
+  "publishedAt": "2026-11-23",
+  "schemaVersion": 1,
+  "sha256": "858e2949879050150d6d7ce7d69b4b317187539fe88d859d8dd9fc8e660b8254",
+  "sizeBytes": 38521770,
+  "source": "huihuangdi/evejs-mod-evejs-scylla-marauder",
+  "submittedAt": "2026-11-23T16:50:27.753Z",
+  "version": "0.6.4"
+}
