@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-11-23T08:36:52.282Z",
+  "publishedAt": "2026-11-23T10:31:30.802Z",
   "mods": [
     {
       "author": {
@@ -92,7 +92,7 @@
       ],
       "version": "1.1.0",
       "source": "jealous123456789/evejs-mod-evejs-air-crate-loot",
-      "downloads": 269,
+      "downloads": 270,
       "cdnHits": 0
     },
     {
@@ -239,7 +239,7 @@
       "tags": [],
       "version": "0.18.5",
       "source": "MateralCMX/evejs-mod-bug-fixes",
-      "downloads": 1000,
+      "downloads": 1004,
       "cdnHits": 0
     },
     {
@@ -286,7 +286,7 @@
       ],
       "version": "1.1.10",
       "source": "diguo520/evejs-mod-evejs-autolockfire",
-      "downloads": 1949,
+      "downloads": 1950,
       "cdnHits": 0
     },
     {
@@ -348,7 +348,7 @@
       ],
       "version": "1.0.22",
       "source": "diguo520/evejs-mod-evejs-automining",
-      "downloads": 1624,
+      "downloads": 1626,
       "cdnHits": 3096
     },
     {
@@ -453,7 +453,7 @@
         "keyId": "54c1f8afabfe",
         "name": "Materal"
       },
-      "category": "玩法",
+      "category": "工具",
       "changelog": "",
       "conflicts": [],
       "delisted": false,
@@ -463,27 +463,27 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/MateralCMX/evejs-mod-ship-blueprints/releases/download/v0.2.3/ship-blueprints-0.2.3.zip"
+          "url": "https://github.com/MateralCMX/evejs-mod-ship-blueprints/releases/download/v0.2.7/ship-blueprints-0.2.7.zip"
         }
       ],
       "evejsVersions": [
-        "261018.1"
+        "261115.2"
       ],
       "featured": false,
       "highlights": [],
       "history": [],
       "id": "ship-blueprints",
-      "publishedAt": "2026-10-21",
+      "publishedAt": "2026-11-23",
       "readme": [
         "启用后重启游戏服务端。使用 GM 角色停靠，在聊天框输入命令，蓝图会放入当前停靠位置的个人物品机库。",
         "指定领取需填写蓝图类型 ID，不是制造产物 ID 或已有物品 ID。命令不附送制造材料，也不修改已有蓝图；再次执行会再次发放。"
       ],
       "repo": "https://github.com/MateralCMX/evejs-mod-ship-blueprints",
       "requiresRestart": true,
-      "sha256": "c8c8055d2440a99b25572a87f0b17a967adc7c7eaa408a62ecd76a8d5ee02aac",
-      "sizeBytes": 15558,
+      "sha256": "69da71ad618bb061250a4a3bca32cd2f8638fe51c20078a6961e5cfa61dda830",
+      "sizeBytes": 22042,
       "tags": [],
-      "version": "0.2.3",
+      "version": "0.2.7",
       "source": "MateralCMX/evejs-mod-ship-blueprints",
       "downloads": 332,
       "cdnHits": 0
@@ -494,7 +494,7 @@
         "keyId": "54c1f8afabfe",
         "name": "Materal"
       },
-      "category": "玩法",
+      "category": "工具",
       "changelog": "",
       "conflicts": [],
       "delisted": false,
@@ -504,33 +504,37 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/MateralCMX/evejs-mod-gm-menu-localization/releases/download/v0.1.2/gm-menu-localization-0.1.2.zip"
+          "url": "https://github.com/MateralCMX/evejs-mod-gm-menu-localization/releases/download/v0.1.6/gm-menu-localization-0.1.6.zip"
         }
       ],
       "evejsVersions": [
-        "261018.1"
+        "261115.2"
       ],
       "featured": false,
       "highlights": [
-        "汉化右键 GM／WM 扩展菜单及物品 GM 命令。",
+        "汉化右键 GM／WM 扩展菜单及物品 GM 命令，并覆盖工业任务、技能、涂装、建筑和通知等模块追加的 GM 菜单。",
+        "汉化 GM 按钮及已核对的技能、星图和角色创建调试按钮。",
+        "属性子菜单显示中文属性名，保留原数值；缺少中文名称的内部属性继续显示原名。",
         "汉化 Insider 工具栏入口和菜单，支持展开后的子菜单。",
+        "汉化星图 GM 筛选中的矿石异常、冰矿带、信号和异常空间名称。",
+        "汉化卫星开采调度窗口的四个 GM 按钮及悬停说明。",
         "为蓝图增加“获取 M10 T20 蓝图”右键入口。"
       ],
       "history": [],
       "id": "gm-menu-localization",
-      "publishedAt": "2026-10-21",
+      "publishedAt": "2026-11-23",
       "readme": [
         "启用后重启游戏服务端，并完全退出、重新启动客户端。汉化不会改变 GM 权限要求；Insider 打开的独立工具窗口内部不在汉化范围内。",
         "蓝图领取入口需同时启用“GM命令扩充”。使用 GM 角色停靠后，右键蓝图，选择 GM／WM 扩展中的“获取 M10 T20 蓝图”，即可领取同类型的满研究蓝图原本；原有蓝图不会被修改。"
       ],
       "repo": "https://github.com/MateralCMX/evejs-mod-gm-menu-localization",
       "requiresRestart": true,
-      "sha256": "74410c4a8541880fff54a53f2505968b4643db727a34b0c4d6937948e40262c8",
-      "sizeBytes": 21577,
+      "sha256": "9165e24e398784ce953508cbaa2ad7e519bb8ae4e79d34e81c93a832c0effcdb",
+      "sizeBytes": 51793,
       "tags": [],
-      "version": "0.1.2",
+      "version": "0.1.6",
       "source": "MateralCMX/evejs-mod-gm-menu-localization",
-      "downloads": 612,
+      "downloads": 614,
       "cdnHits": 0
     },
     {
@@ -649,7 +653,7 @@
       ],
       "banner": "shots/Banner/banner.jpg",
       "source": "xuenaimiao/evejs-mod-evejs-faction-sim",
-      "downloads": 2406,
+      "downloads": 2407,
       "cdnHits": 3858
     },
     {
@@ -699,7 +703,7 @@
       ],
       "version": "1.0.0",
       "source": "JonnyTC/evejs-mod-evejs-npc-hull-hp-fix",
-      "downloads": 180,
+      "downloads": 181,
       "cdnHits": 0
     },
     {
@@ -837,7 +841,7 @@
       "tags": [],
       "version": "1.1.2",
       "source": "huihuangdi/evejs-mod-npc-bounty-tuning",
-      "downloads": 143,
+      "downloads": 144,
       "cdnHits": 0
     },
     {
@@ -1021,7 +1025,7 @@
       "tags": [],
       "version": "0.1.7",
       "source": "MateralCMX/evejs-mod-npc-loot-rules",
-      "downloads": 420,
+      "downloads": 422,
       "cdnHits": 0
     },
     {
@@ -1063,7 +1067,7 @@
       "tags": [],
       "version": "0.6.1",
       "source": "huihuangdi/evejs-mod-npc-loot-rules-261028",
-      "downloads": 291,
+      "downloads": 292,
       "cdnHits": 0
     },
     {
@@ -1117,6 +1121,47 @@
       },
       "moderatedAt": "2026-10-17T14:59:58.883Z",
       "moderatedBy": "diguo520"
+    },
+    {
+      "author": {
+        "id": "au-muxt6kcyxsf4",
+        "keyId": "54c1f8afabfe",
+        "name": "Materal"
+      },
+      "category": "玩法",
+      "changelog": "",
+      "conflicts": [],
+      "delisted": false,
+      "description": "北极星居中，六座星门直达六区入口，第七座朱庇特星门直通吉他。61 个星系按六区十星布局开放主权、异常和工业资源。北极星保留四座原生站，六区入口各设三座任务站，共有 90 名安全代理人。",
+      "displayName": "UUA-F4 星域",
+      "downloadUrls": [
+        {
+          "mirror": "github",
+          "priority": 1,
+          "url": "https://github.com/MateralCMX/evejs-mod-uua-f4/releases/download/v0.1.29/uua-f4-0.1.29.zip"
+        }
+      ],
+      "evejsVersions": [
+        "261115.2"
+      ],
+      "featured": false,
+      "highlights": [],
+      "history": [],
+      "id": "uua-f4",
+      "publishedAt": "2026-11-23",
+      "readme": [
+        "登录时自动加载星图和天体缓存补丁；叠加其他模组后超过体积限制时，会压缩完整登录脚本。",
+        "显示安等 0.5 及以下的星系内，每颗卫星均提供月矿开采点，资源种类遵循本档安等规则。客户端跃迁菜单和精炼厂部署使用服务端同一份开采点坐标。"
+      ],
+      "repo": "https://github.com/MateralCMX/evejs-mod-uua-f4",
+      "requiresRestart": true,
+      "sha256": "b58edc7f436eb950c94e589dc6cfe1205266e6a1db9e4fa44eef564d57af6e3f",
+      "sizeBytes": 51231,
+      "tags": [],
+      "version": "0.1.29",
+      "source": "MateralCMX/evejs-mod-uua-f4",
+      "downloads": 0,
+      "cdnHits": 0
     },
     {
       "author": {
@@ -1206,7 +1251,7 @@
       ],
       "version": "1.0.10",
       "source": "diguo520/evejs-mod-evejs-cntext-fix",
-      "downloads": 1386,
+      "downloads": 1387,
       "cdnHits": 0
     },
     {
@@ -1349,7 +1394,7 @@
       ],
       "version": "1.0.0",
       "source": "JonnyTC/evejs-mod-evejs-agent-portraits",
-      "downloads": 172,
+      "downloads": 173,
       "cdnHits": 0
     },
     {
@@ -1399,7 +1444,7 @@
       "tags": [],
       "version": "0.1.2",
       "source": "MateralCMX/evejs-mod-mission-repair",
-      "downloads": 508,
+      "downloads": 509,
       "cdnHits": 0
     },
     {
@@ -1471,7 +1516,7 @@
       ],
       "version": "1.3.1",
       "source": "jealous123456789/evejs-mod-mission-content-repair",
-      "downloads": 1100,
+      "downloads": 1107,
       "cdnHits": 0
     },
     {
@@ -1614,7 +1659,7 @@
       ],
       "version": "0.1.0",
       "source": "xxxuan42/evejs-mod-corp-ai",
-      "downloads": 58,
+      "downloads": 59,
       "cdnHits": 0
     },
     {
@@ -1707,7 +1752,7 @@
       ],
       "version": "1.0.4",
       "source": "xxxuan42/evejs-mod-evejs-moonscan-all",
-      "downloads": 288,
+      "downloads": 289,
       "cdnHits": 0
     },
     {
@@ -1803,7 +1848,7 @@
       ],
       "version": "0.1.1",
       "source": "billyyyq/evejs-mod-jita-night-market",
-      "downloads": 102,
+      "downloads": 104,
       "cdnHits": 0
     },
     {
@@ -1848,7 +1893,7 @@
       ],
       "version": "1.0.0",
       "source": "moyuxitypebigFatfish/evejs-mod-evejs-jita-xl-deploy",
-      "downloads": 8,
+      "downloads": 11,
       "cdnHits": 0
     },
     {
@@ -1990,7 +2035,7 @@
       ],
       "version": "1.5.2",
       "source": "moyuxitypebigFatfish/evejs-mod-evejs-dafeiyu-armory",
-      "downloads": 41,
+      "downloads": 42,
       "cdnHits": 0
     },
     {
@@ -2085,7 +2130,7 @@
       ],
       "version": "1.6.2",
       "source": "xxxuan42/evejs-mod-evejs-missile-retarget",
-      "downloads": 67,
+      "downloads": 69,
       "cdnHits": 0
     },
     {
@@ -2190,7 +2235,7 @@
       ],
       "version": "5.2.1",
       "source": "JonnyTC/evejs-mod-evejs-colossus-capital-fit",
-      "downloads": 175,
+      "downloads": 176,
       "cdnHits": 0
     },
     {
@@ -2292,7 +2337,7 @@
       ],
       "version": "1.1.1",
       "source": "kuroneko-lice/evejs-mod-evejs-shi-chang-jia-ge-xin-xi-tong-bu",
-      "downloads": 256,
+      "downloads": 258,
       "cdnHits": 0
     },
     {
@@ -2439,7 +2484,7 @@
       ],
       "version": "1.1.1",
       "source": "huihuangdi/evejs-mod-evejs-ded-ladder",
-      "downloads": 137,
+      "downloads": 138,
       "cdnHits": 0
     },
     {
@@ -2580,7 +2625,7 @@
       "tags": [],
       "version": "0.2.2",
       "source": "xuenaimiao/evejs-mod-evejs-perf-fix",
-      "downloads": 535,
+      "downloads": 536,
       "cdnHits": 0
     },
     {
@@ -2631,7 +2676,7 @@
       ],
       "version": "1.0.1",
       "source": "jealous123456789/evejs-mod-overview-display-fix",
-      "downloads": 458,
+      "downloads": 459,
       "cdnHits": 0
     },
     {
@@ -2687,7 +2732,7 @@
         "name": "雪风"
       },
       "category": "玩法",
-      "changelog": "修改了常规模式的逻辑\n添加了/wakuang jiancha X（作用是矿船检查范围矿石的时间周期）",
+      "changelog": "AI许愿老是有偏差，我抛弃了常规采矿模式，只保留了抛矿模式\n新增：\n1.同舰队加成由该中队长提供，第一中队加成由舰队长提供\n修复：\n1.人数过多导致服务端卡死后，牵引不能识别货柜，导致空转",
       "conflicts": [],
       "delisted": false,
       "description": "自动创建霍克矿队：读取保存的「挖矿」「挖冰」配装；挖矿用 T2 晶体并自动补货；矿船环绕指挥 500m、每 5-10 分钟查仓交付；压缩模块每圈自动压缩范围内矿船。",
@@ -2696,7 +2741,7 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/lxm970112-hub/evejs-mod-evejs-wa-kuang/releases/download/v1.5.61/evejs-wa-kuang-1.5.61.zip"
+          "url": "https://github.com/lxm970112-hub/evejs-mod-evejs-wa-kuang/releases/download/v1.5.63/evejs-wa-kuang-1.5.63.zip"
         }
       ],
       "evejsVersions": [
@@ -2711,14 +2756,15 @@
       "highlights": [],
       "history": [],
       "id": "evejs-wa-kuang",
-      "publishedAt": "2026-11-21",
+      "publishedAt": "2026-11-23",
       "readme": [
-        "首先你自己在太空中创建一只舰队，然后根据你要挖的什么矿使用下面代码召唤挖矿NPC\n/wakuang 50       挖矿 50 人\n/wabing 50        挖冰 50 人\n/kuangdui 50      矿队 50 人（等于挖矿）\n/wakuang          随机 30-100 人\n/wakuang ore 50       挖矿\n/wakuang ice 50       挖冰\n/wakuang paokuang 50  抛矿回收\n/wakuang changgui 50  常规交付\n/wakuang shijian 修改压缩矿扫描时间\n/wakuang jiancha 修改常规模式的矿石检查间隔（如 `/wakuang jiancha 30s`、`/wakuang jiancha 2`）\n常规交付：矿船自己飞回大鲸鱼，卸进舰队机库，不需要 MTU。\n抛矿回收：矿船原地抛压缩矿，需要先部署自动牵引货柜（MTU），再由模组把货柜里的压缩矿转进大鲸鱼机库。\n抛矿前会确认**玩家自己的自动牵引货柜在 125km 牵引射程内**（`config.mining.jetMtuRangeMeters`），\n不在就先不抛、继续采矿，等货柜部署好（或回到射程内）再抛——过门后也一样，避免把矿抛在没人收的星系。\n`/wakuang jiaofu` 是强制交付：常规模式下会先压缩，再看压缩矿能不能**直接**放进舰队机库——\n机库船就在卸货距离内且装得下就当场放入；放不进（没机库/满了/不在旁边）就按抛矿模式抛出\n（同样要求附近有自己的牵引货柜），两样都不行才走普通交付流程飞过去。\n找大肥鱼许愿的，有什么BUG要你们自己修了，可能我这里不触发，你那里触发了"
+        "首先你自己在太空中创建一只舰队，**先部署自动牵引货柜（MTU）**，然后根据你要挖的什么矿使用下面代码召唤挖矿NPC",
+        "/wakuang 50       挖矿 50 人\n/wabing 50        挖冰 50 人\n/kuangdui 50      矿队 50 人（等于挖矿）\n/wakuang          随机 30-100 人\n/wakuang ore 50       挖矿\n/wakuang ice 50       挖冰\n/wakuang paokuang 50  抛矿回收（默认模式，等同 /wakuang 50）\n/wakuang shijian      修改压缩矿扫描时间\n抛矿回收：矿船原地抛压缩矿，需要先部署自动牵引货柜（MTU），再由模组把货柜里的压缩矿转进大鲸鱼机库。\n抛矿前会确认**玩家自己的自动牵引货柜在 125km 牵引射程内**（`config.mining.jetMtuRangeMeters`），\n不在就先不抛、继续采矿，等货柜部署好（或回到射程内）再抛——过门后也一样，避免把矿抛在没人收的星系。\n`/wakuang jiaofu` 是强制抛矿：立即压缩并抛出，自动牵引货柜收集后转入大鲸鱼机库。\n找大肥鱼许愿的，有什么BUG要你们自己修了，可能我这里不触发，你那里触发了"
       ],
       "repo": "https://github.com/lxm970112-hub/evejs-mod-evejs-wa-kuang",
       "requiresRestart": true,
-      "sha256": "2a5455ede5c98b3c52cd316496f228a15dae9789448e9cfb12547a054dfe530c",
-      "sizeBytes": 153897,
+      "sha256": "69aef445f7341e7cfa8879a0264db6355dfc56f942fbc7b82c281033be5f98f5",
+      "sizeBytes": 145202,
       "tags": [
         "采矿",
         "矿队",
@@ -2726,7 +2772,7 @@
         "NPC",
         "自动"
       ],
-      "version": "1.5.61",
+      "version": "1.5.63",
       "source": "lxm970112-hub/evejs-mod-evejs-wa-kuang",
       "downloads": 326,
       "cdnHits": 2
@@ -2867,7 +2913,7 @@
       ],
       "version": "1.0.0",
       "source": "kokoandqiong/evejs-mod-evejs-patrol-rats",
-      "downloads": 154,
+      "downloads": 155,
       "cdnHits": 0
     },
     {
@@ -3318,7 +3364,7 @@
       ],
       "version": "1.1.1",
       "source": "jealous123456789/evejs-mod-better-loot",
-      "downloads": 344,
+      "downloads": 346,
       "cdnHits": 0
     },
     {
@@ -3621,7 +3667,7 @@
       ],
       "version": "1.0.2",
       "source": "jealous123456789/evejs-mod-belt-respawn-cooldown",
-      "downloads": 216,
+      "downloads": 217,
       "cdnHits": 0
     },
     {
@@ -3727,7 +3773,7 @@
       ],
       "version": "1.0.1",
       "source": "jealous123456789/evejs-mod-chat-edge-lane-fix",
-      "downloads": 144,
+      "downloads": 146,
       "cdnHits": 0
     },
     {
@@ -3837,7 +3883,7 @@
       ],
       "version": "1.0.1",
       "source": "jealous123456789/evejs-mod-autopilot-warp-zero",
-      "downloads": 214,
+      "downloads": 215,
       "cdnHits": 0
     },
     {
@@ -3950,7 +3996,7 @@
       ],
       "version": "1.2.2",
       "source": "jealous123456789/evejs-mod-pi-manager",
-      "downloads": 278,
+      "downloads": 287,
       "cdnHits": 2
     },
     {
@@ -4159,7 +4205,7 @@
       ],
       "version": "1.1.0",
       "source": "lxm970112-hub/evejs-mod-evejs-wormhole-anomaly-repair-261028",
-      "downloads": 136,
+      "downloads": 137,
       "cdnHits": 0
     },
     {
@@ -4385,7 +4431,7 @@
       ],
       "version": "1.1.21",
       "source": "Mimataer/evejs-mod-evejs-yuan-zheng",
-      "downloads": 364,
+      "downloads": 366,
       "cdnHits": 0
     },
     {
@@ -4530,7 +4576,7 @@
       ],
       "version": "1.0.3",
       "source": "moyuxitypebigFatfish/evejs-mod-evejs-molang-class",
-      "downloads": 38,
+      "downloads": 39,
       "cdnHits": 0
     }
   ],
@@ -4563,7 +4609,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "axSJmjA607y78u7yUI0L4guo2k6Mj8EDCxP4GqTN67xmYnW0IMIPbx7vz6WQZ9OLdzWoKVOUoGq24gn5ZrdFCw==",
-    "signedAt": "2026-11-23T08:36:52.288Z"
+    "sig": "arUW6dc0aM2ztlIXHqnke8mwOc1BvOMrdS6FXSDL5xdK9SXTIcPd3EXgQVZJkvbNKP4j7AIMGMlSz2WX0dc8CQ==",
+    "signedAt": "2026-11-23T10:31:30.809Z"
   }
 }
