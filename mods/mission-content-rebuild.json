@@ -1,0 +1,24 @@
+{
+  "author": {
+    "id": "au-mvtf501nt0p9",
+    "keyId": "f8aa9b733aae",
+    "name": "Megatron"
+  },
+  "displayName": "任务重建",
+  "downloadParts": null,
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/LLLLLaika/evejs-mod-mission-content-rebuild/releases/download/v1.1.18/mission-content-rebuild-1.1.18.zip"
+    }
+  ],
+  "id": "mission-content-rebuild",
+  "publishedAt": "2026-11-23",
+  "schemaVersion": 1,
+  "sha256": "e0ea1ba6130707369ee8a2daad81eadebf6400420f606c7bb8ac11f7fd4bfe4e",
+  "sizeBytes": 4171618,
+  "source": "LLLLLaika/evejs-mod-mission-content-rebuild",
+  "submittedAt": "2026-11-23T05:27:01.499Z",
+  "version": "1.1.18"
+}
