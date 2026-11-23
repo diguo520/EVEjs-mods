@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-11-23T16:53:38.157Z",
+  "publishedAt": "2026-11-23T16:57:34.138Z",
   "mods": [
     {
       "author": {
@@ -4703,7 +4703,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "XButlX2yFDKE4AReDhJnUTz2xJ7JWPKQaaZjFFIOel7h+2pmuSHhsUbTQ4flwVEtcUNCRVdPAMJsaTdXTl0sAg==",
-    "signedAt": "2026-11-23T16:53:38.163Z"
+    "sig": "BT7MwhKKuBGdbbqLZBotS5VH8gGHLVgpsdNkJevVVhskCVaG6nlAo17GOqg7Sr1H+GTsxijs+yzaTubCHt2tCA==",
+    "signedAt": "2026-11-23T16:57:34.144Z"
   }
 }
