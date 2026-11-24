@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1795445114629,
+  "generatedAt": 1795487942101,
   "modId": "mission-content-repair",
   "reviews": [
     {
@@ -25,7 +25,12 @@
       "version": "1.3.1",
       "date": "2026-11-23",
       "body": "261115.x单开这个mod无法启动，提示Error: Cannot find module '../data/al-storyline-repair.json'",
-      "edited": false
+      "edited": false,
+      "reply": {
+        "date": "2026-11-24",
+        "body": "这个核查应该是本地mod的安装问题，建议重装mod后重启启动器和服务端测试",
+        "edited": false
+      }
     },
     {
       "id": "rv-1794222405502-13108",
@@ -37,7 +42,12 @@
       "version": "1.1.2",
       "date": "2026-11-09",
       "body": "试了两个，5级。一个在哈克农，跳进去有怪，然后打死怪残骸是空的（我没有装掉落MOD），然后是轨道不能激活（也没有完成任务），这个任务怪的种类我忘记看了。\n一个在欧塔萨塞，这个任务出的怪是G的战列，应该是对的吧，任务描述说的是击杀盖伦特舰船。然后打死怪残骸也是空的（我没有装掉落MOD），然后是轨道不能激活（也没有完成任务）。",
-      "edited": false
+      "edited": false,
+      "reply": {
+        "date": "2026-11-24",
+        "body": "这样很难核查，建议回复下任务名称，等级，是否安全代理人任务，具体出错的怪物残骸等信息。另外这个mod需要和更合理的掉落mod组合使用，mod页面已声明前置条件。",
+        "edited": false
+      }
     }
   ],
   "stars": {
@@ -49,6 +59,6 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "evejs-ratings-2026-10-01",
-    "sig": "bflCT7a0LHWWDi0zTzrQO61T1oKrOH/jvNufdOMUwHo+R7LPYd85BBduQ6Z9gzddZwK1Yy8Ffo+pez5q82L5CA=="
+    "sig": "uB4HR46GtSBq7tFR6EW6rh4QstMlv7y7UpIb3ZBFGlpfbQe9/SRlbxa/y5nuBoUyjmxZ8NzPeIhtC4IWdQ1TDA=="
   }
 }
