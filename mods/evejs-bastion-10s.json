@@ -1,0 +1,24 @@
+{
+  "author": {
+    "id": "au-mwo15tn5ydy0",
+    "keyId": "4606305c8b09",
+    "name": "神秘大肥鱼"
+  },
+  "displayName": "泰坦解锁会战装备",
+  "downloadParts": null,
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/moyuxitypebigFatfish/evejs-mod-evejs-bastion-10s/releases/download/v1.0.2/evejs-bastion-10s-1.0.2.zip"
+    }
+  ],
+  "id": "evejs-bastion-10s",
+  "publishedAt": "2026-11-24",
+  "schemaVersion": 1,
+  "sha256": "473507fc965fad8c4d0257f86c2552f32d29892bf32447e516c209af81d676e0",
+  "sizeBytes": 19556,
+  "source": "moyuxitypebigFatfish/evejs-mod-evejs-bastion-10s",
+  "submittedAt": "2026-11-24T15:37:24.119Z",
+  "version": "1.0.2"
+}
