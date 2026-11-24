@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-11-24T15:40:51.261Z",
+  "publishedAt": "2026-11-24T16:34:57.973Z",
   "mods": [
     {
       "author": {
@@ -92,7 +92,7 @@
       ],
       "version": "1.1.0",
       "source": "jealous123456789/evejs-mod-evejs-air-crate-loot",
-      "downloads": 278,
+      "downloads": 279,
       "cdnHits": 0
     },
     {
@@ -239,7 +239,7 @@
       "tags": [],
       "version": "0.18.5",
       "source": "MateralCMX/evejs-mod-bug-fixes",
-      "downloads": 1049,
+      "downloads": 1051,
       "cdnHits": 0
     },
     {
@@ -438,7 +438,7 @@
       ],
       "version": "1.0.0",
       "source": "ffiijkbaby/evejs-mod-evejs-evejs-nf-crew",
-      "downloads": 21,
+      "downloads": 22,
       "cdnHits": 0,
       "delistReason": {
         "zh": "案例模板MOD不要网上传。整改后冲i性能上传。",
@@ -485,7 +485,7 @@
       "tags": [],
       "version": "0.2.7",
       "source": "MateralCMX/evejs-mod-ship-blueprints",
-      "downloads": 382,
+      "downloads": 383,
       "cdnHits": 0
     },
     {
@@ -534,7 +534,7 @@
       "tags": [],
       "version": "0.1.6",
       "source": "MateralCMX/evejs-mod-gm-menu-localization",
-      "downloads": 726,
+      "downloads": 728,
       "cdnHits": 0
     },
     {
@@ -627,7 +627,7 @@
       ],
       "version": "1.0.0",
       "source": "ewinted/evejs-mod-evejs-mtu-multi-target",
-      "downloads": 123,
+      "downloads": 124,
       "cdnHits": 0
     },
     {
@@ -701,7 +701,7 @@
       ],
       "banner": "shots/Banner/banner.jpg",
       "source": "xuenaimiao/evejs-mod-evejs-faction-sim",
-      "downloads": 2440,
+      "downloads": 2443,
       "cdnHits": 3721
     },
     {
@@ -791,7 +791,7 @@
       "tags": [],
       "version": "0.6.0",
       "source": "Jasper377/evejs-mod-evejs-npc-console",
-      "downloads": 291,
+      "downloads": 292,
       "cdnHits": 0
     },
     {
@@ -889,7 +889,7 @@
       "tags": [],
       "version": "1.1.2",
       "source": "huihuangdi/evejs-mod-npc-bounty-tuning",
-      "downloads": 158,
+      "downloads": 160,
       "cdnHits": 0
     },
     {
@@ -1073,7 +1073,7 @@
       "tags": [],
       "version": "0.1.7",
       "source": "MateralCMX/evejs-mod-npc-loot-rules",
-      "downloads": 447,
+      "downloads": 448,
       "cdnHits": 0
     },
     {
@@ -1115,7 +1115,7 @@
       "tags": [],
       "version": "0.6.1",
       "source": "huihuangdi/evejs-mod-npc-loot-rules-261028",
-      "downloads": 319,
+      "downloads": 321,
       "cdnHits": 0
     },
     {
@@ -1161,7 +1161,7 @@
       "tags": [],
       "version": "1.0.2",
       "source": "exiell/evejs-mod-evejs-npc",
-      "downloads": 125,
+      "downloads": 126,
       "cdnHits": 0,
       "delistReason": {
         "zh": "用户反应MOD是坏的，重新整理后上传.",
@@ -1299,7 +1299,7 @@
       ],
       "version": "1.0.10",
       "source": "diguo520/evejs-mod-evejs-cntext-fix",
-      "downloads": 1415,
+      "downloads": 1416,
       "cdnHits": 2
     },
     {
@@ -1344,7 +1344,7 @@
       ],
       "version": "1.0.0",
       "source": "kokoandqiong/evejs-mod-evejs-sov-workforce-fix",
-      "downloads": 146,
+      "downloads": 148,
       "cdnHits": 0
     },
     {
@@ -1357,13 +1357,13 @@
       "changelog": "",
       "conflicts": [],
       "delisted": false,
-      "description": "主权基建加强：行星试剂采集量 ×20、能量/劳动力 ×10；天钩周期 10 分钟、安全舱/冗余舱 ×100；战略指数 3 分钟满级；月矿 1 天=1 秒就绪、10 秒后碎裂；Metenox 每 10 分钟产出、单周期 ×20、采矿效率 100%、输出舱 ×20，燃料每周期 1 块+34 气，窗口消耗率同步；结构 OWNER_ACCESS 对所有者直接放行；修复接管建筑后锁定无法完成（静态结构锁定并入场景 tick，并为 Metenox/Ansiblex/Tenebrex 补齐锁定属性）；修复结构燃料舱容量 0.0M、GetCapacity 无参调用报错、装配导弹 DPS 除零、矿物舱菜单消失、登上曾驾驶舰船被拒；所有蓝图 ME 研究上限 10%→30%，研究面板/ME 仪表/悬停提示同步；仅服务端内存补丁+登录表达式覆盖层，不改客户端文件与源码。",
+      "description": "主权基建加强：行星试剂采集量 ×100、能量/劳动力 ×20；天钩周期 10 分钟、安全舱/冗余舱 ×100；战略指数 3 分钟满级；月矿 1 天=1 秒就绪、10 秒后碎裂；Metenox 每 10 分钟产出、单周期 ×100、采矿效率 100%、输出舱 ×20，燃料每周期 1 块+34 气，窗口消耗率同步；结构 OWNER_ACCESS 对所有者直接放行；修复接管建筑后锁定无法完成（静态结构锁定并入场景 tick，并为 Metenox/Ansiblex/Tenebrex 补齐锁定属性）；修复结构燃料舱容量 0.0M、GetCapacity 无参调用报错、装配导弹 DPS 除零、矿物舱菜单消失、登上曾驾驶舰船被拒；所有蓝图 ME 研究上限 10%→30%，研究面板/ME 仪表/悬停提示同步；轨道天钩“正在升级”倒计时、Upwell 建筑初始锚定/锚定/上线、FLEX 部署、POS 控制塔/母星模块与海关办公室等部署锚定统一改为 30 秒（typeDogma 556/677 封顶，客户端 structures 倒计时同步 30 秒）。建筑 CPU 输出/能量栅格输出/校准值 ×10、电容回充时间 ×0.4（Upwell 结构、POS 母星、主权建筑，舰船与模块不受影响；客户端属性面板与电容显示同步）。新增：在任意轨道天钩办公室点「提取试剂」，一次性提取本军团所有天钩安全舱的试剂到玩家基地空间站，并以 100 万 ISK 的物品交换合同自动交付（无需货舱/距离）；同一次点击还会提取本军团所有屹立梅特诺克斯卫星钻探的卫星产物（并入同一合同），并在燃料不足 30 天时从玩家基地空间站机库取燃料块/岩浆气补满 30 天；若钻探服务未启动，补料后自动启动（离线时额外预留并扣除 1000 块燃料的上线费）。每次批量提取/补料后都会向当事人发送游戏内邮件（成功也发）：成功邮件含本次天钩/卫星产物/燃料/服务/合同明细；失败邮件额外含错误码、失败阶段、钱包余额、回滚结果与异常堆栈。仅服务端内存补丁+登录表达式覆盖层，不改客户端文件与源码。",
       "displayName": "主权基建加强",
       "downloadUrls": [
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/xxxuan42/evejs-mod-evejs-skyhook-reagent-boost/releases/download/v1.3.23/evejs-skyhook-reagent-boost-1.3.23.zip"
+          "url": "https://github.com/xxxuan42/evejs-mod-evejs-skyhook-reagent-boost/releases/download/v1.4.3/evejs-skyhook-reagent-boost-1.4.3.zip"
         }
       ],
       "evejsVersions": [
@@ -1375,23 +1375,27 @@
       "highlights": [],
       "history": [],
       "id": "evejs-skyhook-reagent-boost",
-      "publishedAt": "2026-11-21",
+      "publishedAt": "2026-11-24",
       "readme": [
-        "- 容量在服务端以「单位」存储，客户端按试剂体积（如岩浆气 0.01 m³/单位）换算成 m³ 显示。\n- 能量 / 劳动力按行星定义原值 ×10（若服务端自身还有资源倍率，会与它叠加）。\n- 战略指数以星系被占领的时间（`claimTime`）为起点；通过 GM 工具把 `claimTime` 设为 0 的星系不会自动加速（仍可用 GM 指令直接设置天数）。\n- 卫星钻探燃料按周期折算并向上取整：每个 10 分钟周期扣 1 个燃料块 + 34 岩浆气，不留余数，折算每小时约 **6 个燃料块 + 204 岩浆气**；服务从离线转在线时一次性扣的 1,000 块燃料保持原版。\n- 结构权限补丁只影响 `OWNER_ACCESS` 类设置（17、36）；停靠、税率等 `DOCK_ACCESS` / `ALWAYS` 类设置仍按 Profile 规则判定。\n- 月矿时间轴只影响**新建**的开采计划；已存在的开采记录不回填，压缩比与碎裂延迟变化在下次开始开采时生效。\n- 蓝图 ME 上限提升后，已有蓝图需要继续研究才能从 10 升到 30；研究等级越高耗时越长（第 10 级之后按最高档时长计算）。客户端提示文案里的「最多不超过 10%」已由覆盖层在内存中同步为 30%，客户端磁盘文件（含本地化数据）零改动。\n- 兼容 EveJS `261028.1` / `261108.1` / `261115.2`；需要启动器提供注入总线（`globalThis.__evejsMods`）。\n- 加载前置检查：`lib/launcherGuard.js`（清单 `binding.enforce = observe`，只记日志）。"
+        "- 容量在服务端以「单位」存储，客户端按试剂体积（如岩浆气 0.01 m³/单位）换算成 m³ 显示。\n- 能量 / 劳动力按行星定义原值 ×10（若服务端自身还有资源倍率，会与它叠加）。\n- 战略指数以星系被占领的时间（`claimTime`）为起点；通过 GM 工具把 `claimTime` 设为 0 的星系不会自动加速（仍可用 GM 指令直接设置天数）。\n- 卫星钻探燃料按周期折算并向上取整：每个 10 分钟周期扣 1 个燃料块 + 34 岩浆气，不留余数，折算每小时约 **6 个燃料块 + 204 岩浆气**；服务从离线转在线时一次性扣的 1,000 块燃料保持原版。\n- 结构权限补丁只影响 `OWNER_ACCESS` 类设置（17、36）；停靠、税率等 `DOCK_ACCESS` / `ALWAYS` 类设置仍按 Profile 规则判定。\n- 月矿时间轴只影响**新建**的开采计划；已存在的开采记录不回填，压缩比与碎裂延迟变化在下次开始开采时生效。\n- 蓝图 ME 上限提升后，已有蓝图需要继续研究才能从 10 升到 30；研究等级越高耗时越长（第 10 级之后按最高档时长计算）。客户端提示文案里的「最多不超过 10%」已由覆盖层在内存中同步为 30%，客户端磁盘文件（含本地化数据）零改动。\n- 一键提取只处理**本军团**、处于在线（`active`）且安全舱（`securedStock`）有库存的天钩；同一玩家军团在其他星系的天钩也会一起提取，单个天钩的提取异常会被跳过。\n- 卫星产物来自**本军团**所有梅特诺克斯钻探（类型 81826）的卫星产物舱（flag 186），与其他星系的钻探一并提取；单次点击只生成**一份** 100 万 ISK 合同，天钩试剂和卫星产物合并交付，不额外收费。\n- 燃料补充只作用于**已锚定且未摧毁**的军团梅特诺克斯钻探：目标为 30 天实际消耗（每 10 分钟周期 1 块燃料 + 34 岩浆气，即 4,320 块 + 146,880 气）；只从玩家基地空间站机库取燃料，不动舰船货舱和其他站点，基地不足时补多少算多少并在邮件里列出缺口。\n- 补料后会自动启动未启动的自动月矿服务（service 18）。服务离线时目标燃料块数额外包含 **1000 块上线费**（`onlineFuelBlocks`），启动时由服务端原生流程扣除；服务已在线时不扣费、不重复启动。被强化、受损或已摧毁的钻探会启动失败，并在邮件「失败钻探（服务启动）」中报告。\n- 合同由军团签发、指定给点击按钮的玩家，物品从合同托管交付到**基地空间站**机库（支持 NPC 站与建筑），价格为 100 万 ISK；合同 ID 从 2,000,000,000 起分配，正常合同号段不受影响。若合同接受失败（例如钱包在两步之间被用掉），合同与物品会保留在托管中，可在合同窗口手动接受。\n- 兼容 EveJS `261028.1` / `261108.1` / `261115.2`；需要启动器提供注入总线（`globalThis.__evejsMods`）。\n- 加载前置检查：`lib/launcherGuard.js`（清单 `binding.enforce = observe`，只记日志）。"
       ],
       "repo": "https://github.com/xxxuan42/evejs-mod-evejs-skyhook-reagent-boost",
       "requiresRestart": true,
-      "sha256": "8abad24c33f544221bafa7667e952d2f016132a4b0d26fa4470f3adeb452fddc",
-      "sizeBytes": 49683,
+      "sha256": "c45de604475362dc50e6a0d813abe19d1a451661c0bd7d864a62981214e08a8f",
+      "sizeBytes": 79332,
       "tags": [
         "主权",
         "行星开发",
         "天钩",
         "战略指数",
         "卫星钻探",
-        "蓝图"
+        "蓝图",
+        "锚定",
+        "建筑属性",
+        "产量",
+        "合同"
       ],
-      "version": "1.3.23",
+      "version": "1.4.3",
       "source": "xxxuan42/evejs-mod-evejs-skyhook-reagent-boost",
       "downloads": 538,
       "cdnHits": 0
@@ -1442,7 +1446,7 @@
       ],
       "version": "1.0.0",
       "source": "JonnyTC/evejs-mod-evejs-agent-portraits",
-      "downloads": 181,
+      "downloads": 182,
       "cdnHits": 0
     },
     {
@@ -1564,7 +1568,7 @@
       ],
       "version": "1.3.2",
       "source": "jealous123456789/evejs-mod-mission-content-repair",
-      "downloads": 1335,
+      "downloads": 1357,
       "cdnHits": 0
     },
     {
@@ -1707,7 +1711,7 @@
       ],
       "version": "0.1.0",
       "source": "xxxuan42/evejs-mod-corp-ai",
-      "downloads": 85,
+      "downloads": 87,
       "cdnHits": 0
     },
     {
@@ -1800,7 +1804,7 @@
       ],
       "version": "1.0.4",
       "source": "xxxuan42/evejs-mod-evejs-moonscan-all",
-      "downloads": 315,
+      "downloads": 316,
       "cdnHits": 0
     },
     {
@@ -1848,7 +1852,7 @@
       ],
       "version": "1.0.0",
       "source": "JonnyTC/evejs-mod-evejs-structure-targeting-fix",
-      "downloads": 137,
+      "downloads": 138,
       "cdnHits": 0
     },
     {
@@ -1896,7 +1900,7 @@
       ],
       "version": "0.1.1",
       "source": "billyyyq/evejs-mod-jita-night-market",
-      "downloads": 132,
+      "downloads": 133,
       "cdnHits": 0
     },
     {
@@ -2038,7 +2042,7 @@
       ],
       "version": "1.5.2",
       "source": "moyuxitypebigFatfish/evejs-mod-evejs-dafeiyu-armory",
-      "downloads": 76,
+      "downloads": 79,
       "cdnHits": 0
     },
     {
@@ -2087,7 +2091,7 @@
       ],
       "version": "1.1.0",
       "source": "kokoandqiong/evejs-mod-evejs-slimitem-name-wstring",
-      "downloads": 192,
+      "downloads": 194,
       "cdnHits": 0
     },
     {
@@ -2133,7 +2137,7 @@
       ],
       "version": "1.6.2",
       "source": "xxxuan42/evejs-mod-evejs-missile-retarget",
-      "downloads": 90,
+      "downloads": 92,
       "cdnHits": 0
     },
     {
@@ -2238,7 +2242,7 @@
       ],
       "version": "5.2.1",
       "source": "JonnyTC/evejs-mod-evejs-colossus-capital-fit",
-      "downloads": 186,
+      "downloads": 187,
       "cdnHits": 0
     },
     {
@@ -2340,7 +2344,7 @@
       ],
       "version": "1.1.1",
       "source": "kuroneko-lice/evejs-mod-evejs-shi-chang-jia-ge-xin-xi-tong-bu",
-      "downloads": 284,
+      "downloads": 286,
       "cdnHits": 0
     },
     {
@@ -2396,7 +2400,7 @@
       ],
       "version": "1.0.0",
       "source": "JonnyTC/evejs-mod-evejs-slimitem-name-unicode",
-      "downloads": 138,
+      "downloads": 139,
       "cdnHits": 0
     },
     {
@@ -2487,7 +2491,7 @@
       ],
       "version": "1.1.2",
       "source": "huihuangdi/evejs-mod-evejs-ded-ladder",
-      "downloads": 194,
+      "downloads": 199,
       "cdnHits": 0
     },
     {
@@ -2538,7 +2542,7 @@
       ],
       "version": "1.1.1",
       "source": "GH301/evejs-mod-evejs-anomaly-rewards",
-      "downloads": 190,
+      "downloads": 191,
       "cdnHits": 0
     },
     {
@@ -2587,7 +2591,7 @@
       ],
       "version": "1.2.1",
       "source": "xxxuan42/evejs-mod-evejs-courier-ai",
-      "downloads": 246,
+      "downloads": 247,
       "cdnHits": 0
     },
     {
@@ -2679,7 +2683,7 @@
       ],
       "version": "1.0.1",
       "source": "jealous123456789/evejs-mod-overview-display-fix",
-      "downloads": 497,
+      "downloads": 499,
       "cdnHits": 0
     },
     {
@@ -2774,7 +2778,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "MateralCMX/evejs-mod-salvage-repair",
-      "downloads": 254,
+      "downloads": 255,
       "cdnHits": 0
     },
     {
@@ -2915,7 +2919,7 @@
       ],
       "version": "1.2.6",
       "source": "xxxuan42/evejs-mod-evejs-auto-mining-compression",
-      "downloads": 427,
+      "downloads": 428,
       "cdnHits": 0
     },
     {
@@ -2959,7 +2963,7 @@
       ],
       "version": "1.1.0",
       "source": "jealous123456789/evejs-mod-evejs-air-career-fix",
-      "downloads": 98,
+      "downloads": 99,
       "cdnHits": 0
     },
     {
@@ -3007,7 +3011,7 @@
       ],
       "version": "1.0.0",
       "source": "kokoandqiong/evejs-mod-evejs-patrol-rats",
-      "downloads": 164,
+      "downloads": 165,
       "cdnHits": 0
     },
     {
@@ -3458,7 +3462,7 @@
       ],
       "version": "1.1.1",
       "source": "jealous123456789/evejs-mod-better-loot",
-      "downloads": 394,
+      "downloads": 397,
       "cdnHits": 0
     },
     {
@@ -3623,7 +3627,7 @@
       ],
       "version": "1.2.2",
       "source": "xxxuan42/evejs-mod-evejs-industrial-module-fast-cycle",
-      "downloads": 251,
+      "downloads": 252,
       "cdnHits": 0
     },
     {
@@ -3669,7 +3673,7 @@
       ],
       "version": "1.0.2",
       "source": "moyuxitypebigFatfish/evejs-mod-evejs-bastion-10s",
-      "downloads": 0,
+      "downloads": 1,
       "cdnHits": 0
     },
     {
@@ -3718,7 +3722,7 @@
       "tags": [],
       "version": "0.1.6",
       "source": "MateralCMX/evejs-mod-mobile-tractor-enhancement",
-      "downloads": 610,
+      "downloads": 611,
       "cdnHits": 0
     },
     {
@@ -3807,7 +3811,7 @@
       ],
       "version": "1.0.2",
       "source": "jealous123456789/evejs-mod-belt-respawn-cooldown",
-      "downloads": 230,
+      "downloads": 232,
       "cdnHits": 0
     },
     {
@@ -4242,7 +4246,7 @@
       ],
       "version": "1.41.0",
       "source": "JonnyTC/evejs-mod-evejs-ship-collision-fix",
-      "downloads": 77,
+      "downloads": 78,
       "cdnHits": 0
     },
     {
@@ -4345,7 +4349,7 @@
       ],
       "version": "1.1.0",
       "source": "lxm970112-hub/evejs-mod-evejs-wormhole-anomaly-repair-261028",
-      "downloads": 153,
+      "downloads": 154,
       "cdnHits": 0
     },
     {
@@ -4571,7 +4575,7 @@
       ],
       "version": "1.1.21",
       "source": "Mimataer/evejs-mod-evejs-yuan-zheng",
-      "downloads": 419,
+      "downloads": 420,
       "cdnHits": 0
     },
     {
@@ -4616,7 +4620,7 @@
       ],
       "version": "1.0.4",
       "source": "kokoandqiong/evejs-mod-evejs-tie-qi-zhong-wu-shang-hai-xiu-fu",
-      "downloads": 307,
+      "downloads": 308,
       "cdnHits": 0
     },
     {
@@ -4666,7 +4670,7 @@
       ],
       "version": "1.0.5",
       "source": "lxm970112-hub/evejs-mod-evejs-tie-qi-hu-hang",
-      "downloads": 220,
+      "downloads": 221,
       "cdnHits": 0
     },
     {
@@ -4716,7 +4720,7 @@
       ],
       "version": "1.0.6",
       "source": "moyuxitypebigFatfish/evejs-mod-evejs-molang-class",
-      "downloads": 70,
+      "downloads": 72,
       "cdnHits": 0
     }
   ],
@@ -4749,7 +4753,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "vx2sdXKePNmlRO2JFi/VQ3m31NZRTgAmpu3U17ZA4nTIv9CRvj0iPf/GID6H3Sg7QVnPiBkNkxBMgpme/7YsBg==",
-    "signedAt": "2026-11-24T15:40:51.267Z"
+    "sig": "qva2y4y9B5jADJKFq16TyUxEVZUaUl2/hjEWJFxVR++ZC968waM2hqbiMJx2DRyz0gG6po4IbW64G3pX8ynrCg==",
+    "signedAt": "2026-11-24T16:34:57.979Z"
   }
 }
