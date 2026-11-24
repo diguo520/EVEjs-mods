@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1795452506385,
+  "generatedAt": 1795546791160,
   "mods": {
     "bug-fixes": {
       "stars": 1,
@@ -340,10 +340,10 @@
     },
     "evejs-yuan-zheng": {
       "stars": 1,
-      "comments": 1,
+      "comments": 0,
       "average": 5,
       "count": 1,
-      "withText": 1,
+      "withText": 0,
       "histogram": [
         0,
         0,
@@ -382,10 +382,10 @@
     },
     "mission-content-repair": {
       "stars": 1,
-      "comments": 3,
+      "comments": 5,
       "average": 5,
       "count": 1,
-      "withText": 3,
+      "withText": 5,
       "histogram": [
         0,
         0,
@@ -482,6 +482,6 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "evejs-ratings-2026-10-01",
-    "sig": "h3cTDbQO8I5T2RZKR0gnMM5qdyscKCdjg8Ejg52jWgHhPJgFxdGTBLPHianTtDRom4Y2/qxM8Y3PQD/4jgyxBg=="
+    "sig": "eLx4DJzaaIh5ehGFORbP8RyvcpxIpWPayYSTVSspn5/Z745C1f7YD7xWlurAQ93+1QmMSlxptGDy4U7xvkEsCA=="
   }
 }

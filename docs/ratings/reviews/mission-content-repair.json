@@ -1,8 +1,32 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1795487942101,
+  "generatedAt": 1795534491133,
   "modId": "mission-content-repair",
   "reviews": [
+    {
+      "id": "rv-1795513982234-11268",
+      "keyId": "e51776ea7a33",
+      "author": "",
+      "corp": "",
+      "country": "CN",
+      "stars": 5,
+      "version": "1.3.2",
+      "date": "2026-11-24",
+      "body": "感谢作者辛苦修复，目前只刷了一些萨沙四级安全反映以下\n1：所有四级任务奖励 lp ISK给的一模一样\n2：已安装作者的更合理掉落，打腹背受敌G海军 供养者A海军 瓶瓶罐罐A海军 \n统合部 不掉落对应狗牌\n3：缺了势力任务过滤，比如我在萨沙做任务会接到打萨沙怪任务",
+      "edited": true
+    },
+    {
+      "id": "rv-1795534484871-26156",
+      "keyId": "6c0650eca049",
+      "author": "",
+      "corp": "",
+      "country": "CN",
+      "stars": 5,
+      "version": "1.3.2",
+      "date": "2026-11-24",
+      "body": "作者大大我这个不知道是什么问题启用了这个和更合理的掉落mod之后，进游戏本地只刷新矿带没有普通异常，只有异常信号了",
+      "edited": false
+    },
     {
       "id": "rv-1795420625129-496",
       "keyId": "7ee763e7c604",
@@ -59,6 +83,6 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "evejs-ratings-2026-10-01",
-    "sig": "uB4HR46GtSBq7tFR6EW6rh4QstMlv7y7UpIb3ZBFGlpfbQe9/SRlbxa/y5nuBoUyjmxZ8NzPeIhtC4IWdQ1TDA=="
+    "sig": "k6yukiAisqkfin7m/tcVGMTe5CvX3r692eiikoMSA0F8t4kKYL99ODCph7K+jSXQogcmQ2AvZmflHaWT6nhGCg=="
   }
 }

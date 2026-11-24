@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1795346070074,
+  "generatedAt": 1795538680220,
   "sponsors": [
     {
       "id": "sponsor-01",
@@ -251,7 +251,7 @@
     {
       "id": "sponsor-42",
       "name": "下北沢野兽",
-      "amount": 200,
+      "amount": 300,
       "currency": "CNY"
     },
     {
@@ -300,6 +300,6 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "evejs-ratings-2026-10-01",
-    "sig": "K9lUlxh+CFEPUqCjrSxhfLQh31lgNPz9IR5/Ha/YAF9k95LeIbhJfKHsV55OsoaNLd5AgvODuty+b6um/H87Ag=="
+    "sig": "vG1lkfy6DwgtKA9r+x1+Anqb+B7LJz0sNgdI1UEJaOv3bhQclyOhb3BboROb84ZygefM7wLE9HvfHTjleRnTBw=="
   }
 }

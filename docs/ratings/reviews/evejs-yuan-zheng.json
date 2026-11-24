@@ -1,21 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1795452506385,
+  "generatedAt": 1795527054653,
   "modId": "evejs-yuan-zheng",
-  "reviews": [
-    {
-      "id": "rv-1795452502586-9380",
-      "keyId": "6c0650eca049",
-      "author": "",
-      "corp": "",
-      "country": "CN",
-      "stars": 5,
-      "version": "1.1.21",
-      "date": "2026-11-23",
-      "body": "刚开始能刷，萨沙复合体6/10.刷完会提示你去下一个刷了两个一模一样的，从第三个开始，还有第四个及以后的天使造船厂10/10都不刷怪了用指令重刷也不刷怪了。",
-      "edited": false
-    }
-  ],
+  "reviews": [],
   "stars": {
     "count": 1,
     "keys": [
@@ -25,6 +12,6 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "evejs-ratings-2026-10-01",
-    "sig": "aciWcf4WmJmZdK3OXzO6wsc9UfDf5sk7fOMNONPUXPVioC9UmkVB95R9YyFoUVdNoyV6RiZA22j6Om+TcKsBCA=="
+    "sig": "M+7KG4P2EobcbGlt3mGvcD1dNkpQEhigYoFpKSdg0RgH2Dps+mrOcNm4FFxifLyDgs788D6H86p5dlRtBUjiCg=="
   }
 }
