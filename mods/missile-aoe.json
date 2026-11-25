@@ -1,0 +1,24 @@
+{
+  "author": {
+    "id": "au-mwr71jaxujxh",
+    "keyId": "7a29df1bf95e",
+    "name": "墨汁"
+  },
+  "displayName": "导弹范围伤害",
+  "downloadParts": null,
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/doomo-o/evejs-mod-missile-aoe/releases/download/v1.0.1/missile-aoe-1.0.1.zip"
+    }
+  ],
+  "id": "missile-aoe",
+  "publishedAt": "2026-11-25",
+  "schemaVersion": 1,
+  "sha256": "c7d51ffa23a8038c60d3b69fef66191ef07910581522544251b847fd3e195948",
+  "sizeBytes": 19765,
+  "source": "doomo-o/evejs-mod-missile-aoe",
+  "submittedAt": "2026-11-25T03:43:02.046Z",
+  "version": "1.0.1"
+}
