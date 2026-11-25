@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-11-25T16:27:32.140Z",
+  "publishedAt": "2026-11-25T16:59:42.061Z",
   "mods": [
     {
       "author": {
@@ -137,7 +137,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "rzwm/evejs-mod-evejs-autolockfire-cn",
-      "downloads": 393,
+      "downloads": 394,
       "cdnHits": 0
     },
     {
@@ -239,7 +239,7 @@
       "tags": [],
       "version": "0.18.5",
       "source": "MateralCMX/evejs-mod-bug-fixes",
-      "downloads": 1075,
+      "downloads": 1076,
       "cdnHits": 0
     },
     {
@@ -534,7 +534,7 @@
       "tags": [],
       "version": "0.1.6",
       "source": "MateralCMX/evejs-mod-gm-menu-localization",
-      "downloads": 768,
+      "downloads": 769,
       "cdnHits": 0
     },
     {
@@ -934,7 +934,7 @@
       "tags": [],
       "version": "0.2.3",
       "source": "MateralCMX/evejs-mod-npc-extension-core",
-      "downloads": 257,
+      "downloads": 258,
       "cdnHits": 0
     },
     {
@@ -1073,7 +1073,7 @@
       "tags": [],
       "version": "0.1.7",
       "source": "MateralCMX/evejs-mod-npc-loot-rules",
-      "downloads": 461,
+      "downloads": 462,
       "cdnHits": 0
     },
     {
@@ -1357,13 +1357,13 @@
       "changelog": "",
       "conflicts": [],
       "delisted": false,
-      "description": "主权基建加强：行星试剂采集量 ×100、能量/劳动力 ×20；天钩周期 10 分钟、安全舱/冗余舱 ×100；战略指数 3 分钟满级；月矿 1 天=1 秒就绪、10 秒后碎裂；Metenox 每 10 分钟产出、单周期 ×100、采矿效率 100%、输出舱 ×20，燃料每周期 1 块+34 气，窗口消耗率同步；结构 OWNER_ACCESS 对所有者直接放行；修复接管建筑后锁定无法完成（静态结构锁定并入场景 tick，并为 Metenox/Ansiblex/Tenebrex 补齐锁定属性）；修复结构燃料舱容量 0.0M、GetCapacity 无参调用报错、装配导弹 DPS 除零、矿物舱菜单消失、登上曾驾驶舰船被拒；所有蓝图 ME 研究上限 10%→30%，研究面板/ME 仪表/悬停提示同步；轨道天钩“正在升级”倒计时、Upwell 建筑初始锚定/锚定/上线、FLEX 部署、POS 控制塔/母星模块与海关办公室等部署锚定统一改为 30 秒（typeDogma 556/677 封顶，客户端 structures 倒计时同步 30 秒）。建筑 CPU 输出/能量栅格输出/校准值 ×10、电容回充时间 ×0.4（Upwell 结构、POS 母星、主权建筑，舰船与模块不受影响；客户端属性面板与电容显示同步）。新增：在任意轨道天钩办公室点「提取试剂」，一次性提取本军团所有天钩安全舱的试剂到玩家基地空间站，并以 100 万 ISK 的物品交换合同自动交付（无需货舱/距离）；同一次点击还会提取本军团所有屹立梅特诺克斯卫星钻探的卫星产物（并入同一合同），并在燃料不足 30 天时从玩家基地空间站机库取燃料块/岩浆气补满 30 天；若钻探服务未启动，补料后自动启动（离线时额外预留并扣除 1000 块燃料的上线费）。每次批量提取/补料后都会向当事人发送游戏内邮件（成功也发）：成功邮件含本次天钩/卫星产物/燃料/服务/合同明细；失败邮件额外含错误码、失败阶段、钱包余额、回滚结果与异常堆栈。仅服务端内存补丁+登录表达式覆盖层，不改客户端文件与源码。",
+      "description": "主权基建加强：行星试剂采集量 ×20、能量/劳动力 ×20；天钩周期 10 分钟、安全舱/冗余舱 ×100；战略指数 3 分钟满级；月矿 1 天=1 秒就绪、10 秒后碎裂；Metenox 每 10 分钟产出、单周期 ×20、采矿效率 100%、输出舱 ×20，燃料每周期 1 块+34 气，窗口消耗率同步；结构 OWNER_ACCESS 对所有者直接放行；修复接管建筑后锁定无法完成（静态结构锁定并入场景 tick，并为 Metenox/Ansiblex/Tenebrex 补齐锁定属性）；修复结构燃料舱容量 0.0M、GetCapacity 无参调用报错、装配导弹 DPS 除零、矿物舱菜单消失、登上曾驾驶舰船被拒；所有蓝图 ME 研究上限 10%→30%，研究面板/ME 仪表/悬停提示同步；轨道天钩“正在升级”倒计时、Upwell 建筑初始锚定/锚定/上线、FLEX 部署、POS 控制塔/母星模块与海关办公室等部署锚定统一改为 30 秒（typeDogma 556/677 封顶，客户端 structures 倒计时同步 30 秒）。建筑 CPU 输出/能量栅格输出/校准值 ×10、电容回充时间 ×0.4（Upwell 结构、POS 母星、主权建筑，舰船与模块不受影响；客户端属性面板与电容显示同步）。新增：在任意轨道天钩办公室点「提取试剂」，一次性提取本军团所有天钩安全舱的试剂到玩家基地空间站，并以 100 万 ISK 的物品交换合同自动交付（无需货舱/距离）；同一次点击还会提取本军团所有屹立梅特诺克斯卫星钻探的卫星产物（并入同一合同），并在燃料不足 30 天时从玩家基地空间站机库取燃料块/岩浆气补满 30 天；若钻探服务未启动，补料后自动启动（离线时额外预留并扣除 1000 块燃料的上线费）；在梅特诺克斯「卫星材料舱」窗口点「全部拾取」会触发同一套批量提取；客户端类型门与服务端结构校验双重兜底，其他货柜/建筑/残骸的「全部拾取」不受影响；右键「打开卫星材料舱」保持原版（只打开窗口）。每次批量提取/补料后都会向当事人发送游戏内邮件（成功也发）：成功邮件含本次天钩/卫星产物/燃料/服务/合同明细；失败邮件额外含错误码、失败阶段、钱包余额、回滚结果与异常堆栈。仅服务端内存补丁+登录表达式覆盖层，不改客户端文件与源码。",
       "displayName": "主权基建加强",
       "downloadUrls": [
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/xxxuan42/evejs-mod-evejs-skyhook-reagent-boost/releases/download/v1.4.3/evejs-skyhook-reagent-boost-1.4.3.zip"
+          "url": "https://github.com/xxxuan42/evejs-mod-evejs-skyhook-reagent-boost/releases/download/v1.6.5/evejs-skyhook-reagent-boost-1.6.5.zip"
         }
       ],
       "evejsVersions": [
@@ -1375,14 +1375,14 @@
       "highlights": [],
       "history": [],
       "id": "evejs-skyhook-reagent-boost",
-      "publishedAt": "2026-11-24",
+      "publishedAt": "2026-11-25",
       "readme": [
-        "- 容量在服务端以「单位」存储，客户端按试剂体积（如岩浆气 0.01 m³/单位）换算成 m³ 显示。\n- 能量 / 劳动力按行星定义原值 ×10（若服务端自身还有资源倍率，会与它叠加）。\n- 战略指数以星系被占领的时间（`claimTime`）为起点；通过 GM 工具把 `claimTime` 设为 0 的星系不会自动加速（仍可用 GM 指令直接设置天数）。\n- 卫星钻探燃料按周期折算并向上取整：每个 10 分钟周期扣 1 个燃料块 + 34 岩浆气，不留余数，折算每小时约 **6 个燃料块 + 204 岩浆气**；服务从离线转在线时一次性扣的 1,000 块燃料保持原版。\n- 结构权限补丁只影响 `OWNER_ACCESS` 类设置（17、36）；停靠、税率等 `DOCK_ACCESS` / `ALWAYS` 类设置仍按 Profile 规则判定。\n- 月矿时间轴只影响**新建**的开采计划；已存在的开采记录不回填，压缩比与碎裂延迟变化在下次开始开采时生效。\n- 蓝图 ME 上限提升后，已有蓝图需要继续研究才能从 10 升到 30；研究等级越高耗时越长（第 10 级之后按最高档时长计算）。客户端提示文案里的「最多不超过 10%」已由覆盖层在内存中同步为 30%，客户端磁盘文件（含本地化数据）零改动。\n- 一键提取只处理**本军团**、处于在线（`active`）且安全舱（`securedStock`）有库存的天钩；同一玩家军团在其他星系的天钩也会一起提取，单个天钩的提取异常会被跳过。\n- 卫星产物来自**本军团**所有梅特诺克斯钻探（类型 81826）的卫星产物舱（flag 186），与其他星系的钻探一并提取；单次点击只生成**一份** 100 万 ISK 合同，天钩试剂和卫星产物合并交付，不额外收费。\n- 燃料补充只作用于**已锚定且未摧毁**的军团梅特诺克斯钻探：目标为 30 天实际消耗（每 10 分钟周期 1 块燃料 + 34 岩浆气，即 4,320 块 + 146,880 气）；只从玩家基地空间站机库取燃料，不动舰船货舱和其他站点，基地不足时补多少算多少并在邮件里列出缺口。\n- 补料后会自动启动未启动的自动月矿服务（service 18）。服务离线时目标燃料块数额外包含 **1000 块上线费**（`onlineFuelBlocks`），启动时由服务端原生流程扣除；服务已在线时不扣费、不重复启动。被强化、受损或已摧毁的钻探会启动失败，并在邮件「失败钻探（服务启动）」中报告。\n- 合同由军团签发、指定给点击按钮的玩家，物品从合同托管交付到**基地空间站**机库（支持 NPC 站与建筑），价格为 100 万 ISK；合同 ID 从 2,000,000,000 起分配，正常合同号段不受影响。若合同接受失败（例如钱包在两步之间被用掉），合同与物品会保留在托管中，可在合同窗口手动接受。\n- 兼容 EveJS `261028.1` / `261108.1` / `261115.2`；需要启动器提供注入总线（`globalThis.__evejsMods`）。\n- 加载前置检查：`lib/launcherGuard.js`（清单 `binding.enforce = observe`，只记日志）。"
+        "- 容量在服务端以「单位」存储，客户端按试剂体积（如岩浆气 0.01 m³/单位）换算成 m³ 显示。\n- 能量 / 劳动力按行星定义原值 ×10（若服务端自身还有资源倍率，会与它叠加）。\n- 战略指数以星系被占领的时间（`claimTime`）为起点；通过 GM 工具把 `claimTime` 设为 0 的星系不会自动加速（仍可用 GM 指令直接设置天数）。\n- 卫星钻探燃料按周期折算并向上取整：每个 10 分钟周期扣 1 个燃料块 + 34 岩浆气，不留余数，折算每小时约 **6 个燃料块 + 204 岩浆气**；服务从离线转在线时一次性扣的 1,000 块燃料保持原版。\n- 结构权限补丁只影响 `OWNER_ACCESS` 类设置（17、36）；停靠、税率等 `DOCK_ACCESS` / `ALWAYS` 类设置仍按 Profile 规则判定。\n- 卫星材料舱「全部拾取」在服务端按结构 ID 校验：必须是玩家军团的梅特诺克斯（类型 81826）；其他军团的钻探或非梅特诺克斯结构会被拒绝并发送失败邮件。该入口不把产物搬进舰船货舱，也没有 2.5 km 距离限制；右键菜单「打开卫星材料舱」保持原版，只打开窗口。\n- **不会误触发其他仓库窗口**：客户端只替换卫星材料舱专用控制器 `invControllers.StructureMoonMaterialBay.LootAll`，残骸、漂浮货柜、空间站货柜、POS 模块等仍用原版 `BaseCelestialContainer.LootAll`；结构机库/燃料舱继承 `BaseInvContainer`，`GetSpecialActions()` 返回空，本来就没有「全部拾取」。此外客户端加了类型门（非 81826 回退原版），服务端还会再校验结构类型与军团归属，双重兜底。\n- 月矿时间轴只影响**新建**的开采计划；已存在的开采记录不回填，压缩比与碎裂延迟变化在下次开始开采时生效。\n- 蓝图 ME 上限提升后，已有蓝图需要继续研究才能从 10 升到 30；研究等级越高耗时越长（第 10 级之后按最高档时长计算）。客户端提示文案里的「最多不超过 10%」已由覆盖层在内存中同步为 30%，客户端磁盘文件（含本地化数据）零改动。\n- 一键提取只处理**本军团**、处于在线（`active`）且安全舱（`securedStock`）有库存的天钩；同一玩家军团在其他星系的天钩也会一起提取，单个天钩的提取异常会被跳过。\n- 卫星产物来自**本军团**所有梅特诺克斯钻探（类型 81826）的卫星产物舱（flag 186），与其他星系的钻探一并提取；单次点击只生成**一份** 100 万 ISK 合同，天钩试剂和卫星产物合并交付，不额外收费。\n- 燃料补充只作用于**已锚定且未摧毁**的军团梅特诺克斯钻探：目标为 30 天实际消耗（每 10 分钟周期 1 块燃料 + 34 岩浆气，即 4,320 块 + 146,880 气）；只从玩家基地空间站机库取燃料，不动舰船货舱和其他站点，基地不足时补多少算多少并在邮件里列出缺口。\n- 补料后会自动启动未启动的自动月矿服务（service 18）。服务离线时目标燃料块数额外包含 **1000 块上线费**（`onlineFuelBlocks`），启动时由服务端原生流程扣除；服务已在线时不扣费、不重复启动。被强化、受损或已摧毁的钻探会启动失败，并在邮件「失败钻探（服务启动）」中报告。\n- 合同由军团签发、指定给点击按钮的玩家，物品从合同托管交付到**基地空间站**机库（支持 NPC 站与建筑），价格为 100 万 ISK；合同 ID 从 2,000,000,000 起分配，正常合同号段不受影响。若合同接受失败（例如钱包在两步之间被用掉），合同与物品会保留在托管中，可在合同窗口手动接受。\n- 兼容 EveJS `261028.1` / `261108.1` / `261115.2`；需要启动器提供注入总线（`globalThis.__evejsMods`）。\n- 加载前置检查：`lib/launcherGuard.js`（清单 `binding.enforce = observe`，只记日志）。"
       ],
       "repo": "https://github.com/xxxuan42/evejs-mod-evejs-skyhook-reagent-boost",
       "requiresRestart": true,
-      "sha256": "c45de604475362dc50e6a0d813abe19d1a451661c0bd7d864a62981214e08a8f",
-      "sizeBytes": 79332,
+      "sha256": "6c697be2c7d74ef6882663a6cec0d4faa161df46e2267c2a4bf1946b23f15bf4",
+      "sizeBytes": 83870,
       "tags": [
         "主权",
         "行星开发",
@@ -1395,9 +1395,9 @@
         "产量",
         "合同"
       ],
-      "version": "1.4.3",
+      "version": "1.6.5",
       "source": "xxxuan42/evejs-mod-evejs-skyhook-reagent-boost",
-      "downloads": 603,
+      "downloads": 605,
       "cdnHits": 0
     },
     {
@@ -1568,7 +1568,7 @@
       ],
       "version": "1.3.3",
       "source": "jealous123456789/evejs-mod-mission-content-repair",
-      "downloads": 1547,
+      "downloads": 1553,
       "cdnHits": 0
     },
     {
@@ -1665,7 +1665,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "MateralCMX/evejs-mod-clone-convenience",
-      "downloads": 191,
+      "downloads": 192,
       "cdnHits": 0
     },
     {
@@ -1804,7 +1804,7 @@
       ],
       "version": "1.0.4",
       "source": "xxxuan42/evejs-mod-evejs-moonscan-all",
-      "downloads": 333,
+      "downloads": 334,
       "cdnHits": 0
     },
     {
@@ -2347,6 +2347,7 @@
       ],
       "version": "2.0.0",
       "source": "JonnyTC/evejs-mod-evejs-colossus-audio-fix",
+      "downloads": 144,
       "cdnHits": 0
     },
     {
@@ -2389,7 +2390,7 @@
       ],
       "version": "1.1.1",
       "source": "kuroneko-lice/evejs-mod-evejs-shi-chang-jia-ge-xin-xi-tong-bu",
-      "downloads": 296,
+      "downloads": 297,
       "cdnHits": 0
     },
     {
@@ -2536,7 +2537,7 @@
       ],
       "version": "1.1.2",
       "source": "huihuangdi/evejs-mod-evejs-ded-ladder",
-      "downloads": 236,
+      "downloads": 237,
       "cdnHits": 0
     },
     {
@@ -2728,7 +2729,7 @@
       ],
       "version": "1.0.1",
       "source": "jealous123456789/evejs-mod-overview-display-fix",
-      "downloads": 520,
+      "downloads": 521,
       "cdnHits": 0
     },
     {
@@ -3507,7 +3508,7 @@
       ],
       "version": "1.1.1",
       "source": "jealous123456789/evejs-mod-better-loot",
-      "downloads": 424,
+      "downloads": 425,
       "cdnHits": 0
     },
     {
@@ -3624,7 +3625,7 @@
       ],
       "version": "3.2.0",
       "source": "Jasper377/evejs-mod-evejs-racks16",
-      "downloads": 557,
+      "downloads": 558,
       "cdnHits": 0
     },
     {
@@ -4241,7 +4242,7 @@
       "tags": [],
       "version": "0.1.4",
       "source": "MateralCMX/evejs-mod-ship-operations-assistant",
-      "downloads": 83,
+      "downloads": 84,
       "cdnHits": 0
     },
     {
@@ -4529,7 +4530,7 @@
       ],
       "version": "1.0.0",
       "source": "lxm970112-hub/evejs-mod-evejs-fitting-ship-slots",
-      "downloads": 68,
+      "downloads": 69,
       "cdnHits": 3
     },
     {
@@ -4798,7 +4799,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "7duFv1ipIJhtQ3sCGkzea7kjRzXORaKLLNGGnMcNSjZawE6dcAo51xjTWASyWbvoprk/yedvHl+zrcCbXR68Dg==",
-    "signedAt": "2026-11-25T16:27:32.146Z"
+    "sig": "nz2ZyHddYgww1uhbTjpj7AJzTsKLIx1SHgz/k35Z5x4pnOreSn6CjKn94zCvMv9oTZK+yotRaThrkR6UH/A/Dw==",
+    "signedAt": "2026-11-25T16:59:42.066Z"
   }
 }
