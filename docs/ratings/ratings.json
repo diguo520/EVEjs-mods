@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1795609282228,
+  "generatedAt": 1795632192036,
   "mods": {
     "better-loot": {
       "stars": 1,
@@ -506,6 +506,20 @@
         1
       ]
     },
+    "ship-operations-assistant": {
+      "stars": 0,
+      "comments": 1,
+      "average": 0,
+      "count": 0,
+      "withText": 1,
+      "histogram": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
     "uua-f4": {
       "stars": 1,
       "comments": 0,
@@ -538,6 +552,6 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "evejs-ratings-2026-10-01",
-    "sig": "nqSjjmdPMC0w+Xg6Z7OuS+j94AFGzCQvL4uHMdwhwXlvuivLHdF7cSJ7qp3LG+m8/5xIBxeQGQPP4+0+QDLKDQ=="
+    "sig": "NM5CbvwzXPy9GbH4ApcVF8sezQFdYZJ5aSXZenf0CoCQuOqf5c+ov9EZ0560eEPgBWMr7K5Oxi5vBVk/X18CCA=="
   }
 }

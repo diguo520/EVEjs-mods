@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": 1795632192036,
+  "modId": "ship-operations-assistant",
+  "reviews": [
+    {
+      "id": "rv-1795632190175-30760",
+      "keyId": "9c0fdc5e580b",
+      "author": "",
+      "corp": "",
+      "country": "JP",
+      "stars": 5,
+      "version": "0.1.4",
+      "date": "2026-11-25",
+      "body": "可惜不支持航母等高槽不装备炮台的船，一点自动作业就会因为检测不到武器和弹药而触发自动撤离，要是能支持TJJ自动作业就更好了",
+      "edited": false
+    }
+  ],
+  "stars": {
+    "count": 0,
+    "keys": []
+  },
+  "signature": {
+    "alg": "ed25519",
+    "keyId": "evejs-ratings-2026-10-01",
+    "sig": "ivt2byZAtqzxi8SdLmUXoBVXeDM69mwM7/kdRMG8C3jIdvT28lD7HfxU4X2pr5dgZKFgb7SgJ3rUU1gen4NzCg=="
+  }
+}
