@@ -196,5 +196,11 @@
     "publicKey": "",
     "repo": "LLLLLaika/evejs-mod-mission-content-rebuild",
     "firstSeen": "2026-11-23"
+  },
+  "au-mwr71jaxujxh": {
+    "keyId": "7a29df1bf95e",
+    "publicKey": "",
+    "repo": "doomo-o/evejs-mod-missile-aoe",
+    "firstSeen": "2026-11-25"
   }
 }
