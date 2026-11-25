@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": 1795596171891,
+  "modId": "npc-loot-rules-261028",
+  "reviews": [],
+  "stars": {
+    "count": 1,
+    "keys": [
+      "f7363ebbc238"
+    ]
+  },
+  "signature": {
+    "alg": "ed25519",
+    "keyId": "evejs-ratings-2026-10-01",
+    "sig": "NwyGsEygb+5Mk1/gJZO9lQkj+S+LJjgRIzCirGrTqpbHK6okpxaPzcQ+cbzUnzBOkDkBtXGMCDTeMX0Ao0ssBg=="
+  }
+}

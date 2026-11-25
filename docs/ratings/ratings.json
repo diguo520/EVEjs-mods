@@ -1,7 +1,21 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1795546791160,
+  "generatedAt": 1795609282228,
   "mods": {
+    "better-loot": {
+      "stars": 1,
+      "comments": 0,
+      "average": 5,
+      "count": 1,
+      "withText": 0,
+      "histogram": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
     "bug-fixes": {
       "stars": 1,
       "comments": 1,
@@ -115,17 +129,17 @@
       ]
     },
     "evejs-automining": {
-      "stars": 6,
+      "stars": 7,
       "comments": 3,
       "average": 5,
-      "count": 6,
+      "count": 7,
       "withText": 3,
       "histogram": [
         0,
         0,
         0,
         0,
-        6
+        7
       ]
     },
     "evejs-da-fei-yu-zhu-quan-bu-shu": {
@@ -381,17 +395,17 @@
       ]
     },
     "mission-content-repair": {
-      "stars": 1,
+      "stars": 3,
       "comments": 5,
       "average": 5,
-      "count": 1,
+      "count": 3,
       "withText": 5,
       "histogram": [
         0,
         0,
         0,
         0,
-        1
+        3
       ]
     },
     "mobile-tractor-enhancement": {
@@ -409,6 +423,20 @@
       ]
     },
     "npc-loot-mutation": {
+      "stars": 1,
+      "comments": 0,
+      "average": 5,
+      "count": 1,
+      "withText": 0,
+      "histogram": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    "npc-loot-rules-261028": {
       "stars": 1,
       "comments": 0,
       "average": 5,
@@ -464,6 +492,34 @@
         1
       ]
     },
+    "ship-blueprints": {
+      "stars": 1,
+      "comments": 0,
+      "average": 5,
+      "count": 1,
+      "withText": 0,
+      "histogram": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    "uua-f4": {
+      "stars": 1,
+      "comments": 0,
+      "average": 5,
+      "count": 1,
+      "withText": 0,
+      "histogram": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
     "world-ark-91900": {
       "stars": 2,
       "comments": 0,
@@ -482,6 +538,6 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "evejs-ratings-2026-10-01",
-    "sig": "eLx4DJzaaIh5ehGFORbP8RyvcpxIpWPayYSTVSspn5/Z745C1f7YD7xWlurAQ93+1QmMSlxptGDy4U7xvkEsCA=="
+    "sig": "nqSjjmdPMC0w+Xg6Z7OuS+j94AFGzCQvL4uHMdwhwXlvuivLHdF7cSJ7qp3LG+m8/5xIBxeQGQPP4+0+QDLKDQ=="
   }
 }

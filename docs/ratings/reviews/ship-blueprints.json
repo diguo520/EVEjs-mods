@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": 1795609282228,
+  "modId": "ship-blueprints",
+  "reviews": [],
+  "stars": {
+    "count": 1,
+    "keys": [
+      "19bc54e50c9a"
+    ]
+  },
+  "signature": {
+    "alg": "ed25519",
+    "keyId": "evejs-ratings-2026-10-01",
+    "sig": "JLptA+u4lMMdsf43LbWLj/BJ1xYhfLtmnY+6mWT8+Zz31wSZLtyk0k2p7CqzRVVbG/LlIYzayeM2aEYA6ewhBQ=="
+  }
+}
