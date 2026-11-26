@@ -10,15 +10,15 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/xxxuan42/evejs-mod-corp-ai/releases/download/v0.1.0/corp-ai-0.1.0.zip"
+      "url": "https://github.com/xxxuan42/evejs-mod-corp-ai/releases/download/v0.2.1/corp-ai-0.2.1.zip"
     }
   ],
   "id": "corp-ai",
-  "publishedAt": "2026-11-21",
+  "publishedAt": "2026-11-26",
   "schemaVersion": 1,
-  "sha256": "11b1bdfb6fb515cdc5e2031f1e2561020bdb2269c6e97d47aa744b69be398efd",
-  "sizeBytes": 77074,
+  "sha256": "00a98ce3a3a197c80550e8adb935d4f407de4f2420c27080fdedffc86a76144f",
+  "sizeBytes": 78966,
   "source": "xxxuan42/evejs-mod-corp-ai",
-  "submittedAt": "2026-11-21T08:05:47.629Z",
-  "version": "0.1.0"
+  "submittedAt": "2026-11-26T16:59:36.506Z",
+  "version": "0.2.1"
 }
