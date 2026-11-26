@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1795632192036,
+  "generatedAt": 1795676583475,
   "mods": {
     "better-loot": {
       "stars": 1,
@@ -520,20 +520,6 @@
         0
       ]
     },
-    "uua-f4": {
-      "stars": 1,
-      "comments": 0,
-      "average": 5,
-      "count": 1,
-      "withText": 0,
-      "histogram": [
-        0,
-        0,
-        0,
-        0,
-        1
-      ]
-    },
     "world-ark-91900": {
       "stars": 2,
       "comments": 0,
@@ -552,6 +538,6 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "evejs-ratings-2026-10-01",
-    "sig": "NM5CbvwzXPy9GbH4ApcVF8sezQFdYZJ5aSXZenf0CoCQuOqf5c+ov9EZ0560eEPgBWMr7K5Oxi5vBVk/X18CCA=="
+    "sig": "qd2iuTWHrpAak4ehcGdJRSLCSMNCOQmdCihQ08pkdEWTB04at9f7QGIiUAWu5VzWwdT2N7OnG67QhSw2f5bWDQ=="
   }
 }
