@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-11-26T16:28:31.039Z",
+  "publishedAt": "2026-11-26T16:39:55.791Z",
   "mods": [
     {
       "author": {
@@ -1395,7 +1395,7 @@
       ],
       "version": "1.7.1",
       "source": "xxxuan42/evejs-mod-evejs-skyhook-reagent-boost",
-      "downloads": 656,
+      "downloads": 657,
       "cdnHits": 0
     },
     {
@@ -1566,7 +1566,7 @@
       ],
       "version": "1.3.3",
       "source": "jealous123456789/evejs-mod-mission-content-repair",
-      "downloads": 1648,
+      "downloads": 1649,
       "cdnHits": 0
     },
     {
@@ -1769,38 +1769,36 @@
       "changelog": "",
       "conflicts": [],
       "delisted": false,
-      "description": "任意一个卫星探针（Survey Probe）探测完成后，立即把当前星系所有卫星的矿物组成一次性下发到「卫星探测和分析」窗口；一次探测即可看到全星系卫星矿物，不必逐颗发射探针。矿物数据来自服务端已安装的卫星矿物组成包，与月矿开采产量一致。仅服务端内存补丁，不改客户端文件、数据库与服务端源码。",
+      "description": "任意一个卫星探针（Survey Probe）探测完成后，立即把当前星系所有卫星的矿物组成一次性下发到「卫星探测和分析」窗口；一次探测即可看到全星系卫星矿物，不必逐颗发射探针。矿物数据来自服务端已安装的卫星矿物组成包，与月矿开采产量一致。仅服务端内存补丁，不改客户端文件、数据库与服务端源码。仅支持 EveJS 261125.3。",
       "displayName": "卫星全扫",
       "downloadUrls": [
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/xxxuan42/evejs-mod-evejs-moonscan-all/releases/download/v1.0.4/evejs-moonscan-all-1.0.4.zip"
+          "url": "https://github.com/xxxuan42/evejs-mod-evejs-moonscan-all/releases/download/v1.1.1/evejs-moonscan-all-1.1.1.zip"
         }
       ],
       "evejsVersions": [
-        "261028.1",
-        "261108.1",
-        "261115.2"
+        "261125.3"
       ],
       "featured": false,
       "highlights": [],
       "history": [],
       "id": "evejs-moonscan-all",
-      "publishedAt": "2026-11-21",
+      "publishedAt": "2026-11-26",
       "readme": [
-        "- 探针本身的行为不变：仍按 `explosionDelay`（属性 281）等待、按 `maxVelocity`（属性 37）飞行。\n- 组成包未安装 / 指定星系不在包内（例如 Pochven）时，保持服务端原本的失败关闭行为：只回传探针实际命中的那颗卫星。\n- 兼容 EveJS `261028.1` / `261108.1` / `261115.2`；需要启动器提供注入总线（`globalThis.__evejsMods`）。"
+        "- 探针本身的行为不变：仍按 `explosionDelay`（属性 281）等待、按 `maxVelocity`（属性 37）飞行。\n- 组成包未安装 / 指定星系不在包内（例如 Pochven）时，保持服务端原本的失败关闭行为：只回传探针实际命中的那颗卫星。\n- **仅支持 EveJS `261125.3`**（服务端 `E:\\Xuan\\YX\\EVE-X4\\EveJS-261125.3`）与客户端 `3724492`\n  （客户端 `D:\\XUAN\\EVE-3724492`）；老版本服务端不再兼容。需要启动器提供注入总线（`globalThis.__evejsMods`）。\n- 客户端契约已在 `3724492` 上复核：`OnMoonScanComplete(moonID, {typeID: 丰度})` 与\n  `OnScanNoMaterials(moonID)` 名称、参数均未变化，「卫星探测和分析」仍按字典渲染，无需客户端补丁。"
       ],
       "repo": "https://github.com/xxxuan42/evejs-mod-evejs-moonscan-all",
       "requiresRestart": true,
-      "sha256": "63256329d8014feaef6f4828f1f0e1de841c9b1e06a814bbaf11423c1e3748ff",
-      "sizeBytes": 15543,
+      "sha256": "0747321b770fb3bfcd21d98a9c7e060ffa268b47ebdfc52b4efbaa59c4457f73",
+      "sizeBytes": 16216,
       "tags": [
         "卫星",
         "探测",
         "扫描"
       ],
-      "version": "1.0.4",
+      "version": "1.1.1",
       "source": "xxxuan42/evejs-mod-evejs-moonscan-all",
       "downloads": 349,
       "cdnHits": 0
@@ -2135,7 +2133,7 @@
       ],
       "version": "1.7.1",
       "source": "xxxuan42/evejs-mod-evejs-missile-retarget",
-      "downloads": 110,
+      "downloads": 111,
       "cdnHits": 0
     },
     {
@@ -3068,41 +3066,37 @@
       "changelog": "",
       "conflicts": [],
       "delisted": false,
-      "description": "右键星门点「跳跃」直接过门，不再需要先把船贴近到星门 2500m 内：客户端跳过自动导航、直接调用过门服务，服务端同时解除跳跃距离校验（只放行星门，其它过门规则保持不变）。",
+      "description": "右键星门点「跳跃」直接过门，不再需要先把船贴近到星门 2500m 内：客户端跳过自动导航、直接调用过门服务，服务端同时解除跳跃距离校验（只放行星门，其它过门规则保持不变）。仅适配 EveJS 261125.3 服务端与 EVE 3724492 客户端。",
       "displayName": "星门远距离跳跃",
       "downloadUrls": [
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/xxxuan42/evejs-mod-evejs-stargate-jump-anywhere/releases/download/v1.0.5/evejs-stargate-jump-anywhere-1.0.5.zip"
+          "url": "https://github.com/xxxuan42/evejs-mod-evejs-stargate-jump-anywhere/releases/download/v1.1.1/evejs-stargate-jump-anywhere-1.1.1.zip"
         }
       ],
       "evejsVersions": [
-        "0.12.9",
-        "261018.x",
-        "261028.1",
-        "261108.1",
-        "261115.2"
+        "261125.3"
       ],
       "featured": false,
       "highlights": [],
       "history": [],
       "id": "evejs-stargate-jump-anywhere",
-      "publishedAt": "2026-11-21",
+      "publishedAt": "2026-11-26",
       "readme": [
         "右键星门点「跳跃」直接过门，不再需要先把船贴近到星门 2500m 内。"
       ],
       "repo": "https://github.com/xxxuan42/evejs-mod-evejs-stargate-jump-anywhere",
       "requiresRestart": true,
-      "sha256": "cc9d70764e0ea06ba9376729dbaf27167ae1aa6b35984dd250c46fb1cab829c4",
-      "sizeBytes": 36522,
+      "sha256": "f1352c5a997ac9921d82fdff06446e40be975c638a8631edf04a2a92caece109",
+      "sizeBytes": 37800,
       "tags": [
         "星门",
         "跳跃",
         "距离",
         "右键菜单"
       ],
-      "version": "1.0.5",
+      "version": "1.1.1",
       "source": "xxxuan42/evejs-mod-evejs-stargate-jump-anywhere",
       "downloads": 151,
       "cdnHits": 0
@@ -3636,32 +3630,30 @@
       "changelog": "",
       "conflicts": [],
       "delisted": false,
-      "description": "所有矿物压缩模块、工业核心、会战装备（group 515）的循环时间统一改为 5 秒，电容/燃料消耗按循环比例下调；同步缩放 4 个燃料消耗加成技能的属性 885，保证满级净消耗仍为正数。服务端内存补丁 + 登录 payload 客户端同步（模块信息窗口的作用时间/消耗量与结算一致），不改客户端文件、数据库与服务端源码；停用模组并重启服务端即还原。",
+      "description": "只支持 EveJS 261125.3（客户端 build 3724492）：把矿物压缩模块、工业核心、会战装备（group 515）的循环时间统一改为 5 秒，电容/燃料消耗按循环比例下调；同步缩放 4 个燃料消耗加成技能的属性 885，保证满级净消耗仍为正数。服务端内存补丁 + 登录 payload 客户端同步（模块信息窗口的作用时间/消耗量与结算一致），不改客户端文件、数据库与服务端源码；停用模组并重启服务端即还原。",
       "displayName": "模块5秒循环",
       "downloadUrls": [
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/xxxuan42/evejs-mod-evejs-industrial-module-fast-cycle/releases/download/v1.2.2/evejs-industrial-module-fast-cycle-1.2.2.zip"
+          "url": "https://github.com/xxxuan42/evejs-mod-evejs-industrial-module-fast-cycle/releases/download/v1.3.1/evejs-industrial-module-fast-cycle-1.3.1.zip"
         }
       ],
       "evejsVersions": [
-        "261028.1",
-        "261108.1",
-        "261115.2"
+        "261125.3"
       ],
       "featured": false,
       "highlights": [],
       "history": [],
       "id": "evejs-industrial-module-fast-cycle",
-      "publishedAt": "2026-11-21",
+      "publishedAt": "2026-11-26",
       "readme": [
-        "把三类工业模块的循环时间统一改成 **5 秒**，并把消耗按循环比例下调；纯服务端内存补丁，\n不改客户端文件、不改数据库、不改服务端源码，停用模组并重启服务端即恢复原版。"
+        "把工业模块的循环时间统一改成 **5 秒**，并把消耗按循环比例下调；纯服务端内存补丁，\n不改客户端文件、不改数据库、不改服务端源码，停用模组并重启服务端即恢复原版。"
       ],
       "repo": "https://github.com/xxxuan42/evejs-mod-evejs-industrial-module-fast-cycle",
       "requiresRestart": true,
-      "sha256": "ab06572d37e12de4815d41db92bab3280e731b42c0c28695b9a4d21646711a83",
-      "sizeBytes": 25605,
+      "sha256": "2e27cfac9489e513c5849380b0e0c32537d4b1a6f4bbf3e7bb91859807262a13",
+      "sizeBytes": 27188,
       "tags": [
         "工业",
         "压缩",
@@ -3669,7 +3661,7 @@
         "工业核心",
         "燃料"
       ],
-      "version": "1.2.2",
+      "version": "1.3.1",
       "source": "xxxuan42/evejs-mod-evejs-industrial-module-fast-cycle",
       "downloads": 280,
       "cdnHits": 0
@@ -3717,7 +3709,7 @@
       ],
       "version": "1.0.2",
       "source": "moyuxitypebigFatfish/evejs-mod-evejs-bastion-10s",
-      "downloads": 28,
+      "downloads": 29,
       "cdnHits": 0
     },
     {
@@ -4574,7 +4566,7 @@
       ],
       "version": "1.21.3",
       "source": "xxxuan42/evejs-mod-evejs-jumpdrive-to-star",
-      "downloads": 547,
+      "downloads": 548,
       "cdnHits": 3
     },
     {
@@ -4713,7 +4705,7 @@
       ],
       "version": "1.0.5",
       "source": "lxm970112-hub/evejs-mod-evejs-tie-qi-hu-hang",
-      "downloads": 241,
+      "downloads": 242,
       "cdnHits": 0
     },
     {
@@ -4763,7 +4755,7 @@
       ],
       "version": "1.0.6",
       "source": "moyuxitypebigFatfish/evejs-mod-evejs-molang-class",
-      "downloads": 102,
+      "downloads": 103,
       "cdnHits": 0
     }
   ],
@@ -4796,7 +4788,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "5Yr0rPfu2pSGQeYMfj+7zUHWj3I4cDjr6VQnF7Yu/SCgMTivap4MYA2HRxrflAl3cpomW0O3mFOh6hUTuiJECQ==",
-    "signedAt": "2026-11-26T16:28:31.045Z"
+    "sig": "60wRgXuwZ86AtcrrxwcRYsDo5DpCB62Ifg7QIzZ7Kr0xWI1qnlY2Me/bvVyJZRhORBMy4SsDVJ6Mq6JDwjASAg==",
+    "signedAt": "2026-11-26T16:39:55.797Z"
   }
 }
