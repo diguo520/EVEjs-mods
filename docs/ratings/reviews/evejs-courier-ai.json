@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": 1795733099964,
+  "modId": "evejs-courier-ai",
+  "reviews": [],
+  "stars": {
+    "count": 1,
+    "keys": [
+      "bc816da2a7bc"
+    ]
+  },
+  "signature": {
+    "alg": "ed25519",
+    "keyId": "evejs-ratings-2026-10-01",
+    "sig": "f0R/2g3qZp7bOo7NcPRGvqTvTHTKT3WNBOihxcORt9ng6bxoTaYN2wnpWUVSPL3eEHs4T+FRO+GscwgzpGRoAQ=="
+  }
+}

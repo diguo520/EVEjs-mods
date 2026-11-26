@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1795187021884,
+  "generatedAt": 1795733090737,
   "modId": "evejs-auto-mining-compression",
   "reviews": [],
   "stars": {
-    "count": 1,
+    "count": 2,
     "keys": [
-      "d6eb99d6e65a"
+      "d6eb99d6e65a",
+      "bc816da2a7bc"
     ]
   },
   "signature": {
     "alg": "ed25519",
     "keyId": "evejs-ratings-2026-10-01",
-    "sig": "NWd8roeRIni83XfNDwX+IJjj7PULB/DAoz7lDUKw36KQzvW+NEVirYGmBL5aKDKDs/IgmmTLBfHJcG+usj00Bw=="
+    "sig": "fZZbN4GrxDnEKaYcQmB3wj7NJwyGrYaUpteqhkgFI/iS27PpGbBT5jbWvr7f8oa09v7QnXZlao3azeEc2urWBA=="
   }
 }

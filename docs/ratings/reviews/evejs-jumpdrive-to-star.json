@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1794241826320,
+  "generatedAt": 1795709964457,
   "modId": "evejs-jumpdrive-to-star",
   "reviews": [
     {
@@ -13,7 +13,12 @@
       "version": "1.2.2",
       "date": "2026-11-09",
       "body": "发布新版了更新一下子呀",
-      "edited": false
+      "edited": false,
+      "reply": {
+        "date": "2026-11-26",
+        "body": "ok",
+        "edited": false
+      }
     }
   ],
   "stars": {
@@ -25,6 +30,6 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "evejs-ratings-2026-10-01",
-    "sig": "tyaFM7LkHh4wlRb12j7Wsvt0iyjxb1MEQbt6ZMtH7Q81Mdy5phn840UGY4QHarkXvdh8ExI6LR5UprXXh10nAg=="
+    "sig": "owlN0ud8Yklm/gwbmROiUvD7E5cVx/3JRF0Rm9wOQDcQSme4o+FRUsarTfsRaFvCpaAJpNSOwTEPo2jSxamLAA=="
   }
 }
