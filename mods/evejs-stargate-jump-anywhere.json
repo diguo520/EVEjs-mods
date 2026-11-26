@@ -10,15 +10,15 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/xxxuan42/evejs-mod-evejs-stargate-jump-anywhere/releases/download/v1.0.5/evejs-stargate-jump-anywhere-1.0.5.zip"
+      "url": "https://github.com/xxxuan42/evejs-mod-evejs-stargate-jump-anywhere/releases/download/v1.1.1/evejs-stargate-jump-anywhere-1.1.1.zip"
     }
   ],
   "id": "evejs-stargate-jump-anywhere",
-  "publishedAt": "2026-11-21",
+  "publishedAt": "2026-11-26",
   "schemaVersion": 1,
-  "sha256": "cc9d70764e0ea06ba9376729dbaf27167ae1aa6b35984dd250c46fb1cab829c4",
-  "sizeBytes": 36522,
+  "sha256": "f1352c5a997ac9921d82fdff06446e40be975c638a8631edf04a2a92caece109",
+  "sizeBytes": 37800,
   "source": "xxxuan42/evejs-mod-evejs-stargate-jump-anywhere",
-  "submittedAt": "2026-11-21T08:07:26.884Z",
-  "version": "1.0.5"
+  "submittedAt": "2026-11-26T16:28:53.855Z",
+  "version": "1.1.1"
 }
