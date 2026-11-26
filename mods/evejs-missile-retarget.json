@@ -10,15 +10,15 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/xxxuan42/evejs-mod-evejs-missile-retarget/releases/download/v1.6.2/evejs-missile-retarget-1.6.2.zip"
+      "url": "https://github.com/xxxuan42/evejs-mod-evejs-missile-retarget/releases/download/v1.7.1/evejs-missile-retarget-1.7.1.zip"
     }
   ],
   "id": "evejs-missile-retarget",
-  "publishedAt": "2026-11-21",
+  "publishedAt": "2026-11-26",
   "schemaVersion": 1,
-  "sha256": "23f2e517a7a6a2c6b069f1c5cade2be594c7b1fe728f5c27784d1b9dd8d4a234",
-  "sizeBytes": 49932,
+  "sha256": "93609705bd420fb90f733c7f1c10f3f76b17cef24bc87ea7852a69b18ace1b96",
+  "sizeBytes": 51754,
   "source": "xxxuan42/evejs-mod-evejs-missile-retarget",
-  "submittedAt": "2026-11-21T14:02:44.639Z",
-  "version": "1.6.2"
+  "submittedAt": "2026-11-26T16:21:41.490Z",
+  "version": "1.7.1"
 }
