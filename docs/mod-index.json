@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-11-26T16:00:47.977Z",
+  "publishedAt": "2026-11-26T16:23:50.741Z",
   "mods": [
     {
       "author": {
@@ -348,7 +348,7 @@
       ],
       "version": "1.0.22",
       "source": "diguo520/evejs-mod-evejs-automining",
-      "downloads": 1720,
+      "downloads": 1722,
       "cdnHits": 2955
     },
     {
@@ -534,7 +534,7 @@
       "tags": [],
       "version": "0.1.6",
       "source": "MateralCMX/evejs-mod-gm-menu-localization",
-      "downloads": 797,
+      "downloads": 798,
       "cdnHits": 0
     },
     {
@@ -934,7 +934,7 @@
       "tags": [],
       "version": "0.2.3",
       "source": "MateralCMX/evejs-mod-npc-extension-core",
-      "downloads": 264,
+      "downloads": 265,
       "cdnHits": 0
     },
     {
@@ -1357,32 +1357,30 @@
       "changelog": "",
       "conflicts": [],
       "delisted": false,
-      "description": "主权基建加强：行星试剂采集量 ×20、能量/劳动力 ×20；天钩周期 10 分钟、安全舱/冗余舱 ×100；战略指数 3 分钟满级；月矿 1 天=1 秒就绪、10 秒后碎裂；Metenox 每 10 分钟产出、单周期 ×20、采矿效率 100%、输出舱 ×20，燃料每周期 1 块+34 气，窗口消耗率同步；结构 OWNER_ACCESS 对所有者直接放行；修复接管建筑后锁定无法完成（静态结构锁定并入场景 tick，并为 Metenox/Ansiblex/Tenebrex 补齐锁定属性）；修复结构燃料舱容量 0.0M、GetCapacity 无参调用报错、装配导弹 DPS 除零、矿物舱菜单消失、登上曾驾驶舰船被拒；所有蓝图 ME 研究上限 10%→30%，研究面板/ME 仪表/悬停提示同步；轨道天钩“正在升级”倒计时、Upwell 建筑初始锚定/锚定/上线、FLEX 部署、POS 控制塔/母星模块与海关办公室等部署锚定统一改为 30 秒（typeDogma 556/677 封顶，客户端 structures 倒计时同步 30 秒）。建筑 CPU 输出/能量栅格输出/校准值 ×10、电容回充时间 ×0.4（Upwell 结构、POS 母星、主权建筑，舰船与模块不受影响；客户端属性面板与电容显示同步）。新增：在任意轨道天钩办公室点「提取试剂」，一次性提取本军团所有天钩安全舱的试剂到玩家基地空间站，并以 100 万 ISK 的物品交换合同自动交付（无需货舱/距离）；同一次点击还会提取本军团所有屹立梅特诺克斯卫星钻探的卫星产物（并入同一合同），并在燃料不足 30 天时从玩家基地空间站机库取燃料块/岩浆气补满 30 天；若钻探服务未启动，补料后自动启动（离线时额外预留并扣除 1000 块燃料的上线费）；在梅特诺克斯「卫星材料舱」窗口点「全部拾取」会触发同一套批量提取；客户端类型门与服务端结构校验双重兜底，其他货柜/建筑/残骸的「全部拾取」不受影响；右键「打开卫星材料舱」保持原版（只打开窗口）。每次批量提取/补料后都会向当事人发送游戏内邮件（成功也发）：成功邮件含本次天钩/卫星产物/燃料/服务/合同明细；失败邮件额外含错误码、失败阶段、钱包余额、回滚结果与异常堆栈。仅服务端内存补丁+登录表达式覆盖层，不改客户端文件与源码。",
+      "description": "主权基建加强（仅支持 EveJS 261125.3）：行星试剂采集量 ×20、能量/劳动力 ×20；天钩周期 10 分钟、安全舱/冗余舱 ×100；战略指数 3 分钟满级；月矿 1 天=1 秒就绪、10 秒后碎裂；Metenox 每 10 分钟产出、单周期 ×20、采矿效率 100%、输出舱 ×20，燃料每周期 1 块+34 气，窗口消耗率同步；结构 OWNER_ACCESS 对所有者直接放行；修复接管建筑后锁定无法完成（静态结构锁定并入场景 tick，并为 Metenox/Ansiblex/Tenebrex 补齐锁定属性）；修复结构燃料舱容量 0.0M、GetCapacity 无参调用报错、装配导弹 DPS 除零、矿物舱菜单消失、登上曾驾驶舰船被拒；所有蓝图 ME 研究上限 10%→30%，研究面板/ME 仪表/悬停提示同步；轨道天钩“正在升级”倒计时、Upwell 建筑初始锚定/锚定/上线、FLEX 部署、POS 控制塔/母星模块与海关办公室等部署锚定统一改为 30 秒（typeDogma 556/677 封顶，客户端 structures 倒计时同步 30 秒）。建筑 CPU 输出/能量栅格输出/校准值 ×10、电容回充时间 ×0.4（Upwell 结构、POS 母星、主权建筑，舰船与模块不受影响；客户端属性面板与电容显示同步）。新增：在任意轨道天钩办公室点「提取试剂」，一次性提取本军团所有天钩安全舱的试剂到玩家基地空间站，并以 100 万 ISK 的物品交换合同自动交付（无需货舱/距离）；同一次点击还会提取本军团所有屹立梅特诺克斯卫星钻探的卫星产物（并入同一合同），并在燃料不足 30 天时从玩家基地空间站机库取燃料块/岩浆气补满 30 天；若钻探服务未启动，补料后自动启动（离线时额外预留并扣除 1000 块燃料的上线费）；在梅特诺克斯「卫星材料舱」窗口点「全部拾取」会触发同一套批量提取；客户端类型门与服务端结构校验双重兜底，其他货柜/建筑/残骸的「全部拾取」不受影响；右键「打开卫星材料舱」保持原版（只打开窗口）。每次批量提取/补料后都会向当事人发送游戏内邮件（成功也发）：成功邮件含本次天钩/卫星产物/燃料/服务/合同明细；失败邮件额外含错误码、失败阶段、钱包余额、回滚结果与异常堆栈。仅服务端内存补丁+登录表达式覆盖层，不改客户端文件与源码。",
       "displayName": "主权基建加强",
       "downloadUrls": [
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/xxxuan42/evejs-mod-evejs-skyhook-reagent-boost/releases/download/v1.6.5/evejs-skyhook-reagent-boost-1.6.5.zip"
+          "url": "https://github.com/xxxuan42/evejs-mod-evejs-skyhook-reagent-boost/releases/download/v1.7.1/evejs-skyhook-reagent-boost-1.7.1.zip"
         }
       ],
       "evejsVersions": [
-        "261028.1",
-        "261108.1",
-        "261115.2"
+        "261125.3"
       ],
       "featured": false,
       "highlights": [],
       "history": [],
       "id": "evejs-skyhook-reagent-boost",
-      "publishedAt": "2026-11-25",
+      "publishedAt": "2026-11-26",
       "readme": [
-        "- 容量在服务端以「单位」存储，客户端按试剂体积（如岩浆气 0.01 m³/单位）换算成 m³ 显示。\n- 能量 / 劳动力按行星定义原值 ×10（若服务端自身还有资源倍率，会与它叠加）。\n- 战略指数以星系被占领的时间（`claimTime`）为起点；通过 GM 工具把 `claimTime` 设为 0 的星系不会自动加速（仍可用 GM 指令直接设置天数）。\n- 卫星钻探燃料按周期折算并向上取整：每个 10 分钟周期扣 1 个燃料块 + 34 岩浆气，不留余数，折算每小时约 **6 个燃料块 + 204 岩浆气**；服务从离线转在线时一次性扣的 1,000 块燃料保持原版。\n- 结构权限补丁只影响 `OWNER_ACCESS` 类设置（17、36）；停靠、税率等 `DOCK_ACCESS` / `ALWAYS` 类设置仍按 Profile 规则判定。\n- 卫星材料舱「全部拾取」在服务端按结构 ID 校验：必须是玩家军团的梅特诺克斯（类型 81826）；其他军团的钻探或非梅特诺克斯结构会被拒绝并发送失败邮件。该入口不把产物搬进舰船货舱，也没有 2.5 km 距离限制；右键菜单「打开卫星材料舱」保持原版，只打开窗口。\n- **不会误触发其他仓库窗口**：客户端只替换卫星材料舱专用控制器 `invControllers.StructureMoonMaterialBay.LootAll`，残骸、漂浮货柜、空间站货柜、POS 模块等仍用原版 `BaseCelestialContainer.LootAll`；结构机库/燃料舱继承 `BaseInvContainer`，`GetSpecialActions()` 返回空，本来就没有「全部拾取」。此外客户端加了类型门（非 81826 回退原版），服务端还会再校验结构类型与军团归属，双重兜底。\n- 月矿时间轴只影响**新建**的开采计划；已存在的开采记录不回填，压缩比与碎裂延迟变化在下次开始开采时生效。\n- 蓝图 ME 上限提升后，已有蓝图需要继续研究才能从 10 升到 30；研究等级越高耗时越长（第 10 级之后按最高档时长计算）。客户端提示文案里的「最多不超过 10%」已由覆盖层在内存中同步为 30%，客户端磁盘文件（含本地化数据）零改动。\n- 一键提取只处理**本军团**、处于在线（`active`）且安全舱（`securedStock`）有库存的天钩；同一玩家军团在其他星系的天钩也会一起提取，单个天钩的提取异常会被跳过。\n- 卫星产物来自**本军团**所有梅特诺克斯钻探（类型 81826）的卫星产物舱（flag 186），与其他星系的钻探一并提取；单次点击只生成**一份** 100 万 ISK 合同，天钩试剂和卫星产物合并交付，不额外收费。\n- 燃料补充只作用于**已锚定且未摧毁**的军团梅特诺克斯钻探：目标为 30 天实际消耗（每 10 分钟周期 1 块燃料 + 34 岩浆气，即 4,320 块 + 146,880 气）；只从玩家基地空间站机库取燃料，不动舰船货舱和其他站点，基地不足时补多少算多少并在邮件里列出缺口。\n- 补料后会自动启动未启动的自动月矿服务（service 18）。服务离线时目标燃料块数额外包含 **1000 块上线费**（`onlineFuelBlocks`），启动时由服务端原生流程扣除；服务已在线时不扣费、不重复启动。被强化、受损或已摧毁的钻探会启动失败，并在邮件「失败钻探（服务启动）」中报告。\n- 合同由军团签发、指定给点击按钮的玩家，物品从合同托管交付到**基地空间站**机库（支持 NPC 站与建筑），价格为 100 万 ISK；合同 ID 从 2,000,000,000 起分配，正常合同号段不受影响。若合同接受失败（例如钱包在两步之间被用掉），合同与物品会保留在托管中，可在合同窗口手动接受。\n- 兼容 EveJS `261028.1` / `261108.1` / `261115.2`；需要启动器提供注入总线（`globalThis.__evejsMods`）。\n- 加载前置检查：`lib/launcherGuard.js`（清单 `binding.enforce = observe`，只记日志）。"
+        "- 容量在服务端以「单位」存储，客户端按试剂体积（如岩浆气 0.01 m³/单位）换算成 m³ 显示。\n- 能量 / 劳动力按行星定义原值 ×10（若服务端自身还有资源倍率，会与它叠加）。\n- 战略指数以星系被占领的时间（`claimTime`）为起点；通过 GM 工具把 `claimTime` 设为 0 的星系不会自动加速（仍可用 GM 指令直接设置天数）。\n- 卫星钻探燃料按周期折算并向上取整：每个 10 分钟周期扣 1 个燃料块 + 34 岩浆气，不留余数，折算每小时约 **6 个燃料块 + 204 岩浆气**；服务从离线转在线时一次性扣的 1,000 块燃料保持原版。\n- 结构权限补丁只影响 `OWNER_ACCESS` 类设置（17、36）；停靠、税率等 `DOCK_ACCESS` / `ALWAYS` 类设置仍按 Profile 规则判定。\n- 卫星材料舱「全部拾取」在服务端按结构 ID 校验：必须是玩家军团的梅特诺克斯（类型 81826）；其他军团的钻探或非梅特诺克斯结构会被拒绝并发送失败邮件。该入口不把产物搬进舰船货舱，也没有 2.5 km 距离限制；右键菜单「打开卫星材料舱」保持原版，只打开窗口。\n- **不会误触发其他仓库窗口**：客户端只替换卫星材料舱专用控制器 `invControllers.StructureMoonMaterialBay.LootAll`，残骸、漂浮货柜、空间站货柜、POS 模块等仍用原版 `BaseCelestialContainer.LootAll`；结构机库/燃料舱继承 `BaseInvContainer`，`GetSpecialActions()` 返回空，本来就没有「全部拾取」。此外客户端加了类型门（非 81826 回退原版），服务端还会再校验结构类型与军团归属，双重兜底。\n- 月矿时间轴只影响**新建**的开采计划；已存在的开采记录不回填，压缩比与碎裂延迟变化在下次开始开采时生效。\n- 蓝图 ME 上限提升后，已有蓝图需要继续研究才能从 10 升到 30；研究等级越高耗时越长（第 10 级之后按最高档时长计算）。客户端提示文案里的「最多不超过 10%」已由覆盖层在内存中同步为 30%，客户端磁盘文件（含本地化数据）零改动。\n- 一键提取只处理**本军团**、处于在线（`active`）且安全舱（`securedStock`）有库存的天钩；同一玩家军团在其他星系的天钩也会一起提取，单个天钩的提取异常会被跳过。\n- 卫星产物来自**本军团**所有梅特诺克斯钻探（类型 81826）的卫星产物舱（flag 186），与其他星系的钻探一并提取；单次点击只生成**一份** 100 万 ISK 合同，天钩试剂和卫星产物合并交付，不额外收费。\n- 燃料补充只作用于**已锚定且未摧毁**的军团梅特诺克斯钻探：目标为 30 天实际消耗（每 10 分钟周期 1 块燃料 + 34 岩浆气，即 4,320 块 + 146,880 气）；只从玩家基地空间站机库取燃料，不动舰船货舱和其他站点，基地不足时补多少算多少并在邮件里列出缺口。\n- 补料后会自动启动未启动的自动月矿服务（service 18）。服务离线时目标燃料块数额外包含 **1000 块上线费**（`onlineFuelBlocks`），启动时由服务端原生流程扣除；服务已在线时不扣费、不重复启动。被强化、受损或已摧毁的钻探会启动失败，并在邮件「失败钻探（服务启动）」中报告。\n- 合同由军团签发、指定给点击按钮的玩家，物品从合同托管交付到**基地空间站**机库（支持 NPC 站与建筑），价格为 100 万 ISK；合同 ID 从 2,000,000,000 起分配，正常合同号段不受影响。若合同接受失败（例如钱包在两步之间被用掉），合同与物品会保留在托管中，可在合同窗口手动接受。\n- 兼容 EveJS `261125.3`（**仅支持当前服务端**）；需要启动器提供注入总线（`globalThis.__evejsMods`）。\n- 加载前置检查：`lib/launcherGuard.js`（清单 `binding.enforce = observe`，只记日志）。"
       ],
       "repo": "https://github.com/xxxuan42/evejs-mod-evejs-skyhook-reagent-boost",
       "requiresRestart": true,
-      "sha256": "6c697be2c7d74ef6882663a6cec0d4faa161df46e2267c2a4bf1946b23f15bf4",
-      "sizeBytes": 83870,
+      "sha256": "f06d80a735ba7a1b5196da6464381d28f9ee49ae3c525a4cc2980a43c13f2028",
+      "sizeBytes": 84462,
       "tags": [
         "主权",
         "行星开发",
@@ -1395,7 +1393,7 @@
         "产量",
         "合同"
       ],
-      "version": "1.6.5",
+      "version": "1.7.1",
       "source": "xxxuan42/evejs-mod-evejs-skyhook-reagent-boost",
       "downloads": 656,
       "cdnHits": 0
@@ -1568,7 +1566,7 @@
       ],
       "version": "1.3.3",
       "source": "jealous123456789/evejs-mod-mission-content-repair",
-      "downloads": 1647,
+      "downloads": 1648,
       "cdnHits": 0
     },
     {
@@ -2091,7 +2089,7 @@
       ],
       "version": "1.1.0",
       "source": "kokoandqiong/evejs-mod-evejs-slimitem-name-wstring",
-      "downloads": 203,
+      "downloads": 204,
       "cdnHits": 0
     },
     {
@@ -2110,7 +2108,7 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/xxxuan42/evejs-mod-evejs-missile-retarget/releases/download/v1.6.2/evejs-missile-retarget-1.6.2.zip"
+          "url": "https://github.com/xxxuan42/evejs-mod-evejs-missile-retarget/releases/download/v1.7.1/evejs-missile-retarget-1.7.1.zip"
         }
       ],
       "evejsVersions": [
@@ -2120,14 +2118,14 @@
       "highlights": [],
       "history": [],
       "id": "evejs-missile-retarget",
-      "publishedAt": "2026-11-21",
+      "publishedAt": "2026-11-26",
       "readme": [
         "导弹还在飞，目标先死了？让它改追你当前锁定的目标。"
       ],
       "repo": "https://github.com/xxxuan42/evejs-mod-evejs-missile-retarget",
       "requiresRestart": true,
-      "sha256": "23f2e517a7a6a2c6b069f1c5cade2be594c7b1fe728f5c27784d1b9dd8d4a234",
-      "sizeBytes": 49932,
+      "sha256": "93609705bd420fb90f733c7f1c10f3f76b17cef24bc87ea7852a69b18ace1b96",
+      "sizeBytes": 51754,
       "tags": [
         "导弹",
         "转火",
@@ -2135,9 +2133,9 @@
         "战斗",
         "自动"
       ],
-      "version": "1.6.2",
+      "version": "1.7.1",
       "source": "xxxuan42/evejs-mod-evejs-missile-retarget",
-      "downloads": 109,
+      "downloads": 110,
       "cdnHits": 0
     },
     {
@@ -2390,7 +2388,7 @@
       ],
       "version": "1.1.1",
       "source": "kuroneko-lice/evejs-mod-evejs-shi-chang-jia-ge-xin-xi-tong-bu",
-      "downloads": 311,
+      "downloads": 312,
       "cdnHits": 0
     },
     {
@@ -2446,7 +2444,7 @@
       ],
       "version": "1.0.0",
       "source": "JonnyTC/evejs-mod-evejs-slimitem-name-unicode",
-      "downloads": 151,
+      "downloads": 152,
       "cdnHits": 0
     },
     {
@@ -2637,7 +2635,7 @@
       ],
       "version": "1.2.1",
       "source": "xxxuan42/evejs-mod-evejs-courier-ai",
-      "downloads": 285,
+      "downloads": 286,
       "cdnHits": 0
     },
     {
@@ -2678,7 +2676,7 @@
       "tags": [],
       "version": "0.2.2",
       "source": "xuenaimiao/evejs-mod-evejs-perf-fix",
-      "downloads": 556,
+      "downloads": 557,
       "cdnHits": 0
     },
     {
@@ -2729,7 +2727,7 @@
       ],
       "version": "1.0.1",
       "source": "jealous123456789/evejs-mod-overview-display-fix",
-      "downloads": 534,
+      "downloads": 535,
       "cdnHits": 0
     },
     {
@@ -2876,7 +2874,7 @@
       ],
       "version": "1.5.63",
       "source": "lxm970112-hub/evejs-mod-evejs-wa-kuang",
-      "downloads": 402,
+      "downloads": 403,
       "cdnHits": 2
     },
     {
@@ -2965,7 +2963,7 @@
       ],
       "version": "1.2.6",
       "source": "xxxuan42/evejs-mod-evejs-auto-mining-compression",
-      "downloads": 457,
+      "downloads": 458,
       "cdnHits": 0
     },
     {
@@ -3106,7 +3104,7 @@
       ],
       "version": "1.0.5",
       "source": "xxxuan42/evejs-mod-evejs-stargate-jump-anywhere",
-      "downloads": 150,
+      "downloads": 151,
       "cdnHits": 0
     },
     {
@@ -3910,7 +3908,7 @@
       ],
       "version": "1.0.0",
       "source": "xfeiyu4008/evejs-mod-evejs-perfect-mutation-261028",
-      "downloads": 157,
+      "downloads": 158,
       "cdnHits": 0
     },
     {
@@ -4073,7 +4071,7 @@
       ],
       "version": "1.0.1",
       "source": "jealous123456789/evejs-mod-autopilot-warp-zero",
-      "downloads": 258,
+      "downloads": 259,
       "cdnHits": 0
     },
     {
@@ -4487,7 +4485,7 @@
       ],
       "version": "1.0.0",
       "source": "Arasaka-vip/evejs-mod-evejs-pi-colony-limit",
-      "downloads": 145,
+      "downloads": 146,
       "cdnHits": 0
     },
     {
@@ -4543,41 +4541,40 @@
       "changelog": "",
       "conflicts": [],
       "delisted": false,
-      "description": "跳跃引擎：一键把飞船跳到当前终点。用法：①在星图/信息面板把目标设为终点（星系、空间站、建筑、星门、天体、小行星带、深空书签、虫洞空间星系均可）；②点击 HUD 右侧的跳跃按钮（悬停可看使用说明）。落点规则：星系终点→恒星表面上方 1000km 随机点；空间站/建筑/星门/天体/小行星带/深空书签→目标表面外 14m 随机点。同星系终点跳跃会先播放 5 秒充能（充能动画/音效 + 落点闪光）再落到终点，不再瞬移。未设终点时完整还原微型跳跃引擎（MJD）：充能 5 秒后跳到正前方 500km；若已锁定目标，或右键对目标选择接近/朝向，且目标表面距离 2–2000km，则落到目标表面外 1km（空间站/建筑/舰船均可）；被跃迁扰频器干扰时无法启动。按钮按下后外围进度环走一圈显示充能/冷却（5 秒），点击瞬间即出现，跨星系跳跃不冻结界面；期间点击会提示剩余时间；跳跃成功、充能中、冷却中与失败原因均通过屏幕顶部游戏内提示反馈。跨星系播放约 3–4 秒旗舰跳跃动画。任何飞船可用，不检查跳跃引擎、不消耗燃料、不检查距离。按钮与登录载荷由本模组自带；仅服务端内存补丁，不改客户端文件、数据库与服务端源码。",
+      "description": "跳跃引擎：一键把飞船跳到当前终点。用法：①在星图/信息面板把目标设为终点（星系、空间站、建筑、星门、天体、小行星带、深空书签、虫洞空间星系均可）；②点击 HUD 右侧的跳跃按钮（悬停可看使用说明）。落点规则：星系终点→恒星表面上方 1000km 随机点；空间站/建筑/星门/天体/小行星带/深空书签→目标表面外 14m 随机点。同星系终点跳跃会先播放 5 秒充能（充能动画/音效 + 落点闪光）再落到终点，不再瞬移。未设终点时完整还原微型跳跃引擎（MJD）：充能 5 秒后跳到正前方 500km；若已锁定目标，或右键对目标选择接近/朝向，且目标表面距离 2–2000km，则落到目标表面外 1km（空间站/建筑/舰船均可）；被跃迁扰频器干扰时无法启动。按钮按下后外围出现与自动锁定按钮同款的细弧进度环，5 秒内随充能/冷却收束，点击瞬间即出现，跨星系跳跃不冻结界面；期间点击会提示剩余时间；跳跃成功、充能中、冷却中与失败原因均通过屏幕顶部游戏内提示反馈。跨星系播放约 3–4 秒旗舰跳跃动画。任何飞船可用，不检查跳跃引擎、不消耗燃料、不检查距离。按钮与登录载荷由本模组自带；仅服务端内存补丁，不改客户端文件、数据库与服务端源码。旧舰船控制面板与新「舰船控制面板」均可显示跳跃按钮（新 HUD 位于中央圆环左上，外围细弧冷却圈）；仅适配 EveJS 261125.3（客户端 build 3724492），不兼容旧服务端。",
       "displayName": "跳跃引擎",
       "downloadUrls": [
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/xxxuan42/evejs-mod-evejs-jumpdrive-to-star/releases/download/v1.18.1/evejs-jumpdrive-to-star-1.18.1.zip"
+          "url": "https://github.com/xxxuan42/evejs-mod-evejs-jumpdrive-to-star/releases/download/v1.21.3/evejs-jumpdrive-to-star-1.21.3.zip"
         }
       ],
       "evejsVersions": [
-        "261028.1",
-        "261108.1",
-        "261115.2"
+        "261125.3"
       ],
       "featured": false,
       "highlights": [],
       "history": [],
       "id": "evejs-jumpdrive-to-star",
-      "publishedAt": "2026-11-21",
+      "publishedAt": "2026-11-26",
       "readme": [
+        "> 适配：EveJS **261125.3**（仅此服务端版本）+ EVE 客户端 **build 3724492**（V24.02，Python 2.7）。\n> 旧 HUD 与新「舰船控制面板」都可用：旧 HUD 按钮在左侧按钮列，新 HUD 按钮在中央圆环左上方，两者外围都有 5 秒冷却细弧。",
         "跳跃引擎：一键把飞船跳到当前终点。用法：①在星图/信息面板把目标设为终点（星系、空间站、建筑、星门、天体、小行星带、深空书签、虫洞空间星系均可）；②点击 HUD 右侧的跳跃按钮（悬停可看使用说明）。落点规则：星系终点→恒星表面上方 1000km 随机点；空间站/建筑/星门/天体/小行星带/深空书签→目标表面外 14m 随机点。跨星系播放约 3–4 秒旗舰跳跃动画，同星系为 5 秒充能后落到精确终点。任何飞船可用，不检查跳跃引擎、不消耗燃料、不检查距离。按钮与登录载荷由本模组自带；仅服务端内存补丁，不改客户端文件、数据库与服务端源码。"
       ],
       "repo": "https://github.com/xxxuan42/evejs-mod-evejs-jumpdrive-to-star",
       "requiresRestart": true,
-      "sha256": "34a7d0e45fb163fcbe1cbc3f7953abea3aa15e0e4edbc750eb13dcbf35cd058f",
-      "sizeBytes": 67184,
+      "sha256": "af02c7cf5ecd840b8460f232afad17df80363b6f9a11db1dd3c21386aba05417",
+      "sizeBytes": 77197,
       "tags": [
         "跳跃引擎",
         "跳跃",
         "HUD",
         "落点"
       ],
-      "version": "1.18.1",
+      "version": "1.21.3",
       "source": "xxxuan42/evejs-mod-evejs-jumpdrive-to-star",
-      "downloads": 546,
+      "downloads": 547,
       "cdnHits": 3
     },
     {
@@ -4666,7 +4663,7 @@
       ],
       "version": "1.0.4",
       "source": "kokoandqiong/evejs-mod-evejs-tie-qi-zhong-wu-shang-hai-xiu-fu",
-      "downloads": 327,
+      "downloads": 328,
       "cdnHits": 0
     },
     {
@@ -4716,7 +4713,7 @@
       ],
       "version": "1.0.5",
       "source": "lxm970112-hub/evejs-mod-evejs-tie-qi-hu-hang",
-      "downloads": 240,
+      "downloads": 241,
       "cdnHits": 0
     },
     {
@@ -4799,7 +4796,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "bZE0evZVHfi1xQ4ctvfB0YnON9cnTa7O6G1QEmCjfAmJK95N9qgSKI7mJb3ypuRihzomcBcDNTrnm8edxV7xAw==",
-    "signedAt": "2026-11-26T16:00:47.983Z"
+    "sig": "0bHNcraqe4Jrjbyfd0x99JTLtx4AOClUA3EUXLA6x4gQQ/yCE/2m5/avhOGXxSCxWez8HrqUEWb8HfKAsy4dBA==",
+    "signedAt": "2026-11-26T16:23:50.746Z"
   }
 }
