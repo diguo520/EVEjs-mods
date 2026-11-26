@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-11-26T16:42:09.200Z",
+  "publishedAt": "2026-11-26T16:49:05.265Z",
   "mods": [
     {
       "author": {
@@ -2865,33 +2865,31 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/xxxuan42/evejs-mod-evejs-auto-mining-compression/releases/download/v1.2.6/evejs-auto-mining-compression-1.2.6.zip"
+          "url": "https://github.com/xxxuan42/evejs-mod-evejs-auto-mining-compression/releases/download/v1.3.2/evejs-auto-mining-compression-1.3.2.zip"
         }
       ],
       "evejsVersions": [
-        "261028.1",
-        "261108.1",
-        "261115.2"
+        "261125.3"
       ],
       "featured": false,
       "highlights": [],
       "history": [],
       "id": "evejs-auto-mining-compression",
-      "publishedAt": "2026-11-21",
+      "publishedAt": "2026-11-26",
       "readme": [
         "无人机自动采矿 + 服务端自动压矿（EveJS 服务端内存注入型模组）。",
         "服务端 `server/src` 一个字节都不改：补丁通过启动器注入总线在**内存中**追加到目标模块，\n停用模组并重启服务端即完全还原。"
       ],
       "repo": "https://github.com/xxxuan42/evejs-mod-evejs-auto-mining-compression",
       "requiresRestart": true,
-      "sha256": "f9f0c21b89e0d67d4bab32c1398060822dc10bdd7b5fe65c0216e94913214a14",
-      "sizeBytes": 42708,
+      "sha256": "c0ee8fd22be9b613c0c4c541eed6365c689adf2eaf0874b2282bee4d8d825106",
+      "sizeBytes": 50716,
       "tags": [
         "无人机",
         "采矿",
         "压缩"
       ],
-      "version": "1.2.6",
+      "version": "1.3.2",
       "source": "xxxuan42/evejs-mod-evejs-auto-mining-compression",
       "cdnHits": 0
     },
@@ -4683,7 +4681,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "r4XDNeDPwFYAey7qKUo9u61qXBeOfqyNxSxtJi9AYC7ONBxDwxqDXGyppnnVhsTLZS4j4mb2zaFVu0vPEIh5Ag==",
-    "signedAt": "2026-11-26T16:42:09.204Z"
+    "sig": "M8SUJ53txXDD/C6gp/zUiQ/f2LF9joHKthh8fcHUtFkAyuKIldJAH9aioCoEsI438XHLVBzIl0FXsXyaR+vaAA==",
+    "signedAt": "2026-11-26T16:49:05.271Z"
   }
 }
