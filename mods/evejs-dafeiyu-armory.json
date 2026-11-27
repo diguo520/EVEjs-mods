@@ -1,24 +1,24 @@
 {
   "author": {
-    "id": "au-mwo15tn5ydy0",
-    "keyId": "4606305c8b09",
+    "id": "au-mwxs4qg1v75i",
+    "keyId": "8596438f3c87",
     "name": "神秘大肥鱼"
   },
-  "displayName": "大肥鱼私有军械库",
+  "displayName": "大肥鱼氏改良型多谱式护盾增强器",
   "downloadParts": null,
   "downloadUrls": [
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/moyuxitypebigFatfish/evejs-mod-evejs-dafeiyu-armory/releases/download/v1.5.2/evejs-dafeiyu-armory-1.5.2.zip"
+      "url": "https://github.com/moyuxitypebigFatfish/evejs-mod-evejs-dafeiyu-armory/releases/download/v1.5.3/evejs-dafeiyu-armory-1.5.3.zip"
     }
   ],
   "id": "evejs-dafeiyu-armory",
-  "publishedAt": "2026-11-22",
+  "publishedAt": "2026-11-27",
   "schemaVersion": 1,
-  "sha256": "6e08d9ae17c4993737c56b588547d8ac86c1974f94866ce029d71b670033d75d",
-  "sizeBytes": 11737542,
+  "sha256": "1ece5c710c2d1680291c2e22e46f44daac3e34294d3b37d72aae73e3ea86a436",
+  "sizeBytes": 12018379,
   "source": "moyuxitypebigFatfish/evejs-mod-evejs-dafeiyu-armory",
-  "submittedAt": "2026-11-22T15:00:22.505Z",
-  "version": "1.5.2"
+  "submittedAt": "2026-11-27T11:02:35.753Z",
+  "version": "1.5.3"
 }
