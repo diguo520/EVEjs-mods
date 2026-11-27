@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-11-27T02:59:07.817Z",
+  "publishedAt": "2026-11-27T03:06:19.181Z",
   "mods": [
     {
       "author": {
@@ -2231,7 +2231,7 @@
       ],
       "version": "1.4.3",
       "source": "huihuangdi/evejs-mod-evejs-attribute-editor",
-      "downloads": 294,
+      "downloads": 295,
       "cdnHits": 0
     },
     {
@@ -3508,7 +3508,7 @@
         "name": "普罗旺斯煎饼果子"
       },
       "category": "玩法",
-      "changelog": "适配261115.2服务端",
+      "changelog": "适配261125.3及261126.2服务端",
       "conflicts": [],
       "delisted": false,
       "description": "达到对应高级技能 IV 后，用 /isl m、/isl s、/isl r 分别开启制造、科研、反应的 99 条生产线，再输入一次即可关闭；/isl 查看状态，/isl all 三类一起开关，/isl help 查看用法。未开启时保持原版上限，开启状态跨重启保留。",
@@ -3517,12 +3517,14 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/jealous123456789/evejs-mod-industry-job-slots/releases/download/v1.0.2/industry-job-slots-1.0.2.zip"
+          "url": "https://github.com/jealous123456789/evejs-mod-industry-job-slots/releases/download/v1.0.3/industry-job-slots-1.0.3.zip"
         }
       ],
       "evejsVersions": [
         "261108.x",
-        "261115.x"
+        "261115.x",
+        "261125.x",
+        "261126.x"
       ],
       "featured": false,
       "highlights": [
@@ -3534,18 +3536,18 @@
       ],
       "history": [],
       "id": "industry-job-slots",
-      "publishedAt": "2026-11-17",
+      "publishedAt": "2026-11-27",
       "readme": [
         "制造、科研、反应达到高级批量生产 IV、高级实验室操作 IV、高级批量反应 IV 后，用 `/isl m`、`/isl s`、`/isl r` 分别开启 99 条生产线；未开启时保持原版上限。",
         "`/isl done` 会跳过剩余时间，立即交付当前全部科研、制造、反应任务，正常发放产物、归还蓝图、释放槽位；`/isl done m`、`/isl done s`、`/isl done r` 只完成对应类别。某一条失败不影响其他任务，原因逐条提示；不会补材料或游戏币，交付后不能撤回。",
         "```\n/isl              查看状态\n/isl m / s / r    制造 / 科研 / 反应开或关\n/isl all          三类一起开或关\n/isl done         完成全部任务\n/isl done m|s|r   只完成一类\n/isl help         帮助\n```",
         "再输入一次同样的命令即可关闭。也可以写 `/lines` 或 `/industryslots`。",
-        "**请使用英文命令。** 当前客户端在发送中文斜杠命令时会编码报错，中文命令名不可用。"
+        "**请使用英文命令。** 当前客户端在发送中文斜杠命令时会编码报错，中文命令名不可用。\n当采用非GM账号时，命令开头为“.\"，如”.isl\"。其余相同"
       ],
       "repo": "https://github.com/jealous123456789/evejs-mod-industry-job-slots",
       "requiresRestart": true,
-      "sha256": "0e855a4bac46de1a708ddd6f56ef0188091cafee91d51d6d13cee0e170aa054d",
-      "sizeBytes": 33263,
+      "sha256": "e30ad9e4aa729a2c819db1ee90cfa1eb5e2398e783c3291e249a3c7d27b19b1a",
+      "sizeBytes": 35913,
       "tags": [
         "工业",
         "制造",
@@ -3553,7 +3555,7 @@
         "反应",
         "槽位"
       ],
-      "version": "1.0.2",
+      "version": "1.0.3",
       "source": "jealous123456789/evejs-mod-industry-job-slots",
       "downloads": 189,
       "cdnHits": 0
@@ -3908,7 +3910,7 @@
         "name": "普罗旺斯煎饼果子"
       },
       "category": "工具",
-      "changelog": "适配261115.2服务端",
+      "changelog": "适配261125.3及261126.2服务端",
       "conflicts": [],
       "delisted": false,
       "description": "服务端与客户端的聊天通道会在某些情况下会半死，比如安装某些特定mod实现功能等，这个mod用于修复此bug",
@@ -3917,12 +3919,14 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/jealous123456789/evejs-mod-chat-edge-lane-fix/releases/download/v1.0.1/chat-edge-lane-fix-1.0.1.zip"
+          "url": "https://github.com/jealous123456789/evejs-mod-chat-edge-lane-fix/releases/download/v1.0.2/chat-edge-lane-fix-1.0.2.zip"
         }
       ],
       "evejsVersions": [
         "261108.x",
-        "261115.x"
+        "261115.x",
+        "261125.x",
+        "261126.x"
       ],
       "featured": false,
       "highlights": [
@@ -3935,21 +3939,21 @@
       ],
       "history": [],
       "id": "chat-edge-lane-fix",
-      "publishedAt": "2026-11-17",
+      "publishedAt": "2026-11-27",
       "readme": [
         "客户端聊天连接偶尔会半死，比如 Alt-Tab、打开货舱/机库/牵引货柜、重登或网络抖动。服务器还在给它发消息并一直等确认，等待名额被占满后，聊天、斜杠命令和库存操作会一起卡几分钟。",
         "本模组给每条聊天消息最多等 5 秒，超时就断开卡住的连接，让后面的消息和指令继续。不改变聊天内容、游戏数据、物品和挖矿产出，可随时停用。"
       ],
       "repo": "https://github.com/jealous123456789/evejs-mod-chat-edge-lane-fix",
       "requiresRestart": true,
-      "sha256": "f8e23c8712ef2366e088e86e3ced28ae203811e68fcaeb9f8786c4506f841499",
-      "sizeBytes": 14503,
+      "sha256": "8f2223ed4dde8d2e53d0f7f7a30e4736f231e1cda52e16374ab3aeb968f6a84d",
+      "sizeBytes": 15388,
       "tags": [
         "聊天",
         "修复",
         "服务器"
       ],
-      "version": "1.0.1",
+      "version": "1.0.2",
       "source": "jealous123456789/evejs-mod-chat-edge-lane-fix",
       "downloads": 172,
       "cdnHits": 0
@@ -4023,7 +4027,7 @@
         "name": "普罗旺斯煎饼果子"
       },
       "category": "玩法",
-      "changelog": "适配261115.2服务端",
+      "changelog": "适配261125.3及261126.2服务端",
       "conflicts": [],
       "delisted": false,
       "description": "自动导航到星门与空间站时，跃迁距离改为0米；最后一跳前往目标空间站时也直接跃迁到0米。手动跃迁距离不受影响。",
@@ -4032,12 +4036,14 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/jealous123456789/evejs-mod-autopilot-warp-zero/releases/download/v1.0.1/autopilot-warp-zero-1.0.1.zip"
+          "url": "https://github.com/jealous123456789/evejs-mod-autopilot-warp-zero/releases/download/v1.0.2/autopilot-warp-zero-1.0.2.zip"
         }
       ],
       "evejsVersions": [
         "261108.x",
-        "261115.x"
+        "261115.x",
+        "261125.x",
+        "261126.x"
       ],
       "featured": false,
       "highlights": [
@@ -4048,20 +4054,20 @@
       ],
       "history": [],
       "id": "autopilot-warp-zero",
-      "publishedAt": "2026-11-17",
+      "publishedAt": "2026-11-27",
       "readme": [
         "自动导航到星门与空间站时，跃迁距离改为0米；最后一跳前往目标空间站时也直接跃迁到0米。"
       ],
       "repo": "https://github.com/jealous123456789/evejs-mod-autopilot-warp-zero",
       "requiresRestart": true,
-      "sha256": "8148f32b2b64677345bf43699ef3c0b1369ab8466c25035152b2bdcf3954dddd",
-      "sizeBytes": 10547,
+      "sha256": "767b3546d446f9712a4f93e0091b97243ad88a75a19a884ab2d8cba8b5e259ee",
+      "sizeBytes": 14518,
       "tags": [
         "自动导航",
         "跃迁",
         "玩法"
       ],
-      "version": "1.0.1",
+      "version": "1.0.2",
       "source": "jealous123456789/evejs-mod-autopilot-warp-zero",
       "downloads": 260,
       "cdnHits": 0
@@ -4788,7 +4794,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "rDwaHmBsA1nV73tLxihEST5NkxTEDjEZOZZ/RuJoXQG70Sx59v1Ps3VE3xFkGnrG/KyyhlVIbXAf+N1u9lP9Bw==",
-    "signedAt": "2026-11-27T02:59:07.824Z"
+    "sig": "uT8NdMccQ2JynlbFwKpTih4FKRiOyti4gI6ccbeVjzwvCVFjvePcG2vYtyoxKQqF5xkSU2F90Se0ZdMJMcFJCw==",
+    "signedAt": "2026-11-27T03:06:19.186Z"
   }
 }
