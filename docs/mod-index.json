@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-11-27T11:08:02.881Z",
+  "publishedAt": "2026-11-27T11:10:03.072Z",
   "mods": [
     {
       "author": {
@@ -886,7 +886,7 @@
       "tags": [],
       "version": "0.2.3",
       "source": "MateralCMX/evejs-mod-npc-extension-core",
-      "downloads": 265,
+      "downloads": 266,
       "cdnHits": 0
     },
     {
@@ -4394,7 +4394,7 @@
       ],
       "version": "1.1.0",
       "source": "lxm970112-hub/evejs-mod-evejs-wormhole-anomaly-repair-261028",
-      "downloads": 175,
+      "downloads": 176,
       "cdnHits": 0
     },
     {
@@ -4733,7 +4733,7 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/moyuxitypebigFatfish/evejs-mod-evejs-molang-class/releases/download/v1.0.6/evejs-molang-class-1.0.6.zip"
+          "url": "https://github.com/moyuxitypebigFatfish/evejs-mod-evejs-molang-class/releases/download/v1.0.7/evejs-molang-class-1.0.7.zip"
         }
       ],
       "evejsVersions": [
@@ -4743,18 +4743,18 @@
       "highlights": [],
       "history": [],
       "id": "evejs-molang-class",
-      "publishedAt": "2026-11-24",
+      "publishedAt": "2026-11-27",
       "readme": [
         "新增一艘**米玛塔尔掠夺舰「魔狼级」**，与原来的恶狼级并存。typeID `91901`，克隆自恶狼级 `28665`。"
       ],
       "repo": "https://github.com/moyuxitypebigFatfish/evejs-mod-evejs-molang-class",
       "requiresRestart": true,
-      "sha256": "b03c20cc68ebb7e81aa0577602664df6813a64341edd820371e3da619c65331a",
+      "sha256": "0dc0aa4a0ed8a0ba225bcd7e791c635e9538c4ea477709e8b016a3420dce479f",
       "shots": [
         "shots/01-机库双船.png",
         "shots/02-特性.jpg"
       ],
-      "sizeBytes": 290781,
+      "sizeBytes": 291486,
       "tags": [
         "舰船",
         "掠夺舰",
@@ -4762,7 +4762,7 @@
         "新船",
         "魔狼级"
       ],
-      "version": "1.0.6",
+      "version": "1.0.7",
       "source": "moyuxitypebigFatfish/evejs-mod-evejs-molang-class",
       "downloads": 106,
       "cdnHits": 0
@@ -4797,7 +4797,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "spmMHhg12YR89dvTVboA1BKERUnEdLLHBepaIggWY3kvmuwKJkrAWJdEBSFUhYFdPdzvzQzLV3F+G+ev737uAQ==",
-    "signedAt": "2026-11-27T11:08:02.886Z"
+    "sig": "D0dHrthDWbqOiNa5rD3IcxYZ88oUSdmNy05XWxgHaNw6QnaS420ziOQ2NZVO9N13Ju9uDyrGQd25DN2b3EU7Cw==",
+    "signedAt": "2026-11-27T11:10:03.079Z"
   }
 }
