@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-11-27T15:49:01.472Z",
+  "publishedAt": "2026-11-27T16:07:16.873Z",
   "mods": [
     {
       "author": {
@@ -286,7 +286,7 @@
       ],
       "version": "1.1.10",
       "source": "diguo520/evejs-mod-evejs-autolockfire",
-      "downloads": 2072,
+      "downloads": 2073,
       "cdnHits": 0
     },
     {
@@ -1253,7 +1253,7 @@
       ],
       "version": "1.0.10",
       "source": "diguo520/evejs-mod-evejs-cntext-fix",
-      "downloads": 1471,
+      "downloads": 1472,
       "cdnHits": 2
     },
     {
@@ -1349,7 +1349,7 @@
       ],
       "version": "1.7.2",
       "source": "xxxuan42/evejs-mod-evejs-skyhook-reagent-boost",
-      "downloads": 715,
+      "downloads": 716,
       "cdnHits": 0
     },
     {
@@ -1398,7 +1398,7 @@
       ],
       "version": "1.0.0",
       "source": "JonnyTC/evejs-mod-evejs-agent-portraits",
-      "downloads": 211,
+      "downloads": 212,
       "cdnHits": 0
     },
     {
@@ -1708,7 +1708,7 @@
       ],
       "version": "1.6.4",
       "source": "JUZIMandarin/evejs-mod-evejs-sleeper-drifters",
-      "downloads": 797,
+      "downloads": 798,
       "cdnHits": 0
     },
     {
@@ -2630,7 +2630,7 @@
       ],
       "version": "1.1.1",
       "source": "GH301/evejs-mod-evejs-anomaly-rewards",
-      "downloads": 226,
+      "downloads": 227,
       "cdnHits": 0
     },
     {
@@ -2679,7 +2679,7 @@
       ],
       "version": "1.3.2",
       "source": "xxxuan42/evejs-mod-evejs-courier-ai",
-      "downloads": 343,
+      "downloads": 344,
       "cdnHits": 0
     },
     {
@@ -2773,7 +2773,7 @@
       ],
       "version": "1.0.2",
       "source": "jealous123456789/evejs-mod-overview-display-fix",
-      "downloads": 630,
+      "downloads": 632,
       "cdnHits": 0
     },
     {
@@ -2967,7 +2967,7 @@
       "tags": [],
       "version": "0.7.3",
       "source": "huihuangdi/evejs-mod-evejs-scylla-marauder",
-      "downloads": 85,
+      "downloads": 86,
       "cdnHits": 0
     },
     {
@@ -3386,7 +3386,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "xuenaimiao/evejs-mod-evejs-sc-ships-pack-origin-drake-misc",
-      "downloads": 394,
+      "downloads": 401,
       "cdnHits": 0
     },
     {
@@ -3812,7 +3812,7 @@
       "tags": [],
       "version": "0.1.6",
       "source": "MateralCMX/evejs-mod-mobile-tractor-enhancement",
-      "downloads": 659,
+      "downloads": 660,
       "cdnHits": 0
     },
     {
@@ -4674,7 +4674,7 @@
       ],
       "version": "1.1.21",
       "source": "Mimataer/evejs-mod-evejs-yuan-zheng",
-      "downloads": 467,
+      "downloads": 468,
       "cdnHits": 0
     },
     {
@@ -4779,7 +4779,7 @@
         "name": "神秘大肥鱼"
       },
       "category": "玩法",
-      "changelog": "适配3724492端",
+      "changelog": "修复了信息面板的问题",
       "conflicts": [],
       "delisted": false,
       "description": "在单机服里新增一艘米玛塔尔掠夺舰「魔狼级」（typeID 91901，克隆自恶狼级），与原版恶狼级并存。服务端启动时内存注入 itemTypes/shipTypes/typeDogma/shipDogmaAttributes；首次启动自动调用 tools/patch-client.js 给客户端打补丁（客户端需未运行），之后按 client-patched.json 跳过；客户端补丁写 types/typedogma/dogmaeffects/typelist/本地化/infobubbles/涂装，可 --restore 一键还原。",
@@ -4788,7 +4788,7 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/moyuxitypebigFatfish/evejs-mod-evejs-molang-class/releases/download/v1.0.7/evejs-molang-class-1.0.7.zip"
+          "url": "https://github.com/moyuxitypebigFatfish/evejs-mod-evejs-molang-class/releases/download/v1.0.9/evejs-molang-class-1.0.9.zip"
         }
       ],
       "evejsVersions": [
@@ -4804,12 +4804,12 @@
       ],
       "repo": "https://github.com/moyuxitypebigFatfish/evejs-mod-evejs-molang-class",
       "requiresRestart": true,
-      "sha256": "0dc0aa4a0ed8a0ba225bcd7e791c635e9538c4ea477709e8b016a3420dce479f",
+      "sha256": "03e92d7ca8f4f7bb4f84d215cf214ffbdba48c7b9bc6542981726e1163ee339d",
       "shots": [
         "shots/01-机库双船.png",
         "shots/02-特性.jpg"
       ],
-      "sizeBytes": 291486,
+      "sizeBytes": 294053,
       "tags": [
         "舰船",
         "掠夺舰",
@@ -4817,7 +4817,7 @@
         "新船",
         "魔狼级"
       ],
-      "version": "1.0.7",
+      "version": "1.0.9",
       "source": "moyuxitypebigFatfish/evejs-mod-evejs-molang-class",
       "downloads": 120,
       "cdnHits": 0
@@ -4852,7 +4852,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "G3a1eUeKImgv1Z+dV1GzsAs+V3ZXyCXIW9PCNqaQ9D+HJeegShVezo2EJ/ZY40NQ3Nn1GUGYzX8OOmQQ/GZiBw==",
-    "signedAt": "2026-11-27T15:49:01.478Z"
+    "sig": "3cZ4iTDmuy14AvNXPXxLln1vbWs+V48opaCpga0z10MlP5wQke/tBm79A31ZN3wByTXkvH3rN+Sg1o+pOakqDQ==",
+    "signedAt": "2026-11-27T16:07:16.881Z"
   }
 }
