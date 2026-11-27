@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-11-27T12:14:27.641Z",
+  "publishedAt": "2026-11-27T12:17:54.814Z",
   "mods": [
     {
       "author": {
@@ -841,7 +841,7 @@
       "tags": [],
       "version": "1.2.2",
       "source": "huihuangdi/evejs-mod-npc-bounty-tuning",
-      "downloads": 178,
+      "downloads": 179,
       "cdnHits": 0
     },
     {
@@ -930,7 +930,7 @@
       "tags": [],
       "version": "0.5.4",
       "source": "huihuangdi/evejs-mod-npc-loot-mutation",
-      "downloads": 220,
+      "downloads": 221,
       "cdnHits": 0
     },
     {
@@ -2796,7 +2796,7 @@
         }
       ],
       "evejsVersions": [
-        "261115.x"
+        "261125.x"
       ],
       "featured": false,
       "highlights": [
@@ -2930,37 +2930,42 @@
         "name": "辉煌帝"
       },
       "category": "舰船",
-      "changelog": "移除包内缓存",
+      "changelog": "",
       "conflicts": [],
       "delisted": false,
-      "description": "新增加达里掠夺级「斯库拉级 / Scylla」（typeID 700001，借用魔像模型），复制魔像级全部船体加成，并追加专属加成「暴雨梨花」：导弹出膛后分裂成 10 枚 -1 尺寸导弹，总伤害与总射程不变（含自动锁定弹药 396→395→394）。自带本地 HTML 编辑器：双击 mods/evejs-scylla-marauder/Start-Ship-Editor.bat（端口 26105，只写 data/ship.json），改完重启服务端生效。",
+      "description": "加达里掠夺舰斯库拉级（typeID 700001）：复制魔像全部船体加成，专属导弹分裂加成「暴雨梨花」（出膛分裂 10 枚 −1 尺寸，总伤与射程不变），带本地舰船编辑器；客户端数据统一由 fsd-hub 发布。",
       "displayName": "斯库拉级（Scylla）· 暴雨梨花",
       "downloadUrls": [
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/huihuangdi/evejs-mod-evejs-scylla-marauder/releases/download/v0.6.6/evejs-scylla-marauder-0.6.6.zip"
+          "url": "https://github.com/huihuangdi/evejs-mod-evejs-scylla-marauder/releases/download/v0.7.3/evejs-scylla-marauder-0.7.3.zip"
         }
       ],
       "evejsVersions": [
-        "261115.x"
+        "261125.x"
       ],
       "featured": false,
-      "highlights": [],
+      "highlights": [
+        "新舰船 **typeID 700001**，模型借用魔像（28710），船体属性与全部魔像加成逐项复制。",
+        "专属加成「暴雨梨花」：导弹出膛后分裂成 10 枚 −1 尺寸的导弹，**总伤与总射程不变**。",
+        "自动锁定弹药改为 396 → 395 → 394（分裂弹链），登录载荷与分裂钩子配套。",
+        "客户端四类数据由 fsd-hub 发布：`types`、`typedogma`、中英文本地化（4 条：名称 / 描述 / 语录 / 语录作者）、`infobubbles`（舰船加成页）。",
+        "自带本地编辑器（`Start-Ship-Editor.bat`，`127.0.0.1:26105`），只写 `data/ship.json`。"
+      ],
       "history": [],
       "id": "evejs-scylla-marauder",
-      "publishedAt": "2026-11-24",
+      "publishedAt": "2026-11-27",
       "readme": [
-        "在 EveJS 里新增加达里**掠夺级**战舰 `斯库拉级 / Scylla`（typeID `700001`），复制魔像级（Golem）的全部船体加成，\n并追加专属加成 **暴雨梨花**：导弹在出膛后分裂为 10 枚「-1 尺寸」导弹 —— 总伤害与总射程不变，仍吃技能与装备加成。",
-        "设计文档：[`doc/planning/开发计划-斯库拉级-暴雨梨花.md`](../../doc/planning/开发计划-斯库拉级-暴雨梨花.md)",
-        "**编辑器（改数值 / 文案用）：双击 `mods/evejs-scylla-marauder/Start-Ship-Editor.bat`** ——\n端口 `26105`，只写 `data/ship.json`，改完重启服务端生效（改服务端逻辑不用动客户端）。\n命令行等价写法：`node mods/evejs-scylla-marauder/editor/server.js --open`。"
+        "`data/ship.json` 是唯一数据源：船体字段、属性表、effect 表、加成文案与 messageID 都在里面。\n`loader.js` 在服务端做两件事：把 `referenceData` 的合并层（slot 50）与 `itemTypes` 类型行注册进服务端，\n并在 `scene/dynamicEntities.js` 上包裹 `launchMissile`（slot 60）实现分裂。",
+        "客户端数据不走本模组的部署器：`tools/fsd-spec.js` 把 `ship.json` 变成 fsd-hub 的贡献\n（`types.add` / `typedogma.add` / `localization.add` / `infobubbles.add`，priority 50），由 hub 从 base\n重放并发布。`typedogma` 里只写客户端认识的属性 ID——服务端专用属性会让客户端 `get_attribute` KeyError。"
       ],
       "repo": "https://github.com/huihuangdi/evejs-mod-evejs-scylla-marauder",
       "requiresRestart": true,
-      "sha256": "2f61ad50ac4efcacf551e1a351ecdf461b4c94a6f6b9731c8c3b2aa80b6ff386",
-      "sizeBytes": 148832,
+      "sha256": "4eebceefa66d50d79c84a9b2857fe7599f7a4c8b6602a8d65dd44816aaefc7d8",
+      "sizeBytes": 381972,
       "tags": [],
-      "version": "0.6.6",
+      "version": "0.7.3",
       "source": "huihuangdi/evejs-mod-evejs-scylla-marauder",
       "downloads": 72,
       "cdnHits": 0
@@ -3807,7 +3812,7 @@
       "tags": [],
       "version": "0.1.6",
       "source": "MateralCMX/evejs-mod-mobile-tractor-enhancement",
-      "downloads": 654,
+      "downloads": 655,
       "cdnHits": 0
     },
     {
@@ -4847,7 +4852,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "VP72g3dQZXHhwE2jTx/Ec5ZH0B14OUgHBbVn33I1UHbaxxEExeaQTf1qEJyNSGl6ANj7B2mcvsaVGHb1XboiCQ==",
-    "signedAt": "2026-11-27T12:14:27.647Z"
+    "sig": "5RRU/khZqTDjqVqFE4+IJ8/imi10zeXSgpbLo93PNbXT67vXgySFcBZOCvlWHLHFoId+NfPfSAhj62oAiRr+BQ==",
+    "signedAt": "2026-11-27T12:17:54.819Z"
   }
 }
