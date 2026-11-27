@@ -10,15 +10,15 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/huihuangdi/evejs-mod-evejs-dps-meter/releases/download/v0.2.1/evejs-dps-meter-0.2.1.zip"
+      "url": "https://github.com/huihuangdi/evejs-mod-evejs-dps-meter/releases/download/v0.2.3/evejs-dps-meter-0.2.3.zip"
     }
   ],
   "id": "evejs-dps-meter",
-  "publishedAt": "2026-11-23",
+  "publishedAt": "2026-11-27",
   "schemaVersion": 1,
-  "sha256": "f75cc368bf2f851c6369fa758e28e88eb6b7a0a46843b891fd5cb5567cbb2004",
-  "sizeBytes": 40409,
+  "sha256": "fd9d965b2c82fc4fb1d65e8080b0f0585146fe1f00391e1b717a5bc62b4028ca",
+  "sizeBytes": 110753,
   "source": "huihuangdi/evejs-mod-evejs-dps-meter",
-  "submittedAt": "2026-11-23T16:46:24.821Z",
-  "version": "0.2.1"
+  "submittedAt": "2026-11-27T12:11:51.598Z",
+  "version": "0.2.3"
 }
