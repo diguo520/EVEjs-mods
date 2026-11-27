@@ -10,15 +10,15 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/huihuangdi/evejs-mod-evejs-scylla-marauder/releases/download/v0.6.6/evejs-scylla-marauder-0.6.6.zip"
+      "url": "https://github.com/huihuangdi/evejs-mod-evejs-scylla-marauder/releases/download/v0.7.3/evejs-scylla-marauder-0.7.3.zip"
     }
   ],
   "id": "evejs-scylla-marauder",
-  "publishedAt": "2026-11-24",
+  "publishedAt": "2026-11-27",
   "schemaVersion": 1,
-  "sha256": "2f61ad50ac4efcacf551e1a351ecdf461b4c94a6f6b9731c8c3b2aa80b6ff386",
-  "sizeBytes": 148832,
+  "sha256": "4eebceefa66d50d79c84a9b2857fe7599f7a4c8b6602a8d65dd44816aaefc7d8",
+  "sizeBytes": 381972,
   "source": "huihuangdi/evejs-mod-evejs-scylla-marauder",
-  "submittedAt": "2026-11-24T04:28:57.312Z",
-  "version": "0.6.6"
+  "submittedAt": "2026-11-27T12:14:02.516Z",
+  "version": "0.7.3"
 }
