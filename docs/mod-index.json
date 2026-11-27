@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-11-27T03:31:58.693Z",
+  "publishedAt": "2026-11-27T04:05:23.896Z",
   "mods": [
     {
       "author": {
@@ -286,7 +286,7 @@
       ],
       "version": "1.1.10",
       "source": "diguo520/evejs-mod-evejs-autolockfire",
-      "downloads": 2048,
+      "downloads": 2050,
       "cdnHits": 0
     },
     {
@@ -534,7 +534,7 @@
       "tags": [],
       "version": "0.1.6",
       "source": "MateralCMX/evejs-mod-gm-menu-localization",
-      "downloads": 805,
+      "downloads": 806,
       "cdnHits": 0
     },
     {
@@ -2725,7 +2725,7 @@
       ],
       "version": "1.0.2",
       "source": "jealous123456789/evejs-mod-overview-display-fix",
-      "downloads": 548,
+      "downloads": 553,
       "cdnHits": 0
     },
     {
@@ -3498,7 +3498,7 @@
       ],
       "version": "1.1.1",
       "source": "jealous123456789/evejs-mod-better-loot",
-      "downloads": 446,
+      "downloads": 447,
       "cdnHits": 0
     },
     {
@@ -3557,7 +3557,7 @@
       ],
       "version": "1.0.3",
       "source": "jealous123456789/evejs-mod-industry-job-slots",
-      "downloads": 191,
+      "downloads": 192,
       "cdnHits": 0
     },
     {
@@ -3709,7 +3709,7 @@
       ],
       "version": "1.0.2",
       "source": "moyuxitypebigFatfish/evejs-mod-evejs-bastion-10s",
-      "downloads": 32,
+      "downloads": 33,
       "cdnHits": 0
     },
     {
@@ -3808,7 +3808,7 @@
         "name": "普罗旺斯煎饼果子"
       },
       "category": "玩法",
-      "changelog": "适配261115.2服务端",
+      "changelog": "适配了261125.3及261126.2服务端",
       "conflicts": [],
       "delisted": false,
       "description": "按实际逻辑更新了小行星矿带，异常矿带的刷怪逻辑，同时更新了异常矿带的刷新逻辑",
@@ -3817,12 +3817,14 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/jealous123456789/evejs-mod-belt-respawn-cooldown/releases/download/v1.0.2/belt-respawn-cooldown-1.0.2.zip"
+          "url": "https://github.com/jealous123456789/evejs-mod-belt-respawn-cooldown/releases/download/v1.0.3/belt-respawn-cooldown-1.0.3.zip"
         }
       ],
       "evejsVersions": [
         "261108.x",
-        "261115.x"
+        "261115.x",
+        "261125.x",
+        "261126.x"
       ],
       "featured": false,
       "highlights": [
@@ -3832,20 +3834,20 @@
       ],
       "history": [],
       "id": "belt-respawn-cooldown",
-      "publishedAt": "2026-11-17",
+      "publishedAt": "2026-11-27",
       "readme": [
         "小行星带怪改为在本星系矿带中随机出现，不是每个矿带固定刷；清掉后该矿带约 20 分钟冷却，计时会保存。\n公共矿物异常每个实例只刷第一组；清掉后同一位面不再刷，等矿采完换成新异常后，新异常才重新有第一组。\n矿石异常站点按类型刷新：新矿点为 1 小时、4 小时 20 分、10 小时；旧式站点为 1/2/3/4/5 小时；默克石为 8/12 小时；边境稀有立即刷新；没有明确大小的普通异常约 2 小时。"
       ],
       "repo": "https://github.com/jealous123456789/evejs-mod-belt-respawn-cooldown",
       "requiresRestart": true,
-      "sha256": "465c01a61d2940094bf081793712dc2a5c856db4477d81b90b7695117e61f7d4",
-      "sizeBytes": 29658,
+      "sha256": "044bea70c0a801ec9b8a5b795eec5c9d6f6c2db4823294a6a87c576e4a38f22b",
+      "sizeBytes": 39727,
       "tags": [
         "矿带",
         "刷新",
         "重刷"
       ],
-      "version": "1.0.2",
+      "version": "1.0.3",
       "source": "jealous123456789/evejs-mod-belt-respawn-cooldown",
       "downloads": 249,
       "cdnHits": 0
@@ -3955,7 +3957,7 @@
       ],
       "version": "1.0.2",
       "source": "jealous123456789/evejs-mod-chat-edge-lane-fix",
-      "downloads": 173,
+      "downloads": 174,
       "cdnHits": 0
     },
     {
@@ -4017,7 +4019,7 @@
       ],
       "version": "1.0.5",
       "source": "jealous123456789/evejs-mod-evejs-logo-manager",
-      "downloads": 179,
+      "downloads": 181,
       "cdnHits": 0
     },
     {
@@ -4069,7 +4071,7 @@
       ],
       "version": "1.0.2",
       "source": "jealous123456789/evejs-mod-autopilot-warp-zero",
-      "downloads": 262,
+      "downloads": 264,
       "cdnHits": 0
     },
     {
@@ -4184,7 +4186,7 @@
       ],
       "version": "1.2.3",
       "source": "jealous123456789/evejs-mod-pi-manager",
-      "downloads": 387,
+      "downloads": 390,
       "cdnHits": 2
     },
     {
@@ -4528,7 +4530,7 @@
       ],
       "version": "1.0.0",
       "source": "lxm970112-hub/evejs-mod-evejs-fitting-ship-slots",
-      "downloads": 73,
+      "downloads": 74,
       "cdnHits": 3
     },
     {
@@ -4796,7 +4798,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "cK3iZSSBwdOmD1TDkZqHsfGXZw9llmYGyzLWz4fSf4iCVdNxNPMbhHEhsx85Wp5iafoxdRqWThyg940IUN/3BQ==",
-    "signedAt": "2026-11-27T03:31:58.699Z"
+    "sig": "gJN2D0pM2BKdSggm+Csqecmg/TQSWnpJP6dMmcI4BTKLGvKD4yuDF2ZJIo3tnYhQeCadyk2Gk79mgCgJqBRnBA==",
+    "signedAt": "2026-11-27T04:05:23.903Z"
   }
 }
