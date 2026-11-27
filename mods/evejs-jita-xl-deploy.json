@@ -1,24 +1,24 @@
 {
   "author": {
-    "id": "au-mwo15tn5ydy0",
-    "keyId": "4606305c8b09",
+    "id": "au-mwxs4qg1v75i",
+    "keyId": "8596438f3c87",
     "name": "神秘大肥鱼"
   },
-  "displayName": "Jita XL 建筑 + 泰坦船坞解锁",
+  "displayName": "吉他部署星城",
   "downloadParts": null,
   "downloadUrls": [
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/moyuxitypebigFatfish/evejs-mod-evejs-jita-xl-deploy/releases/download/v1.1.4/evejs-jita-xl-deploy-1.1.4.zip"
+      "url": "https://github.com/moyuxitypebigFatfish/evejs-mod-evejs-jita-xl-deploy/releases/download/v1.1.5/evejs-jita-xl-deploy-1.1.5.zip"
     }
   ],
   "id": "evejs-jita-xl-deploy",
-  "publishedAt": "2026-11-23",
+  "publishedAt": "2026-11-27",
   "schemaVersion": 1,
-  "sha256": "b09940b8e3b9daafc3b8efa29a391b993d97eaa9948fbed1d41e36610fe8967c",
-  "sizeBytes": 35801,
+  "sha256": "653809b96749ab4615519e84eabd7c33934b2f43156f222c2fbf715fee17c13e",
+  "sizeBytes": 33434,
   "source": "moyuxitypebigFatfish/evejs-mod-evejs-jita-xl-deploy",
-  "submittedAt": "2026-11-23T14:11:45.227Z",
-  "version": "1.1.4"
+  "submittedAt": "2026-11-27T11:00:09.074Z",
+  "version": "1.1.5"
 }
