@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-11-27T11:10:03.072Z",
+  "publishedAt": "2026-11-27T12:14:27.641Z",
   "mods": [
     {
       "author": {
@@ -45,7 +45,7 @@
       ],
       "version": "1.2.3",
       "source": "jealous123456789/evejs-mod-evejs-air-career-payout",
-      "downloads": 280,
+      "downloads": 281,
       "cdnHits": 0
     },
     {
@@ -92,7 +92,7 @@
       ],
       "version": "1.1.0",
       "source": "jealous123456789/evejs-mod-evejs-air-crate-loot",
-      "downloads": 295,
+      "downloads": 296,
       "cdnHits": 0
     },
     {
@@ -137,7 +137,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "rzwm/evejs-mod-evejs-autolockfire-cn",
-      "downloads": 407,
+      "downloads": 409,
       "cdnHits": 0
     },
     {
@@ -180,7 +180,7 @@
       "tags": [],
       "version": "1.1.0",
       "source": "rzwm/evejs-mod-evejs-beijing-time",
-      "downloads": 452,
+      "downloads": 453,
       "cdnHits": 0
     },
     {
@@ -239,7 +239,7 @@
       "tags": [],
       "version": "0.18.5",
       "source": "MateralCMX/evejs-mod-bug-fixes",
-      "downloads": 1105,
+      "downloads": 1107,
       "cdnHits": 0
     },
     {
@@ -286,7 +286,7 @@
       ],
       "version": "1.1.10",
       "source": "diguo520/evejs-mod-evejs-autolockfire",
-      "downloads": 2058,
+      "downloads": 2061,
       "cdnHits": 0
     },
     {
@@ -348,7 +348,7 @@
       ],
       "version": "1.0.22",
       "source": "diguo520/evejs-mod-evejs-automining",
-      "downloads": 1728,
+      "downloads": 1730,
       "cdnHits": 2956
     },
     {
@@ -485,7 +485,7 @@
       "tags": [],
       "version": "0.2.7",
       "source": "MateralCMX/evejs-mod-ship-blueprints",
-      "downloads": 421,
+      "downloads": 425,
       "cdnHits": 0
     },
     {
@@ -534,7 +534,7 @@
       "tags": [],
       "version": "0.1.6",
       "source": "MateralCMX/evejs-mod-gm-menu-localization",
-      "downloads": 817,
+      "downloads": 821,
       "cdnHits": 0
     },
     {
@@ -579,7 +579,7 @@
       ],
       "version": "1.0.0",
       "source": "ewinted/evejs-mod-evejs-mtu-multi-target",
-      "downloads": 140,
+      "downloads": 141,
       "cdnHits": 0
     },
     {
@@ -653,7 +653,7 @@
       ],
       "banner": "shots/Banner/banner.jpg",
       "source": "xuenaimiao/evejs-mod-evejs-faction-sim",
-      "downloads": 2477,
+      "downloads": 2484,
       "cdnHits": 3644
     },
     {
@@ -703,7 +703,7 @@
       ],
       "version": "1.0.0",
       "source": "JonnyTC/evejs-mod-evejs-npc-hull-hp-fix",
-      "downloads": 207,
+      "downloads": 208,
       "cdnHits": 0
     },
     {
@@ -743,7 +743,7 @@
       "tags": [],
       "version": "0.6.0",
       "source": "Jasper377/evejs-mod-evejs-npc-console",
-      "downloads": 303,
+      "downloads": 305,
       "cdnHits": 0
     },
     {
@@ -795,7 +795,7 @@
       "tags": [],
       "version": "0.2.0",
       "source": "xuenaimiao/evejs-mod-evejs-npc-fleet",
-      "downloads": 435,
+      "downloads": 437,
       "cdnHits": 0
     },
     {
@@ -808,17 +808,17 @@
       "changelog": "",
       "conflicts": [],
       "delisted": false,
-      "description": "NPC 赏金结算周期与全局赔率可配置（mods/npc-bounty-tuning/config.json），改完重启服务端生效",
+      "description": "把服务端「击杀 NPC 后每 20 分钟结算一次赏金」改成可配置周期，并额外提供全局赏金倍率。1.2.0 起配置改存 _local/mods/npc-bounty-tuning/config/config.json（不随模组包发布，旧位置首次启动自动迁移）。改完重启服务端生效。",
       "displayName": "NPC 赏金结算调校",
       "downloadUrls": [
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/huihuangdi/evejs-mod-npc-bounty-tuning/releases/download/v1.1.2/npc-bounty-tuning-1.1.2.zip"
+          "url": "https://github.com/huihuangdi/evejs-mod-npc-bounty-tuning/releases/download/v1.2.2/npc-bounty-tuning-1.2.2.zip"
         }
       ],
       "evejsVersions": [
-        "261115.x"
+        "261125.x"
       ],
       "featured": false,
       "highlights": [
@@ -828,20 +828,20 @@
       ],
       "history": [],
       "id": "npc-bounty-tuning",
-      "publishedAt": "2026-11-20",
+      "publishedAt": "2026-11-27",
       "readme": [
-        "把 EveJS 服务端「击杀 NPC 的赏金每 **20 分钟**结算一次」改造成**周期可配置**，并额外提供一个\n**全局赏金倍率**。配置就是模组目录下的 `config.json`，**改完重启服务端生效**。",
+        "把 EveJS 服务端「击杀 NPC 的赏金每 **20 分钟**结算一次」改造成**周期可配置**，并额外提供一个\n**全局赏金倍率**。配置就是 `_local/mods/npc-bounty-tuning/config/config.json`（用户数据，不随模组包发布；旧版放在模组目录根的 `config.json`，首次启动自动迁移），**改完重启服务端生效**。",
         "想调就改数字，想关就 `enabled: false`。",
         "---"
       ],
       "repo": "https://github.com/huihuangdi/evejs-mod-npc-bounty-tuning",
       "requiresRestart": true,
-      "sha256": "2be87eee76fd101594ccd3a0f66f4fa3f3ba07f14a11be7b0109db2e165e0473",
-      "sizeBytes": 23949,
+      "sha256": "fb4cb090efc0788a8562da5ea433ef6e970b15fa79ce6f71f2bdcb6b161634b7",
+      "sizeBytes": 92584,
       "tags": [],
-      "version": "1.1.2",
+      "version": "1.2.2",
       "source": "huihuangdi/evejs-mod-npc-bounty-tuning",
-      "downloads": 177,
+      "downloads": 178,
       "cdnHits": 0
     },
     {
@@ -886,7 +886,7 @@
       "tags": [],
       "version": "0.2.3",
       "source": "MateralCMX/evejs-mod-npc-extension-core",
-      "downloads": 266,
+      "downloads": 268,
       "cdnHits": 0
     },
     {
@@ -905,11 +905,11 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/huihuangdi/evejs-mod-npc-loot-mutation/releases/download/v0.5.1/npc-loot-mutation-0.5.1.zip"
+          "url": "https://github.com/huihuangdi/evejs-mod-npc-loot-mutation/releases/download/v0.5.4/npc-loot-mutation-0.5.4.zip"
         }
       ],
       "evejsVersions": [
-        "261115.x"
+        "261125.x"
       ],
       "featured": false,
       "highlights": [
@@ -919,16 +919,16 @@
       ],
       "history": [],
       "id": "npc-loot-mutation",
-      "publishedAt": "2026-11-21",
+      "publishedAt": "2026-11-27",
       "readme": [
         "在 NPC 残骸掉落生成时，把**可突变的模块 / 无人机**按 NPC 档位随机突变成对应的 **Abyssal** 产物（属性区间与游戏内突变质体一致）。"
       ],
       "repo": "https://github.com/huihuangdi/evejs-mod-npc-loot-mutation",
       "requiresRestart": true,
-      "sha256": "b2e70eab2f16ad478a5b90ad2b65e14b535a886ae47dabde979a03d4c98a6781",
-      "sizeBytes": 39771,
+      "sha256": "3c359d62c0283358c425227218f3820c88fcd3449573582c6c895fdbaa5740c7",
+      "sizeBytes": 116977,
       "tags": [],
-      "version": "0.5.1",
+      "version": "0.5.4",
       "source": "huihuangdi/evejs-mod-npc-loot-mutation",
       "downloads": 220,
       "cdnHits": 0
@@ -940,43 +940,45 @@
         "name": "辉煌帝"
       },
       "category": "玩法",
-      "changelog": "用户配置迁移到MOD目录外",
+      "changelog": "",
       "conflicts": [],
       "delisted": false,
-      "description": "把 NPC 掉落的炮台/导弹发射器/抗性装备突变为 102 个深渊产物（含 6 个突变催化器）；客户端数据（含 typeMaterials 工业/精炼信息）由 tools/client-sync.js 部署；属性范围由 data/ranges.json 可调，并带本地网页编辑器（Start-Range-Editor.bat，百分比仅只读预览）；登录载荷把每门发射器的 213 补进客户端装配面板/HUD 的导弹伤害显示（0.3.4）。",
+      "description": "把 NPC 掉落的炮台/发射器/抗性装备按档位突变为 102 个深渊产物 + 9 个催化器（共 111 个新 typeID），带属性范围编辑器、工业/技能要求表与装配面板 213 显示；客户端静态表统一由 fsd-hub 发布。",
       "displayName": "NPC掉落突变扩展",
       "downloadUrls": [
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/huihuangdi/evejs-mod-npc-loot-mutation-ext/releases/download/v0.4.1/npc-loot-mutation-ext-0.4.1.zip"
+          "url": "https://github.com/huihuangdi/evejs-mod-npc-loot-mutation-ext/releases/download/v0.6.1/npc-loot-mutation-ext-0.6.1.zip"
         }
       ],
       "evejsVersions": [
-        "261115.x"
+        "261125.x"
       ],
       "featured": false,
       "highlights": [
-        "兼容服务端：**EveJS 261108.x**（基线文件为 261108.1；261028.x 时代的旧清单不再适用）",
-        "依赖：`npc-loot-mutation >= 0.4.0`（惰性索引；与本模组同批适配 261108.1）",
-        "重启类型：游戏服务器（`restart: game_server`）",
-        "新增类型：**111 个** = 102 个产物（炮台 64 + 发射器 11 + 抗性 27）+ 9 个突变催化器",
-        "覆盖源类型：**1478 个**（炮台 637 + 发射器 144 + 抗性 697；含按属性指纹补全的 127 个新版命名 T1 变体）",
-        "typeID：`300000`–`300110`；本地化 messageID：`920000000`–`920000221`",
-        "新增描述：每个产物/催化器一条独立 descriptionID（不复用 T1 描述）"
+        "**111 个新 typeID**：102 个突变产物（炮台 / 发射器 / 抗性 × 三档）+ 9 个突变催化器（每类三档）。",
+        "掉落时按 NPC 档位掷骰：属性倍率取自 `data/ranges.json`（可在编辑器里改），产物带 `customInfo.evejsDynamicItem` 凭据。",
+        "客户端识别：产物行带 `unknown148 |= 0x100` 动态物品掩码，`dynamicitemattributes` 注册 9 个 mutator。",
+        "信息窗口「工业 / 精炼」读 `typematerials`、「技能要求」读 `requiredskillsfortypes`，两者都随产物补齐。",
+        "装配面板 / HUD 的导弹伤害按每门发射器补 213（登录载荷，只改客户端显示，不写客户端文件）。",
+        "装配/模块状态变化后补推已装填弹药的有效属性（150ms 限频，`EVEJS_MUTATION_EXT_CHARGE_PUSH=off` 可关）。",
+        "自带范围编辑器（`Start-Range-Editor.bat`，`127.0.0.1:26103`），百分比只读预览、JSONC 注释逐字节保留。"
       ],
       "history": [],
       "id": "npc-loot-mutation-ext",
-      "publishedAt": "2026-11-21",
+      "publishedAt": "2026-11-27",
       "readme": [
-        "把 NPC 掉落里的**炮台 / 导弹发射器 / 抗性装备**突变为深渊（Abyssal）产物。\n掉落逻辑与突变率由基础模组 [`npc-loot-mutation`](../npc-loot-mutation) 负责，本模组只做「扩展家族 + 客户端数据 + 导弹伤害」。"
+        "`loader.js` 分两层：preload 阶段通过注入总线给 `referenceData.js`（合并层，slot 45）、\n`itemTypeRegistry.js`（缓存 reset 开关）、`weaponDogma.js`（导弹伤害 M3）等目标追加代码；\n业务层在 `setImmediate` 里 require `referenceData` 触发编译，注册 `itemTypes` / `typeDogma` /\n`dynamicItemAttributes` 三张表的 overlay，自检行数后重建 `itemTypeRegistry` 快照缓存。",
+        "产物会跨 6 个客户端静态表：`types`、`typedogma`、`requiredskillsfortypes`、`typematerials`、\n`dynamicitemattributes` 与中英文本地化。这些**不由本模组写**：`tools/fsd-spec.js` 把\n`data/**` 变成 fsd-hub 的 spec，由 hub 从 base 重放并一次发布。",
+        "服务端侧的就绪判定只看 `hub.isReady(\"npc-loot-mutation-ext\")`：没有发布成功就不注册 mutator\n（安全模式），避免服务端已经产出新 typeID 而客户端不认识导致 UI 崩。发布成功后 `onReady`\n会回调启用，无需重启服务端。"
       ],
       "repo": "https://github.com/huihuangdi/evejs-mod-npc-loot-mutation-ext",
       "requiresRestart": true,
-      "sha256": "5254bc32e1a3a86ead427e67d179813f3ad0fcff7766f1edef83fec24a9024ab",
-      "sizeBytes": 1988336,
+      "sha256": "185b5be0a11b830e669c4181b03cde5f4058ca6db4abed49a03a8a04f48525f9",
+      "sizeBytes": 1883204,
       "tags": [],
-      "version": "0.4.1",
+      "version": "0.6.1",
       "source": "huihuangdi/evejs-mod-npc-loot-mutation-ext",
       "downloads": 225,
       "cdnHits": 0
@@ -1025,7 +1027,7 @@
       "tags": [],
       "version": "0.1.7",
       "source": "MateralCMX/evejs-mod-npc-loot-rules",
-      "downloads": 476,
+      "downloads": 480,
       "cdnHits": 0
     },
     {
@@ -1040,34 +1042,34 @@
         "npc-loot-rules"
       ],
       "delisted": false,
-      "description": "NPC掉落规则（261028 移植版，适配 EveJS 261115.2）：按敌人类别/势力/舰船尺寸分配装备掉落，含指挥官、官员、监察官、旗舰、NET 共振器与蓝图掉落。",
+      "description": "NPC掉落规则（261028 移植版，适配 EveJS 261125.3）：按敌人类别/势力/舰船尺寸分配装备掉落，含指挥官、官员、监察官、旗舰、NET 共振器与蓝图掉落。",
       "displayName": "NPC掉落规则（261028 移植版）",
       "downloadUrls": [
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/huihuangdi/evejs-mod-npc-loot-rules-261028/releases/download/v0.6.1/npc-loot-rules-261028-0.6.1.zip"
+          "url": "https://github.com/huihuangdi/evejs-mod-npc-loot-rules-261028/releases/download/v0.7.2/npc-loot-rules-261028-0.7.2.zip"
         }
       ],
       "evejsVersions": [
-        "261115.x"
+        "261125.x"
       ],
       "featured": false,
       "highlights": [],
       "history": [],
       "id": "npc-loot-rules-261028",
-      "publishedAt": "2026-11-21",
+      "publishedAt": "2026-11-27",
       "readme": [
         "内置web配置页面 本mod目录  Start-Drop-Editor.bat 启动网页配置器\n移植自市场版 `npc-loot-rules` 0.1.3（作者 Materal，AGPL-3.0-only）。0.2.x 适配 EveJS 261028.1；**0.3.0 起适配 EveJS 261108.1**（基线换新版，incursion 死亡残骸掉落路径已适配）。`data/` 沿用原版数据，完整规则见 [DROP-RULES.zh-CN.md](DROP-RULES.zh-CN.md)。包内有详细文档。可让AI直接上手修。"
       ],
       "repo": "https://github.com/huihuangdi/evejs-mod-npc-loot-rules-261028",
       "requiresRestart": true,
-      "sha256": "04de8d7f0d2bd1e78def7bef809ae79cb7c5e800ceb0ff609a5257ba355c9c21",
-      "sizeBytes": 518477,
+      "sha256": "e3872014d9e2a17d0a3e2d86ac0c82ba7155493d07143d84442e70da1c55d06e",
+      "sizeBytes": 1371234,
       "tags": [],
-      "version": "0.6.1",
+      "version": "0.7.2",
       "source": "huihuangdi/evejs-mod-npc-loot-rules-261028",
-      "downloads": 342,
+      "downloads": 344,
       "cdnHits": 0
     },
     {
@@ -1251,7 +1253,7 @@
       ],
       "version": "1.0.10",
       "source": "diguo520/evejs-mod-evejs-cntext-fix",
-      "downloads": 1463,
+      "downloads": 1467,
       "cdnHits": 2
     },
     {
@@ -1296,7 +1298,7 @@
       ],
       "version": "1.0.0",
       "source": "kokoandqiong/evejs-mod-evejs-sov-workforce-fix",
-      "downloads": 163,
+      "downloads": 165,
       "cdnHits": 0
     },
     {
@@ -1347,7 +1349,7 @@
       ],
       "version": "1.7.1",
       "source": "xxxuan42/evejs-mod-evejs-skyhook-reagent-boost",
-      "downloads": 689,
+      "downloads": 693,
       "cdnHits": 0
     },
     {
@@ -1396,7 +1398,7 @@
       ],
       "version": "1.0.0",
       "source": "JonnyTC/evejs-mod-evejs-agent-portraits",
-      "downloads": 207,
+      "downloads": 208,
       "cdnHits": 0
     },
     {
@@ -1446,7 +1448,7 @@
       "tags": [],
       "version": "0.1.2",
       "source": "MateralCMX/evejs-mod-mission-repair",
-      "downloads": 543,
+      "downloads": 544,
       "cdnHits": 0
     },
     {
@@ -1518,7 +1520,7 @@
       ],
       "version": "1.3.3",
       "source": "jealous123456789/evejs-mod-mission-content-repair",
-      "downloads": 1680,
+      "downloads": 1683,
       "cdnHits": 0
     },
     {
@@ -1569,7 +1571,7 @@
       ],
       "version": "1.0.4",
       "source": "starcraft110/evejs-mod-evejs-hyperion-ship",
-      "downloads": 397,
+      "downloads": 399,
       "cdnHits": 0
     },
     {
@@ -1659,7 +1661,7 @@
       ],
       "version": "0.2.1",
       "source": "xxxuan42/evejs-mod-corp-ai",
-      "downloads": 129,
+      "downloads": 134,
       "cdnHits": 0
     },
     {
@@ -1706,7 +1708,7 @@
       ],
       "version": "1.6.4",
       "source": "JUZIMandarin/evejs-mod-evejs-sleeper-drifters",
-      "downloads": 789,
+      "downloads": 790,
       "cdnHits": 0
     },
     {
@@ -1750,7 +1752,7 @@
       ],
       "version": "1.1.1",
       "source": "xxxuan42/evejs-mod-evejs-moonscan-all",
-      "downloads": 375,
+      "downloads": 378,
       "cdnHits": 0
     },
     {
@@ -1798,7 +1800,7 @@
       ],
       "version": "1.0.0",
       "source": "JonnyTC/evejs-mod-evejs-structure-targeting-fix",
-      "downloads": 151,
+      "downloads": 152,
       "cdnHits": 0
     },
     {
@@ -1846,7 +1848,7 @@
       ],
       "version": "0.1.1",
       "source": "billyyyq/evejs-mod-jita-night-market",
-      "downloads": 170,
+      "downloads": 172,
       "cdnHits": 0
     },
     {
@@ -1892,7 +1894,7 @@
       ],
       "version": "1.1.5",
       "source": "moyuxitypebigFatfish/evejs-mod-evejs-jita-xl-deploy",
-      "downloads": 59,
+      "downloads": 66,
       "cdnHits": 0
     },
     {
@@ -1989,7 +1991,7 @@
       ],
       "version": "1.0.0",
       "source": "Mimataer/evejs-mod-evejs-da-fei-yu-zhu-quan-bu-shu",
-      "downloads": 148,
+      "downloads": 150,
       "cdnHits": 0
     },
     {
@@ -2034,7 +2036,56 @@
       ],
       "version": "1.5.3",
       "source": "moyuxitypebigFatfish/evejs-mod-evejs-dafeiyu-armory",
-      "downloads": 106,
+      "downloads": 109,
+      "cdnHits": 0
+    },
+    {
+      "author": {
+        "id": "au-mul9t76ozxf9",
+        "keyId": "050c08195199",
+        "name": "辉煌帝"
+      },
+      "category": "工具",
+      "changelog": "",
+      "conflicts": [],
+      "delisted": false,
+      "description": "客户端静态表（fsdbinary / 本地化 / 舰船加成）的唯一写入者：各模组只提交声明式贡献（add / set / removeAttribute），本模组从基线重放、成对改索引、校验与回滚；带交互控制台、自动发布、熔断与强制重建。",
+      "displayName": "客户端静态表统一写入者",
+      "downloadUrls": [
+        {
+          "mirror": "github",
+          "priority": 1,
+          "url": "https://github.com/huihuangdi/evejs-mod-fsd-hub/releases/download/v1.0.0/fsd-hub-1.0.0.zip"
+        }
+      ],
+      "evejsVersions": [
+        "261125.x"
+      ],
+      "featured": false,
+      "highlights": [
+        "**唯一写者**：`types` / `typedogma` / `requiredskillsfortypes` / `typematerials` / `dynamicitemattributes` / 中英文本地化 / `infobubbles.static` 全部由本模组一次发布，其他模组不再自己写客户端。",
+        "贡献者只提交声明式 spec（`add` / `set` / `removeAttribute` 三种 op），不碰 `ResFiles` 与 `resfileindex*.txt`。",
+        "从 base 重放所有层：`add` 层禁用后仍重放（行不消失），`set` / `removeAttribute` 只重放启用层（禁用即回落基础值）。",
+        "同一路径的 `set` 冲突按优先级裁决（同优先级**中止发布**，不静默覆盖）；删除被 mutator 引用的属性**中止发布**（客户端会 `KeyError`）。",
+        "发布安全顺序：客户端在跑整轮跳过 → 先写全部 blob → 备份索引 → 成对改两份索引 → 回读校验 → 落 `generation`。",
+        "带熔断、强制重建、按代回滚、恢复原始、残留清理与诊断导出。"
+      ],
+      "history": [],
+      "id": "fsd-hub",
+      "publishedAt": "2026-11-27",
+      "readme": [
+        "`loader.js` 在真服务端进程里注册 `globalThis.__fsdHub`（api 1）。贡献者在自己的 `loader.js` 里调用\n`hub.contribute(spec)`（幂等，同一 mod 重复提交按替换处理），hub 把 layer 快照写到\n`_local/mods/fsd-hub/state/layers/<mod>.json`，服务端启动约 5 秒后起一个 detached 子进程执行\n`tools/client-sync.js --apply` 完成发布。",
+        "贡献者用 `hub.isReady(mod)` / `hub.onReady(mod, cb)` 判断自己是否已在当前 `generation` 里生效——\n不需要再比索引 md5，也不要改别人的 state。层被 retire 后 `add` 行继续保留、`set` 与\n`removeAttribute` 回落，因此禁用模组不需要写任何\"清理客户端\"的代码。",
+        "`types` 加行采用「先剥掉同 typeID 行再重加」保证可重放；`typedogma` 的显式行会整体替换同名行并过滤\n客户端不认识的属性（否则 godma `get_attribute` KeyError）。`removeAttribute` 只从该类型行的属性向量里删键，\n行与表都保留。"
+      ],
+      "repo": "https://github.com/huihuangdi/evejs-mod-fsd-hub",
+      "requiresRestart": true,
+      "sha256": "2a3d7288882f2113755d83da0f2ed16110f1d998dab54d96511edd93885dc1f5",
+      "sizeBytes": 359530,
+      "tags": [],
+      "version": "1.0.0",
+      "source": "huihuangdi/evejs-mod-fsd-hub",
+      "downloads": 1,
       "cdnHits": 0
     },
     {
@@ -2129,7 +2180,7 @@
       ],
       "version": "1.7.1",
       "source": "xxxuan42/evejs-mod-evejs-missile-retarget",
-      "downloads": 129,
+      "downloads": 131,
       "cdnHits": 0
     },
     {
@@ -2188,48 +2239,47 @@
       "changelog": "",
       "conflicts": [],
       "delisted": false,
-      "description": "本地属性修改器：改值只写增量 overlay（随时可回滚），支持属性、货柜容量与弹药体积。1.4.0 起不再随包带 26.7MB 静态表，整表重建的基线改为从客户端现场导出（首次约 1–3 秒，日志会写耗时），发布包由 32.5MB 降到约 7.5MB；1.4.2 修好 261115 服务端的货柜容量（容量同时写 itemTypes.capacity 并清理 Dogma 图缓存，否则按原值判定「已满」）；用户数据（overlay / 历史 / 部署状态 / 日志）在 _local/mods/evejs-attribute-editor/，不随包发布，旧位置首次启动自动迁移。",
+      "description": "同步修改客户端与服务器 属性的修改器：网页改已有属性的数值、舰船货柜容量（初始模板）与弹药体积，删条目即回滚。客户端静态表统一由 fsd-hub 发布，本模组只提交声明式 spec。",
       "displayName": "属性修改器",
       "downloadUrls": [
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/huihuangdi/evejs-mod-evejs-attribute-editor/releases/download/v1.4.3/evejs-attribute-editor-1.4.3.zip"
+          "url": "https://github.com/huihuangdi/evejs-mod-evejs-attribute-editor/releases/download/v1.5.1/evejs-attribute-editor-1.5.1.zip"
         }
       ],
       "evejsVersions": [
-        "261115.x"
+        "261125.x"
       ],
       "featured": false,
       "highlights": [
-        "✓ 打开方式：启动器 → Mod / Plugin → **已安装** → 右上「**打开 mods 目录**」→ 进",
-        "✓ 更快的方式：打开本模组详情（能看到「打开所在目录」的弹窗）→「打开所在目录」→ 双击 `Start-Editor.bat`",
-        "✓ 手动路径：`<EVEJS 根>/mods/evejs-attribute-editor/Start-Editor.bat`",
-        "✓ 运行前提：Node.js 18+；浏览器自动打开 `http://127.0.0.1:26100`，只监听本机",
-        "✓ 改值只写增量 overlay（`set` / `delete` / 恢复 base），基础 `data.json` 字节不变，随时可回滚",
-        "✓ 服务端重启后生效；客户端由服务端启动后自动同步（或双击 `Sync-Client.bat` → 选 2 部署）",
-        "✓ **货柜容量（舰船「初始模板」）**：船体属性表多一行「货柜容量（初始模板）」（属性 38，带「模板」徽标），",
-        "✓ **弹药体积（1.2.0 新增）**：弹药（categoryID 8，1,156 型）属性表多一行「体积」（属性 161，带「类型行」徽标），",
-        "✓ **与「突变扩展」共存（1.2.1）**：同步后自动把它 types/typedogma 的新索引行认账进它的 state，"
+        "装上默认**不改任何数值**：overlay 为空时服务端保持基础数据，也不会向 fsd-hub 提交任何东西。",
+        "只写增量 overlay（`set` / `delete`），基础静态表字节不变，随时可清空回原版。",
+        "支持改**已有属性**的数值、给类型挂上**已存在**的属性定义、删除某类型上的属性键。",
+        "**货柜容量（初始模板，属性 38）**：船体属性表多一行「货柜容量（初始模板）」，单船或批量可改；服务端同时镜像写 `itemTypes.capacity` 并清一次 Dogma 图缓存。",
+        "**弹药体积（属性 161，categoryID 8）**：单条/批量可改；服务端重置 `itemTypeRegistry` 让货舱与装填生效，客户端由 fsd-hub 写 `types.fsdbinary`。",
+        "批量修改支持按分类 / 市场树 / 谓词选目标，固定值、乘系数、百分比、加增量都记录范围与运算。",
+        "修改器带「变更记录」页：每次提交可看逐条明细，并按 LIFO 一键回滚。"
       ],
       "history": [],
       "id": "evejs-attribute-editor",
-      "publishedAt": "2026-11-21",
+      "publishedAt": "2026-11-27",
       "readme": [
-        "给 EveJS 加一层**可编辑的属性覆盖**，并附带一个只监听本机的网页修改器。\n装上默认**不改任何数值**：overlay 是空表，服务端与客户端都保持原版；改什么由你在修改器里决定。"
+        "overlay 是唯一改动来源，结构为 `tables.typeDogma`（属性改值 / 删属性）与 `tables.typeFields`（目前只开放 `volume`）。\n服务端启动后由 `loader.js` 把 overlay 应用到 `referenceData` 的进程内缓存（`typeDogma`、`shipDogmaAttributes`、`itemTypes` 类型行），\n不写磁盘、不改服务端源码；唯一的源码补丁是 append 一个 `__attrEditorResetItemTypeRegistry()` 开关，用来清 `itemTypeRegistry` 的一次性快照。",
+        "客户端数据不由本模组写：`tools/fsd-spec.js` 把 overlay 变成 fsd-hub 的贡献 spec（`typedogma.set` / `typedogma.removeAttribute` / `types.set`），\n由 hub 从 base 重放并发布。删除属性时 hub 会拦下被 `dynamicitemattributes` mutator 引用的属性（否则客户端 `FindMutatedAttributes` 会 `KeyError`）。"
       ],
       "repo": "https://github.com/huihuangdi/evejs-mod-evejs-attribute-editor",
       "requiresRestart": true,
-      "sha256": "6c813c09da0d49b09e2e538c24c9740fb6fa78ce0f24d9fc22d5d9d9e07b6e16",
-      "sizeBytes": 1548309,
+      "sha256": "524dede8a04d3042f8f39db05c0edf1cec3cc06f9aef4500099c4e69f96e1d0e",
+      "sizeBytes": 3329669,
       "tags": [
         "属性",
         "编辑器",
         "工具"
       ],
-      "version": "1.4.3",
+      "version": "1.5.1",
       "source": "huihuangdi/evejs-mod-evejs-attribute-editor",
-      "downloads": 300,
+      "downloads": 301,
       "cdnHits": 0
     },
     {
@@ -2382,7 +2432,7 @@
       ],
       "version": "1.1.1",
       "source": "kuroneko-lice/evejs-mod-evejs-shi-chang-jia-ge-xin-xi-tong-bu",
-      "downloads": 315,
+      "downloads": 317,
       "cdnHits": 0
     },
     {
@@ -2484,7 +2534,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "MateralCMX/evejs-mod-structure-timers",
-      "downloads": 275,
+      "downloads": 276,
       "cdnHits": 0
     },
     {
@@ -2503,31 +2553,31 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/huihuangdi/evejs-mod-evejs-ded-ladder/releases/download/v1.1.2/evejs-ded-ladder-1.1.2.zip"
+          "url": "https://github.com/huihuangdi/evejs-mod-evejs-ded-ladder/releases/download/v1.1.4/evejs-ded-ladder-1.1.4.zip"
         }
       ],
       "evejsVersions": [
-        "261115.x"
+        "261125.x"
       ],
       "featured": false,
       "highlights": [],
       "history": [],
       "id": "evejs-ded-ladder",
-      "publishedAt": "2026-11-24",
+      "publishedAt": "2026-11-27",
       "readme": [
         "单机玩法模组：**暗黑式刷装备 loop**。"
       ],
       "repo": "https://github.com/huihuangdi/evejs-mod-evejs-ded-ladder",
       "requiresRestart": true,
-      "sha256": "a234633e769e8eab444b5c78e50911f9c0460f0b6e74bc901603b514ab68b92d",
-      "sizeBytes": 1121452,
+      "sha256": "3fe20a8caffaed5cc30fefb7592ca56a07c3cd264e18f12eeea7d09cc2617ca2",
+      "sizeBytes": 2587138,
       "tags": [
         "anomaly",
         "ded",
         "expedition",
         "escalation"
       ],
-      "version": "1.1.2",
+      "version": "1.1.4",
       "source": "huihuangdi/evejs-mod-evejs-ded-ladder",
       "downloads": 265,
       "cdnHits": 0
@@ -2629,7 +2679,7 @@
       ],
       "version": "1.3.1",
       "source": "xxxuan42/evejs-mod-evejs-courier-ai",
-      "downloads": 314,
+      "downloads": 318,
       "cdnHits": 0
     },
     {
@@ -2670,7 +2720,7 @@
       "tags": [],
       "version": "0.2.2",
       "source": "xuenaimiao/evejs-mod-evejs-perf-fix",
-      "downloads": 558,
+      "downloads": 560,
       "cdnHits": 0
     },
     {
@@ -2723,7 +2773,7 @@
       ],
       "version": "1.0.2",
       "source": "jealous123456789/evejs-mod-overview-display-fix",
-      "downloads": 595,
+      "downloads": 606,
       "cdnHits": 0
     },
     {
@@ -2742,7 +2792,7 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/huihuangdi/evejs-mod-evejs-dps-meter/releases/download/v0.2.1/evejs-dps-meter-0.2.1.zip"
+          "url": "https://github.com/huihuangdi/evejs-mod-evejs-dps-meter/releases/download/v0.2.3/evejs-dps-meter-0.2.3.zip"
         }
       ],
       "evejsVersions": [
@@ -2755,24 +2805,24 @@
       ],
       "history": [],
       "id": "evejs-dps-meter",
-      "publishedAt": "2026-11-23",
+      "publishedAt": "2026-11-27",
       "readme": [
         "实时战斗统计面板：在游戏客户端里显示**我的输出**与**承受伤害**，一场打完自动冻结，\n下一场自动从零开始。",
         "游戏自带的浮动伤害数字与伤害日志照常工作。"
       ],
       "repo": "https://github.com/huihuangdi/evejs-mod-evejs-dps-meter",
       "requiresRestart": true,
-      "sha256": "f75cc368bf2f851c6369fa758e28e88eb6b7a0a46843b891fd5cb5567cbb2004",
-      "sizeBytes": 40409,
+      "sha256": "fd9d965b2c82fc4fb1d65e8080b0f0585146fe1f00391e1b717a5bc62b4028ca",
+      "sizeBytes": 110753,
       "tags": [
         "DPS",
         "战斗统计",
         "HUD",
         "面板"
       ],
-      "version": "0.2.1",
+      "version": "0.2.3",
       "source": "huihuangdi/evejs-mod-evejs-dps-meter",
-      "downloads": 42,
+      "downloads": 43,
       "cdnHits": 0
     },
     {
@@ -2957,7 +3007,7 @@
       ],
       "version": "1.3.2",
       "source": "xxxuan42/evejs-mod-evejs-auto-mining-compression",
-      "downloads": 486,
+      "downloads": 491,
       "cdnHits": 0
     },
     {
@@ -3094,7 +3144,7 @@
       ],
       "version": "1.1.1",
       "source": "xxxuan42/evejs-mod-evejs-stargate-jump-anywhere",
-      "downloads": 167,
+      "downloads": 169,
       "cdnHits": 0
     },
     {
@@ -3245,7 +3295,7 @@
       ],
       "version": "0.3.7",
       "source": "xuenaimiao/evejs-mod-evejs-sc-ships",
-      "downloads": 454,
+      "downloads": 456,
       "cdnHits": 0
     },
     {
@@ -3555,7 +3605,7 @@
       ],
       "version": "1.0.3",
       "source": "jealous123456789/evejs-mod-industry-job-slots",
-      "downloads": 204,
+      "downloads": 210,
       "cdnHits": 0
     },
     {
@@ -3615,7 +3665,7 @@
       ],
       "version": "3.2.0",
       "source": "Jasper377/evejs-mod-evejs-racks16",
-      "downloads": 570,
+      "downloads": 572,
       "cdnHits": 0
     },
     {
@@ -3661,7 +3711,7 @@
       ],
       "version": "1.3.1",
       "source": "xxxuan42/evejs-mod-evejs-industrial-module-fast-cycle",
-      "downloads": 306,
+      "downloads": 309,
       "cdnHits": 0
     },
     {
@@ -3708,7 +3758,7 @@
       ],
       "version": "1.0.4",
       "source": "moyuxitypebigFatfish/evejs-mod-evejs-bastion-10s",
-      "downloads": 37,
+      "downloads": 41,
       "cdnHits": 0
     },
     {
@@ -3757,7 +3807,7 @@
       "tags": [],
       "version": "0.1.6",
       "source": "MateralCMX/evejs-mod-mobile-tractor-enhancement",
-      "downloads": 651,
+      "downloads": 654,
       "cdnHits": 0
     },
     {
@@ -3797,7 +3847,7 @@
       "tags": [],
       "version": "1.6.0",
       "source": "Jasper377/evejs-mod-evejs-acspecialbattleship",
-      "downloads": 647,
+      "downloads": 649,
       "cdnHits": 0
     },
     {
@@ -3848,7 +3898,7 @@
       ],
       "version": "1.0.3",
       "source": "jealous123456789/evejs-mod-belt-respawn-cooldown",
-      "downloads": 270,
+      "downloads": 277,
       "cdnHits": 0
     },
     {
@@ -3956,7 +4006,7 @@
       ],
       "version": "1.0.2",
       "source": "jealous123456789/evejs-mod-chat-edge-lane-fix",
-      "downloads": 192,
+      "downloads": 198,
       "cdnHits": 0
     },
     {
@@ -4018,7 +4068,7 @@
       ],
       "version": "1.0.5",
       "source": "jealous123456789/evejs-mod-evejs-logo-manager",
-      "downloads": 188,
+      "downloads": 193,
       "cdnHits": 0
     },
     {
@@ -4070,7 +4120,7 @@
       ],
       "version": "1.0.2",
       "source": "jealous123456789/evejs-mod-autopilot-warp-zero",
-      "downloads": 288,
+      "downloads": 290,
       "cdnHits": 0
     },
     {
@@ -4185,7 +4235,7 @@
       ],
       "version": "1.2.3",
       "source": "jealous123456789/evejs-mod-pi-manager",
-      "downloads": 414,
+      "downloads": 418,
       "cdnHits": 2
     },
     {
@@ -4241,7 +4291,7 @@
       "tags": [],
       "version": "0.1.4",
       "source": "MateralCMX/evejs-mod-ship-operations-assistant",
-      "downloads": 92,
+      "downloads": 93,
       "cdnHits": 0
     },
     {
@@ -4575,7 +4625,7 @@
       ],
       "version": "1.21.3",
       "source": "xxxuan42/evejs-mod-evejs-jumpdrive-to-star",
-      "downloads": 580,
+      "downloads": 582,
       "cdnHits": 3
     },
     {
@@ -4619,7 +4669,7 @@
       ],
       "version": "1.1.21",
       "source": "Mimataer/evejs-mod-evejs-yuan-zheng",
-      "downloads": 462,
+      "downloads": 463,
       "cdnHits": 0
     },
     {
@@ -4664,7 +4714,7 @@
       ],
       "version": "1.0.4",
       "source": "kokoandqiong/evejs-mod-evejs-tie-qi-zhong-wu-shang-hai-xiu-fu",
-      "downloads": 330,
+      "downloads": 331,
       "cdnHits": 0
     },
     {
@@ -4764,7 +4814,7 @@
       ],
       "version": "1.0.7",
       "source": "moyuxitypebigFatfish/evejs-mod-evejs-molang-class",
-      "downloads": 106,
+      "downloads": 109,
       "cdnHits": 0
     }
   ],
@@ -4797,7 +4847,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "D0dHrthDWbqOiNa5rD3IcxYZ88oUSdmNy05XWxgHaNw6QnaS420ziOQ2NZVO9N13Ju9uDyrGQd25DN2b3EU7Cw==",
-    "signedAt": "2026-11-27T11:10:03.079Z"
+    "sig": "VP72g3dQZXHhwE2jTx/Ec5ZH0B14OUgHBbVn33I1UHbaxxEExeaQTf1qEJyNSGl6ANj7B2mcvsaVGHb1XboiCQ==",
+    "signedAt": "2026-11-27T12:14:27.647Z"
   }
 }
