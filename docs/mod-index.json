@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-11-27T11:02:45.271Z",
+  "publishedAt": "2026-11-27T11:04:32.588Z",
   "mods": [
     {
       "author": {
@@ -1446,7 +1446,7 @@
       "tags": [],
       "version": "0.1.2",
       "source": "MateralCMX/evejs-mod-mission-repair",
-      "downloads": 542,
+      "downloads": 543,
       "cdnHits": 0
     },
     {
@@ -2008,7 +2008,7 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/moyuxitypebigFatfish/evejs-mod-evejs-dafeiyu-armory/releases/download/v1.5.2/evejs-dafeiyu-armory-1.5.2.zip"
+          "url": "https://github.com/moyuxitypebigFatfish/evejs-mod-evejs-dafeiyu-armory/releases/download/v1.5.3/evejs-dafeiyu-armory-1.5.3.zip"
         }
       ],
       "evejsVersions": [
@@ -2018,21 +2018,21 @@
       "highlights": [],
       "history": [],
       "id": "evejs-dafeiyu-armory",
-      "publishedAt": "2026-11-22",
+      "publishedAt": "2026-11-27",
       "readme": [
         "自用官员护盾增强器「大肥鱼氏改良型多谱式护盾增强器」。装进启动器 → 启动服务端 → 进游戏，\n在吉他 4-4 市场就能买到，图标沿用官方 25676，属性和原版威帕斯改良型并排对照。"
       ],
       "repo": "https://github.com/moyuxitypebigFatfish/evejs-mod-evejs-dafeiyu-armory",
       "requiresRestart": true,
-      "sha256": "6e08d9ae17c4993737c56b588547d8ac86c1974f94866ce029d71b670033d75d",
-      "sizeBytes": 11737542,
+      "sha256": "1ece5c710c2d1680291c2e22e46f44daac3e34294d3b37d72aae73e3ea86a436",
+      "sizeBytes": 12018379,
       "tags": [
         "装备",
         "护盾",
         "官员",
         "下载即用"
       ],
-      "version": "1.5.2",
+      "version": "1.5.3",
       "source": "moyuxitypebigFatfish/evejs-mod-evejs-dafeiyu-armory",
       "downloads": 106,
       "cdnHits": 0
@@ -3496,7 +3496,7 @@
       ],
       "version": "1.1.1",
       "source": "jealous123456789/evejs-mod-better-loot",
-      "downloads": 454,
+      "downloads": 455,
       "cdnHits": 0
     },
     {
@@ -4796,7 +4796,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "D5sRPN0OAJJhcwdVVWuTRwJzUU1Xe7uUcB4Ie/7+czj/a0vJuJhTAAEi9vlAl4iHYfMWR69AyVbRQD/kWKAIBA==",
-    "signedAt": "2026-11-27T11:02:45.277Z"
+    "sig": "SWAFyKGB0K7k53KDsMTp3d9eKJqJpAN2L2noKwyJvaFmoF2u9DrdN0lVkT+uiPx6YtxgY13REND+GbZv+x6KDw==",
+    "signedAt": "2026-11-27T11:04:32.594Z"
   }
 }
