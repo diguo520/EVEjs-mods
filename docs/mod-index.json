@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-11-27T14:05:18.631Z",
+  "publishedAt": "2026-11-27T14:09:24.977Z",
   "mods": [
     {
       "author": {
@@ -2643,7 +2643,7 @@
       "changelog": "",
       "conflicts": [],
       "delisted": false,
-      "description": "公开快递合同发布后，NPC 快递员「快递AI」被动接单，驾驶装配了 3 个货柜舱的方尖塔级自动承运。AI 拥有全部玩家可正常获得的技能（全部 V 级，未发布的 NPC/特殊技能除外）。AI 常驻席拉星系：接单后从席拉出站并向外飞，用模组内置跳跃引擎跳到合同起点星系，在站外悬停后进站取件，停靠片刻再出站，等待 20 秒后跳到目的星系；到达后等 10 秒，在建筑外悬停后进站交付并完成合同，进出站过程均可见。内置跳跃引擎不检查跳跃引擎、燃料、跳跃距离，也不产生跳跃疲劳，AI 可进入任何建筑。接单体积上限按方尖塔级的实际货舱容量计算（含 3 个「泽·库什的改良延展型货柜舱」的加成）。合同完成、包裹体积超过容量、保证金超过上限或连续 3 次承运失败时，会以「快递AI」身份给合同发起人发游戏内邮件，邮件会列出「地点 ID + 名称」的路线和「数量 × 名称」的运输货物，体积超限的邮件还会标注实际货舱容量、包裹体积与超出量。服务端重启后按包裹当前位置断点续运。纯运行期模组，不修改服务端源码，停用并重启服务端即还原。1.3.0 仅支持 EveJS 261125.3（客户端 build 3724492），内部为配置/容量/邮件/合同/太空/角色模块结构。",
+      "description": "公开快递合同发布后，NPC 快递员「快递AI」自动接单，驾驶装配了 3 个货柜舱的方尖塔级承运。AI 拥有全部玩家可正常获得的技能（全部 V 级，未发布的 NPC/特殊技能除外），常驻席拉星系：接单后从席拉出站并向外飞，用内置跳跃引擎跳到合同起点星系，在站外悬停后进站取件，停靠片刻再出站，等待 20 秒后跳到目的星系；到达后等 10 秒，在建筑外悬停后进站交付并完成合同，进出站过程均可见。内置跳跃引擎不检查跳跃引擎、燃料、跳跃距离，也不产生跳跃疲劳，AI 可进入任何建筑。接单体积上限按方尖塔级的实际货舱容量计算（含 3 个「泽·库什的改良延展型货柜舱」的加成）。合同完成、包裹体积超过容量、保证金超过上限或连续 3 次承运失败时，会以「快递AI」身份给合同发起人发游戏内邮件，邮件会列出「地点 ID + 名称」的路线和「数量 × 名称」的运输货物，体积超限的邮件还会标注实际货舱容量、包裹体积与超出量。服务端重启后按包裹当前位置断点续运。",
       "displayName": "快递 AI",
       "downloadUrls": [
         {
@@ -2653,7 +2653,7 @@
         }
       ],
       "evejsVersions": [
-        "261125.3"
+        "261126.2"
       ],
       "featured": false,
       "highlights": [],
@@ -2662,7 +2662,7 @@
       "publishedAt": "2026-11-27",
       "readme": [
         "公开快递合同一发布，服务端里的 NPC 快递员「快递AI」就会自己接单，驾驶方尖塔级把包裹送到目的地。",
-        "> 适配版本：EveJS `261125.3`（客户端 build `3724492`）。清单只声明兼容该版本，不兼容旧服务端。"
+        "> 适配版本：EveJS `261126.2`（客户端 build `3724492`）。清单只声明兼容该版本，不兼容旧服务端。"
       ],
       "repo": "https://github.com/xxxuan42/evejs-mod-evejs-courier-ai",
       "requiresRestart": true,
@@ -2980,37 +2980,37 @@
       "changelog": "",
       "conflicts": [],
       "delisted": false,
-      "description": "[[[使用方法：释放无人机,锁定一个矿石按F即可全自动循环采矿]]]。无人机自动采矿——F 键/手动采矿指令按「矿石数 vs 已释放无人机数」自动分配目标，采空后自动续采下一个兼容矿石，续采范围限制在 200km 内；2) 自动压矿——骑乘带压缩设施的舰船时，每 10 秒自动压缩本舰矿舱（矿石/月矿/冰/气/小行星专用舱）里的可压缩矿物。停用本模组并重启服务端即还原。",
+      "description": "无人机自动采矿：F 键/手动采矿指令按矿石数与已释放无人机数自动分配目标，采空后自动续采兼容矿石（限 200km 内），矿舱腾出空间后自动恢复；自动压矿：带压缩设施的舰船每 10 秒自动压缩本舰矿舱（矿石/月矿/冰/气/小行星专用舱）中的可压缩矿物。",
       "displayName": "无人机自动采矿 + 自动压矿",
       "downloadUrls": [
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/xxxuan42/evejs-mod-evejs-auto-mining-compression/releases/download/v1.3.2/evejs-auto-mining-compression-1.3.2.zip"
+          "url": "https://github.com/xxxuan42/evejs-mod-evejs-auto-mining-compression/releases/download/v1.3.3/evejs-auto-mining-compression-1.3.3.zip"
         }
       ],
       "evejsVersions": [
-        "261125.3"
+        "261126.2"
       ],
       "featured": false,
       "highlights": [],
       "history": [],
       "id": "evejs-auto-mining-compression",
-      "publishedAt": "2026-11-26",
+      "publishedAt": "2026-11-27",
       "readme": [
         "无人机自动采矿 + 服务端自动压矿（EveJS 服务端内存注入型模组）。",
         "服务端 `server/src` 一个字节都不改：补丁通过启动器注入总线在**内存中**追加到目标模块，\n停用模组并重启服务端即完全还原。"
       ],
       "repo": "https://github.com/xxxuan42/evejs-mod-evejs-auto-mining-compression",
       "requiresRestart": true,
-      "sha256": "c0ee8fd22be9b613c0c4c541eed6365c689adf2eaf0874b2282bee4d8d825106",
-      "sizeBytes": 50716,
+      "sha256": "15e8bf50151ef55f7c977fe35e2f8278d88a7e74df678f9b2f0d95bcb778d2e2",
+      "sizeBytes": 50850,
       "tags": [
         "无人机",
         "采矿",
         "压缩"
       ],
-      "version": "1.3.2",
+      "version": "1.3.3",
       "source": "xxxuan42/evejs-mod-evejs-auto-mining-compression",
       "downloads": 496,
       "cdnHits": 0
@@ -3117,37 +3117,37 @@
       "changelog": "",
       "conflicts": [],
       "delisted": false,
-      "description": "右键星门点「跳跃」直接过门，不再需要先把船贴近到星门 2500m 内：客户端跳过自动导航、直接调用过门服务，服务端同时解除跳跃距离校验（只放行星门，其它过门规则保持不变）。仅适配 EveJS 261125.3 服务端与 EVE 3724492 客户端。",
+      "description": "右键星门点「跳跃」直接过门，不再需要先把船贴近到星门 2500m 内：客户端跳过自动导航、直接调用过门服务，服务端同时解除星门跳跃距离校验（只放行星门，犯罪/武器计时、诱导锁、HIC 脚本、深渊禁跳等其它过门规则保持出厂行为）；远距离跳跃的跳跃隧道锚定在飞船位置，视角不再先被拉到星门，画面不再乱闪。",
       "displayName": "星门远距离跳跃",
       "downloadUrls": [
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/xxxuan42/evejs-mod-evejs-stargate-jump-anywhere/releases/download/v1.1.1/evejs-stargate-jump-anywhere-1.1.1.zip"
+          "url": "https://github.com/xxxuan42/evejs-mod-evejs-stargate-jump-anywhere/releases/download/v1.1.2/evejs-stargate-jump-anywhere-1.1.2.zip"
         }
       ],
       "evejsVersions": [
-        "261125.3"
+        "261126.2"
       ],
       "featured": false,
       "highlights": [],
       "history": [],
       "id": "evejs-stargate-jump-anywhere",
-      "publishedAt": "2026-11-26",
+      "publishedAt": "2026-11-27",
       "readme": [
         "右键星门点「跳跃」直接过门，不再需要先把船贴近到星门 2500m 内。"
       ],
       "repo": "https://github.com/xxxuan42/evejs-mod-evejs-stargate-jump-anywhere",
       "requiresRestart": true,
-      "sha256": "f1352c5a997ac9921d82fdff06446e40be975c638a8631edf04a2a92caece109",
-      "sizeBytes": 37800,
+      "sha256": "0369388eb20ff31a013d65ccb32ad5a81beabb8e0c328c60eb435f10ac00dd85",
+      "sizeBytes": 38111,
       "tags": [
         "星门",
         "跳跃",
         "距离",
         "右键菜单"
       ],
-      "version": "1.1.1",
+      "version": "1.1.2",
       "source": "xxxuan42/evejs-mod-evejs-stargate-jump-anywhere",
       "downloads": 171,
       "cdnHits": 0
@@ -4240,7 +4240,7 @@
       ],
       "version": "1.2.3",
       "source": "jealous123456789/evejs-mod-pi-manager",
-      "downloads": 425,
+      "downloads": 426,
       "cdnHits": 2
     },
     {
@@ -4769,7 +4769,7 @@
       ],
       "version": "1.0.5",
       "source": "lxm970112-hub/evejs-mod-evejs-tie-qi-hu-hang",
-      "downloads": 250,
+      "downloads": 251,
       "cdnHits": 0
     },
     {
@@ -4852,7 +4852,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "u+yIbrusEOkM1zm2R3VGrZl2jWyXBIwd36M8id3TbYLPXGFVUhwHyuTF0Y3kExFoFvcJbhxQ4maD5ayJ50OhCg==",
-    "signedAt": "2026-11-27T14:05:18.637Z"
+    "sig": "QzDJDexZOWXS1mDPElhb64JmYSZ66PhBxFBDmNz6x2qLZnpcXfRP8/PRErnisWb9TKUive4I20L27VKpdOP6BA==",
+    "signedAt": "2026-11-27T14:09:24.985Z"
   }
 }
