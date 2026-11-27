@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-11-27T03:10:19.329Z",
+  "publishedAt": "2026-11-27T03:31:58.693Z",
   "mods": [
     {
       "author": {
@@ -45,7 +45,7 @@
       ],
       "version": "1.2.3",
       "source": "jealous123456789/evejs-mod-evejs-air-career-payout",
-      "downloads": 277,
+      "downloads": 278,
       "cdnHits": 0
     },
     {
@@ -1115,7 +1115,7 @@
       "tags": [],
       "version": "0.6.1",
       "source": "huihuangdi/evejs-mod-npc-loot-rules-261028",
-      "downloads": 340,
+      "downloads": 341,
       "cdnHits": 0
     },
     {
@@ -1395,7 +1395,7 @@
       ],
       "version": "1.7.1",
       "source": "xxxuan42/evejs-mod-evejs-skyhook-reagent-boost",
-      "downloads": 677,
+      "downloads": 678,
       "cdnHits": 0
     },
     {
@@ -1798,7 +1798,7 @@
       ],
       "version": "1.1.1",
       "source": "xxxuan42/evejs-mod-evejs-moonscan-all",
-      "downloads": 365,
+      "downloads": 366,
       "cdnHits": 0
     },
     {
@@ -2131,7 +2131,7 @@
       ],
       "version": "1.7.1",
       "source": "xxxuan42/evejs-mod-evejs-missile-retarget",
-      "downloads": 120,
+      "downloads": 121,
       "cdnHits": 0
     },
     {
@@ -2177,7 +2177,7 @@
       ],
       "version": "1.0.1",
       "source": "doomo-o/evejs-mod-missile-aoe",
-      "downloads": 26,
+      "downloads": 27,
       "cdnHits": 0
     },
     {
@@ -2631,7 +2631,7 @@
       ],
       "version": "1.3.1",
       "source": "xxxuan42/evejs-mod-evejs-courier-ai",
-      "downloads": 305,
+      "downloads": 306,
       "cdnHits": 0
     },
     {
@@ -2725,7 +2725,7 @@
       ],
       "version": "1.0.2",
       "source": "jealous123456789/evejs-mod-overview-display-fix",
-      "downloads": 545,
+      "downloads": 548,
       "cdnHits": 0
     },
     {
@@ -2959,7 +2959,7 @@
       ],
       "version": "1.3.2",
       "source": "xxxuan42/evejs-mod-evejs-auto-mining-compression",
-      "downloads": 475,
+      "downloads": 477,
       "cdnHits": 0
     },
     {
@@ -3096,7 +3096,7 @@
       ],
       "version": "1.1.1",
       "source": "xxxuan42/evejs-mod-evejs-stargate-jump-anywhere",
-      "downloads": 158,
+      "downloads": 159,
       "cdnHits": 0
     },
     {
@@ -3290,7 +3290,7 @@
       "tags": [],
       "version": "0.1.0",
       "source": "xuenaimiao/evejs-mod-evejs-sc-ships-pack-rsi-crusader",
-      "downloads": 334,
+      "downloads": 335,
       "cdnHits": 0
     },
     {
@@ -3557,7 +3557,7 @@
       ],
       "version": "1.0.3",
       "source": "jealous123456789/evejs-mod-industry-job-slots",
-      "downloads": 189,
+      "downloads": 191,
       "cdnHits": 0
     },
     {
@@ -3663,7 +3663,7 @@
       ],
       "version": "1.3.1",
       "source": "xxxuan42/evejs-mod-evejs-industrial-module-fast-cycle",
-      "downloads": 296,
+      "downloads": 297,
       "cdnHits": 0
     },
     {
@@ -3955,7 +3955,7 @@
       ],
       "version": "1.0.2",
       "source": "jealous123456789/evejs-mod-chat-edge-lane-fix",
-      "downloads": 172,
+      "downloads": 173,
       "cdnHits": 0
     },
     {
@@ -4017,7 +4017,7 @@
       ],
       "version": "1.0.5",
       "source": "jealous123456789/evejs-mod-evejs-logo-manager",
-      "downloads": 177,
+      "downloads": 179,
       "cdnHits": 0
     },
     {
@@ -4069,7 +4069,7 @@
       ],
       "version": "1.0.2",
       "source": "jealous123456789/evejs-mod-autopilot-warp-zero",
-      "downloads": 260,
+      "downloads": 262,
       "cdnHits": 0
     },
     {
@@ -4129,7 +4129,7 @@
         "name": "普罗旺斯煎饼果子"
       },
       "category": "玩法",
-      "changelog": "修复了因版本串不匹配造成无法启用mod的bug",
+      "changelog": "适配了261125.3及261126.2服务端",
       "conflicts": [],
       "delisted": false,
       "description": "自动找行星、建产线、收菜补料的行星工业管家。",
@@ -4138,12 +4138,14 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/jealous123456789/evejs-mod-pi-manager/releases/download/v1.2.2/pi-manager-1.2.2.zip"
+          "url": "https://github.com/jealous123456789/evejs-mod-pi-manager/releases/download/v1.2.3/pi-manager-1.2.3.zip"
         }
       ],
       "evejsVersions": [
         "261108.x",
-        "261115.x"
+        "261115.x",
+        "261125.x",
+        "261126.x"
       ],
       "featured": false,
       "highlights": [
@@ -4162,17 +4164,17 @@
       ],
       "history": [],
       "id": "pi-manager",
-      "publishedAt": "2026-11-23",
+      "publishedAt": "2026-11-27",
       "readme": [
         "自动菜管家把行星工业从手动摆针、盯产量、来回搬运，变成一键规划、一键建设、自动收菜补料：你只管定目标，找星、建线、喂料、收货都由它代办。",
         "游戏内输入 `/pi` 是总入口，会显示当前状态和全部指令；输入 `/pi help` 也能查看说明。所有功能都能在游戏聊天框里直接调用。",
         "本机网页面板：游戏内输入 `/pi panel`，聊天会返回本机网页地址和访问口令，复制到浏览器打开。面板分总览、扫描及原料规划、二至四级规划、殖民地、模板、设置、日志七页，和游戏内命令用同一套数据。总览看角色、钱包、投递站和产线进度；殖民地页看每颗星的运行状态和库存，可一键收菜、补料、移除；设置页切换严格、宽松、作弊三种规则，调整产出倍率和角色槽上限。建设或补料进行中，面板会显示当前进度，可随时安全停止，已建好的部分保留。",
-        "常用命令：`/pi scan 3` 扫描附近行星；`/pi plan 产物名` 生成单个产物方案；`/pi p2 产物名` 生成二级单星产线；`/pi p3 产物名` 生成三级整组；`/pi p4 产物名` 生成整条四级产物链；`/pi build` 开始建设。其他命令用 `/pi help` 查看。"
+        "常用命令：`/pi scan 3` 扫描附近行星；`/pi plan 产物名` 生成单个产物方案；`/pi p2 产物名` 生成二级单星产线；`/pi p3 产物名` 生成三级整组；`/pi p4 产物名` 生成整条四级产物链；`/pi build` 开始建设。其他命令用 `/pi help` 查看。\n当采用非GM账号时，命令开头为\".\"，如\"pi\"。其余相同。"
       ],
       "repo": "https://github.com/jealous123456789/evejs-mod-pi-manager",
       "requiresRestart": true,
-      "sha256": "11f5a8101094de5a79fcf7df00fb063d3c3b0a55dcc281a6619784b963cde1f6",
-      "sizeBytes": 555079,
+      "sha256": "1d00bb5ae6e741bf8ff70e6e45d6afefd6306d814f4a85f11d01bd629c33df44",
+      "sizeBytes": 558346,
       "tags": [
         "行星工业",
         "PI",
@@ -4180,7 +4182,7 @@
         "网页",
         "中文"
       ],
-      "version": "1.2.2",
+      "version": "1.2.3",
       "source": "jealous123456789/evejs-mod-pi-manager",
       "downloads": 387,
       "cdnHits": 2
@@ -4572,7 +4574,7 @@
       ],
       "version": "1.21.3",
       "source": "xxxuan42/evejs-mod-evejs-jumpdrive-to-star",
-      "downloads": 568,
+      "downloads": 569,
       "cdnHits": 3
     },
     {
@@ -4794,7 +4796,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "ubGGouPAoiaIIrmTAel6z+3keZB3Fx/JiNQRkw08trkdM8KcgvIe1YTS86H26bnmOYCrkZEt54copno/HXb8Dg==",
-    "signedAt": "2026-11-27T03:10:19.338Z"
+    "sig": "cK3iZSSBwdOmD1TDkZqHsfGXZw9llmYGyzLWz4fSf4iCVdNxNPMbhHEhsx85Wp5iafoxdRqWThyg940IUN/3BQ==",
+    "signedAt": "2026-11-27T03:31:58.699Z"
   }
 }
