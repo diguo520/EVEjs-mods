@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-11-27T03:06:19.181Z",
+  "publishedAt": "2026-11-27T03:10:19.329Z",
   "mods": [
     {
       "author": {
@@ -1894,7 +1894,7 @@
       ],
       "version": "0.1.1",
       "source": "billyyyq/evejs-mod-jita-night-market",
-      "downloads": 166,
+      "downloads": 167,
       "cdnHits": 0
     },
     {
@@ -2725,7 +2725,7 @@
       ],
       "version": "1.0.2",
       "source": "jealous123456789/evejs-mod-overview-display-fix",
-      "downloads": 544,
+      "downloads": 545,
       "cdnHits": 0
     },
     {
@@ -4794,7 +4794,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "uT8NdMccQ2JynlbFwKpTih4FKRiOyti4gI6ccbeVjzwvCVFjvePcG2vYtyoxKQqF5xkSU2F90Se0ZdMJMcFJCw==",
-    "signedAt": "2026-11-27T03:06:19.186Z"
+    "sig": "ubGGouPAoiaIIrmTAel6z+3keZB3Fx/JiNQRkw08trkdM8KcgvIe1YTS86H26bnmOYCrkZEt54copno/HXb8Dg==",
+    "signedAt": "2026-11-27T03:10:19.338Z"
   }
 }
