@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-11-27T12:17:54.814Z",
+  "publishedAt": "2026-11-27T12:20:55.584Z",
   "mods": [
     {
       "author": {
@@ -653,7 +653,7 @@
       ],
       "banner": "shots/Banner/banner.jpg",
       "source": "xuenaimiao/evejs-mod-evejs-faction-sim",
-      "downloads": 2484,
+      "downloads": 2485,
       "cdnHits": 3644
     },
     {
@@ -980,7 +980,7 @@
       "tags": [],
       "version": "0.6.1",
       "source": "huihuangdi/evejs-mod-npc-loot-mutation-ext",
-      "downloads": 225,
+      "downloads": 226,
       "cdnHits": 0
     },
     {
@@ -1162,7 +1162,6 @@
       "tags": [],
       "version": "0.1.29",
       "source": "MateralCMX/evejs-mod-uua-f4",
-      "downloads": 59,
       "cdnHits": 0
     },
     {
@@ -1661,7 +1660,6 @@
       ],
       "version": "0.2.1",
       "source": "xxxuan42/evejs-mod-corp-ai",
-      "downloads": 134,
       "cdnHits": 0
     },
     {
@@ -1848,7 +1846,6 @@
       ],
       "version": "0.1.1",
       "source": "billyyyq/evejs-mod-jita-night-market",
-      "downloads": 172,
       "cdnHits": 0
     },
     {
@@ -1894,7 +1891,6 @@
       ],
       "version": "1.1.5",
       "source": "moyuxitypebigFatfish/evejs-mod-evejs-jita-xl-deploy",
-      "downloads": 66,
       "cdnHits": 0
     },
     {
@@ -1991,7 +1987,6 @@
       ],
       "version": "1.0.0",
       "source": "Mimataer/evejs-mod-evejs-da-fei-yu-zhu-quan-bu-shu",
-      "downloads": 150,
       "cdnHits": 0
     },
     {
@@ -2036,7 +2031,6 @@
       ],
       "version": "1.5.3",
       "source": "moyuxitypebigFatfish/evejs-mod-evejs-dafeiyu-armory",
-      "downloads": 109,
       "cdnHits": 0
     },
     {
@@ -2085,7 +2079,6 @@
       "tags": [],
       "version": "1.0.0",
       "source": "huihuangdi/evejs-mod-fsd-hub",
-      "downloads": 1,
       "cdnHits": 0
     },
     {
@@ -2180,7 +2173,6 @@
       ],
       "version": "1.7.1",
       "source": "xxxuan42/evejs-mod-evejs-missile-retarget",
-      "downloads": 131,
       "cdnHits": 0
     },
     {
@@ -2226,7 +2218,6 @@
       ],
       "version": "1.0.1",
       "source": "doomo-o/evejs-mod-missile-aoe",
-      "downloads": 31,
       "cdnHits": 0
     },
     {
@@ -2579,7 +2570,6 @@
       ],
       "version": "1.1.4",
       "source": "huihuangdi/evejs-mod-evejs-ded-ladder",
-      "downloads": 265,
       "cdnHits": 0
     },
     {
@@ -2630,7 +2620,6 @@
       ],
       "version": "1.1.1",
       "source": "GH301/evejs-mod-evejs-anomaly-rewards",
-      "downloads": 220,
       "cdnHits": 0
     },
     {
@@ -2822,7 +2811,6 @@
       ],
       "version": "0.2.3",
       "source": "huihuangdi/evejs-mod-evejs-dps-meter",
-      "downloads": 43,
       "cdnHits": 0
     },
     {
@@ -2967,7 +2955,6 @@
       "tags": [],
       "version": "0.7.3",
       "source": "huihuangdi/evejs-mod-evejs-scylla-marauder",
-      "downloads": 72,
       "cdnHits": 0
     },
     {
@@ -3763,7 +3750,6 @@
       ],
       "version": "1.0.4",
       "source": "moyuxitypebigFatfish/evejs-mod-evejs-bastion-10s",
-      "downloads": 41,
       "cdnHits": 0
     },
     {
@@ -4296,7 +4282,6 @@
       "tags": [],
       "version": "0.1.4",
       "source": "MateralCMX/evejs-mod-ship-operations-assistant",
-      "downloads": 93,
       "cdnHits": 0
     },
     {
@@ -4449,7 +4434,6 @@
       ],
       "version": "1.1.0",
       "source": "lxm970112-hub/evejs-mod-evejs-wormhole-anomaly-repair-261028",
-      "downloads": 176,
       "cdnHits": 0
     },
     {
@@ -4674,7 +4658,6 @@
       ],
       "version": "1.1.21",
       "source": "Mimataer/evejs-mod-evejs-yuan-zheng",
-      "downloads": 463,
       "cdnHits": 0
     },
     {
@@ -4819,7 +4802,6 @@
       ],
       "version": "1.0.7",
       "source": "moyuxitypebigFatfish/evejs-mod-evejs-molang-class",
-      "downloads": 109,
       "cdnHits": 0
     }
   ],
@@ -4852,7 +4834,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "5RRU/khZqTDjqVqFE4+IJ8/imi10zeXSgpbLo93PNbXT67vXgySFcBZOCvlWHLHFoId+NfPfSAhj62oAiRr+BQ==",
-    "signedAt": "2026-11-27T12:17:54.819Z"
+    "sig": "YnI8wmCzDluRvtzGuGdeQX8kYJntC8FwsdPNc8zt9vQEZVTlkD7FaOuve4b+G3Ao/1iyeUomJqvsN9TpOTQjCQ==",
+    "signedAt": "2026-11-27T12:20:55.588Z"
   }
 }
