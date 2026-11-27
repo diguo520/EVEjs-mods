@@ -10,15 +10,15 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/jealous123456789/evejs-mod-industry-job-slots/releases/download/v1.0.2/industry-job-slots-1.0.2.zip"
+      "url": "https://github.com/jealous123456789/evejs-mod-industry-job-slots/releases/download/v1.0.3/industry-job-slots-1.0.3.zip"
     }
   ],
   "id": "industry-job-slots",
-  "publishedAt": "2026-11-17",
+  "publishedAt": "2026-11-27",
   "schemaVersion": 1,
-  "sha256": "0e855a4bac46de1a708ddd6f56ef0188091cafee91d51d6d13cee0e170aa054d",
-  "sizeBytes": 33263,
+  "sha256": "e30ad9e4aa729a2c819db1ee90cfa1eb5e2398e783c3291e249a3c7d27b19b1a",
+  "sizeBytes": 35913,
   "source": "jealous123456789/evejs-mod-industry-job-slots",
-  "submittedAt": "2026-11-17T04:59:00.132Z",
-  "version": "1.0.2"
+  "submittedAt": "2026-11-27T02:59:59.568Z",
+  "version": "1.0.3"
 }
