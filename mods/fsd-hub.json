@@ -1,0 +1,24 @@
+{
+  "author": {
+    "id": "au-mul9t76ozxf9",
+    "keyId": "050c08195199",
+    "name": "辉煌帝"
+  },
+  "displayName": "客户端静态表统一写入者",
+  "downloadParts": null,
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/huihuangdi/evejs-mod-fsd-hub/releases/download/v1.0.0/fsd-hub-1.0.0.zip"
+    }
+  ],
+  "id": "fsd-hub",
+  "publishedAt": "2026-11-27",
+  "schemaVersion": 1,
+  "sha256": "2a3d7288882f2113755d83da0f2ed16110f1d998dab54d96511edd93885dc1f5",
+  "sizeBytes": 359530,
+  "source": "huihuangdi/evejs-mod-fsd-hub",
+  "submittedAt": "2026-11-27T11:57:28.224Z",
+  "version": "1.0.0"
+}

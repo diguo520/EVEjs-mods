@@ -100,6 +100,7 @@
     "huihuangdi/evejs-mod-evejs-dps-meter",
     "huihuangdi/evejs-mod-evejs-scylla-marauder",
     "moyuxitypebigFatfish/evejs-mod-evejs-bastion-10s",
-    "doomo-o/evejs-mod-missile-aoe"
+    "doomo-o/evejs-mod-missile-aoe",
+    "huihuangdi/evejs-mod-fsd-hub"
   ]
 }
