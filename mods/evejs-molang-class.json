@@ -1,7 +1,7 @@
 {
   "author": {
-    "id": "au-mwo15tn5ydy0",
-    "keyId": "4606305c8b09",
+    "id": "au-mwxs4qg1v75i",
+    "keyId": "8596438f3c87",
     "name": "神秘大肥鱼"
   },
   "displayName": "魔狼级（Marauder）",
@@ -10,15 +10,15 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/moyuxitypebigFatfish/evejs-mod-evejs-molang-class/releases/download/v1.0.6/evejs-molang-class-1.0.6.zip"
+      "url": "https://github.com/moyuxitypebigFatfish/evejs-mod-evejs-molang-class/releases/download/v1.0.7/evejs-molang-class-1.0.7.zip"
     }
   ],
   "id": "evejs-molang-class",
-  "publishedAt": "2026-11-24",
+  "publishedAt": "2026-11-27",
   "schemaVersion": 1,
-  "sha256": "b03c20cc68ebb7e81aa0577602664df6813a64341edd820371e3da619c65331a",
-  "sizeBytes": 290781,
+  "sha256": "0dc0aa4a0ed8a0ba225bcd7e791c635e9538c4ea477709e8b016a3420dce479f",
+  "sizeBytes": 291486,
   "source": "moyuxitypebigFatfish/evejs-mod-evejs-molang-class",
-  "submittedAt": "2026-11-24T12:13:52.640Z",
-  "version": "1.0.6"
+  "submittedAt": "2026-11-27T11:08:01.609Z",
+  "version": "1.0.7"
 }
