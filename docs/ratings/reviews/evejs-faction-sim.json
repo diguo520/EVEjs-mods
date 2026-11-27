@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1795441220142,
+  "generatedAt": 1795788401115,
   "modId": "evejs-faction-sim",
   "reviews": [
     {
@@ -65,19 +65,20 @@
     }
   ],
   "stars": {
-    "count": 6,
+    "count": 7,
     "keys": [
       "bc816da2a7bc",
       "1574beaf5442",
       "32fe0d37d2b8",
       "6a1559f9f936",
       "8ad48f9cc596",
-      "d0e93ae46807"
+      "d0e93ae46807",
+      "75e0bba49d77"
     ]
   },
   "signature": {
     "alg": "ed25519",
     "keyId": "evejs-ratings-2026-10-01",
-    "sig": "xG3+pKKCyZ+Cd4624aPcfUqKH6TjpFl0Quf2SNjkTyeITsMzF3OL22V7J3C9iDuMCCXZkvntSWPSgEagj+XcDQ=="
+    "sig": "oE2R0C0AOrR2IAJNW/AZ2toY/eXZKKr7UcnKKx70NPMdpgD8+vIUKZbpbTF8NXTTY+KX5vqqD19sx7js3fgJBA=="
   }
 }

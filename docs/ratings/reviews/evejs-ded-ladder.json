@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": 1795799890801,
+  "modId": "evejs-ded-ladder",
+  "reviews": [
+    {
+      "id": "rv-1795784543224-9488",
+      "keyId": "8244d67fd13a",
+      "author": "",
+      "corp": "",
+      "country": "CN",
+      "stars": 5,
+      "version": "1.1.4",
+      "date": "2026-11-27",
+      "body": "Start-Config-Editor.bat 配置文件缺失严重啊",
+      "edited": false
+    },
+    {
+      "id": "rv-1795799889119-24584",
+      "keyId": "8244d67fd13a",
+      "author": "",
+      "corp": "",
+      "country": "CN",
+      "stars": 5,
+      "version": "1.1.4",
+      "date": "2026-11-27",
+      "body": "卸载重装仍然缺失/config/ladder-config.json，web端无法进行配置",
+      "edited": false
+    }
+  ],
+  "stars": {
+    "count": 0,
+    "keys": []
+  },
+  "signature": {
+    "alg": "ed25519",
+    "keyId": "evejs-ratings-2026-10-01",
+    "sig": "xMVCFpTs2TzWr9j9K6acpiPyOX515EiRu3hH/nEzejpSB+u3SkADN/99Ng5yYmL02yMkPtEurSN8keGGdqT8DQ=="
+  }
+}

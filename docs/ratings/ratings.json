@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1795733108573,
+  "generatedAt": 1795799890801,
   "mods": {
     "better-loot": {
       "stars": 2,
@@ -170,18 +170,32 @@
         0
       ]
     },
+    "evejs-ded-ladder": {
+      "stars": 0,
+      "comments": 2,
+      "average": 0,
+      "count": 0,
+      "withText": 2,
+      "histogram": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
     "evejs-faction-sim": {
-      "stars": 6,
+      "stars": 7,
       "comments": 5,
       "average": 5,
-      "count": 6,
+      "count": 7,
       "withText": 5,
       "histogram": [
         0,
         0,
         0,
         0,
-        6
+        7
       ]
     },
     "evejs-hyperion-ship": {
@@ -552,6 +566,6 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "evejs-ratings-2026-10-01",
-    "sig": "85LfR91U2U5v1mxXGlFhDvxVCMwtevmXLVIT1cK0rkGuRxsZLQZggYyub0fsGnDg72y4NyhOFPxAdaGY0Jf3BQ=="
+    "sig": "88DjpNrRssSZEGi+28O6Vyn510x0MxFEjBigrGOWJ9xo7c/QfqlJypriG4voVvELffbc19Kth+9zW8HiLjzKAw=="
   }
 }
