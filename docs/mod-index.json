@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-11-28T13:00:15.473Z",
+  "publishedAt": "2026-11-28T13:03:21.450Z",
   "mods": [
     {
       "author": {
@@ -485,7 +485,7 @@
       "tags": [],
       "version": "0.2.7",
       "source": "MateralCMX/evejs-mod-ship-blueprints",
-      "downloads": 438,
+      "downloads": 439,
       "cdnHits": 6
     },
     {
@@ -534,7 +534,7 @@
       "tags": [],
       "version": "0.1.6",
       "source": "MateralCMX/evejs-mod-gm-menu-localization",
-      "downloads": 856,
+      "downloads": 857,
       "cdnHits": 6
     },
     {
@@ -1571,7 +1571,7 @@
       ],
       "version": "1.0.4",
       "source": "starcraft110/evejs-mod-evejs-hyperion-ship",
-      "downloads": 414,
+      "downloads": 415,
       "cdnHits": 0
     },
     {
@@ -2038,7 +2038,7 @@
       ],
       "version": "1.5.4",
       "source": "moyuxitypebigFatfish/evejs-mod-evejs-dafeiyu-armory",
-      "downloads": 132,
+      "downloads": 138,
       "cdnHits": 0
     },
     {
@@ -3676,7 +3676,7 @@
       ],
       "version": "3.2.0",
       "source": "Jasper377/evejs-mod-evejs-racks16",
-      "downloads": 586,
+      "downloads": 587,
       "cdnHits": 0
     },
     {
@@ -3910,7 +3910,7 @@
       ],
       "version": "1.0.3",
       "source": "jealous123456789/evejs-mod-belt-respawn-cooldown",
-      "downloads": 321,
+      "downloads": 322,
       "cdnHits": 0
     },
     {
@@ -4637,7 +4637,7 @@
       ],
       "version": "1.22.0",
       "source": "xxxuan42/evejs-mod-evejs-jumpdrive-to-star",
-      "downloads": 635,
+      "downloads": 637,
       "cdnHits": 9
     },
     {
@@ -4786,7 +4786,7 @@
         "name": "神秘大肥鱼"
       },
       "category": "玩法",
-      "changelog": "修复了信息面板的问题",
+      "changelog": "兼容261125.3/ 261126.2",
       "conflicts": [],
       "delisted": false,
       "description": "在单机服里新增一艘米玛塔尔掠夺舰「魔狼级」（typeID 91901，克隆自恶狼级），与原版恶狼级并存。服务端启动时内存注入 itemTypes/shipTypes/typeDogma/shipDogmaAttributes；首次启动自动调用 tools/patch-client.js 给客户端打补丁（客户端需未运行），之后按 client-patched.json 跳过；客户端补丁写 types/typedogma/dogmaeffects/typelist/本地化/infobubbles/涂装，可 --restore 一键还原。",
@@ -4799,7 +4799,8 @@
         }
       ],
       "evejsVersions": [
-        "261125.3"
+        "261125.3",
+        "261126.2"
       ],
       "featured": false,
       "highlights": [],
@@ -4859,7 +4860,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "HTMOPr6yUi7M40v1EYkgFYkOxPeby0PexS5xrkxAoCBhrM5IeJTHd2mwDooy8io4/pUOozJ2OoxKvsQC3lIyCg==",
-    "signedAt": "2026-11-28T13:00:15.480Z"
+    "sig": "iy5X34+74NFcxSoGViOq9XOuS33UdLQl6SsbZ02JRYg4NghkeSgZytSHiKlp22fiIhHCglDek0LC2hCI8YLyDw==",
+    "signedAt": "2026-11-28T13:03:21.456Z"
   }
 }
