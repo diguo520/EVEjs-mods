@@ -10,15 +10,15 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/moyuxitypebigFatfish/evejs-mod-evejs-bastion-10s/releases/download/v1.0.4/evejs-bastion-10s-1.0.4.zip"
+      "url": "https://github.com/moyuxitypebigFatfish/evejs-mod-evejs-bastion-10s/releases/download/v1.0.10/evejs-bastion-10s-1.0.10.zip"
     }
   ],
   "id": "evejs-bastion-10s",
-  "publishedAt": "2026-11-27",
+  "publishedAt": "2026-11-28",
   "schemaVersion": 1,
-  "sha256": "318feccdedf92a9dc4878a09857087cfa1152bf58c5625c5b7686ccd9b5c5132",
-  "sizeBytes": 22880,
+  "sha256": "b14fe9131241b0c855796bc082a9fbca1220e3b9b837dd96845ff5191de638d5",
+  "sizeBytes": 34786,
   "source": "moyuxitypebigFatfish/evejs-mod-evejs-bastion-10s",
-  "submittedAt": "2026-11-27T11:05:47.329Z",
-  "version": "1.0.4"
+  "submittedAt": "2026-11-28T12:56:29.011Z",
+  "version": "1.0.10"
 }
