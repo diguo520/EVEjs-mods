@@ -10,15 +10,15 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/moyuxitypebigFatfish/evejs-mod-evejs-jita-xl-deploy/releases/download/v1.1.5/evejs-jita-xl-deploy-1.1.5.zip"
+      "url": "https://github.com/moyuxitypebigFatfish/evejs-mod-evejs-jita-xl-deploy/releases/download/v1.1.6/evejs-jita-xl-deploy-1.1.6.zip"
     }
   ],
   "id": "evejs-jita-xl-deploy",
-  "publishedAt": "2026-11-27",
+  "publishedAt": "2026-11-28",
   "schemaVersion": 1,
-  "sha256": "653809b96749ab4615519e84eabd7c33934b2f43156f222c2fbf715fee17c13e",
-  "sizeBytes": 33434,
+  "sha256": "4fe7f95becf21337aa5f846b24b92393eadaa5956ba4cc0744196b0d3fecd332",
+  "sizeBytes": 33670,
   "source": "moyuxitypebigFatfish/evejs-mod-evejs-jita-xl-deploy",
-  "submittedAt": "2026-11-27T11:00:09.074Z",
-  "version": "1.1.5"
+  "submittedAt": "2026-11-28T12:54:56.412Z",
+  "version": "1.1.6"
 }
