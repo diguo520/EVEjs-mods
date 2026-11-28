@@ -10,15 +10,15 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/moyuxitypebigFatfish/evejs-mod-evejs-dafeiyu-armory/releases/download/v1.5.3/evejs-dafeiyu-armory-1.5.3.zip"
+      "url": "https://github.com/moyuxitypebigFatfish/evejs-mod-evejs-dafeiyu-armory/releases/download/v1.5.4/evejs-dafeiyu-armory-1.5.4.zip"
     }
   ],
   "id": "evejs-dafeiyu-armory",
-  "publishedAt": "2026-11-27",
+  "publishedAt": "2026-11-28",
   "schemaVersion": 1,
-  "sha256": "1ece5c710c2d1680291c2e22e46f44daac3e34294d3b37d72aae73e3ea86a436",
-  "sizeBytes": 12018379,
+  "sha256": "fb57159fb75f6d2c4a72e0dda6e49855070c0b1b25449d7f7f035bf448dad0f2",
+  "sizeBytes": 11941227,
   "source": "moyuxitypebigFatfish/evejs-mod-evejs-dafeiyu-armory",
-  "submittedAt": "2026-11-27T11:02:35.753Z",
-  "version": "1.5.3"
+  "submittedAt": "2026-11-28T12:46:48.223Z",
+  "version": "1.5.4"
 }
