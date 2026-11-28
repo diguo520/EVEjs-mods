@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1795799890801,
+  "generatedAt": 1795803916468,
   "mods": {
     "better-loot": {
       "stars": 2,
@@ -566,6 +566,6 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "evejs-ratings-2026-10-01",
-    "sig": "88DjpNrRssSZEGi+28O6Vyn510x0MxFEjBigrGOWJ9xo7c/QfqlJypriG4voVvELffbc19Kth+9zW8HiLjzKAw=="
+    "sig": "9ay1Ou0Y95tBR2i027sCy1A75TEH7zTT0/Td7lgVPp/vvs4Tm/ri/fBc+cO72vUgRdbFdWQ3dGj96ghoR/+cCg=="
   }
 }
