@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-11-28T15:56:50.375Z",
+  "publishedAt": "2026-11-28T15:59:52.340Z",
   "mods": [
     {
       "author": {
@@ -579,7 +579,7 @@
       ],
       "version": "1.0.0",
       "source": "ewinted/evejs-mod-evejs-mtu-multi-target",
-      "downloads": 154,
+      "downloads": 155,
       "cdnHits": 0
     },
     {
@@ -3509,7 +3509,7 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/jealous123456789/evejs-mod-better-loot/releases/download/v1.1.1/better-loot-1.1.1.zip"
+          "url": "https://github.com/jealous123456789/evejs-mod-better-loot/releases/download/v1.1.2/better-loot-1.1.2.zip"
         }
       ],
       "evejsVersions": [
@@ -3535,7 +3535,7 @@
       ],
       "history": [],
       "id": "better-loot",
-      "publishedAt": "2026-11-22",
+      "publishedAt": "2026-11-28",
       "readme": [
         "普通敌人只掉普通装备、弹药与杂货，不会掉势力、官员或死亡空间装备。空残骸率和件数维持原样。",
         "指挥官掉 1 到 3 件势力装备和势力弹药，装备不重复，不再出现一次掉一整船的情况。",
@@ -3551,14 +3551,14 @@
       ],
       "repo": "https://github.com/jealous123456789/evejs-mod-better-loot",
       "requiresRestart": true,
-      "sha256": "6168ec68dda7242513b7492565b6563067df714751f7c8342f0fcf0b0ac4f6f3",
-      "sizeBytes": 183906,
+      "sha256": "0f4afa65f1aaaaa667ed0b664f6ec830ab83e1310a19888d5802f5c383628aff",
+      "sizeBytes": 350518,
       "tags": [
         "掉落",
         "平衡",
         "修复"
       ],
-      "version": "1.1.1",
+      "version": "1.1.2",
       "source": "jealous123456789/evejs-mod-better-loot",
       "downloads": 480,
       "cdnHits": 6
@@ -4863,7 +4863,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "6EGT6yRhVEka3rqFm3pCZwE4uqxroQDYj9GTPS3kQpEBwHkXE22Aa5f6xfLxg46qiKHz8rOU3wZvXzXdYHgOCw==",
-    "signedAt": "2026-11-28T15:56:50.381Z"
+    "sig": "g+7p+Xx5+Ka1zwesm3xOkEHEMBowwXWmuXNzDe8wIE2gcfFWRurt9kC5JK0WcsK5a8LAJRX5n9zBR6f8pLLoDg==",
+    "signedAt": "2026-11-28T15:59:52.346Z"
   }
 }
