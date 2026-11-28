@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1795709964457,
+  "generatedAt": 1795870379782,
   "modId": "evejs-jumpdrive-to-star",
   "reviews": [
     {
@@ -30,6 +30,6 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "evejs-ratings-2026-10-01",
-    "sig": "owlN0ud8Yklm/gwbmROiUvD7E5cVx/3JRF0Rm9wOQDcQSme4o+FRUsarTfsRaFvCpaAJpNSOwTEPo2jSxamLAA=="
+    "sig": "2Tb5K1X6dTCZQTegB/v+tGnnA5DBf3+Ml68oL1dIo9b429KUx7MDOS+lROUlMOZT1wV74XI92HpTZKGFxdR8BA=="
   }
 }

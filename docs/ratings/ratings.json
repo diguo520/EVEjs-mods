@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1795853171305,
+  "generatedAt": 1795883126259,
   "mods": {
     "better-loot": {
       "stars": 2,
@@ -101,17 +101,17 @@
       ]
     },
     "evejs-autolockfire": {
-      "stars": 6,
+      "stars": 7,
       "comments": 2,
       "average": 5,
-      "count": 6,
+      "count": 7,
       "withText": 2,
       "histogram": [
         0,
         0,
         0,
         0,
-        6
+        7
       ]
     },
     "evejs-autolockfire-cn": {
@@ -395,17 +395,17 @@
       ]
     },
     "gm-menu-localization": {
-      "stars": 1,
+      "stars": 2,
       "comments": 0,
       "average": 5,
-      "count": 1,
+      "count": 2,
       "withText": 0,
       "histogram": [
         0,
         0,
         0,
         0,
-        1
+        2
       ]
     },
     "jita-night-market": {
@@ -566,6 +566,6 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "evejs-ratings-2026-10-01",
-    "sig": "kUfANoJBaoBCQ/awFCeAme/LNiHZ9VFY3V52BZ/iYYx6Fo3BlzAAgl4qTMoMcXCtscHZdOS3xNEVzHYhTrmwBQ=="
+    "sig": "qZzxvCjTI+sridW5TMWwYzOSJ8B8OJigvlziJRknShGrSXt8BNh7Bl0gObBSjGsYlrsfvuVMLAG7gscyBzXeBg=="
   }
 }

@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1793255559582,
+  "generatedAt": 1795883130154,
   "modId": "gm-menu-localization",
   "reviews": [],
   "stars": {
-    "count": 1,
+    "count": 2,
     "keys": [
-      "d77992a5c523"
+      "d77992a5c523",
+      "d35a84ad3c70"
     ]
   },
   "signature": {
     "alg": "ed25519",
     "keyId": "evejs-ratings-2026-10-01",
-    "sig": "5HtvDsxZ15FkCL5VaVRbV2JbMlKpPhaBLicxYcKaqdQmgGks8YaOxlHyU7i6yZAV3zjaapxTKg5SIkJKXzS4DA=="
+    "sig": "0lnSceOBT17UEH2JGhjPDLD6icKhNQ/Yjo/z+vthAUyoqnP4ypx66U5nQWYoiyByyqXRSG8EH+Gf1TKlvi++AA=="
   }
 }
