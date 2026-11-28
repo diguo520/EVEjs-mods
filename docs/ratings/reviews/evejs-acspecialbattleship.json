@@ -1,8 +1,20 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1794273347981,
+  "generatedAt": 1795830647206,
   "modId": "evejs-acspecialbattleship",
   "reviews": [
+    {
+      "id": "rv-1795830644926-21532",
+      "keyId": "68fdba8f057b",
+      "author": "",
+      "corp": "",
+      "country": "CN",
+      "stars": 5,
+      "version": "1.6.0",
+      "date": "2026-11-28",
+      "body": "需要更新了大佬",
+      "edited": false
+    },
     {
       "id": "rv-1794273346744-13084",
       "keyId": "c6ee65a8b958",
@@ -25,6 +37,6 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "evejs-ratings-2026-10-01",
-    "sig": "k82VClu49mMuWAKu4oiYImHWXonLuyIhVRVlcWfJQEfy+jpwd/qZoMTVWokf+rMMAsNUZOMe79lhNY8Wiuu8DQ=="
+    "sig": "E5NjNPW2uwKCiSU/vO+jPDsnS4gBlyE1zioJha06duVgpNRt5+w+OLO4owTN2DutDgxPggST+L2ADFhA1uTzCw=="
   }
 }

@@ -1,8 +1,20 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1795175981249,
+  "generatedAt": 1795835121121,
   "modId": "evejs-autolockfire",
   "reviews": [
+    {
+      "id": "rv-1795835112162-16832",
+      "keyId": "9feea2acf831",
+      "author": "",
+      "corp": "",
+      "country": "SG",
+      "stars": 5,
+      "version": "1.1.10",
+      "date": "2026-11-28",
+      "body": "好用快更新",
+      "edited": false
+    },
     {
       "id": "rv-1791294686763-23496",
       "keyId": "ebaf9008a4f1",
@@ -22,18 +34,19 @@
     }
   ],
   "stars": {
-    "count": 5,
+    "count": 6,
     "keys": [
       "ebaf9008a4f1",
       "6a316d31c8c0",
       "258763359c03",
       "6541d779b1a2",
-      "4606305c8b09"
+      "4606305c8b09",
+      "9feea2acf831"
     ]
   },
   "signature": {
     "alg": "ed25519",
     "keyId": "evejs-ratings-2026-10-01",
-    "sig": "ti19R9BVgCRwviFaOCX6NzJhk8VCFWKZH/0GhMh8AapaAAAxXH3PTJUX9BFdyrZK7eYaYHE50DHSexSrQKmgDQ=="
+    "sig": "mI+tSgwbkpWDHvLl8SytyruofGlTeBNPHn/JuOHwg8fu6Xq5BKNjZQx5FIYW0m8pOgW5Kzf2kL+hvwsQZNzODg=="
   }
 }

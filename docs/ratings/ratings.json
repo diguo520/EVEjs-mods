@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1795803916468,
+  "generatedAt": 1795853171305,
   "mods": {
     "better-loot": {
       "stars": 2,
@@ -32,10 +32,10 @@
     },
     "evejs-acspecialbattleship": {
       "stars": 1,
-      "comments": 1,
+      "comments": 2,
       "average": 5,
       "count": 1,
-      "withText": 1,
+      "withText": 2,
       "histogram": [
         0,
         0,
@@ -101,17 +101,17 @@
       ]
     },
     "evejs-autolockfire": {
-      "stars": 5,
-      "comments": 1,
+      "stars": 6,
+      "comments": 2,
       "average": 5,
-      "count": 5,
-      "withText": 1,
+      "count": 6,
+      "withText": 2,
       "histogram": [
         0,
         0,
         0,
         0,
-        5
+        6
       ]
     },
     "evejs-autolockfire-cn": {
@@ -423,17 +423,17 @@
       ]
     },
     "mission-content-repair": {
-      "stars": 3,
+      "stars": 4,
       "comments": 5,
       "average": 5,
-      "count": 3,
+      "count": 4,
       "withText": 5,
       "histogram": [
         0,
         0,
         0,
         0,
-        3
+        4
       ]
     },
     "mobile-tractor-enhancement": {
@@ -566,6 +566,6 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "evejs-ratings-2026-10-01",
-    "sig": "9ay1Ou0Y95tBR2i027sCy1A75TEH7zTT0/Td7lgVPp/vvs4Tm/ri/fBc+cO72vUgRdbFdWQ3dGj96ghoR/+cCg=="
+    "sig": "kUfANoJBaoBCQ/awFCeAme/LNiHZ9VFY3V52BZ/iYYx6Fo3BlzAAgl4qTMoMcXCtscHZdOS3xNEVzHYhTrmwBQ=="
   }
 }

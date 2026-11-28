@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1795597865087,
+  "generatedAt": 1795853171305,
   "modId": "mission-content-repair",
   "reviews": [
     {
@@ -85,16 +85,17 @@
     }
   ],
   "stars": {
-    "count": 3,
+    "count": 4,
     "keys": [
       "1cf18c6a9660",
       "f7363ebbc238",
-      "3920c88e3402"
+      "3920c88e3402",
+      "d3d7a79ab5e7"
     ]
   },
   "signature": {
     "alg": "ed25519",
     "keyId": "evejs-ratings-2026-10-01",
-    "sig": "vi9+Tq8UPgzIrTPpcUL4zN6e/4q3rtcm1eRlcWKlhGZdHsIH7JpOC0uNRN+gwC136XFNLy8awDqW4i2OwJXHBg=="
+    "sig": "dSQsGTFHEHTAc8JHuyUo/bQnzCsv0jbSRTSPzpvapHWVTOLp/uZrC5j4imhJpkO8bEyZYtCxk56ST9F56i/9BQ=="
   }
 }
