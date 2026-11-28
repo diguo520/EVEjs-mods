@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-11-28T14:44:41.494Z",
+  "publishedAt": "2026-11-28T15:56:50.375Z",
   "mods": [
     {
       "author": {
@@ -286,7 +286,7 @@
       ],
       "version": "1.1.10",
       "source": "diguo520/evejs-mod-evejs-autolockfire",
-      "downloads": 2107,
+      "downloads": 2112,
       "cdnHits": 0
     },
     {
@@ -841,7 +841,7 @@
       "tags": [],
       "version": "1.2.2",
       "source": "huihuangdi/evejs-mod-npc-bounty-tuning",
-      "downloads": 210,
+      "downloads": 211,
       "cdnHits": 0
     },
     {
@@ -930,7 +930,7 @@
       "tags": [],
       "version": "0.5.4",
       "source": "huihuangdi/evejs-mod-npc-loot-mutation",
-      "downloads": 239,
+      "downloads": 241,
       "cdnHits": 0
     },
     {
@@ -980,7 +980,7 @@
       "tags": [],
       "version": "0.6.1",
       "source": "huihuangdi/evejs-mod-npc-loot-mutation-ext",
-      "downloads": 247,
+      "downloads": 248,
       "cdnHits": 0
     },
     {
@@ -1027,7 +1027,7 @@
       "tags": [],
       "version": "0.1.7",
       "source": "MateralCMX/evejs-mod-npc-loot-rules",
-      "downloads": 486,
+      "downloads": 488,
       "cdnHits": 0
     },
     {
@@ -1069,7 +1069,7 @@
       "tags": [],
       "version": "0.7.2",
       "source": "huihuangdi/evejs-mod-npc-loot-rules-261028",
-      "downloads": 384,
+      "downloads": 385,
       "cdnHits": 0
     },
     {
@@ -1115,7 +1115,7 @@
       "tags": [],
       "version": "1.0.2",
       "source": "exiell/evejs-mod-evejs-npc",
-      "downloads": 143,
+      "downloads": 144,
       "cdnHits": 0,
       "delistReason": {
         "zh": "用户反应MOD是坏的，重新整理后上传.",
@@ -1162,7 +1162,7 @@
       "tags": [],
       "version": "0.1.29",
       "source": "MateralCMX/evejs-mod-uua-f4",
-      "downloads": 68,
+      "downloads": 69,
       "cdnHits": 0
     },
     {
@@ -1253,7 +1253,7 @@
       ],
       "version": "1.0.10",
       "source": "diguo520/evejs-mod-evejs-cntext-fix",
-      "downloads": 1494,
+      "downloads": 1495,
       "cdnHits": 2
     },
     {
@@ -1298,7 +1298,7 @@
       ],
       "version": "1.0.0",
       "source": "kokoandqiong/evejs-mod-evejs-sov-workforce-fix",
-      "downloads": 172,
+      "downloads": 173,
       "cdnHits": 0
     },
     {
@@ -1349,7 +1349,7 @@
       ],
       "version": "1.7.2",
       "source": "xxxuan42/evejs-mod-evejs-skyhook-reagent-boost",
-      "downloads": 767,
+      "downloads": 769,
       "cdnHits": 0
     },
     {
@@ -1398,7 +1398,7 @@
       ],
       "version": "1.0.0",
       "source": "JonnyTC/evejs-mod-evejs-agent-portraits",
-      "downloads": 221,
+      "downloads": 222,
       "cdnHits": 0
     },
     {
@@ -1448,7 +1448,7 @@
       "tags": [],
       "version": "0.1.2",
       "source": "MateralCMX/evejs-mod-mission-repair",
-      "downloads": 551,
+      "downloads": 552,
       "cdnHits": 0
     },
     {
@@ -1458,7 +1458,7 @@
         "name": "普罗旺斯煎饼果子"
       },
       "category": "玩法",
-      "changelog": "修复了开启mod造成战斗异常消失的bug\n修复了联合矿业采矿代理人重复发放相同任务的bug",
+      "changelog": "适配261126.2服务端",
       "conflicts": [
         "mission-repair",
         "evejs-yuan-zheng"
@@ -1470,13 +1470,14 @@
         {
           "mirror": "github",
           "priority": 1,
-          "url": "https://github.com/jealous123456789/evejs-mod-mission-content-repair/releases/download/v1.3.3/mission-content-repair-1.3.3.zip"
+          "url": "https://github.com/jealous123456789/evejs-mod-mission-content-repair/releases/download/v1.3.4/mission-content-repair-1.3.4.zip"
         }
       ],
       "evejsVersions": [
         "261028.x",
         "261108.x",
-        "261115.x"
+        "261115.x",
+        "261126.x"
       ],
       "featured": false,
       "highlights": [
@@ -1494,7 +1495,7 @@
       ],
       "history": [],
       "id": "mission-content-repair",
-      "publishedAt": "2026-11-25",
+      "publishedAt": "2026-11-28",
       "readme": [
         "职业代理人按任务描述修复，任务目标、敌人、场景和奖励能够正常对应；执法者与 AIR 职业计划已补齐。",
         "L1-L5 安全任务以及物流、采矿、科研任务可正常接取和完成；物流、采矿、科研按代理人等级分档，三处安全任务按核实内容定点修正。",
@@ -1509,8 +1510,8 @@
       ],
       "repo": "https://github.com/jealous123456789/evejs-mod-mission-content-repair",
       "requiresRestart": true,
-      "sha256": "10839bb3bc0bc39c41137e7ec45c5992db1d691d3d9e6471faa2ac246fde3645",
-      "sizeBytes": 9829090,
+      "sha256": "a832fd4ed4f171667e7b8786705ec409d537df032b1a6d10af85dc792758e12c",
+      "sizeBytes": 15716401,
       "tags": [
         "任务",
         "修复",
@@ -1518,9 +1519,9 @@
         "安全代理人",
         "史诗线"
       ],
-      "version": "1.3.3",
+      "version": "1.3.4",
       "source": "jealous123456789/evejs-mod-mission-content-repair",
-      "downloads": 1727,
+      "downloads": 1732,
       "cdnHits": 6
     },
     {
@@ -1661,7 +1662,7 @@
       ],
       "version": "0.2.1",
       "source": "xxxuan42/evejs-mod-corp-ai",
-      "downloads": 160,
+      "downloads": 161,
       "cdnHits": 0
     },
     {
@@ -1895,7 +1896,7 @@
       ],
       "version": "1.1.6",
       "source": "moyuxitypebigFatfish/evejs-mod-evejs-jita-xl-deploy",
-      "downloads": 95,
+      "downloads": 97,
       "cdnHits": 0
     },
     {
@@ -1992,7 +1993,7 @@
       ],
       "version": "1.0.0",
       "source": "Mimataer/evejs-mod-evejs-da-fei-yu-zhu-quan-bu-shu",
-      "downloads": 161,
+      "downloads": 162,
       "cdnHits": 0
     },
     {
@@ -2038,7 +2039,7 @@
       ],
       "version": "1.5.4",
       "source": "moyuxitypebigFatfish/evejs-mod-evejs-dafeiyu-armory",
-      "downloads": 145,
+      "downloads": 152,
       "cdnHits": 0
     },
     {
@@ -2087,7 +2088,7 @@
       "tags": [],
       "version": "1.0.0",
       "source": "huihuangdi/evejs-mod-fsd-hub",
-      "downloads": 33,
+      "downloads": 37,
       "cdnHits": 0
     },
     {
@@ -2182,7 +2183,7 @@
       ],
       "version": "1.7.1",
       "source": "xxxuan42/evejs-mod-evejs-missile-retarget",
-      "downloads": 162,
+      "downloads": 163,
       "cdnHits": 0
     },
     {
@@ -2228,7 +2229,7 @@
       ],
       "version": "1.0.1",
       "source": "doomo-o/evejs-mod-missile-aoe",
-      "downloads": 48,
+      "downloads": 50,
       "cdnHits": 0
     },
     {
@@ -2581,7 +2582,7 @@
       ],
       "version": "1.1.4",
       "source": "huihuangdi/evejs-mod-evejs-ded-ladder",
-      "downloads": 323,
+      "downloads": 325,
       "cdnHits": 0
     },
     {
@@ -2681,7 +2682,7 @@
       ],
       "version": "1.3.2",
       "source": "xxxuan42/evejs-mod-evejs-courier-ai",
-      "downloads": 379,
+      "downloads": 382,
       "cdnHits": 0
     },
     {
@@ -2775,7 +2776,7 @@
       ],
       "version": "1.0.2",
       "source": "jealous123456789/evejs-mod-overview-display-fix",
-      "downloads": 693,
+      "downloads": 698,
       "cdnHits": 0
     },
     {
@@ -2926,7 +2927,7 @@
       ],
       "version": "1.5.64",
       "source": "lxm970112-hub/evejs-mod-evejs-wa-kuang",
-      "downloads": 444,
+      "downloads": 445,
       "cdnHits": 2
     },
     {
@@ -2973,7 +2974,7 @@
       "tags": [],
       "version": "0.7.3",
       "source": "huihuangdi/evejs-mod-evejs-scylla-marauder",
-      "downloads": 100,
+      "downloads": 102,
       "cdnHits": 0
     },
     {
@@ -3018,7 +3019,7 @@
       ],
       "version": "1.3.3",
       "source": "xxxuan42/evejs-mod-evejs-auto-mining-compression",
-      "downloads": 548,
+      "downloads": 550,
       "cdnHits": 12
     },
     {
@@ -3496,7 +3497,7 @@
         "name": "普罗旺斯煎饼果子"
       },
       "category": "玩法",
-      "changelog": "补充了DED建筑的掉落",
+      "changelog": "适配261126.2服务端",
       "conflicts": [
         "npc-loot-rules-261028",
         "npc-loot-rules"
@@ -3513,7 +3514,9 @@
       ],
       "evejsVersions": [
         "261108.x",
-        "261115.x"
+        "261115.x",
+        "261125.x",
+        "261126.x"
       ],
       "featured": false,
       "highlights": [
@@ -3557,7 +3560,7 @@
       ],
       "version": "1.1.1",
       "source": "jealous123456789/evejs-mod-better-loot",
-      "downloads": 479,
+      "downloads": 480,
       "cdnHits": 6
     },
     {
@@ -3616,7 +3619,7 @@
       ],
       "version": "1.0.3",
       "source": "jealous123456789/evejs-mod-industry-job-slots",
-      "downloads": 249,
+      "downloads": 250,
       "cdnHits": 0
     },
     {
@@ -3676,7 +3679,7 @@
       ],
       "version": "3.2.0",
       "source": "Jasper377/evejs-mod-evejs-racks16",
-      "downloads": 589,
+      "downloads": 591,
       "cdnHits": 0
     },
     {
@@ -3770,7 +3773,7 @@
       ],
       "version": "1.0.10",
       "source": "moyuxitypebigFatfish/evejs-mod-evejs-bastion-10s",
-      "downloads": 85,
+      "downloads": 88,
       "cdnHits": 0
     },
     {
@@ -3819,7 +3822,7 @@
       "tags": [],
       "version": "0.1.6",
       "source": "MateralCMX/evejs-mod-mobile-tractor-enhancement",
-      "downloads": 673,
+      "downloads": 676,
       "cdnHits": 0
     },
     {
@@ -3910,7 +3913,7 @@
       ],
       "version": "1.0.3",
       "source": "jealous123456789/evejs-mod-belt-respawn-cooldown",
-      "downloads": 326,
+      "downloads": 327,
       "cdnHits": 0
     },
     {
@@ -4018,7 +4021,7 @@
       ],
       "version": "1.0.2",
       "source": "jealous123456789/evejs-mod-chat-edge-lane-fix",
-      "downloads": 238,
+      "downloads": 240,
       "cdnHits": 0
     },
     {
@@ -4132,7 +4135,7 @@
       ],
       "version": "1.0.2",
       "source": "jealous123456789/evejs-mod-autopilot-warp-zero",
-      "downloads": 334,
+      "downloads": 336,
       "cdnHits": 0
     },
     {
@@ -4247,7 +4250,7 @@
       ],
       "version": "1.2.3",
       "source": "jealous123456789/evejs-mod-pi-manager",
-      "downloads": 473,
+      "downloads": 475,
       "cdnHits": 2
     },
     {
@@ -4637,7 +4640,7 @@
       ],
       "version": "1.22.0",
       "source": "xxxuan42/evejs-mod-evejs-jumpdrive-to-star",
-      "downloads": 639,
+      "downloads": 643,
       "cdnHits": 9
     },
     {
@@ -4776,7 +4779,7 @@
       ],
       "version": "1.0.5",
       "source": "lxm970112-hub/evejs-mod-evejs-tie-qi-hu-hang",
-      "downloads": 265,
+      "downloads": 266,
       "cdnHits": 0
     },
     {
@@ -4827,7 +4830,7 @@
       ],
       "version": "1.0.11",
       "source": "moyuxitypebigFatfish/evejs-mod-evejs-molang-class",
-      "downloads": 143,
+      "downloads": 146,
       "cdnHits": 0
     }
   ],
@@ -4860,7 +4863,7 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "944f9c6ed4b6",
-    "sig": "XmymhRiInCfrA0yURiIkOox/4QsTwd4GRabROjWm0t1d1EmxJNjZQd7oGEp231Jj6jRKJyvZl+UmX+h+cvy+Bw==",
-    "signedAt": "2026-11-28T14:44:41.500Z"
+    "sig": "6EGT6yRhVEka3rqFm3pCZwE4uqxroQDYj9GTPS3kQpEBwHkXE22Aa5f6xfLxg46qiKHz8rOU3wZvXzXdYHgOCw==",
+    "signedAt": "2026-11-28T15:56:50.381Z"
   }
 }
